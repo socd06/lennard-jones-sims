@@ -1,0 +1,13 @@
+; topology for Water+NobleGas
+; molecules
+#include "ffG43A1-S3.itp"
+#include "spc.itp"
+#include "ions.itp"
+
+
+[ system ]
+; name
+Water+NobleGas in water
+
+[ molecules ]
+KR               4000

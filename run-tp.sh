@@ -32,7 +32,7 @@ run-folders() {
 
 run-commands() {
 	x = 123
-gmx grompp -f MDP/0_minim.mdp -c OUT/solv2.gro -p FF/topol.top -o OUT/0-em-$x.tpr
+gmx grompp -f MDP/0_minim.mdp -c OUT/solv2.gro -p FF/topol.top -o OUT/0-em.tpr
 gmx mdrun -v -deffnm OUT/0-em
 gmx grompp -f MDP/0_nvt.mdp -c OUT/0-em.gro -p FF/topol.top -o OUT/1-nvt.tpr
 gmx mdrun -v -deffnm OUT/1-nvt
