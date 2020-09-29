@@ -1,0 +1,18 @@
+2-npt repeated ... delete that
+
+p=1 a 100 +=1
+t=200 a 800 +=6
+
+ref t is in:
+_md.mdp
+_npt.mdp
+_nvt.mdp
+
+
+ref_p is in:
+
+_md.mdp
+_npt.mdp
+
+
+
