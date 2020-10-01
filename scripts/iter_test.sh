@@ -7,10 +7,12 @@ p=1
 #echo -e '$d\nw\nq'| ed 0_md.mdp
 
 # increase temperature in +6 intervals
-for p in {1..100}
+for p in {1..3}
 do
-	for t in {200..800..6}
+	for t in {200..212..6}
 	do
+		mkdir p$p-t$t
+		cd p$p-t$t
 	# Write reference temperature
 	echo "ref_t = $t" >> test.mdp
 
@@ -18,6 +20,8 @@ do
 	echo "ref_p = $p" >> test.mdp
 
 	echo "ref_p = $p / ref_t = $t" >> current_params.txt
+
+	cd ..
 
 	done
 
