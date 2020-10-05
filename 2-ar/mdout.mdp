@@ -2,16 +2,16 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: carlos (1000)
 ;	On host: carlos-X470-AORUS-GAMING-5-WIFI
-;	At date: Wed Sep 30 20:58:29 2020
+;	At date: Thu Sep 24 18:15:01 2020
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2020.3 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/carlos/git/lennard-jones-sims/2-ar
+;	Working dir:  /home/carlos/git/archive/P1T200-Carlos/2-ar
 ;	Command line:
-;	  gmx grompp -f MDP/0_md.mdp -c OUT/2-npt.gro -p FF/topol.top -o OUT/p2-t206/3-md.tpr -maxwarn 1
+;	  gmx grompp -f MDP/0_md.mdp -c OUT/2-npt.gro -p FF/topol.top -o OUT/3-md.tpr -maxwarn 1
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
