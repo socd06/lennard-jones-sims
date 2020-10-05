@@ -10,9 +10,6 @@ main() {
 }
 
 run-folders() {
-	# All iterations
-	#for p in {1..100}
-	# Just 2 iterations
 	for preffix in {1..4}
 	do
 	  folder=$preffix*
@@ -20,6 +17,9 @@ run-folders() {
 	  cd $folder
 		echo "currently in"
 		pwd
+			# All iterations
+			#for p in {1..100}
+			# Just 2 iterations
 			for p in {1..2}
 			do
 				# All iterations
@@ -27,8 +27,33 @@ run-folders() {
 				# Just 2 iterations
 				for t in {200..206..6}
 				do
-					mkdir OUT/p$p-t$t
-					#cd p$p-t$t
+					# UNCOMMENT WHEN DONE WITH TESTING
+					#mkdir OUT/p$p-t$t
+
+					# Modify 0_md file
+					# remove last two lines from 0_md file
+					echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+					echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+
+					# write pressure and temperature iterations
+					echo "ref_p 		=" $p>>MDP/0_md.mdp
+					echo "ref_t 		=" $t>>MDP/0_md.mdp
+
+					# Modify 0_npt file
+					# remove last two lines from 0_npt file
+					echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+					echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+
+					# write pressure and temperature iterations
+					echo "ref_p 		=" $p>>MDP/0_npt.mdp
+					echo "ref_t 		=" $t>>MDP/0_npt.mdp
+
+					# Modify 0_nvt file
+					# remove last lines from 0_nvt file
+					echo -e '$d\nw\nq'| ed MDP/0_nvt.mdp
+
+					# write temperature iterations
+					echo "ref_t 		=" $t>>MDP/0_nvt.mdp
 
 					run-commands
 				done
