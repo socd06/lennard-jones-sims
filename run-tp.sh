@@ -28,7 +28,7 @@ run-folders() {
 				for t in {200..206..6}
 				do
 					# UNCOMMENT WHEN DONE WITH TESTING
-					#mkdir OUT/p$p-t$t
+					mkdir OUT/p$p-t$t
 
 					# Modify 0_md file
 					# remove last two lines from 0_md file
