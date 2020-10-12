@@ -34,7 +34,7 @@ run-folders() {
 				# All iterations
 				#for t in {200..800..6}
 				# Just 5 iterations
-				for t in {200..2030..6}
+				for t in {200..800..6}
 				do
 					# UNCOMMENT WHEN DONE WITH TESTING
 					mkdir OUT/p$p-t$t
