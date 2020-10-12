@@ -1,14 +1,15 @@
 #!/bin/bash
 
 # xtc file with simulation data
-export FILE="OUT/3-md"
+
 export BEGMD=3000
 export ENDMD=6000
 
 main() {
-	# Gromacs VERSION
+	# Source all GROMACS VERSIONs installed
 	#source /usr/local/gromacs5-1-5/bin/GMXRC
-	#source /usr/local/gromacs2016-3/bin/GMXRC
+	source /usr/local/gromacs/bin/GMXRC
+	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
 	run-folders
@@ -25,16 +26,16 @@ run-folders() {
 			# All iterations
 			#for p in {1..100}
 			# Just 2 iterations
-			for p in {1..2}
+			for p in {1..1}
 			do
 				# All iterations
 				#for t in {200..800..6}
 				# Just 2 iterations
-				for t in {200..206..6}
+				for t in {200..200..6}
 				do
 					# UNCOMMENT WHEN DONE WITH TESTING
 					mkdir OUT/p$p-t$t
-
+					export FILE="OUT/p$p-t$t/3-md"
 					# Modify 0_md file
 					# remove last two lines from 0_md file
 					echo -e '$d\nw\nq'| ed MDP/0_md.mdp
@@ -64,6 +65,8 @@ run-folders() {
 					run-commands
 
 					gas-gas
+					cd OUT/p$p-t$t
+					rm 0-* 1-* 2-* 3-*
 				done
 			done
 			cd ..
@@ -78,7 +81,7 @@ gas-gas(){
 
 	echo "0" > input
 	echo "0" >> input
-	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o rdf-$i.xvg < input
+	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o rdf-$preffix-p$p-t$t.xvg < input
 	rm input indexrdf.ndx
 }
 
