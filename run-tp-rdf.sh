@@ -41,7 +41,7 @@ run-folders() {
 				# Just 5 iterations
 				for t in {200..800..6}
 				do
-					if grep -Fxq p$p-t$t iters.txt
+					if grep -Fxq $preffix-p$p-t$t iters.txt
 					then
 					    # code if found
 					    echo "Simulation found in log. Skipping..."
@@ -84,7 +84,7 @@ run-folders() {
 
 							gas-gas
 							# write pressure and temperature in iteration log
-							echo p$p-t$t >> ../iters.txt
+							echo $preffix-p$p-t$t >> ../iters.txt
 							cd OUT/p$p-t$t
 							rm 0-* 1-* 2-* 3-*
 							cd ../..
