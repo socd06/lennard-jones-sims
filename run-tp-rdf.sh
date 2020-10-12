@@ -85,9 +85,7 @@ run-folders() {
 							gas-gas
 							# write pressure and temperature in iteration log
 							echo $preffix-p$p-t$t >> ../iters.txt
-							cd OUT/p$p-t$t
-							rm 0-* 1-* 2-* 3-*
-							cd ../..
+							rm OUT/p$p-t$t														
 						fi
 				done
 			done
