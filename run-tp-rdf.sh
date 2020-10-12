@@ -12,6 +12,8 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
+	git pull origin master
+
 	run-folders
 }
 
@@ -29,7 +31,8 @@ run-folders() {
 			# Just 1 iterations
 			# divdeb running p=1
 			# mdsim running p=2
-			for p in {2..2}
+			# crls running p=3
+			for p in {1..100}
 			# All iterations
 			#for p in {1..100}
 			do
@@ -38,43 +41,54 @@ run-folders() {
 				# Just 5 iterations
 				for t in {200..800..6}
 				do
-					# UNCOMMENT WHEN DONE WITH TESTING
-					mkdir OUT/p$p-t$t
-					export FILE="OUT/p$p-t$t/3-md"
-					# Modify 0_md file
-					# remove last two lines from 0_md file
-					echo -e '$d\nw\nq'| ed MDP/0_md.mdp
-					echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+					if grep -Fxq p$p-t$t iters.txt
+					then
+					    # code if found
+					    echo "Simulation found in log. Skipping..."
+					else
+					    # code if not found
+					    echo "Not found. Simulating..."
 
-					# write pressure and temperature iterations
-					echo "ref_p 		=" $p>>MDP/0_md.mdp
-					echo "ref_t 		=" $t>>MDP/0_md.mdp
+							# UNCOMMENT WHEN DONE WITH TESTING
+							mkdir OUT/p$p-t$t
+							export FILE="OUT/p$p-t$t/3-md"
+							# Modify 0_md file
+							# remove last two lines from 0_md file
+							echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+							echo -e '$d\nw\nq'| ed MDP/0_md.mdp
 
-					# Modify 0_npt file
-					# remove last two lines from 0_npt file
-					echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
-					echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+							# write pressure and temperature iterations
+							echo "ref_p 		=" $p>>MDP/0_md.mdp
+							echo "ref_t 		=" $t>>MDP/0_md.mdp
 
-					# write pressure and temperature iterations
-					echo "ref_p 		=" $p>>MDP/0_npt.mdp
-					echo "ref_t 		=" $t>>MDP/0_npt.mdp
+							# Modify 0_npt file
+							# remove last two lines from 0_npt file
+							echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+							echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
 
-					# Modify 0_nvt file
-					# remove last lines from 0_nvt file
-					echo -e '$d\nw\nq'| ed MDP/0_nvt.mdp
+							# write pressure and temperature iterations
+							echo "ref_p 		=" $p>>MDP/0_npt.mdp
+							echo "ref_t 		=" $t>>MDP/0_npt.mdp
 
-					# write temperature iterations
-					echo "ref_t 		=" $t>>MDP/0_nvt.mdp
+							# Modify 0_nvt file
+							# remove last lines from 0_nvt file
+							echo -e '$d\nw\nq'| ed MDP/0_nvt.mdp
 
-					# UNCOMMENT AFTER TESTS
-					run-commands
-					echo "current folder is"
-					pwd
+							# write temperature iterations
+							echo "ref_t 		=" $t>>MDP/0_nvt.mdp
 
-					gas-gas
-					cd OUT/p$p-t$t
-					rm 0-* 1-* 2-* 3-*
-					cd ../..
+							# UNCOMMENT AFTER TESTS
+							run-commands
+							echo "current folder is"
+							pwd
+
+							gas-gas
+							# write pressure and temperature in iteration log
+							echo p$p-t$t >> ../iters.txt
+							cd OUT/p$p-t$t
+							rm 0-* 1-* 2-* 3-*
+							cd ../..
+						fi
 				done
 			done
 			cd ..
@@ -91,7 +105,7 @@ gas-gas(){
 	echo "0" > input
 	echo "0" >> input
 	echo "calculating radial distribution function"
-	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o rdf-$preffix-p$p-t$t.xvg < input
+	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o results/rdf-$preffix-p$p-t$t.xvg < input
 	rm input indexrdf.ndx
 }
 
