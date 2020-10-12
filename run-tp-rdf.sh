@@ -27,7 +27,9 @@ run-folders() {
 		echo "currently in"
 		pwd
 			# Just 1 iterations
-			for p in {1..1}
+			# divdeb running p=1
+			# mdsim running p=2
+			for p in {2..2}
 			# All iterations
 			#for p in {1..100}
 			do
