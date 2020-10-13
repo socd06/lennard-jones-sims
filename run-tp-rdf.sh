@@ -32,16 +32,17 @@ run-folders() {
 			# divdeb running p=1
 			# mdsim running p=2
 			# crls running p=3
-			for p in {1..100}
-			# All iterations
 			#for p in {1..100}
+			# All iterations
+			for p in {1..100}
 			do
 				# All iterations
 				#for t in {200..800..6}
 				# Just 5 iterations
+				#for t in {200..800..6}
 				for t in {200..800..6}
 				do
-					if grep -Fxq $preffix-p$p-t$t iters.txt
+					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
 					then
 					    # code if found
 					    echo "Simulation found in log. Skipping..."
@@ -85,7 +86,7 @@ run-folders() {
 							gas-gas
 							# write pressure and temperature in iteration log
 							echo $preffix-p$p-t$t >> ../iters.txt
-							rm OUT/p$p-t$t														
+							rm OUT/p$p-t$t
 						fi
 				done
 			done
