@@ -85,6 +85,10 @@ run-folders() {
 
 							gas-gas
 							# write pressure and temperature in iteration log
+
+							# remove duplicate mdout files
+							rm *mdout.mdp*
+
 							echo $preffix-p$p-t$t >> ../iters.txt
 							rm OUT/p$p-t$t
 						fi
