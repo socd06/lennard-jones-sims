@@ -8,11 +8,8 @@ export ENDMD=6000
 main() {
 	# Source all GROMACS VERSIONs installed
 	#source /usr/local/gromacs5-1-5/bin/GMXRC
-	source /usr/local/gromacs/bin/GMXRC
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
-
-	git pull origin master
 
 	run-folders
 }
@@ -51,7 +48,6 @@ run-folders() {
 					    echo "Not found. Simulating..."
 
 							# UNCOMMENT WHEN DONE WITH TESTING
-							mkdir OUT/p$p-t$t
 							export FILE="OUT/p$p-t$t/3-md"
 							# Modify 0_md file
 							# remove last two lines from 0_md file
@@ -78,24 +74,34 @@ run-folders() {
 							# write temperature iterations
 							echo "ref_t 		=" $t>>MDP/0_nvt.mdp
 
-							# UNCOMMENT AFTER TESTS
-							run-commands
-							echo "current folder is"
-							pwd
-
-							gas-gas
-							# write pressure and temperature in iteration log
-
-							# remove duplicate mdout files
-							rm *mdout.mdp*
-
-							echo $preffix-p$p-t$t >> ../iters.txt
-							rm OUT/p$p-t$t
+							# make temporary folder to store simulated variables
+							if mkdir OUT/p$p-t$t
+								then
+									echo "Making folder"
+									# UNCOMMENT AFTER TESTS
+									run-commands
+									echo "current folder is"
+									pwd
+									gas-gas
+									cleanup
+								else
+									echo "Folder exists... Skipping to radial distribution function"
+									gas-gas
+									cleanup
+								fi
 						fi
 				done
 			done
 			cd ..
 	done
+}
+
+cleanup(){
+	# remove duplicate mdout files
+	rm *mdout.mdp*
+	# write pressure and temperature in iteration log
+	echo $preffix-p$p-t$t >> ../iters.txt
+	rm -r OUT/p$p-t$t
 }
 
 gas-gas(){
@@ -108,8 +114,8 @@ gas-gas(){
 	echo "0" > input
 	echo "0" >> input
 	echo "calculating radial distribution function"
-	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o results/rdf-$preffix-p$p-t$t.xvg < input
-	rm input indexrdf.ndx
+	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o ../results/rdf-$preffix-p$p-t$t.xvg < input
+	rm indexrdf.ndx
 }
 
 
