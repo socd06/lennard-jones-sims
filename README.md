@@ -5,5 +5,5 @@ Noble gas GROMACS simulation automation using Bash scripts
 Project in collaboration with the [Reyes Biophysics Lab](https://reyeslab.github.io/) for an upcomming journal paper.
 
 # Contact
-- [AD Reyes-Figueroa](adreyesf@gmail.com)
-- [CD Salgado](csalgado@uwo.ca)
+- [AD Reyes-Figueroa](mailto:adreyesf@gmail.com)
+- [CD Salgado](mailto:csalgado@uwo.ca)
