@@ -11,7 +11,15 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
-	run-folders
+	if python scripts/check_files.py
+	then
+		echo "Python3 File check succesfull"
+		run-folders
+	else
+		echo "Python3 File check failed. Running Python2 version."
+		python scripts/check_p2.py
+		run-folders
+	fi
 }
 
 run-folders() {
@@ -31,7 +39,7 @@ run-folders() {
 			# crls running p=3
 			#for p in {1..100}
 			# All iterations
-			for p in {50..90}
+			for p in {70..100}
 			do
 				# All iterations
 				#for t in {200..800..6}
