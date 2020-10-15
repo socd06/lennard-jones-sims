@@ -19,6 +19,7 @@ main() {
 		echo "Python3 File check failed. Running Python2 version."
 		python scripts/check_p2.py
 		run-folders
+	fi
 }
 
 run-folders() {
