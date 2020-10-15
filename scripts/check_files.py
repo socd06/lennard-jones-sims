@@ -3,8 +3,8 @@
 
 # In[71]:
 
-
 import os
+
 entries = os.scandir('results')
 
 with open("iters.txt","w+") as f:
