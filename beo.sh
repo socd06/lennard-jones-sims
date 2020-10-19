@@ -90,18 +90,23 @@ run-folders() {
 										run-commands
 										echo "current folder is"
 										pwd
-										gas-gas
-										cleanup
 									else
-										echo "Folder exists... Skipping to radial distribution function"
+										echo "Folder exists... Skipping to radial distribution function"										
+									fi
 										gas-gas
 										cleanup
-									fi
+										upload
 							fi
 					done
 				done
 				cd ..
 		done
+	}
+	upload(){
+		git add ../results/
+		git add ../iters.txt
+		git commit -m "feat: automatic adding of latest results"
+		git push origin master
 	}
 
 	cleanup(){
