@@ -14,6 +14,12 @@ main() {
 	# update with recent files
 	git pull
 
+	# get recent files from other computers
+	scp -P 26 -r -C test@148.247.198.140:~/lennard-jones-sims/results ~/git/lennard-jones-sims/
+
+	scp -P 30 -r -C test@148.247.198.140:~/lennard-jones-sims/results ~/git/lennard-jones-sims/
+
+	# check existing files with python script
 	if python scripts/check_files.py
 	then
 		echo "Python3 File check succesfull"
