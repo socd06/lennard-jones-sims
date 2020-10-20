@@ -12,7 +12,11 @@ main() {
 	source /usr/local/gromacs/bin/GMXRC
 
 	# update with recent files
+	git add results
+	git stash
 	git pull
+
+	echo "Updating local repository"
 
 	# check existing files with python script
 	if python scripts/check_files.py
