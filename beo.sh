@@ -48,7 +48,7 @@ run-folders() {
 			# crls running p=3
 			#for p in {1..100}
 			# All iterations
-			for p in {1..40}
+			for p in {1..100}
 			do
 				# All iterations
 				#for t in {200..800..6}
