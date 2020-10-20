@@ -11,6 +11,9 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
+	# update with recent files
+	git pull
+
 	if python scripts/check_files.py
 	then
 		echo "Python3 File check succesfull"
@@ -105,7 +108,7 @@ run-folders() {
 	upload(){
 		git add ../results/
 		git add ../iters.txt
-		git commit -m "feat: adding $preffix-p$p-t$t radial distribution function"
+		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
 		git push origin master
 	}
 
