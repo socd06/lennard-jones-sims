@@ -99,7 +99,8 @@ run-folders() {
 										gas-gas
 										cleanup
 										# send to main network computer
-										scp -P 28 -r -C results test@148.247.198.140:~/git/lennard-jones-sims/
+										scp -P 28 -r -C rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:~/git/lennard-jones-sims/results
+
 							fi
 					done
 				done
