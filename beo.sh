@@ -19,6 +19,12 @@ main() {
 
 	scp -P 30 -r -C test@148.247.198.140:~/lennard-jones-sims/results ~/git/lennard-jones-sims/
 
+	git add results
+
+	git commit -m "add network results"
+
+	git push origin master
+
 	# check existing files with python script
 	if python scripts/check_files.py
 	then
