@@ -1,0 +1,46 @@
+title		= Water + Xe
+; Run parameters
+integrator	= md		; leap-frog integrator
+nsteps		= 3000000	; 100ns
+dt		= 0.002		; 2 fs
+; Output control
+nstxout		= 3000		; save coordinates every 10.0 ps
+nstvout		= 0		; save velocities every 10.0 ps
+nstfout		= 0		; save forces every 10 ps
+nstxtcout	= 0		; xtc compressed trajectory output every 10 ps
+nstenergy	= 3000		; save energies every 10.0 ps
+nstlog		= 3000		; update log file every 10.0 ps
+nstcalcenergy   = 300
+;number of steps that elapse between calculating the energies, 0 is never. With a twin-range cut-off setup nstcalcenergy should be equal to or a multiple of nstlist. 
+;This option affects the performance in parallel simulations
+; Bond parameters
+continuation	= yes		; Restarting after NPT 
+constraint_algorithm = lincs	    ; holonomic constraints 
+constraints	= h-bonds	; all bonds (even heavy atom-H bonds) constrained
+lincs_iter	= 1		    ; accuracy of LINCS
+lincs_order	= 4		    ; also related to accuracy
+; Neighborsearching
+cutoff-scheme   = Verlet
+ns_type		= grid		; search neighboring grid cells
+nstlist		= 40	    ; 20 fs, largely irrelevant with Verlet scheme
+rcoulomb	= 1.0		; short-range electrostatic cutoff (in nm)
+rvdw		= 1.0		; short-range van der Waals cutoff (in nm)
+; Electrostatics
+coulombtype	= cutoff		; Particle Mesh Ewald for long-range electrostatics
+; Temperature coupling is on
+tcoupl		= V-rescale 		    ; More accurate thermostat
+tc-grps		= System 	; two coupling groups - more accurate
+tau_t		= 0.1	        ; time constant, in ps
+; Pressure coupling is on
+pcoupl		= Parrinello-Rahman	    ; Pressure coupling on in NPT
+pcoupltype	= isotropic		    ; uniform scaling of x-y box vectors, independent z
+tau_p		= 2.0			        ; time constant, in ps
+compressibility = 4.5e-5	; isothermal compressibility, bar^-1
+; Periodic boundary conditions
+pbc		= xyz		; 3-D PBC
+; Dispersion correction
+DispCorr	= EnerPres	; account for cut-off vdW scheme
+; Velocity generation
+gen_vel		= no		; Velocity generation is off 
+ref_t		= 200	        ; reference temperature, one for each group, in K
+ref_p		= 1.0		        ; reference pressure, x-y, z (in bar)
