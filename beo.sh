@@ -91,7 +91,7 @@ run-folders() {
 										echo "current folder is"
 										pwd
 									else
-										echo "Folder exists... Skipping to radial distribution function"										
+										echo "Folder exists... Skipping to radial distribution function"
 									fi
 										gas-gas
 										cleanup
@@ -105,7 +105,7 @@ run-folders() {
 	upload(){
 		git add ../results/
 		git add ../iters.txt
-		git commit -m "feat: automatic adding of latest results"
+		git commit -m "feat: adding $preffix-p$p-t$t radial distribution function"
 		git push origin master
 	}
 
