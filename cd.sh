@@ -29,7 +29,7 @@ run-folders() {
 	# One iteration
 	#for preffix in {1..1}
 	# All iterations
-	for preffix in {2..4}
+	for preffix in {1..4}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
@@ -42,7 +42,7 @@ run-folders() {
 			# crls running p=3
 			#for p in {1..100}
 			# All iterations
-			for p in {1..100}
+			for p in {70..100}
 			do
 				# All iterations
 				#for t in {200..800..6}
@@ -98,7 +98,8 @@ run-folders() {
 									fi
 										gas-gas
 										cleanup
-										upload
+										# send to main network computer
+										scp -P 28 -r -C results test@148.247.198.140:~/git/lennard-jones-sims/
 							fi
 					done
 				done
