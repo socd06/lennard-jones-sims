@@ -18,12 +18,11 @@ main() {
 	if python scripts/check_files.py
 	then
 		echo "Python3 File check succesfull"
-		run-folders
 	else
 		echo "Python3 File check failed. Running Python2 version."
 		python scripts/check_p2.py
-		run-folders
 	fi
+		run-folders
 }
 
 run-folders() {
