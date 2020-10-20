@@ -108,7 +108,6 @@ run-folders() {
 	}
 	upload(){
 		git add ../results/
-		git add ../iters.txt
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
 		git push origin master
 	}
