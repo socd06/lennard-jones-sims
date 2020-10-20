@@ -11,6 +11,10 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
+	git add results
+	git stash
+	git pull
+
 	if python scripts/check_files.py
 	then
 		echo "Python3 File check succesfull"
