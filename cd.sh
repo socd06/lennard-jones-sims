@@ -99,17 +99,22 @@ run-folders() {
 										cleanup
 										# send to main network computer
 										scp -P 28 -r -C rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:~/git/lennard-jones-sims/results
-
+										stash
 							fi
-								# finally update with remote files
-								git add results
-								git stash
-								git pull
+
 					done
 				done
 				cd ..
 		done
 	}
+
+	stash(){
+		# finally update with remote files
+		git add results
+		git stash
+		git pull
+	}
+
 	upload(){
 		git add ../results/
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
