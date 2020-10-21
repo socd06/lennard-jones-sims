@@ -11,11 +11,6 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
-	# update with recent files
-	git add results
-	git stash
-	git pull
-
 	echo "Updating local repository"
 
 	# check existing files with python script
@@ -106,6 +101,10 @@ run-folders() {
 										scp -P 28 -r -C rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:~/git/lennard-jones-sims/results
 
 							fi
+								# finally update with remote files
+								git add results
+								git stash
+								git pull
 					done
 				done
 				cd ..
