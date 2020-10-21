@@ -28,6 +28,8 @@ run-folders() {
 	# One iteration
 	#for preffix in {1..1}
 	# All iterations
+	stash
+	
 	for preffix in {1..4}
 	do
 	  folder=$preffix*
