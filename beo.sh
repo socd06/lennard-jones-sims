@@ -5,7 +5,7 @@
 export BEGMD=3000
 export ENDMD=6000
 
-main() {
+main() {	
 	# Source all GROMACS VERSIONs installed
 	#source /usr/local/gromacs5-1-5/bin/GMXRC
 	source /usr/local/gromacs2016-3/bin/GMXRC
@@ -101,7 +101,8 @@ run-folders() {
 									then
 										echo "Making folder"
 										# UNCOMMENT AFTER TESTS
-										run-commands
+sudo ./../scripts/clearRAM.sh										
+run-commands
 										echo "current folder is"
 										pwd
 									else
