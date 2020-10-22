@@ -127,6 +127,7 @@ gas-gas(){
 	echo "0" > input
 	echo "0" >> input
 	echo "calculating radial distribution function"
+	sudo ./../scripts/clearRAM.sh
 	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 	rm indexrdf.ndx
 }
