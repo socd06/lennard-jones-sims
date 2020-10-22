@@ -91,6 +91,7 @@ run-folders() {
 									then
 										echo "Making folder"
 										# UNCOMMENT AFTER TESTS
+										sudo ./../scripts/clearRAM.sh
 										run-commands
 										echo "current folder is"
 										pwd
