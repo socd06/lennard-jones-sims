@@ -108,6 +108,7 @@ run-folders() {
 									else
 										echo "Folder exists... Skipping to radial distribution function"
 									fi
+										sudo ./../scripts/clearRAM.sh
 										gas-gas
 										cleanup
 										upload
