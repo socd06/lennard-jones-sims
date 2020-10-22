@@ -94,14 +94,13 @@ run-folders() {
 										sudo ./../scripts/clearRAM.sh
 										run-commands
 										echo "current folder is"
-										pwd
-										gas-gas
-										cleanup
+										pwd										
 									else
-										echo "Folder exists... Skipping to radial distribution function"
+										echo "Folder exists... Skipping to radial distribution function"										
+									fi										
+										sudo ./../scripts/clearRAM.sh
 										gas-gas
 										cleanup
-									fi
 							fi
 					done
 				done
