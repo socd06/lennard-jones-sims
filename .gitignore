@@ -5,11 +5,11 @@ downloads/
 PxTx/
 Screenshot*
 iters.txt
-1-ne/OUT/[0-9]*
+1-ne/OUT/p*
 1-ne/#*
-2-ar/OUT/[0-9]*
+2-ar/OUT/p*
 2-ar/#*
-3-kr/OUT/[0-9]*
+3-kr/OUT/p*
 3-kr/#*
-4-xe/OUT/[0-9]*
+4-xe/OUT/p*
 4-xe/#*
