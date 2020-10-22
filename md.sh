@@ -94,14 +94,14 @@ run-folders() {
 									sudo ./../scripts/clearRAM.sh
 									run-commands
 									echo "current folder is"
-									pwd
-									gas-gas
-									cleanup
+									pwd									
 								else
-									echo "Folder exists... Skipping to radial distribution function"
+									echo "Folder exists... Skipping to radial distribution function"									
+								fi
+									sudo ./../scripts/clearRAM.sh
 									gas-gas
 									cleanup
-								fi
+
 						fi
 				done
 			done
@@ -127,7 +127,6 @@ gas-gas(){
 	echo "0" > input
 	echo "0" >> input
 	echo "calculating radial distribution function"
-	sudo ./../scripts/clearRAM.sh
 	gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 	rm indexrdf.ndx
 }
