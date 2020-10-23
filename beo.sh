@@ -15,9 +15,10 @@ main() {
 	git pull
 
 	# get recent files from other computers
-	scp -P 26 -r -C test@148.247.198.140:~/lennard-jones-sims/results ~/git/lennard-jones-sims/
+	
+	scp -P 26 -r -C test@148.247.198.140:~/lennard-jones-sims/results /home/test/git/lennard-jones-sims/
 
-	scp -P 30 -r -C test@148.247.198.140:~/lennard-jones-sims/results ~/git/lennard-jones-sims/
+	scp -P 30 -r -C test@148.247.198.140:~/lennard-jones-sims/results /home/test/git/lennard-jones-sims/	
 
 	git add results
 
