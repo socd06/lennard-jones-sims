@@ -101,20 +101,31 @@ run-folders() {
 										sudo ./../scripts/clearRAM.sh
 										gas-gas
 										cleanup
-							fi
-					done
-				done
-				cd ..
-		done
-	}
+									# send to main network computer
+									scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+									stash
 
-	cleanup(){
-		# remove duplicate mdout files
-		rm *mdout.mdp*
-		# write pressure and temperature in iteration log
-		echo $preffix-p$p-t$t >> ../iters.txt
-		rm -r OUT/p$p-t$t
-	}
+						fi
+				done
+			done
+			cd ..
+	done
+}
+
+stash(){
+	# finally update with remote files
+	git add results
+	git stash
+	git pull
+}
+
+cleanup(){
+	# remove duplicate mdout files
+	rm *mdout.mdp*
+	# write pressure and temperature in iteration log
+	echo $preffix-p$p-t$t >> ../iters.txt
+	rm -r OUT/p$p-t$t
+}
 
 	gas-gas(){
 		echo "del 0-1" > input
