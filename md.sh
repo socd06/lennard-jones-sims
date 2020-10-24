@@ -11,9 +11,7 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
-	git add results
-	git stash
-	git pull
+	stash
 
 	if python scripts/check_files.py
 	then
@@ -101,12 +99,22 @@ run-folders() {
 									sudo ./../scripts/clearRAM.sh
 									gas-gas
 									cleanup
+									# send to main network computer
+									scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+									stash
 
 						fi
 				done
 			done
 			cd ..
 	done
+}
+
+stash(){
+	# finally update with remote files
+	git add results
+	git stash
+	git pull
 }
 
 cleanup(){
