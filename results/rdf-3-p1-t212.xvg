@@ -1,4 +1,4 @@
-# This file was created Sun Oct 25 11:11:20 2020
+# This file was created Sun Oct 25 14:15:06 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2016.3 (-:
 # 
@@ -9,7 +9,7 @@
 #   gmx rdf -f OUT/p1-t212/3-md.trr -s OUT/p1-t212/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9 -b 3000 -e 6000 -o ../results/rdf-3-p1-t212.xvg
 # gmx rdf is part of G R O M A C S:
 #
-# GROningen MAchine for Chemical Simulation
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
 #
 @    title "Radial distribution"
 @    xaxis  label "r (nm)"
