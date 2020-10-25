@@ -28,7 +28,7 @@ run-folders() {
 	# One iteration
 	#for preffix in {1..1}
 	# All iterations
-	for preffix in {1..4}
+	for preffix in {3}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
@@ -41,7 +41,7 @@ run-folders() {
 			# crls running p=3
 			#for p in {1..100}
 			# All iterations
-			for p in {70..100}
+			for p in {1..100}
 			do
 				# All iterations
 				#for t in {200..800..6}
@@ -92,9 +92,9 @@ run-folders() {
 									sudo ./../scripts/clearRAM.sh
 									run-commands
 									echo "current folder is"
-									pwd									
+									pwd
 								else
-									echo "Folder exists... Skipping to radial distribution function"									
+									echo "Folder exists... Skipping to radial distribution function"
 								fi
 									sudo ./../scripts/clearRAM.sh
 									gas-gas
@@ -112,7 +112,7 @@ run-folders() {
 
 stash(){
 	# finally update with remote files
-	git add results
+	git add /home/test/lennard-jones-sims/results/
 	git stash
 	git pull
 }

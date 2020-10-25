@@ -29,8 +29,8 @@ run-folders() {
 	#for preffix in {1..1}
 	# All iterations
 	stash
-	
-	for preffix in {1..4}
+
+	for preffix in {4}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
@@ -100,7 +100,7 @@ run-folders() {
 										gas-gas
 										cleanup
 										# send to main network computer
-										scp -P 28 -r -C rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:~/git/lennard-jones-sims/results
+										scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
 										stash
 							fi
 
@@ -112,13 +112,13 @@ run-folders() {
 
 	stash(){
 		# finally update with remote files
-		git add results
+		git add ~/git/lennard-jones-sims/results
 		git stash
 		git pull
 	}
 
 	upload(){
-		git add ../results/
+		git add ~/git/lennard-jones-sims/results
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
 		git push origin master
 	}

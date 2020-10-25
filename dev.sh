@@ -11,9 +11,7 @@ main() {
 	source /usr/local/gromacs2016-3/bin/GMXRC
 	source /usr/local/gromacs/bin/GMXRC
 
-	git add results
-	git stash
-	git pull
+	stash
 
 	if python scripts/check_files.py
 	then
@@ -30,7 +28,7 @@ run-folders() {
 	# One iteration
 	#for preffix in {1..1}
 	# All iterations
-	for preffix in {1..4}
+	for preffix in {2}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
@@ -94,10 +92,10 @@ run-folders() {
 										sudo ./../scripts/clearRAM.sh
 										run-commands
 										echo "current folder is"
-										pwd										
+										pwd
 									else
-										echo "Folder exists... Skipping to radial distribution function"										
-									fi										
+										echo "Folder exists... Skipping to radial distribution function"
+									fi
 										sudo ./../scripts/clearRAM.sh
 										gas-gas
 										cleanup
@@ -114,7 +112,7 @@ run-folders() {
 
 stash(){
 	# finally update with remote files
-	git add results
+	git add /home/test/lennard-jones-sims/results/
 	git stash
 	git pull
 }
