@@ -1,63 +1,45 @@
 #!/bin/bash
 
-# xtc file with simulation data
-
 export BEGMD=3000
 export ENDMD=6000
 
 main() {
-	# Source all GROMACS VERSIONs installed
-	#source /usr/local/gromacs5-1-5/bin/GMXRC
-	source /usr/local/gromacs2016-3/bin/GMXRC
-	source /usr/local/gromacs/bin/GMXRC
-
-	git add results
-	git stash
-	git pull
-
-	if python scripts/check_files.py
+	if source /usr/local/gromacs2016-3/bin/GMXRC
 	then
-		echo "Python3 File check succesfull"
-		run-folders
+			echo "Exported GROMACS 2016"
 	else
-		echo "Python3 File check failed. Running Python2 version."
-		python scripts/check_p2.py
-		run-folders
+			source /usr/local/gromacs/bin/GMXRC
+			echo "Exported GROMACS 2020"
 	fi
+		run-folders
 }
 
 run-folders() {
-	# One iteration
-	#for preffix in {1..1}
-	# All iterations
-	for preffix in {1..4}
+	for preffix in {2..2}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
 	  cd $folder
 		echo "currently in"
 		pwd
-			# Just 1 iterations
-			# divdeb running p=1
-			# mdsim running p=2
-			# crls running p=3
-			#for p in {1..100}
-			# All iterations
-			for p in {40..70}
+		for p in {1..100}
+		do
+			for t in {200..800..6}
 			do
-				# All iterations
-				#for t in {200..800..6}
-				# Just 5 iterations
-				#for t in {200..800..6}
-				for t in {200..800..6}
-				do
+				if python ../scripts/check_files.py
+				then
+					echo "Python3 File check succesfull"
+				else
+					echo "Python3 File check failed. Running Python2 version."
+					python ../scripts/check_p2.py
+				fi
 					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
 					then
-					    # code if found
-					    echo "Simulation found in log. Skipping..."
+							# code if found
+							echo "Simulation found in log. Skipping..."
 						else
-						    # code if not found
-						    echo "Not found. Simulating..."
+								# code if not found
+								echo "Not found. Simulating..."
 
 								# UNCOMMENT WHEN DONE WITH TESTING
 								export FILE="OUT/p$p-t$t/3-md"
@@ -91,20 +73,16 @@ run-folders() {
 									then
 										echo "Making folder"
 										# UNCOMMENT AFTER TESTS
-										sudo ./../scripts/clearRAM.sh
 										run-commands
 										echo "current folder is"
-										pwd										
+										pwd
 									else
-										echo "Folder exists... Skipping to radial distribution function"										
-									fi										
-										sudo ./../scripts/clearRAM.sh
+										echo "Folder exists... Skipping to radial distribution function"
+									fi
 										gas-gas
-										cleanup
-									# send to main network computer
-									scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-									stash
-
+										# send to main network computer
+										scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+										stash
 						fi
 				done
 			done
@@ -114,7 +92,7 @@ run-folders() {
 
 stash(){
 	# finally update with remote files
-	git add results
+	git add /home/test/lennard-jones-sims/results/
 	git stash
 	git pull
 }
