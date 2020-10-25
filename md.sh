@@ -86,7 +86,6 @@ run-folders() {
 						fi
 				done
 			done
-			done
 			cd ..
 	done
 }
