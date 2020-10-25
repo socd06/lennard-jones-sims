@@ -81,16 +81,8 @@ run-folders() {
 									fi
 										gas-gas
 										# send to main network computer
-										if scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-										then
-											echo "Sent to server..."
-											rm -r OUT/p$p-t$t
-											echo "Removed temporary files"
-										else
-											echo "Nothing to send."
-										fi
-											stash
-
+										scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+										stash
 						fi
 				done
 			done
