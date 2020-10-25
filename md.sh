@@ -127,19 +127,18 @@ gas-gas(){
 	rm indexrdf.ndx
 }
 
-
 run-commands() {
 	gmx grompp -f MDP/0_minim.mdp -c OUT/solv2.gro -p FF/topol.top -o OUT/p$p-t$t/0-em.tpr
-	gmx mdrun -v -deffnm OUT/p$p-t$t/0-em
+	gmx mdrun -v -deffnm OUT/p$p-t$t/0-em -GMX_USE_RDTSCP=ON
 	echo "saving to" OUT/p$p-t$t/0-em
 	gmx grompp -f MDP/0_nvt.mdp -c OUT/p$p-t$t/0-em.gro -p FF/topol.top -o OUT/p$p-t$t/1-nvt.tpr
-	gmx mdrun -v -deffnm OUT/p$p-t$t/1-nvt
+	gmx mdrun -v -deffnm OUT/p$p-t$t/1-nvt -GMX_USE_RDTSCP=ON
 	echo "saving to" OUT/p$p-t$t/1-nvt
 	gmx grompp -f MDP/0_npt.mdp -c OUT/p$p-t$t/1-nvt.gro -p FF/topol.top -o OUT/p$p-t$t/2-npt.tpr
-	gmx mdrun -v -deffnm OUT/p$p-t$t/2-npt
+	gmx mdrun -v -deffnm OUT/p$p-t$t/2-npt -GMX_USE_RDTSCP=ON
 	echo "saving to" OUT/p$p-t$t/2-npt
 	gmx grompp -f MDP/0_md.mdp -c OUT/p$p-t$t/2-npt.gro -p FF/topol.top -o OUT/p$p-t$t/3-md.tpr -maxwarn 1
-	gmx mdrun -v -deffnm OUT/p$p-t$t/3-md
+	gmx mdrun -v -deffnm OUT/p$p-t$t/3-md -GMX_USE_RDTSCP=ON
 	echo "saving to" OUT/p$p-t$t/3-md
 }
 
