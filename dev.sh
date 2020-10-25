@@ -82,6 +82,7 @@ run-folders() {
 										gas-gas
 										# send to main network computer
 										scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+										cleanup
 										stash
 						fi
 				done
