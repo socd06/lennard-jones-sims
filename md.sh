@@ -1,107 +1,95 @@
 #!/bin/bash
 
-# xtc file with simulation data
-
 export BEGMD=3000
 export ENDMD=6000
 
 main() {
-	# Source all GROMACS VERSIONs installed
-	#source /usr/local/gromacs5-1-5/bin/GMXRC
-	source /usr/local/gromacs2016-3/bin/GMXRC
-	source /usr/local/gromacs/bin/GMXRC
-
-	stash
-
-	if python scripts/check_files.py
+	if source /usr/local/gromacs2016-3/bin/GMXRC
 	then
-		echo "Python3 File check succesfull"
-		run-folders
+			echo "Exported GROMACS 2016"
 	else
-		echo "Python3 File check failed. Running Python2 version."
-		python scripts/check_p2.py
-		run-folders
+			source /usr/local/gromacs/bin/GMXRC
+			echo "Exported GROMACS 2020"
 	fi
+		run-folders
 }
 
 run-folders() {
-	# One iteration
-	#for preffix in {1..1}
-	# All iterations
-	for preffix in {3}
+	for preffix in {2..2}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
 	  cd $folder
 		echo "currently in"
 		pwd
-			# Just 1 iterations
-			# divdeb running p=1
-			# mdsim running p=2
-			# crls running p=3
-			#for p in {1..100}
-			# All iterations
 			for p in {1..100}
 			do
-				# All iterations
-				#for t in {200..800..6}
-				# Just 5 iterations
-				#for t in {200..800..6}
 				for t in {200..800..6}
 				do
-					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
+					if python ../scripts/check_files.py
 					then
-					    # code if found
-					    echo "Simulation found in log. Skipping..."
+						echo "Python3 File check succesfull"
 					else
-					    # code if not found
-					    echo "Not found. Simulating..."
+						echo "Python3 File check failed. Running Python2 version."
+						python ../scripts/check_p2.py
+					fi
+						if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
+						then
+						    # code if found
+						    echo "Simulation found in log. Skipping..."
+						else
+						    # code if not found
+						    echo "Not found. Simulating..."
 
-							# UNCOMMENT WHEN DONE WITH TESTING
-							export FILE="OUT/p$p-t$t/3-md"
-							# Modify 0_md file
-							# remove last two lines from 0_md file
-							echo -e '$d\nw\nq'| ed MDP/0_md.mdp
-							echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+								export FILE="OUT/p$p-t$t/3-md"
 
-							# write pressure and temperature iterations
-							echo "ref_p 		=" $p>>MDP/0_md.mdp
-							echo "ref_t 		=" $t>>MDP/0_md.mdp
+								# Modify 0_md file
+								# remove last two lines from 0_md file
+								echo -e '$d\nw\nq'| ed MDP/0_md.mdp
+								echo -e '$d\nw\nq'| ed MDP/0_md.mdp
 
-							# Modify 0_npt file
-							# remove last two lines from 0_npt file
-							echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
-							echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+								# write pressure and temperature iterations
+								echo "ref_p 		=" $p>>MDP/0_md.mdp
+								echo "ref_t 		=" $t>>MDP/0_md.mdp
 
-							# write pressure and temperature iterations
-							echo "ref_p 		=" $p>>MDP/0_npt.mdp
-							echo "ref_t 		=" $t>>MDP/0_npt.mdp
+								# Modify 0_npt file
+								# remove last two lines from 0_npt file
+								echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
+								echo -e '$d\nw\nq'| ed MDP/0_npt.mdp
 
-							# Modify 0_nvt file
-							# remove last lines from 0_nvt file
-							echo -e '$d\nw\nq'| ed MDP/0_nvt.mdp
+								# write pressure and temperature iterations
+								echo "ref_p 		=" $p>>MDP/0_npt.mdp
+								echo "ref_t 		=" $t>>MDP/0_npt.mdp
 
-							# write temperature iterations
-							echo "ref_t 		=" $t>>MDP/0_nvt.mdp
+								# Modify 0_nvt file
+								# remove last lines from 0_nvt file
+								echo -e '$d\nw\nq'| ed MDP/0_nvt.mdp
 
-							# make temporary folder to store simulated variables
-							if mkdir OUT/p$p-t$t
-								then
-									echo "Making folder"
-									# UNCOMMENT AFTER TESTS
-									sudo ./../scripts/clearRAM.sh
-									run-commands
-									echo "current folder is"
-									pwd
-								else
-									echo "Folder exists... Skipping to radial distribution function"
-								fi
-									sudo ./../scripts/clearRAM.sh
-									gas-gas
-									cleanup
-									# send to main network computer
-									scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-									stash
+								# write temperature iterations
+								echo "ref_t 		=" $t>>MDP/0_nvt.mdp
+
+								# make temporary folder to store simulated variables
+								if mkdir OUT/p$p-t$t
+									then
+										echo "Making folder"
+										# UNCOMMENT AFTER TESTS
+										run-commands
+										echo "current folder is"
+										pwd
+									else
+										echo "Folder exists... Skipping to radial distribution function"
+									fi
+										gas-gas
+										# send to main network computer
+										if scp -P 28 -r -C /home/test/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+										then
+											echo "Sent to server..."
+											rm -r OUT/p$p-t$t
+											echo "Removed temporary files"
+										else
+											echo "Nothing to send."
+										fi
+											stash
 
 						fi
 				done
