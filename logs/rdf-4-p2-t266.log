@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "You Could Make More Money As a Butcher" (F. Zappa)
 
+[cd fbc951b] feat: add 4-p2-t266 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t266.log
+ create mode 100644 results/rdf-4-p2-t266.xvg
