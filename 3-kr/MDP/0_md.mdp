@@ -1,16 +1,15 @@
 title		= Water + Xe
 ; Run parameters
 integrator	= md		; leap-frog integrator
-nsteps		= 3000000	; 100ns
+nsteps		= 1500000	; 100ns
 dt		= 0.002		; 2 fs
 ; Output control
-nstxout		= 3000		; save coordinates every 10.0 ps
+nstxout		= 1000		; save coordinates every 10.0 ps
 nstvout		= 0		; save velocities every 10.0 ps
 nstfout		= 0		; save forces every 10 ps
 nstxtcout	= 0		; xtc compressed trajectory output every 10 ps
-nstenergy	= 3000		; save energies every 10.0 ps
-nstlog		= 3000		; update log file every 10.0 ps
-nstcalcenergy   = 300
+nstenergy	= 0		; save energies every 10.0 ps
+nstlog		= 0		; update log file every 10.0 ps
 ;number of steps that elapse between calculating the energies, 0 is never. With a twin-range cut-off setup nstcalcenergy should be equal to or a multiple of nstlist. 
 ;This option affects the performance in parallel simulations
 ; Bond parameters
@@ -42,5 +41,5 @@ pbc		= xyz		; 3-D PBC
 DispCorr	= EnerPres	; account for cut-off vdW scheme
 ; Velocity generation
 gen_vel		= no		; Velocity generation is off 
-ref_p 		= 1
-ref_t 		= 200
+ref_t		= 200	        ; reference temperature, one for each group, in K
+ref_p		= 1.0		        ; reference pressure, x-y, z (in bar)
