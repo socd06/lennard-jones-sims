@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "My Head Goes Pop Pop Pop Pop Pop" (F. Black)
 
+[cd f690865] feat: add 4-p2-t272 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t272.log
+ create mode 100644 results/rdf-4-p2-t272.xvg
