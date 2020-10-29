@@ -117,3 +117,8 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Do You Have Sex Maniacs or Schizophrenics or Astrophysicists in Your Family?" (Gogol Bordello)
 
+[cd f2a7395] feat: add 4-p1-t752 radial distribution function
+ 3 files changed, 2141 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-4-p1-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   79bef85..f2a7395  cd -> cd
