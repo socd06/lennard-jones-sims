@@ -117,3 +117,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "I Am a Poor Lonesome Cowboy" (Lucky Luke)
 
+[cd a6b1737] feat: add 4-p2-t224 radial distribution function
+ 3 files changed, 2179 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t224.log
+ create mode 100644 logs/sim-4-p2-t224.log
+ create mode 100644 results/rdf-4-p2-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   88b0ce9..a6b1737  cd -> cd

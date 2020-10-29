@@ -117,3 +117,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "I have noticed a large, negative correlation between having a well-defined mission workload and concern for the Top500. It's almost like LINPACK is what you focus on when you don't know what to focus on." (Jeff Hammond)
 
+[cd 2717fb2] feat: add 4-p2-t206 radial distribution function
+ 9 files changed, 2220 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t206.log
+ create mode 100644 logs/sim-4-p2-t206.log
+ create mode 100644 results/rdf-4-p2-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b9919f7..2717fb2  cd -> cd
