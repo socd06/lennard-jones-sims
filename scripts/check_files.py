@@ -5,7 +5,7 @@
 
 import os
 
-entries = os.scandir('../results')
+entries = os.scandir('../results/')
 
 with open("../iters.txt","w+") as f:
     for entry in entries:

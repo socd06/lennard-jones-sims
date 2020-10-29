@@ -24,6 +24,12 @@ run-folders() {
 	for preffix in {1..4}
 	do
 	  folder=$preffix*
+
+		dir1="1-ne"
+		dir2="2-ar"
+		dir3="3-kr"
+		dir4="4-xe"
+
 	  echo "going into" $folder
 	  cd $folder
 		echo "currently in"
@@ -32,14 +38,20 @@ run-folders() {
 			do
 				for t in {200..800..6}
 				do
-					if python ../scripts/check_files.py
+					#if python ../scripts/check_files.py
+					# use check_test_files.py for testing
+					if python ../scripts/check_test_files.py
 					then
 						echo "Python3 File check succesfull"
 					else
 						echo "Python3 File check failed. Running Python2 version."
-						python ../scripts/check_p2.py
+						#python ../scripts/check_p2.py
+						# use check_test_p2.py for testing
+						python ../scripts/check_test_p2.py
 					fi
-						if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
+						#if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
+						# use testiters for testing
+						if grep -Fxq "$preffix-p$p-t$t" ../testiters.txt
 						then
 						    # code if found
 						    echo "Simulation found in log. Skipping..."
@@ -79,19 +91,36 @@ run-folders() {
 										then
 											echo "Making folder"
 											# UNCOMMENT AFTER TESTS
-											run-commands > sim-$preffix-p$p-t$t.log
+											run-commands
 											echo "current folder is"
 											pwd
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
-											gas-gas > rdf-$preffix-p$p-t$t.log 2>&1 &
-											upload
+											echo "Currently in:"
+											pwd
+											gas-gas $dir1 > log1-p$p-t$t.txt 2>&1 &
+											gas-gas $dir2 > log2-p$p-t$t.txt 2>&1 &
+											gas-gas $dir3 > log3-p$p-t$t.txt 2>&1 &
+											gas-gas $dir4 > log4-p$p-t$t.txt 2>&1 &
+											# send to main network computer
+											# NOT WHILE TESTING
+											# scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+											#cleanup
+											# stash
 							fi
+
 					done
 				done
 				cd ..
 		done
+	}
+
+	stash(){
+		# finally update with remote files
+		git add ~/git/lennard-jones-sims/results
+		git stash
+		git pull
 	}
 
 	upload(){
@@ -100,7 +129,25 @@ run-folders() {
 		git push origin master
 	}
 
+	cleanup(){
+		# remove duplicate mdout files
+		rm "#*"
+		# write pressure and temperature in iteration log
+		#echo $preffix-p$p-t$t >> ../iters.txt
+		echo $preffix-p$p-t$t >> ../testiters.txt
+		rm -r OUT/p$p-t$t
+	}
+
 	gas-gas(){
+		l=$1
+		echo "Currently in:"
+		pwd
+
+		echo "Moving to: $l :"
+		pwd
+
+		cd ../$l
+
 		echo "del 0-1" > input
 		echo " " >> input
 		echo "q" >> input
@@ -110,13 +157,14 @@ run-folders() {
 		echo "0" > input
 		echo "0" >> input
 		echo "calculating radial distribution function"
-		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../test/rdf-$preffix-p$p-t$t.xvg < input
-		rm indexrdf.ndx
-		echo "Recoding $preffix-p$p-t$t iteration in log..."
-		#echo $preffix-p$p-t$t >> ../testiters.txt
-		# UNCOMMENT AFTER TESTING
-		echo $l-p$p-t$t >> ../iters.txt
-		rm -r OUT/p$p-t$t
+		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../test/rdf-$l.xvg < input
+		# record in test log
+		echo "Recoding $l-p$p-t$t iteration in log..."
+		echo $l-p$p-t$t >> ../testiters.txt
+
+		rm index*
+		rm *.ndx
+		cd ../
 	}
 
 
