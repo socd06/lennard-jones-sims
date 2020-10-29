@@ -79,17 +79,17 @@ run-folders() {
 										then
 											echo "Making folder"
 											# UNCOMMENT AFTER TESTS
-											run-commands > sim-$preffix-p$p-t$t.log
+											run-commands > ../logs/sim-$preffix-p$p-t$t.log
 											echo "current folder is"
 											pwd
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
-											gas-gas > rdf-$preffix-p$p-t$t.log 2>&1 &
+											gas-gas > ../logs/rdf-$preffix-p$p-t$t.log 2>&1 &
 											# send to main network computer
 											# NOT WHILE TESTING
 											scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-											# stash
+											submit
 							fi
 					done
 				done
@@ -97,17 +97,12 @@ run-folders() {
 		done
 	}
 
-	stash(){
-		# finally update with remote files
-		git add ~/git/lennard-jones-sims/results
-		git stash
-		git pull
-	}
-
-	upload(){
-		git add ~/git/lennard-jones-sims/results
+	submit(){
+		#git add ~/git/lennard-jones-sims/results
+		git add ../results/rdf-$preffix-p$p-t$t.xvg
+		git add ../logs/rdf-$preffix-p$p-t$t.log
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
-		git push origin master
+		git push origin cd
 	}
 
 	gas-gas(){
