@@ -120,3 +120,7 @@ GROMACS reminds you: "There is nothing new to be discovered in physics now. All 
 [cd 9e186dc] feat: add 4-p2-t242 radial distribution function
  3 files changed, 2091 insertions(+), 49 deletions(-)
  create mode 100644 results/rdf-4-p2-t242.xvg
+[cd 204cb3c] add commit head to log backlog
+ 2 files changed, 7 insertions(+)
+To https://github.com/socd06/lennard-jones-sims.git
+   d788be7..204cb3c  cd -> cd
