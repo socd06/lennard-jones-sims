@@ -5,9 +5,9 @@
 
 import os
 
-entries = os.scandir('../results')
+entries = os.scandir('../test')
 
-with open("../iters.txt","w+") as f:
+with open("../testiters.txt","w+") as f:
     for entry in entries:
         #print(entry.name[4:-4])
         f.write(entry.name[4:-4])
