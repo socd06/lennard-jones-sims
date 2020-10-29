@@ -88,7 +88,7 @@ run-folders() {
 											gas-gas > ../logs/rdf-$preffix-p$p-t$t.log 2>&1 &
 											# send to main network computer
 											# NOT WHILE TESTING
-											scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+											# scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
 											submit
 							fi
 					done
