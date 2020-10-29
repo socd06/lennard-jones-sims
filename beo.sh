@@ -79,14 +79,13 @@ run-folders() {
 										then
 											echo "Making folder"
 											# UNCOMMENT AFTER TESTS
-											run-commands > sim-$preffix-p$p-t$t.log
+											run-commands > ../logs/sim-$preffix-p$p-t$t.log
 											echo "current folder is"
 											pwd
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
-											gas-gas > rdf-$preffix-p$p-t$t.log 2>&1 &
-											upload
+											gas-gas > ../logs/rdf-$preffix-p$p-t$t.log 2>&1 &
 							fi
 					done
 				done
@@ -94,10 +93,14 @@ run-folders() {
 		done
 	}
 
-	upload(){
-		git add ~/git/lennard-jones-sims/results
+	submit(){
+		#git add ~/git/lennard-jones-sims/results
+		git add ../results/rdf-$preffix-p$p-t$t.xvg
+		# add logs: verified in commit
+		git add ../logs/rdf-$preffix-p$p-t$t.log
+		git add ../logs/sim-$preffix-p$p-t$t.log
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
-		git push origin master
+		git push origin beo
 	}
 
 	gas-gas(){
@@ -110,13 +113,14 @@ run-folders() {
 		echo "0" > input
 		echo "0" >> input
 		echo "calculating radial distribution function"
-		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../test/rdf-$preffix-p$p-t$t.xvg < input
+		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
-		echo "Recoding $preffix-p$p-t$t iteration in log..."
+		#echo "Recoding $preffix-p$p-t$t iteration in log..."
 		#echo $preffix-p$p-t$t >> ../testiters.txt
 		# UNCOMMENT AFTER TESTING
-		echo $l-p$p-t$t >> ../iters.txt
+		#echo $l-p$p-t$t >> ../iters.txt
 		rm -r OUT/p$p-t$t
+		submit
 	}
 
 
