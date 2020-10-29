@@ -101,6 +101,7 @@ run-folders() {
 		#git add ~/git/lennard-jones-sims/results
 		git add ../results/rdf-$preffix-p$p-t$t.xvg
 		git add ../logs/rdf-$preffix-p$p-t$t.log
+		git add ../logs/sim-$preffix-p$p-t$t.log
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
 		git push origin cd
 	}
