@@ -114,3 +114,10 @@ fatal: pathspec '../results/rdf-4-p2-t242.xvg' did not match any files
  2 files changed, 126 insertions(+)
  create mode 100644 logs/rdf-4-p2-t242.log
  create mode 100644 logs/sim-4-p2-t242.log
+[cd 1f703c6] add commit head to log backlog
+ 9 files changed, 191 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t236.log
+ create mode 100644 logs/sim-4-p2-t236.log
+ create mode 100644 logs/sim-4-p2-t248.log
+To https://github.com/socd06/lennard-jones-sims.git
+   cc4045c..1f703c6  cd -> cd

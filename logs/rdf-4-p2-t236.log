@@ -120,3 +120,6 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I do not believe continuum electrostatics" (Arieh Warshel, Nobel lecture 2013)
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
+[cd 7c4bb1e] feat: add 4-p2-t236 radial distribution function
+ 2 files changed, 2031 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-4-p2-t236.xvg
