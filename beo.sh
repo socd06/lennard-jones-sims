@@ -94,12 +94,15 @@ run-folders() {
 	}
 
 	submit(){
-		#git add ~/git/lennard-jones-sims/results
 		git add ../results/rdf-$preffix-p$p-t$t.xvg
-		# add logs: verified in commit
 		git add ../logs/rdf-$preffix-p$p-t$t.log
 		git add ../logs/sim-$preffix-p$p-t$t.log
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
+
+		git add ../logs
+		git commit -m "add commit head to log backlog"
+		# Always use branch computer alias
+		# make sure to have a branch for each
 		git push origin beo
 	}
 
@@ -115,10 +118,7 @@ run-folders() {
 		echo "calculating radial distribution function"
 		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
-		#echo "Recoding $preffix-p$p-t$t iteration in log..."
-		#echo $preffix-p$p-t$t >> ../testiters.txt
-		# UNCOMMENT AFTER TESTING
-		#echo $l-p$p-t$t >> ../iters.txt
+		rm *.ndx*
 		rm -r OUT/p$p-t$t
 		submit
 	}
