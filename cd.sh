@@ -1,15 +1,21 @@
 #!/bin/bash
 
-export BEGMD=3000
-export ENDMD=6000
-
 main() {
-	if source /usr/local/gromacs2016-3/bin/GMXRC
+	echo "Sourcing available version of GROMACS..."
+	if source /opt/gromacs/gromacs-2020.3-GPU/bin/GMXRC
 	then
-			echo "Exported GROMACS 2016"
-	else
-			source /usr/local/gromacs/bin/GMXRC
-			echo "Exported GROMACS 2020"
+			echo "Exported GPU-enabled GROMACS 2020.3"
+	elif source /opt/gromacs/gromacs-2019.6-GPU/bin/GMXRC
+	then
+			echo "Exported GPU-enabled GROMACS 2019-6"
+	elif source /usr/local/gromacs/bin/GMXRC
+	then
+			echo "Exported GROMACS"
+  elif source /usr/local/gromacs5-1-5/bin/GMXRC
+  then
+      echo "Exported GROMACS 5.1.5"
+	else source /usr/local/gromacs2016-3/bin/GMXRC
+			echo "Exported GROMACS 2016-3"
 	fi
 		run-folders
 }
@@ -79,11 +85,12 @@ run-folders() {
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
-											gas-gas
+											gas-gas > $preffix-p$p-t$t.log 2>&1 &
 											# send to main network computer
-											scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-											cleanup
-											stash
+											# NOT WHILE TESTING
+											#scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+											#cleanup
+											#stash
 							fi
 
 					done
@@ -105,14 +112,6 @@ run-folders() {
 		git push origin master
 	}
 
-	cleanup(){
-		# remove duplicate mdout files
-		rm *mdout.mdp*
-		# write pressure and temperature in iteration log
-		echo $preffix-p$p-t$t >> ../iters.txt
-		rm -r OUT/p$p-t$t
-	}
-
 	gas-gas(){
 		echo "del 0-1" > input
 		echo " " >> input
@@ -123,8 +122,13 @@ run-folders() {
 		echo "0" > input
 		echo "0" >> input
 		echo "calculating radial distribution function"
-		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 3.9  -b $BEGMD -e $ENDMD -o ../results/rdf-$preffix-p$p-t$t.xvg < input
+		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../test/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
+		echo "Recoding $preffix-p$p-t$t iteration in log..."
+		echo $preffix-p$p-t$t >> ../testiters.txt
+		# UNCOMMENT AFTER TESTING
+		#		echo $l-p$p-t$t >> ../iters.txt
+		rm -r OUT/p$p-t$t
 	}
 
 
