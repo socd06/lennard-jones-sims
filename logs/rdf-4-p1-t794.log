@@ -117,3 +117,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "There's an old saying among scientific guys: “You can't make an omelet without breaking eggs, ideally by dropping a cement truck on them from a crane." (Dave Barry)
 
+[cd c0eda36] feat: add 4-p1-t794 radial distribution function
+ 3 files changed, 2179 insertions(+)
+ create mode 100644 logs/rdf-4-p1-t794.log
+ create mode 100644 logs/sim-4-p1-t794.log
+ create mode 100644 results/rdf-4-p1-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   38ffced..c0eda36  cd -> cd

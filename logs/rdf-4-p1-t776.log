@@ -117,3 +117,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "This Puke Stinks Like Beer" (LIVE)
 
+[cd 61a8821] feat: add 4-p1-t776 radial distribution function
+ 3 files changed, 2145 insertions(+)
+ create mode 100644 logs/rdf-4-p1-t776.log
+ create mode 100644 results/rdf-4-p1-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9ab7e72..61a8821  cd -> cd

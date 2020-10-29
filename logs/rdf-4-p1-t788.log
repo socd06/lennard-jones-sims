@@ -117,3 +117,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Disturb the Peace of a John Q Citizen" (Urban Dance Squad)
 
+[cd 38ffced] feat: add 4-p1-t788 radial distribution function
+ 3 files changed, 2179 insertions(+)
+ create mode 100644 logs/rdf-4-p1-t788.log
+ create mode 100644 logs/sim-4-p1-t788.log
+ create mode 100644 results/rdf-4-p1-t788.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   370d0fb..38ffced  cd -> cd
