@@ -117,3 +117,7 @@ website at http://www.gromacs.org/Documentation/Errors
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 warning: could not open directory 'results/4/': No such file or directory
 fatal: pathspec '../results/4/rdf-4-p1-t200.xvg' did not match any files
+[cd 67b9f01] feat: add 4-p1-t200 radial distribution function
+ 2 files changed, 133 insertions(+)
+ create mode 100644 logs/rdf-4-p1-t200.log
+ create mode 100644 logs/sim-4-p1-t200.log
