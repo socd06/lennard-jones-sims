@@ -117,3 +117,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "In my opinion, we don't devote nearly enough scientific research to finding a cure for jerks." (Bill Watterson)
 
+[cd 113997d] feat: add 4-p1-t764 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p1-t764.log
+ create mode 100644 results/rdf-4-p1-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f7e0e8c..113997d  cd -> cd
