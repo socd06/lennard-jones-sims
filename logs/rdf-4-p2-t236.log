@@ -123,3 +123,7 @@ rm: cannot remove 'indexrdf.ndx': No such file or directory
 [cd 7c4bb1e] feat: add 4-p2-t236 radial distribution function
  2 files changed, 2031 insertions(+), 1 deletion(-)
  create mode 100644 results/rdf-4-p2-t236.xvg
+[cd d788be7] add commit head to log backlog
+ 3 files changed, 24 insertions(+)
+To https://github.com/socd06/lennard-jones-sims.git
+   1f703c6..d788be7  cd -> cd

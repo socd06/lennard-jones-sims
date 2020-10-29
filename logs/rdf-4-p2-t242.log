@@ -117,3 +117,6 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "There is nothing new to be discovered in physics now. All that remains is more and more precise measurement." (Lord Kelvin, 1900)
 
+[cd 9e186dc] feat: add 4-p2-t242 radial distribution function
+ 3 files changed, 2091 insertions(+), 49 deletions(-)
+ create mode 100644 results/rdf-4-p2-t242.xvg
