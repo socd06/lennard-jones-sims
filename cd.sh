@@ -79,20 +79,18 @@ run-folders() {
 										then
 											echo "Making folder"
 											# UNCOMMENT AFTER TESTS
-											run-commands
+											run-commands > sim-$preffix-p$p-t$t.log
 											echo "current folder is"
 											pwd
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
-											gas-gas > $preffix-p$p-t$t.log 2>&1 &
+											gas-gas > rdf-$preffix-p$p-t$t.log 2>&1 &
 											# send to main network computer
 											# NOT WHILE TESTING
-											#scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
-											#cleanup
-											#stash
+											scp -P 28 -r -C ~/git/lennard-jones-sims/results/rdf-$preffix-p$p-t$t.xvg test@148.247.198.140:/home/test/git/lennard-jones-sims/results
+											# stash
 							fi
-
 					done
 				done
 				cd ..
@@ -122,12 +120,12 @@ run-folders() {
 		echo "0" > input
 		echo "0" >> input
 		echo "calculating radial distribution function"
-		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../test/rdf-$preffix-p$p-t$t.xvg < input
+		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
 		echo "Recoding $preffix-p$p-t$t iteration in log..."
-		echo $preffix-p$p-t$t >> ../testiters.txt
+		#echo $preffix-p$p-t$t >> ../testiters.txt
 		# UNCOMMENT AFTER TESTING
-		#		echo $l-p$p-t$t >> ../iters.txt
+		echo $l-p$p-t$t >> ../iters.txt
 		rm -r OUT/p$p-t$t
 	}
 
