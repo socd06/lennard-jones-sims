@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'd be Safe and Warm if I was in L.A." (The Mamas and the Papas)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 4f931a92c] feat: add 4-p2-t488 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t488.log
+ create mode 100644 results/rdf-4-p2-t488.xvg
