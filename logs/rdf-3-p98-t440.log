@@ -103,3 +103,16 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev 5bf878b9d] feat: add 3-p98-t440 radial distribution function
+ 16 files changed, 751 insertions(+)
+ create mode 100644 logs/rdf-3-p98-t392.log
+ create mode 100644 logs/rdf-3-p98-t404.log
+ create mode 100644 logs/rdf-3-p98-t428.log
+ create mode 100644 logs/rdf-3-p98-t434.log
+ create mode 100644 logs/rdf-3-p98-t440.log
+ create mode 100644 logs/sim-3-p98-t392.log
+ create mode 100644 logs/sim-3-p98-t398.log
+ create mode 100644 logs/sim-3-p98-t404.log
+ create mode 100644 logs/sim-3-p98-t428.log
+ create mode 100644 logs/sim-3-p98-t434.log
+ create mode 100644 logs/sim-3-p98-t440.log
