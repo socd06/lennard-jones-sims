@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Install our Free Energy Patents app! There is energy all around us; and it's free! Free energy is everywhere, and all around you, just waiting to be extracted! Over 100+ free energy patents!" (Mind and Miracle Productions on Twitter, spamming a FEP thread)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 6ded6ed] feat: add 3-p1-t530 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t530.log (69%)
+ create mode 100644 results/rdf-3-p1-t530.xvg
