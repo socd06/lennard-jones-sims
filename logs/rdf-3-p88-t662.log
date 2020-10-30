@@ -140,3 +140,11 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+[dev cc19b1470] add commit head to log backlog
+ 11 files changed, 509 insertions(+)
+ create mode 100644 logs/rdf-3-p88-t644.log
+ create mode 100644 logs/rdf-3-p88-t662.log
+ create mode 100644 logs/rdf-3-p88-t668.log
+ create mode 100644 logs/sim-3-p88-t644.log
+ create mode 100644 logs/sim-3-p88-t662.log
+ create mode 100644 logs/sim-3-p88-t668.log
