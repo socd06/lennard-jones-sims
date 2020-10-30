@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Bum Stikkie Di Bum Stikkie Di Bum Stikkie Di Bum" (R. Slijngaard)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md b4269dc] feat: add 4-p2-t728 radial distribution function
+ 3 files changed, 2156 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t728.log
+ create mode 100644 results/rdf-4-p2-t728.xvg
