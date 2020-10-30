@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "UNIX is basically a simple operating system. It just takes a genius to understand its simplicity." (Dennis Ritchie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd aee774c51] feat: add 4-p2-t740 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t740.log
+ create mode 100644 results/rdf-4-p2-t740.xvg
