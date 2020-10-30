@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'd Be Water If I Could" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd ac0e1249b] feat: add 4-p2-t638 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t638.log
+ create mode 100644 results/rdf-4-p2-t638.xvg
