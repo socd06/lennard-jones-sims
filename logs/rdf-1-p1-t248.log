@@ -115,3 +115,18 @@ GROMACS reminds you: "It's So Lonely When You Don't Even Know Yourself" (Red Hot
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 93b6fa1] feat: add 1-p1-t248 radial distribution function
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2032 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p1-t248.xvg
