@@ -131,3 +131,39 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p84-t518.log
+	modified:   ../logs/rdf-3-p84-t536.log
+	modified:   ../logs/rdf-3-p84-t542.log
+	modified:   ../logs/rdf-3-p84-t566.log
+	modified:   ../logs/rdf-3-p84-t572.log
+	modified:   ../logs/rdf-3-p84-t590.log
+	modified:   ../logs/rdf-3-p85-t248.log
+	modified:   ../logs/rdf-3-p85-t272.log
+	modified:   ../logs/rdf-3-p85-t284.log
+	modified:   ../logs/rdf-3-p85-t296.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p85-t266.log
+	../logs/rdf-3-p85-t278.log
+	../logs/rdf-3-p85-t290.log
+	../logs/rdf-3-p85-t302.log
+	../logs/rdf-3-p85-t308.log
+	../logs/sim-3-p85-t266.log
+	../logs/sim-3-p85-t278.log
+	../logs/sim-3-p85-t284.log
+	../logs/sim-3-p85-t290.log
+	../logs/sim-3-p85-t302.log
+	../logs/sim-3-p85-t308.log
+	../logs/sim-3-p85-t314.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
