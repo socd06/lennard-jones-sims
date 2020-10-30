@@ -118,3 +118,6 @@ remove the file manually to continue.
 [dev 66c419b12] add commit head to log backlog
  3 files changed, 32 insertions(+)
  create mode 100644 logs/sim-2-p12-t464.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 66c419b12823834b62db6c966e00695de1c56f4f but expected fdcdffb9e8d23e9700d2f6b863935ce2abba4ce4)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
