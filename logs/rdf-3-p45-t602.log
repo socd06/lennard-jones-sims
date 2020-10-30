@@ -132,3 +132,4 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Operation timed out after 300000 milliseconds with 0 out of 0 bytes received
