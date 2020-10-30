@@ -103,3 +103,10 @@ See "git help gc" for manual housekeeping.
  2 files changed, 105 insertions(+)
  create mode 100644 logs/rdf-2-p5-t548.log
  create mode 100644 logs/sim-2-p5-t548.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 5c5c18008] add commit head to log backlog
+ 4 files changed, 21 insertions(+)
+ create mode 100644 logs/sim-2-p5-t554.log
+To https://github.com/socd06/lennard-jones-sims.git
+   aba0ed8b5..5c5c18008  dev -> dev
