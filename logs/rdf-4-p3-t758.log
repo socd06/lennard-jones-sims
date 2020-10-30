@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's just the way this stuff is done" (Built to Spill)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 4bc2dc1b7] feat: add 4-p3-t758 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t758.log
+ create mode 100644 results/rdf-4-p3-t758.xvg
