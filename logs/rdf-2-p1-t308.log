@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#453: "The farther the experiment is from theory, the closer it is to the Nobel Prize." (Irene Joliot-Curie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 159969df0] feat: add 2-p1-t308 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t308.log
+ create mode 100644 results/rdf-2-p1-t308.xvg
