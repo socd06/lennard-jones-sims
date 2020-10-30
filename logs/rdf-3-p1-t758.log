@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There are only two hard things in computer science - cache invalidation, naming things and off-by-one errors." (Anonymous)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 06d232d] feat: add 3-p1-t758 radial distribution function
+ 3 files changed, 2146 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p1-t758.log (70%)
+ create mode 100644 results/rdf-3-p1-t758.xvg
