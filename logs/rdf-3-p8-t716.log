@@ -112,3 +112,7 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev fd865c42] feat: add 3-p8-t716 radial distribution function
  1 file changed, 2 insertions(+)
+[dev 3bf64ae4] add commit head to log backlog
+ 3 files changed, 118 insertions(+)
+ create mode 100644 logs/rdf-3-p8-t716.log
+ create mode 100644 logs/sim-3-p8-t722.log
