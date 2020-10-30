@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p2-t266.xvg to ../results/#rdf-4-p2-
 GROMACS reminds you: "We mathematicians are all a bit crazy." (Lev Landau)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c7e51a7] feat: add 4-p2-t266 radial distribution function
+ 3 files changed, 2052 insertions(+), 2047 deletions(-)
+ rewrite results/rdf-4-p2-t266.xvg (69%)
