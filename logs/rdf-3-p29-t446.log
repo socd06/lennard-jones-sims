@@ -101,3 +101,7 @@ fatal: pathspec '../results/rdf-3-p29-t446.xvg' did not match any files
  2 files changed, 103 insertions(+)
  create mode 100644 logs/rdf-3-p29-t446.log
  create mode 100644 logs/sim-3-p29-t446.log
+[dev e0e147d6] add commit head to log backlog
+ 35 files changed, 121 insertions(+)
+ create mode 100644 logs/rdf-3-p29-t452.log
+ create mode 100644 logs/sim-3-p29-t452.log
