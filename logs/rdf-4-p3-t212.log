@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Always code as if the person who ends up maintaining your code is a violent psychopath who knows where you live." (Martin Golding)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd d7af0a4cf] feat: add 4-p3-t212 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t212.log
+ create mode 100644 results/rdf-4-p3-t212.xvg
