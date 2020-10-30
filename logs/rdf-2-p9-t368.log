@@ -136,3 +136,9 @@ Untracked files:
 	../logs/sim-2-p9-t368.log
 
 no changes added to commit
+[dev 1e28ced79] add commit head to log backlog
+ 4 files changed, 155 insertions(+)
+ create mode 100644 logs/rdf-2-p9-t368.log
+ create mode 100644 logs/sim-2-p9-t368.log
+To https://github.com/socd06/lennard-jones-sims.git
+   4a2a248b3..1e28ced79  dev -> dev
