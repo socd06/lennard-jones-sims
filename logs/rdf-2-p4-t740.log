@@ -100,3 +100,8 @@ fatal: pathspec '../results/rdf-2-p4-t740.xvg' did not match any files
 [dev 9a9423c32] feat: add 2-p4-t740 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p4-t740.log
+[dev d22467f54] add commit head to log backlog
+ 4 files changed, 15 insertions(+)
+ create mode 100644 logs/sim-2-p4-t746.log
+To https://github.com/socd06/lennard-jones-sims.git
+   58d508b91..d22467f54  dev -> dev
