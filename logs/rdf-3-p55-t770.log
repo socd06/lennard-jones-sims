@@ -123,3 +123,8 @@ remove the file manually to continue.
  create mode 100644 logs/rdf-3-p55-t764.log
  create mode 100644 logs/sim-3-p55-t764.log
  create mode 100644 logs/sim-3-p55-t770.log
+[dev 901f62b4] add commit head to log backlog
+ 4 files changed, 255 insertions(+)
+ create mode 100644 logs/rdf-3-p55-t770.log
+ create mode 100644 logs/rdf-3-p55-t776.log
+ create mode 100644 logs/sim-3-p55-t776.log
