@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Occams Razor is the scientific principle that, all things being equal, the simplest explanation is always the dog ate my homework." (Greg Tamblyn)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c8074e1] feat: add 4-p3-t212 radial distribution function
+ 3 files changed, 2156 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t212.log
+ create mode 100644 results/rdf-4-p3-t212.xvg
