@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Unfortunately, "simulation" has become increasingly misused to mean nothing more than "calculation"" (Bill Jorgensen)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 9044f9f] feat: add 3-p1-t548 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t548.log (69%)
+ create mode 100644 results/rdf-3-p1-t548.xvg
