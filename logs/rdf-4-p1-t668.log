@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t668.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Wild Pointers Couldn't Drag Me Away" (K.A. Feenstra)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 3696fa9] feat: add 4-p1-t668 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t668.xvg (72%)
