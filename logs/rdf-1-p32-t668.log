@@ -137,3 +137,5 @@ git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
 error: Ref refs/heads/beo is at e69eaaa70523a135e99fb655e6d5c64433241da4 but expected fde20a5cae11d5a3a03ce0b5c8d68acc2abc4d7d
 fatal: cannot lock HEAD ref
+error: Failed connect to github.com:443; Connection timed out while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
