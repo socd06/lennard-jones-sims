@@ -121,3 +121,6 @@ remove the file manually to continue.
  4 files changed, 109 insertions(+)
  create mode 100644 logs/rdf-3-p21-t548.log
  create mode 100644 logs/sim-3-p21-t548.log
+[dev 2b1476b1] add commit head to log backlog
+ 3 files changed, 33 insertions(+)
+ create mode 100644 logs/sim-3-p21-t554.log
