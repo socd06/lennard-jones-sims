@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#265: "set: No match." (tcsh)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev f7915a77] feat: add 3-p1-t236 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-3-p1-t236.log
+ create mode 100644 results/rdf-3-p1-t236.xvg
