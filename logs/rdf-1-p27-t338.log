@@ -127,3 +127,4 @@ After doing this, you may fix the identity used for this commit with:
  2 files changed, 117 insertions(+)
  create mode 100644 logs/rdf-1-p27-t338.log
  create mode 100644 logs/sim-1-p27-t338.log
+Aborting commit due to empty commit message.
