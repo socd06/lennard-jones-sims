@@ -100,3 +100,6 @@ fatal: pathspec '../results/rdf-2-p7-t452.xvg' did not match any files
 [dev 39d1a8e54] feat: add 2-p7-t452 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p7-t452.log
+[dev 395306568] add commit head to log backlog
+ 5 files changed, 12 insertions(+)
+ create mode 100644 logs/sim-2-p7-t458.log
