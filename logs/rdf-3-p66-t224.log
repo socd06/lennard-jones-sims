@@ -117,3 +117,65 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p49-t740.log
+	modified:   ../logs/rdf-3-p49-t746.log
+	modified:   ../logs/rdf-3-p49-t752.log
+	modified:   ../logs/rdf-3-p49-t758.log
+	modified:   ../logs/rdf-3-p49-t764.log
+	modified:   ../logs/rdf-3-p49-t770.log
+	modified:   ../logs/rdf-3-p49-t776.log
+	modified:   ../logs/rdf-3-p49-t782.log
+	modified:   ../logs/rdf-3-p49-t788.log
+	modified:   ../logs/rdf-3-p49-t794.log
+	modified:   ../logs/rdf-3-p49-t800.log
+	modified:   ../logs/rdf-3-p50-t200.log
+	modified:   ../logs/rdf-3-p50-t206.log
+	modified:   ../logs/rdf-3-p50-t212.log
+	modified:   ../logs/rdf-3-p50-t218.log
+	modified:   ../logs/rdf-3-p50-t224.log
+	modified:   ../logs/rdf-3-p50-t230.log
+	modified:   ../logs/rdf-3-p50-t236.log
+	modified:   ../logs/rdf-3-p50-t242.log
+	modified:   ../logs/rdf-3-p50-t248.log
+	modified:   ../logs/rdf-3-p50-t254.log
+	modified:   ../logs/rdf-3-p50-t260.log
+	modified:   ../logs/rdf-3-p50-t266.log
+	modified:   ../logs/rdf-3-p50-t272.log
+	modified:   ../logs/rdf-3-p50-t278.log
+	modified:   ../logs/rdf-3-p50-t284.log
+	modified:   ../logs/rdf-3-p50-t290.log
+	modified:   ../logs/rdf-3-p66-t200.log
+	modified:   ../logs/rdf-3-p66-t212.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p66-t218.log
+	../logs/rdf-3-p66-t224.log
+	../logs/sim-3-p66-t218.log
+	../logs/sim-3-p66-t224.log
+	../logs/sim-3-p66-t230.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
