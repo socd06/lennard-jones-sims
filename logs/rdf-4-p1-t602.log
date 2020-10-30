@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t602.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The rest I just squandered." (George Best)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md a6bc9fc] feat: add 4-p1-t602 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t602.xvg (70%)
