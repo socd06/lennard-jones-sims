@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Louis Pasteur's theory of germs is ridiculous fiction." (Pierre Pachet, Professor of Physiology at Toulouse, 1872)
 
+[cd ab894ed] feat: add 4-p2-t278 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t278.log
+ create mode 100644 results/rdf-4-p2-t278.xvg
