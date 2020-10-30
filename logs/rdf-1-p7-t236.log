@@ -141,3 +141,6 @@ After doing this, you may fix the identity used for this commit with:
 
  6 files changed, 40 insertions(+)
  create mode 100644 logs/sim-1-p7-t242.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected] beo -> beo (cannot lock ref 'refs/heads/beo': is at cc0b395f8e78d55811c14f6977e5deba234ad216 but expected 341e273cff6af844b83b509abb8515ff0786dc5a)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
