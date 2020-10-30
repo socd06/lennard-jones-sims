@@ -112,3 +112,7 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev 627b5b83] feat: add 3-p10-t476 radial distribution function
  1 file changed, 2 insertions(+)
+[dev 1b294d2a] add commit head to log backlog
+ 3 files changed, 118 insertions(+)
+ create mode 100644 logs/rdf-3-p10-t476.log
+ create mode 100644 logs/sim-3-p10-t482.log
