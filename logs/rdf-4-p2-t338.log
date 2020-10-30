@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p2-t338.xvg to ../results/#rdf-4-p2-
 GROMACS reminds you: "Check Your Input" (D. Van Der Spoel)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 38161cd] feat: add 4-p2-t338 radial distribution function
+ 3 files changed, 2042 insertions(+), 2047 deletions(-)
+ rewrite results/rdf-4-p2-t338.xvg (69%)
