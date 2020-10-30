@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd a832b30b8] feat: add 4-p2-t566 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t566.log
+ create mode 100644 results/rdf-4-p2-t566.xvg
