@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t548.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "I love fools' experiments. I am always making them." (Charles Darwin)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 35811d0] feat: add 4-p1-t548 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t548.xvg (71%)
