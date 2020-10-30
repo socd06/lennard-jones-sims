@@ -103,3 +103,9 @@ See "git help gc" for manual housekeeping.
  2 files changed, 105 insertions(+)
  create mode 100644 logs/rdf-3-p30-t638.log
  create mode 100644 logs/sim-3-p30-t638.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 9636fa5b] add commit head to log backlog
+ 36 files changed, 302 insertions(+)
+ create mode 100644 logs/rdf-3-p30-t644.log
+ create mode 100644 logs/sim-3-p30-t644.log
