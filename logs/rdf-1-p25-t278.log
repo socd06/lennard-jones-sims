@@ -126,3 +126,4 @@ After doing this, you may fix the identity used for this commit with:
 
  1 file changed, 113 insertions(+)
  create mode 100644 logs/rdf-1-p25-t278.log
+Aborting commit due to empty commit message.
