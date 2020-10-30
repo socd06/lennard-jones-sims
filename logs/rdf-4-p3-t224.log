@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Since the mathematicians have invaded the theory of relativity I do not understand it myself any more." (Albert Einstein)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 8f7ca4e17] feat: add 4-p3-t224 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t224.log
+ create mode 100644 results/rdf-4-p3-t224.xvg
