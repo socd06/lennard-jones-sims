@@ -100,3 +100,9 @@ fatal: pathspec '../results/rdf-2-p8-t200.xvg' did not match any files
 [dev 4a9908a2b] feat: add 2-p8-t200 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p8-t200.log
+[dev a24807764] add commit head to log backlog
+ 4 files changed, 12 insertions(+)
+ create mode 100644 logs/sim-2-p8-t206.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at a24807764cee98aa9075a2ee847e2ef62ce7737b but expected 6a2d5227ce7812a5e3f03b65c57ed9abd93b0c58)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
