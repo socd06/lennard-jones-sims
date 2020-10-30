@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Beat On the Brat With a Baseball Bat" (The Ramones)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 4edb96d] feat: add 4-p2-t506 radial distribution function
+ 3 files changed, 2156 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t506.log
+ create mode 100644 results/rdf-4-p2-t506.xvg
