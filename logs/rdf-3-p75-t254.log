@@ -103,3 +103,10 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev f8fe25dc7] feat: add 3-p75-t254 radial distribution function
+ 9 files changed, 422 insertions(+)
+ create mode 100644 logs/rdf-3-p75-t230.log
+ create mode 100644 logs/rdf-3-p75-t248.log
+ create mode 100644 logs/rdf-3-p75-t254.log
+ create mode 100644 logs/sim-3-p75-t248.log
+ create mode 100644 logs/sim-3-p75-t254.log
