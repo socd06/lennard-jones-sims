@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Louis Pasteur's theory of germs is ridiculous fiction." (Pierre Pachet, Professor of Physiology at Toulouse, 1872)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 237d3e9] feat: add 4-p3-t242 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t242.log
+ create mode 100644 results/rdf-4-p3-t242.xvg
