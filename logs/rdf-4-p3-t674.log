@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Men love to wonder, and that is the seed of science." (Ralph Waldo Emerson)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 7f8d59d1b] feat: add 4-p3-t674 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t674.log
+ create mode 100644 results/rdf-4-p3-t674.xvg
