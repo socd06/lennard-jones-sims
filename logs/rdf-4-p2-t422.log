@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Quite frankly, even if the choice of C were to do *nothing* but keep the C++ programmers out, that in itself would be a huge reason to use C." (Linus Torvalds)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 65f7d001c] feat: add 4-p2-t422 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t422.log
+ create mode 100644 results/rdf-4-p2-t422.xvg
