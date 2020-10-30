@@ -111,3 +111,5 @@ remove the file manually to continue.
 [dev 2a514ca3a] add commit head to log backlog
  1 file changed, 120 insertions(+)
  create mode 100644 logs/rdf-2-p18-t338.log
+To https://github.com/socd06/lennard-jones-sims.git
+   eea6ba331..2a514ca3a  dev -> dev
