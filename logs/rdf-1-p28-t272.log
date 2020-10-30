@@ -108,3 +108,18 @@ Invalid command-line options
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
 -------------------------------------------------------
+rm: cannot remove `indexrdf.ndx': No such file or directory
+rm: cannot remove `*.ndx*': No such file or directory
+fatal: pathspec 'results/rdf-1-p28-t272.xvg' did not match any files
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+error: Ref refs/heads/beo is at 9645a73dbbedbaafed720a0bbac6ad3f53b526fd but expected 828da934c46bb264df0229366169c716da48b3a9
+fatal: cannot lock HEAD ref
