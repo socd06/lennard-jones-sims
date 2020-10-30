@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p62-t800/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p63-t206/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p62-t800/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p63-t206/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p62-t800/3-md.trr -s OUT/p62-t800/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p62-t800.xvg
+  gmx rdf -f OUT/p63-t206/3-md.trr -s OUT/p63-t206/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p63-t206.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p62-t800/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p63-t206/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p62-t800/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p63-t206/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -117,27 +117,6 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-On branch dev
-Changes not staged for commit:
-	modified:   MDP/0_md.mdp
-	modified:   MDP/0_npt.mdp
-	modified:   MDP/0_nvt.mdp
-	modified:   mdout.mdp
-	modified:   ../logs/rdf-3-p62-t770.log
-	modified:   ../logs/rdf-3-p62-t782.log
-	modified:   ../logs/rdf-3-p62-t788.log
-
-Untracked files:
-	../2-ar/input
-	input
-	../input
-	../logs/rdf-3-p62-t800.log
-	../logs/sim-3-p62-t788.log
-	../logs/sim-3-p62-t800.log
-	../logs/sim-3-p63-t200.log
-	../results/rdf-3-p1-t326.xvg
-
-no changes added to commit
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -145,3 +124,28 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p62-t800.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p63-t206.log
+	../logs/sim-3-p63-t206.log
+	../logs/sim-3-p63-t212.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
