@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#479: "Do you know what cations don't like? Dog-ions. Do you know what they like? Pie." (Tom Cheatham)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 4a04a2e0d] feat: add 2-p1-t266 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t266.log
+ create mode 100644 results/rdf-2-p1-t266.xvg
