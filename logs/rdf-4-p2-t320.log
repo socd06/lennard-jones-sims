@@ -121,3 +121,8 @@ GROMACS reminds you: "Since the mathematicians have invaded the theory of relati
  3 files changed, 2165 insertions(+)
  create mode 100644 logs/rdf-4-p2-t320.log
  create mode 100644 results/rdf-4-p2-t320.xvg
+[cd 4a95a14] add commit head to log backlog
+ 3 files changed, 23 insertions(+)
+ create mode 100644 logs/sim-4-p2-t326.log
+To https://github.com/socd06/lennard-jones-sims.git
+   eb45536..4a95a14  cd -> cd
