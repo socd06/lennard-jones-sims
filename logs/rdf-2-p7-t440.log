@@ -124,3 +124,5 @@ remove the file manually to continue.
 [dev d8a12afd6] add commit head to log backlog
  3 files changed, 36 insertions(+)
  create mode 100644 logs/sim-2-p7-t446.log
+To https://github.com/socd06/lennard-jones-sims.git
+   a5febf4dd..d8a12afd6  dev -> dev
