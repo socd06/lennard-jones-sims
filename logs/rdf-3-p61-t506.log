@@ -132,3 +132,4 @@ remove the file manually to continue.
  create mode 100644 logs/sim-3-p61-t482.log
  create mode 100644 logs/sim-3-p61-t500.log
  create mode 100644 logs/sim-3-p61-t506.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
