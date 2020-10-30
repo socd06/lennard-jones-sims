@@ -139,3 +139,5 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  6 files changed, 38 insertions(+)
+error: Failed connect to github.com:443; Connection timed out while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
