@@ -112,3 +112,18 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "...sometimes a scream is better than a thesis." (Ralph Waldo Emerson)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 6a35e9a] feat: add 1-p1-t350 radial distribution function
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2101 insertions(+), 44 deletions(-)
+ create mode 100644 results/rdf-1-p1-t350.xvg
