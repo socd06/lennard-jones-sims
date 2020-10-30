@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "My Ass May Be Dumb, But I Ain't No Dumbass." (Jackie Brown)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 2a037f704] feat: add 4-p2-t392 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t392.log
+ create mode 100644 results/rdf-4-p2-t392.xvg
