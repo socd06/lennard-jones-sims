@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The Path Of the Righteous Man is Beset On All Sides With the Iniquities Of the Selfish and the Tyranny Of Evil Men." (Pulp Fiction)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 607ee7b] feat: add 4-p3-t314 radial distribution function
+ 3 files changed, 2156 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t314.log
+ create mode 100644 results/rdf-4-p3-t314.xvg
