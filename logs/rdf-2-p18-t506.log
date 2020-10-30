@@ -162,3 +162,6 @@ Untracked files:
 	../logs/sim-2-p18-t512.log
 
 no changes added to commit
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at a97412c893d74cde4de8bf0feef57c00fbaa5a23 but expected 9f6d2ce732c8b159af118ce10bb2a04f1eab65d4)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
