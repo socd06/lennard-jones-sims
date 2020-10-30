@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "By denying scientific principles, one may maintain any paradox." (Galileo Galilei)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 6d1abb1ca] feat: add 4-p2-t518 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t518.log
+ create mode 100644 results/rdf-4-p2-t518.xvg
