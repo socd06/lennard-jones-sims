@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t776.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Never replicate a successful experiment." (Fett's law.)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 324a598] feat: add 4-p1-t776 radial distribution function
+ 3 files changed, 2061 insertions(+), 2043 deletions(-)
+ rewrite results/rdf-4-p1-t776.xvg (72%)
