@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t488.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Do not go where the path may lead, go instead where there is no path and leave a trail" (Ralph Waldo Emerson)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md e757a9b] feat: add 4-p1-t488 radial distribution function
+ 3 files changed, 2061 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t488.xvg (71%)
