@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t632.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Should we force science down the throats of those that have no taste for it? Is it our duty to drag them kicking and screaming into the twenty-first century? I am afraid that it is." (George Porter)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 4b6a1ea] feat: add 4-p1-t632 radial distribution function
+ 3 files changed, 2061 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t632.xvg (72%)
