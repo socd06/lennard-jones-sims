@@ -97,3 +97,9 @@ website at http://www.gromacs.org/Documentation/Errors
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
 fatal: pathspec '../results/rdf-3-p79-t266.xvg' did not match any files
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev f37428295] feat: add 3-p79-t266 radial distribution function
+ 2 files changed, 105 insertions(+)
+ create mode 100644 logs/rdf-3-p79-t266.log
+ create mode 100644 logs/sim-3-p79-t266.log
