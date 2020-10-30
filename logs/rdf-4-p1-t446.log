@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t446.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Science adjusts its views based on what's observed. Faith is the denial of observation so that belief can be preserved." (Tim Minchin)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c4fe01d] feat: add 4-p1-t446 radial distribution function
+ 2 files changed, 2028 insertions(+), 2033 deletions(-)
+ rewrite results/rdf-4-p1-t446.xvg (71%)
