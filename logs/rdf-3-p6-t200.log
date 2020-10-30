@@ -128,3 +128,4 @@ Untracked files:
 no changes added to commit
 [dev bd1a8911] add commit head to log backlog
  2 files changed, 85 insertions(+)
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.

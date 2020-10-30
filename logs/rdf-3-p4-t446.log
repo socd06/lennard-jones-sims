@@ -136,3 +136,4 @@ no changes added to commit
  3 files changed, 137 insertions(+)
  create mode 100644 logs/rdf-3-p4-t446.log
  create mode 100644 logs/sim-3-p4-t452.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.

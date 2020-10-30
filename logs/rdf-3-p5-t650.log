@@ -136,3 +136,4 @@ no changes added to commit
 [dev 91464d79] add commit head to log backlog
  3 files changed, 93 insertions(+)
  create mode 100644 logs/sim-3-p5-t656.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.

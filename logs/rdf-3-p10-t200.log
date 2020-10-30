@@ -101,3 +101,7 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 [dev dfe03ff2] feat: add 3-p10-t200 radial distribution function
  1 file changed, 55 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev c7ecb45c] add commit head to log backlog
+ 4 files changed, 17 insertions(+)

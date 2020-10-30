@@ -135,3 +135,4 @@ no changes added to commit
 [dev ccc10cff] add commit head to log backlog
  2 files changed, 137 insertions(+)
  create mode 100644 logs/rdf-3-p5-t248.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.

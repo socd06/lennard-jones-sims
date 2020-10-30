@@ -125,3 +125,4 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at dd2a378144021503d1348dfc67b5924e62006067 but expected b875ec56a99fef155510d29d8ec41c1408661782
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Empty reply from server

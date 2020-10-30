@@ -137,3 +137,7 @@ no changes added to commit
  4 files changed, 140 insertions(+)
  create mode 100644 logs/rdf-3-p5-t476.log
  create mode 100644 logs/sim-3-p5-t482.log
+error: RPC failed; curl 55 The requested URL returned error: 401
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date

@@ -141,3 +141,6 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]   dev -> dev (cannot lock ref 'refs/heads/dev': is at edf31f8d49f5a3ca76899a06338c3865d629b9a8 but expected 49786308eb3d49593db6e941039dccea3d6b671d)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'

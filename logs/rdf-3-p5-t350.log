@@ -109,3 +109,4 @@ remove the file manually to continue.
 [dev 86f9a1fc] add commit head to log backlog
  3 files changed, 8 insertions(+)
  create mode 100644 logs/sim-3-p5-t356.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Empty reply from server
