@@ -138,3 +138,6 @@ no changes added to commit
 [dev 9a7dc6fc9] add commit head to log backlog
  4 files changed, 145 insertions(+)
  create mode 100644 logs/rdf-2-p6-t230.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 9a7dc6fc9cd937eaea733a63b2912fcf4ac12920 but expected 86bcd8078073425631d40edf5e45806c9ae53a52)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
