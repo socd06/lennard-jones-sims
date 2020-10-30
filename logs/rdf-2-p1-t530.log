@@ -103,3 +103,6 @@ fatal: pathspec '../results/rdf-2-p1-t530.xvg' did not match any files
 [dev 4c4dd20c4] add commit head to log backlog
  4 files changed, 8 insertions(+)
  create mode 100644 logs/sim-2-p1-t536.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 4c4dd20c4b2302e41957ada85e3f562cbf3274e5 but expected 32a6dd5f1a1d532e3a8d186e4625f94a98b24480)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
