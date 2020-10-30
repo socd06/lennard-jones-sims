@@ -140,3 +140,6 @@ fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': Fil
 If no other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected] beo -> beo (cannot lock ref 'refs/heads/beo': is at f9198d0fbed14b52568e3baa4570a8e574dc4798 but expected 013927a6cd61662eda404ccee6f443a5f7d55599)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
