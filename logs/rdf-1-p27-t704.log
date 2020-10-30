@@ -127,3 +127,7 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 113 insertions(+)
  create mode 100644 logs/rdf-1-p27-t704.log
 Aborting commit due to empty commit message.
+error: RPC failed; result=6, HTTP code = 0
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
