@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Energy is a very subtle concept. It is very, very difficult to get right." (Richard Feynman)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c87d0e0] feat: add 3-p1-t512 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t512.log (70%)
+ create mode 100644 results/rdf-3-p1-t512.xvg
