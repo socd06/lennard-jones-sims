@@ -138,3 +138,4 @@ no changes added to commit
 [dev 02b36f5c] add commit head to log backlog
  3 files changed, 23 insertions(+)
  create mode 100644 logs/sim-3-p10-t560.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
