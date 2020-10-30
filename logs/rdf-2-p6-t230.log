@@ -135,3 +135,6 @@ Untracked files:
 	../logs/rdf-2-p6-t230.log
 
 no changes added to commit
+[dev 9a7dc6fc9] add commit head to log backlog
+ 4 files changed, 145 insertions(+)
+ create mode 100644 logs/rdf-2-p6-t230.log
