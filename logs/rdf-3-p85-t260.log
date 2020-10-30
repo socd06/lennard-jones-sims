@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p84-t524/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p85-t260/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p84-t524/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p85-t260/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p84-t524/3-md.trr -s OUT/p84-t524/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p84-t524.xvg
+  gmx rdf -f OUT/p85-t260/3-md.trr -s OUT/p85-t260/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p85-t260.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p84-t524/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p85-t260/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p84-t524/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p85-t260/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -138,6 +138,3 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-To https://github.com/socd06/lennard-jones-sims.git
- ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 84c1dff9d6376a353c984cea17d3bbe04ba77f78 but expected 14ddfb72a702eba1ada16e4575fbbe3ee39e4330)
-error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
