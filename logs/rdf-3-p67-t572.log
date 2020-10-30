@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p67-t560/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p67-t572/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p67-t560/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p67-t572/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p67-t560/3-md.trr -s OUT/p67-t560/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p67-t560.xvg
+  gmx rdf -f OUT/p67-t572/3-md.trr -s OUT/p67-t572/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p67-t572.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p67-t560/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p67-t572/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p67-t560/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p67-t572/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -96,8 +96,4 @@ website at http://www.gromacs.org/Documentation/Errors
 -------------------------------------------------------
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
-fatal: pathspec '../results/rdf-3-p67-t560.xvg' did not match any files
-[dev 1dee3542] feat: add 3-p67-t560 radial distribution function
- 2 files changed, 103 insertions(+)
- create mode 100644 logs/rdf-3-p67-t560.log
- create mode 100644 logs/sim-3-p67-t560.log
+fatal: pathspec '../results/rdf-3-p67-t572.xvg' did not match any files
