@@ -76,3 +76,24 @@ Data prefix:  /usr/local/gromacs5-1-5
 Command line:
   gmx rdf -f OUT/p2-t458/3-md.trr -s OUT/p2-t458/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p2-t458.xvg
 
+
+-------------------------------------------------------
+Program:     gmx rdf, VERSION 5.1.5
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -f
+    File 'OUT/p2-t458/3-md.trr' does not exist or is not accessible.
+  In command-line option -s
+    File 'OUT/p2-t458/3-md.tpr' does not exist or is not accessible.
+  In command-line option -n
+    File 'indexrdf.ndx' does not exist or is not accessible.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+rm: cannot remove 'indexrdf.ndx': No such file or directory
+rm: cannot remove '*.ndx*': No such file or directory
+fatal: pathspec '../results/rdf-2-p2-t458.xvg' did not match any files
