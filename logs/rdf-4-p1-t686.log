@@ -123,3 +123,6 @@ rm: cannot remove '*.ndx*': No such file or directory
 [md fef8b2c] feat: add 4-p1-t686 radial distribution function
  3 files changed, 2051 insertions(+), 2038 deletions(-)
  rewrite results/rdf-4-p1-t686.xvg (70%)
+[md b16bb80] add commit head to log backlog
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com

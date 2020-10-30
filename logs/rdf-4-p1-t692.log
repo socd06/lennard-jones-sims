@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t692.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." (Bill Gates)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md cb906fb] feat: add 4-p1-t692 radial distribution function
+ 3 files changed, 2041 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t692.xvg (71%)
