@@ -127,3 +127,5 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 113 insertions(+)
  create mode 100644 logs/rdf-1-p29-t788.log
 Aborting commit due to empty commit message.
+error: Failed connect to github.com:443; Connection timed out while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
