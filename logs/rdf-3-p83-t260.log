@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p83-t248/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p83-t260/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p83-t248/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p83-t260/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p83-t248/3-md.trr -s OUT/p83-t248/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p83-t248.xvg
+  gmx rdf -f OUT/p83-t260/3-md.trr -s OUT/p83-t260/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p83-t260.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p83-t248/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p83-t260/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p83-t248/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p83-t260/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -103,15 +103,76 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-[dev 90c0578e2] feat: add 3-p83-t248 radial distribution function
- 9 files changed, 432 insertions(+)
- create mode 100644 logs/rdf-3-p83-t230.log
- create mode 100644 logs/rdf-3-p83-t242.log
- create mode 100644 logs/rdf-3-p83-t248.log
- create mode 100644 logs/sim-3-p83-t242.log
- create mode 100644 logs/sim-3-p83-t248.log
-[dev 025232480] add commit head to log backlog
- 29 files changed, 186 insertions(+)
- create mode 100644 logs/rdf-3-p83-t254.log
- create mode 100644 logs/sim-3-p83-t254.log
- create mode 100644 logs/sim-3-p83-t260.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p66-t800.log
+	modified:   ../logs/rdf-3-p67-t200.log
+	modified:   ../logs/rdf-3-p67-t206.log
+	modified:   ../logs/rdf-3-p67-t212.log
+	modified:   ../logs/rdf-3-p67-t218.log
+	modified:   ../logs/rdf-3-p67-t224.log
+	modified:   ../logs/rdf-3-p67-t230.log
+	modified:   ../logs/rdf-3-p67-t236.log
+	modified:   ../logs/rdf-3-p67-t242.log
+	modified:   ../logs/rdf-3-p67-t248.log
+	modified:   ../logs/rdf-3-p67-t254.log
+	modified:   ../logs/rdf-3-p67-t260.log
+	modified:   ../logs/rdf-3-p67-t266.log
+	modified:   ../logs/rdf-3-p67-t272.log
+	modified:   ../logs/rdf-3-p67-t278.log
+	modified:   ../logs/rdf-3-p67-t284.log
+	modified:   ../logs/rdf-3-p67-t290.log
+	modified:   ../logs/rdf-3-p67-t296.log
+	modified:   ../logs/rdf-3-p67-t302.log
+	modified:   ../logs/rdf-3-p67-t308.log
+	modified:   ../logs/rdf-3-p67-t314.log
+	modified:   ../logs/rdf-3-p67-t320.log
+	modified:   ../logs/rdf-3-p67-t326.log
+	modified:   ../logs/rdf-3-p67-t332.log
+	modified:   ../logs/rdf-3-p83-t236.log
+	modified:   ../logs/rdf-3-p83-t248.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p83-t254.log
+	../logs/rdf-3-p83-t260.log
+	../logs/sim-3-p83-t254.log
+	../logs/sim-3-p83-t260.log
+	../logs/sim-3-p83-t266.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
