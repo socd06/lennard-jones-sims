@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If I have not seen as far as others, it is because giants were standing on my shoulders." (Hal Abelson)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 89e3f8ed6] feat: add 4-p4-t272 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t272.log
+ create mode 100644 results/rdf-4-p4-t272.xvg
