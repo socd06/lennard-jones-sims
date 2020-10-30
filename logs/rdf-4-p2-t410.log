@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "But I always say, one's company, two's a crowd, and three's a party." (Andy Warhol)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 7fc8596] feat: add 4-p2-t410 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t410.log
+ create mode 100644 results/rdf-4-p2-t410.xvg
