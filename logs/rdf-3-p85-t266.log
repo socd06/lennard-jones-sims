@@ -138,3 +138,6 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at dcd3b220586fde5a16afff62cb440f37f607b85f but expected 84c1dff9d6376a353c984cea17d3bbe04ba77f78)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
