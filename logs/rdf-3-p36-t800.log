@@ -124,3 +124,57 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p20-t338.log
+	modified:   ../logs/rdf-3-p20-t344.log
+	modified:   ../logs/rdf-3-p20-t350.log
+	modified:   ../logs/rdf-3-p20-t356.log
+	modified:   ../logs/rdf-3-p20-t362.log
+	modified:   ../logs/rdf-3-p20-t368.log
+	modified:   ../logs/rdf-3-p20-t374.log
+	modified:   ../logs/rdf-3-p20-t380.log
+	modified:   ../logs/rdf-3-p20-t386.log
+	modified:   ../logs/rdf-3-p20-t392.log
+	modified:   ../logs/rdf-3-p20-t398.log
+	modified:   ../logs/rdf-3-p20-t404.log
+	modified:   ../logs/rdf-3-p20-t410.log
+	modified:   ../logs/rdf-3-p20-t416.log
+	modified:   ../logs/rdf-3-p20-t422.log
+	modified:   ../logs/rdf-3-p20-t428.log
+	modified:   ../logs/rdf-3-p20-t434.log
+	modified:   ../logs/rdf-3-p20-t440.log
+	modified:   ../logs/rdf-3-p20-t446.log
+	modified:   ../logs/rdf-3-p20-t452.log
+	modified:   ../logs/rdf-3-p20-t458.log
+	modified:   ../logs/rdf-3-p20-t464.log
+	modified:   ../logs/rdf-3-p20-t470.log
+	modified:   ../logs/rdf-3-p20-t476.log
+	modified:   ../logs/rdf-3-p20-t482.log
+	modified:   ../logs/rdf-3-p20-t488.log
+	modified:   ../logs/rdf-3-p20-t494.log
+	modified:   ../logs/rdf-3-p20-t500.log
+	modified:   ../logs/rdf-3-p36-t782.log
+	modified:   ../logs/rdf-3-p36-t794.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p36-t800.log
+	../logs/sim-3-p36-t800.log
+	../logs/sim-3-p37-t200.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
