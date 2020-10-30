@@ -118,3 +118,5 @@ rm: cannot remove '*.ndx*': No such file or directory
  4 files changed, 39 insertions(+)
  create mode 100644 logs/rdf-2-p1-t356.log
  create mode 100644 logs/sim-2-p1-t356.log
+To https://github.com/socd06/lennard-jones-sims.git
+   e9842bd27..30bbcd392  dev -> dev
