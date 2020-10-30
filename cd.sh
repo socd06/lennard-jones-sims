@@ -84,7 +84,7 @@ run-folders() {
 											pwd
 										else
 											echo "Folder exists... Skipping to radial distribution function"
-										fi
+										fi											
 											gas-gas > ../logs/rdf-$preffix-p$p-t$t.log 2>&1 &
 							fi
 					done
