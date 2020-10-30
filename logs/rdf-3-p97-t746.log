@@ -97,3 +97,11 @@ website at http://www.gromacs.org/Documentation/Errors
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
 fatal: pathspec '../results/rdf-3-p97-t746.xvg' did not match any files
+[dev 7c17f80dc] feat: add 3-p97-t746 radial distribution function
+ 6 files changed, 309 insertions(+)
+ create mode 100644 logs/rdf-3-p97-t734.log
+ create mode 100644 logs/rdf-3-p97-t740.log
+ create mode 100644 logs/rdf-3-p97-t746.log
+ create mode 100644 logs/sim-3-p97-t734.log
+ create mode 100644 logs/sim-3-p97-t740.log
+ create mode 100644 logs/sim-3-p97-t746.log
