@@ -138,3 +138,10 @@ Untracked files:
 	../logs/sim-2-p18-t494.log
 
 no changes added to commit
+[dev 9f6d2ce73] add commit head to log backlog
+ 6 files changed, 164 insertions(+)
+ create mode 100644 logs/rdf-2-p18-t494.log
+ create mode 100644 logs/sim-2-p18-t494.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 9f6d2ce732c8b159af118ce10bb2a04f1eab65d4 but expected cb53d8cc04592e9a956d85b7385a3f6ee0f3689f)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
