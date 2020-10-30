@@ -124,3 +124,6 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev 41215fb0] add commit head to log backlog
+ 3 files changed, 83 insertions(+)
+ create mode 100644 logs/sim-3-p9-t620.log
