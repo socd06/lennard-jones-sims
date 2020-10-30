@@ -140,3 +140,5 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  4 files changed, 36 insertions(+)
+To https://github.com/socd06/lennard-jones-sims.git
+   f804d81..a586cd5  beo -> beo
