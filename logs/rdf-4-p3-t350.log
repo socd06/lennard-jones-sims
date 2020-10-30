@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Every revolutionary idea seems to evoke three stages of reaction. They may be summed up by the phrases: (1) It's completely impossible. (2) It's possible, but not worth doing. (3) I said it was a good idea all along." (Arthur C. Clarke)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 20cf5ab8a] feat: add 4-p3-t350 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t350.log
+ create mode 100644 results/rdf-4-p3-t350.xvg
