@@ -120,3 +120,20 @@ fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': Fil
 If no other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+error: Ref refs/heads/beo is at f9e83a61f10aec90b720928a9300b166e4b7b383 but expected aceafc67bd86d1c84d93752b09195a9c27744a3a
+fatal: cannot lock HEAD ref
