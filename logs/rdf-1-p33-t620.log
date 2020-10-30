@@ -127,3 +127,19 @@ git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
 error: Ref refs/heads/beo is at f7f661ce929c56e5ec0ad75d8d91df6d55f0dfd6 but expected d4652001abec3e37236ea0f3d47be5052c76185d
 fatal: cannot lock HEAD ref
+[beo bbe8197] add commit head to log backlog
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 145 insertions(+)
+ create mode 100644 logs/rdf-1-p33-t620.log
+ create mode 100644 logs/sim-1-p33-t626.log
