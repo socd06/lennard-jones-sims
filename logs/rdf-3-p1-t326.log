@@ -120,3 +120,7 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev be31c7d3] feat: add 3-p1-t326 radial distribution function
  1 file changed, 14 insertions(+), 1 deletion(-)
+[dev 21fb9bd2] add commit head to log backlog
+ 5 files changed, 138 insertions(+)
+ create mode 100644 logs/rdf-3-p1-t644.log
+ create mode 100644 logs/sim-3-p1-t644.log
