@@ -141,3 +141,4 @@ no changes added to commit
  create mode 100644 logs/rdf-3-p87-t398.log
  create mode 100644 logs/sim-3-p87-t392.log
  create mode 100644 logs/sim-3-p87-t398.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Empty reply from server
