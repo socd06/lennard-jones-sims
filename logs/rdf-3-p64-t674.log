@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p48-t704/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p64-t674/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p48-t704/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p64-t674/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p48-t704/3-md.trr -s OUT/p48-t704/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p48-t704.xvg
+  gmx rdf -f OUT/p64-t674/3-md.trr -s OUT/p64-t674/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p64-t674.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p48-t704/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p64-t674/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p48-t704/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p64-t674/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -137,17 +137,16 @@ Changes not staged for commit:
 	modified:   MDP/0_npt.mdp
 	modified:   MDP/0_nvt.mdp
 	modified:   mdout.mdp
-	modified:   ../logs/rdf-3-p48-t686.log
-	modified:   ../logs/rdf-3-p48-t698.log
+	modified:   ../logs/rdf-3-p64-t656.log
 
 Untracked files:
 	../2-ar/input
 	input
 	../input
-	../logs/rdf-3-p48-t704.log
-	../logs/sim-3-p48-t704.log
-	../logs/sim-3-p48-t710.log
+	../logs/rdf-3-p64-t662.log
+	../logs/rdf-3-p64-t674.log
+	../logs/sim-3-p64-t674.log
+	../logs/sim-3-p64-t680.log
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
-fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
