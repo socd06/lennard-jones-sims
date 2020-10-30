@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Money won't buy happiness, but it will pay the salaries of a large research staff to study the problem." (Bill Vaughan)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 6ba743d] feat: add 3-p1-t416 radial distribution function
+ 3 files changed, 2166 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t416.log (69%)
+ create mode 100644 results/rdf-3-p1-t416.xvg
