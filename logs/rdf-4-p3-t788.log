@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If you thought that science was certain - well, that is just an error on your part." (Richard Feynman)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 4a5eb01ec] feat: add 4-p3-t788 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t788.log
+ create mode 100644 results/rdf-4-p3-t788.xvg
