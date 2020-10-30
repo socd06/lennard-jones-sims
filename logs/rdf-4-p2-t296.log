@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p2-t296.xvg to ../results/#rdf-4-p2-
 GROMACS reminds you: "C has the power of assembly language and the convenience of... assembly language." (Dennis Ritchie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 33e8a88] feat: add 4-p2-t296 radial distribution function
+ 3 files changed, 2042 insertions(+), 2047 deletions(-)
+ rewrite results/rdf-4-p2-t296.xvg (68%)
