@@ -138,3 +138,7 @@ no changes added to commit
  4 files changed, 141 insertions(+)
  create mode 100644 logs/rdf-3-p6-t572.log
  create mode 100644 logs/sim-3-p6-t578.log
+error: RPC failed; curl 28 Operation timed out after 300023 milliseconds with 0 out of 0 bytes received
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
