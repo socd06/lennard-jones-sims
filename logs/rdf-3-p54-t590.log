@@ -107,3 +107,9 @@ remove the file manually to continue.
 [dev 2ad40a54] feat: add 3-p54-t590 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-3-p54-t590.log
+[dev c3fabd26] add commit head to log backlog
+ 7 files changed, 340 insertions(+)
+ create mode 100644 logs/rdf-3-p54-t578.log
+ create mode 100644 logs/rdf-3-p54-t596.log
+ create mode 100644 logs/sim-3-p54-t590.log
+ create mode 100644 logs/sim-3-p54-t596.log
