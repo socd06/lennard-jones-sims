@@ -128,3 +128,5 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 logs/rdf-1-p33-t488.log
 error: Ref refs/heads/beo is at 59a4593fb85319dc1ac178b25f2b0b9a15a50de8 but expected bc1972ca30e2ca4a4ea1e120348b79a68ad4f262
 fatal: cannot lock HEAD ref
+error: Failed connect to github.com:443; Connection timed out while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
