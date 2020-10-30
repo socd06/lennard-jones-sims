@@ -380,3 +380,9 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+[dev 4fb1898f9] add commit head to log backlog
+ 255 files changed, 1296 insertions(+)
+ create mode 100644 logs/rdf-3-p83-t332.log
+ create mode 100644 logs/sim-3-p83-t338.log
+To https://github.com/socd06/lennard-jones-sims.git
+   c7690dfff..4fb1898f9  dev -> dev

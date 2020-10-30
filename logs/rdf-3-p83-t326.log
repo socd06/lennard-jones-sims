@@ -104,3 +104,64 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p2-t320.log
+	modified:   ../logs/rdf-3-p2-t344.log
+	modified:   ../logs/rdf-3-p2-t368.log
+	modified:   ../logs/rdf-3-p2-t410.log
+	modified:   ../logs/rdf-3-p2-t428.log
+	modified:   ../logs/rdf-3-p2-t464.log
+	modified:   ../logs/rdf-3-p2-t488.log
+	modified:   ../logs/rdf-3-p3-t626.log
+	modified:   ../logs/rdf-3-p4-t320.log
+	modified:   ../logs/rdf-3-p4-t488.log
+	modified:   ../logs/rdf-3-p45-t572.log
+	modified:   ../logs/rdf-3-p45-t584.log
+	modified:   ../logs/rdf-3-p46-t272.log
+	modified:   ../logs/rdf-3-p46-t440.log
+	modified:   ../logs/rdf-3-p46-t446.log
+	modified:   ../logs/rdf-3-p46-t518.log
+	modified:   ../logs/rdf-3-p5-t200.log
+	modified:   ../logs/rdf-3-p5-t272.log
+	modified:   ../logs/rdf-3-p5-t530.log
+	modified:   ../logs/rdf-3-p79-t338.log
+	modified:   ../logs/rdf-3-p79-t356.log
+	modified:   ../logs/rdf-3-p79-t362.log
+	modified:   ../logs/rdf-3-p81-t338.log
+	modified:   ../logs/rdf-3-p81-t356.log
+	modified:   ../logs/rdf-3-p81-t380.log
+	modified:   ../logs/rdf-3-p81-t398.log
+	modified:   ../logs/rdf-3-p82-t344.log
+	modified:   ../logs/rdf-3-p82-t356.log
+	modified:   ../logs/rdf-3-p82-t368.log
+	modified:   ../logs/rdf-3-p82-t374.log
+	modified:   ../logs/rdf-3-p82-t380.log
+	modified:   ../logs/rdf-3-p82-t398.log
+	modified:   ../logs/rdf-3-p82-t668.log
+	modified:   ../logs/rdf-3-p82-t674.log
+	modified:   ../logs/rdf-3-p82-t698.log
+	modified:   ../logs/rdf-3-p82-t788.log
+	modified:   ../logs/rdf-3-p82-t800.log
+	modified:   ../logs/rdf-3-p83-t200.log
+	modified:   ../logs/rdf-3-p83-t206.log
+	modified:   ../logs/rdf-3-p83-t224.log
+	modified:   ../logs/rdf-3-p83-t254.log
+	modified:   ../logs/rdf-3-p83-t266.log
+	modified:   ../logs/rdf-3-p83-t296.log
+	modified:   ../logs/rdf-3-p83-t302.log
+	modified:   ../logs/rdf-3-p9-t320.log
+	modified:   ../logs/sim-3-p83-t338.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p83-t338.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
