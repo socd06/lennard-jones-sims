@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t584.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Hmm, It *Does* Go Well With the Chicken" (Beastie Boys)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md e94e41c] feat: add 4-p1-t584 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t584.xvg (71%)
