@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If you don't know what you're doing, use a (M)BAR-based method" (Erik Lindahl)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 212963b] feat: add 4-p3-t230 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t230.log
+ create mode 100644 results/rdf-4-p3-t230.xvg
