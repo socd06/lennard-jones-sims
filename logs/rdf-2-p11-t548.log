@@ -100,3 +100,5 @@ fatal: pathspec '../results/rdf-2-p11-t548.xvg' did not match any files
 [dev 3261e00a0] feat: add 2-p11-t548 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p11-t548.log
+[dev 0accac320] add commit head to log backlog
+ 2 files changed, 7 insertions(+)
