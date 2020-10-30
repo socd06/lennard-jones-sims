@@ -107,3 +107,9 @@ remove the file manually to continue.
 [dev aebbe29e] feat: add 3-p60-t740 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-3-p60-t740.log
+[dev c337e290] add commit head to log backlog
+ 9 files changed, 348 insertions(+)
+ create mode 100644 logs/rdf-3-p60-t722.log
+ create mode 100644 logs/rdf-3-p60-t746.log
+ create mode 100644 logs/sim-3-p60-t740.log
+ create mode 100644 logs/sim-3-p60-t746.log
