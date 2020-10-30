@@ -106,3 +106,7 @@ remove the file manually to continue.
 [dev 88a5fa886] feat: add 3-p88-t584 radial distribution function
  1 file changed, 105 insertions(+)
  create mode 100644 logs/rdf-3-p88-t584.log
+[dev a6787bca9] add commit head to log backlog
+ 4 files changed, 115 insertions(+)
+ create mode 100644 logs/rdf-3-p88-t590.log
+ create mode 100644 logs/sim-3-p88-t590.log
