@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t734.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Developing the AI requires the work of a data scientist, and most of them understand neither data nor science." (Scott LeGrand)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c6fb627] feat: add 4-p1-t734 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t734.xvg (72%)
