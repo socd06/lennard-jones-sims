@@ -29,7 +29,7 @@ Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/git/lennard-jones-sims/1-ne
 Command line:
-  gmx make_ndx -f OUT/p39-t332/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p39-t344/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -40,7 +40,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p39-t332/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p39-t344/3-md.tpr' does not exist or is not accessible.
     The file could not be opened.
       Reason: No such file or directory
       (call to fopen() returned error code 2)
@@ -79,7 +79,7 @@ Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/git/lennard-jones-sims/1-ne
 Command line:
-  gmx rdf -f OUT/p39-t332/3-md.trr -s OUT/p39-t332/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-1-p39-t332.xvg
+  gmx rdf -f OUT/p39-t344/3-md.trr -s OUT/p39-t344/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-1-p39-t344.xvg
 
 
 -------------------------------------------------------
@@ -90,12 +90,12 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p39-t332/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p39-t344/3-md.trr' does not exist or is not accessible.
     The file could not be opened.
       Reason: No such file or directory
       (call to fopen() returned error code 2)
   In command-line option -s
-    File 'OUT/p39-t332/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p39-t344/3-md.tpr' does not exist or is not accessible.
     The file could not be opened.
       Reason: No such file or directory
       (call to fopen() returned error code 2)
@@ -125,16 +125,6 @@ fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': Fil
 If no other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
-fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
-
-If no other git process is currently running, this probably means a
-git process crashed in this repository earlier. Make sure no other git
-process is running and remove the file manually to continue.
-fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
-
-If no other git process is currently running, this probably means a
-git process crashed in this repository earlier. Make sure no other git
-process is running and remove the file manually to continue.
 # On branch beo
 # Changes not staged for commit:
 #   (use "git add/rm <file>..." to update what will be committed)
@@ -144,17 +134,17 @@ process is running and remove the file manually to continue.
 #	modified:   MDP/0_npt.mdp
 #	modified:   MDP/0_nvt.mdp
 #	modified:   mdout.mdp
-#	modified:   ../logs/rdf-1-p39-t314.log
 #	modified:   ../logs/rdf-1-p39-t326.log
+#	modified:   ../logs/rdf-1-p39-t332.log
+#	modified:   ../logs/rdf-1-p39-t338.log
 #	deleted:    ../test.file
 #
 # Untracked files:
 #   (use "git add <file>..." to include in what will be committed)
 #
-#	../logs/rdf-1-p39-t320.log
-#	../logs/rdf-1-p39-t332.log
-#	../logs/sim-1-p39-t332.log
-#	../logs/sim-1-p39-t338.log
+#	../logs/rdf-1-p39-t344.log
+#	../logs/sim-1-p39-t344.log
+#	../logs/sim-1-p39-t350.log
 #	../results/#rdf-1-p1-t206.xvg.1#
 #	../results/rdf-1-p1-t344.xvg
 no changes added to commit (use "git add" and/or "git commit -a")
