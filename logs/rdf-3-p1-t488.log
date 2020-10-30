@@ -126,3 +126,6 @@ Untracked files:
 	../input
 
 no changes added to commit
+[dev b7555679] add commit head to log backlog
+ 3 files changed, 131 insertions(+)
+ create mode 100644 logs/sim-3-p1-t494.log
