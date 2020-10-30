@@ -103,3 +103,5 @@ fatal: pathspec '../results/rdf-2-p11-t692.xvg' did not match any files
 [dev da8fa2143] add commit head to log backlog
  5 files changed, 15 insertions(+)
  create mode 100644 logs/sim-2-p11-t698.log
+To https://github.com/socd06/lennard-jones-sims.git
+   591872b78..da8fa2143  dev -> dev
