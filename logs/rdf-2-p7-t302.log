@@ -121,3 +121,8 @@ remove the file manually to continue.
  5 files changed, 260 insertions(+)
  create mode 100644 logs/rdf-2-p7-t302.log
  create mode 100644 logs/sim-2-p7-t302.log
+[dev 5827af823] add commit head to log backlog
+ 3 files changed, 38 insertions(+)
+ create mode 100644 logs/sim-2-p7-t308.log
+To https://github.com/socd06/lennard-jones-sims.git
+   87e41c59f..5827af823  dev -> dev
