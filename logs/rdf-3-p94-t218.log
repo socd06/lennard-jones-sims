@@ -120,3 +120,11 @@ remove the file manually to continue.
 [dev 12ec3b907] feat: add 3-p94-t218 radial distribution function
  1 file changed, 120 insertions(+)
  create mode 100644 logs/rdf-3-p94-t212.log
+[dev 53236b75d] add commit head to log backlog
+ 9 files changed, 352 insertions(+)
+ create mode 100644 logs/rdf-3-p94-t206.log
+ create mode 100644 logs/rdf-3-p94-t218.log
+ create mode 100644 logs/sim-3-p94-t206.log
+ create mode 100644 logs/sim-3-p94-t212.log
+ create mode 100644 logs/sim-3-p94-t218.log
+ create mode 100644 logs/sim-3-p94-t224.log
