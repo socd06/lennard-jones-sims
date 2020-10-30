@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p70-t794/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p71-t206/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p70-t794/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p71-t206/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p70-t794/3-md.trr -s OUT/p70-t794/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p70-t794.xvg
+  gmx rdf -f OUT/p71-t206/3-md.trr -s OUT/p71-t206/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p71-t206.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p70-t794/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p71-t206/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p70-t794/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p71-t206/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -103,10 +103,13 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-[dev 6b2307213] feat: add 3-p70-t794 radial distribution function
- 2 files changed, 109 insertions(+)
- create mode 100644 logs/rdf-3-p70-t794.log
- create mode 100644 logs/sim-3-p70-t794.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -130,8 +133,10 @@ Untracked files:
 	input
 	../input
 	../logs/rdf-3-p70-t800.log
+	../logs/rdf-3-p71-t206.log
 	../logs/sim-3-p70-t800.log
-	../logs/sim-3-p71-t200.log
+	../logs/sim-3-p71-t206.log
+	../logs/sim-3-p71-t212.log
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
