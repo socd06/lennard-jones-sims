@@ -111,3 +111,6 @@ gcq#92: "Exactly" (Pulp Fiction)
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 5c95f7704] feat: add 2-p1-t338 radial distribution function
+ 2 files changed, 2031 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-2-p1-t338.xvg
