@@ -111,3 +111,19 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "UNIX is basically a simple operating system. It just takes a genius to understand its simplicity." (Dennis Ritchie)
 
+[beo f74504a] feat: add 1-p1-t242 radial distribution function
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2139 insertions(+)
+ create mode 100644 logs/rdf-1-p1-t242.log
+ create mode 100644 results/rdf-1-p1-t242.xvg
