@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Wait a Minute, aren't You.... ? (gunshots) Yeah." (Bodycount)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 0196549] feat: add 4-p2-t542 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t542.log
+ create mode 100644 results/rdf-4-p2-t542.xvg
