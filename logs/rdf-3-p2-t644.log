@@ -100,3 +100,6 @@ fatal: pathspec '../results/rdf-3-p2-t644.xvg' did not match any files
 [dev 7884bd22] feat: add 3-p2-t644 radial distribution function
  2 files changed, 102 insertions(+)
  create mode 100644 logs/rdf-3-p2-t644.log
+[dev 7ed0ea12] add commit head to log backlog
+ 5 files changed, 14 insertions(+)
+ create mode 100644 logs/sim-3-p2-t650.log
