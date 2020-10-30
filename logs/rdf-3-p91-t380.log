@@ -103,3 +103,27 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev 44ed70e4d] feat: add 3-p91-t380 radial distribution function
+ 2 files changed, 109 insertions(+)
+ create mode 100644 logs/rdf-3-p91-t380.log
+ create mode 100644 logs/sim-3-p91-t380.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+error: pack-objects died of signal 9
+error: pack-objects died of signal 9
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'

@@ -155,3 +155,9 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+error: pack-objects died of signal 9
+error: pack-objects died of signal 9
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
