@@ -101,3 +101,8 @@ fatal: pathspec '../results/rdf-2-p10-t290.xvg' did not match any files
  5 files changed, 118 insertions(+)
  create mode 100644 logs/rdf-2-p10-t290.log
  create mode 100644 logs/sim-2-p10-t290.log
+[dev c6d40d896] add commit head to log backlog
+ 3 files changed, 13 insertions(+)
+ create mode 100644 logs/sim-2-p10-t296.log
+To https://github.com/socd06/lennard-jones-sims.git
+   0c76911ea..c6d40d896  dev -> dev
