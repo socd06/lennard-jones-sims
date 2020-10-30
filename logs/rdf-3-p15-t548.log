@@ -112,3 +112,7 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev 921d6c44] feat: add 3-p15-t548 radial distribution function
  1 file changed, 1 insertion(+)
+[dev 9420844d] add commit head to log backlog
+ 3 files changed, 121 insertions(+)
+ create mode 100644 logs/rdf-3-p15-t548.log
+ create mode 100644 logs/sim-3-p15-t554.log
