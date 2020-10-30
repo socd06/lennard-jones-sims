@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Used To Care, But Things Have Changed" (Bob Dylan)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 00bd8cf] feat: add 4-p3-t260 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t260.log
+ create mode 100644 results/rdf-4-p3-t260.xvg
