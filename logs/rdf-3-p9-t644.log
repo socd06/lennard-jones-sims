@@ -136,3 +136,4 @@ no changes added to commit
 [dev 6d4f4de2] add commit head to log backlog
  3 files changed, 142 insertions(+)
  create mode 100644 logs/sim-3-p9-t650.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Operation timed out after 300014 milliseconds with 0 out of 0 bytes received
