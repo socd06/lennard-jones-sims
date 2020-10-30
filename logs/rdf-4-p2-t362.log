@@ -121,3 +121,8 @@ GROMACS reminds you: "Weaseling out of things is important to learn. It's what s
  3 files changed, 2165 insertions(+)
  create mode 100644 logs/rdf-4-p2-t362.log
  create mode 100644 results/rdf-4-p2-t362.xvg
+[cd d68ccba] add commit head to log backlog
+ 3 files changed, 23 insertions(+)
+ create mode 100644 logs/sim-4-p2-t368.log
+To https://github.com/socd06/lennard-jones-sims.git
+   170436e..d68ccba  cd -> cd

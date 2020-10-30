@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Everything He Lacks, He Makes Up In Denial" (Offspring)
 
+[cd 9766f2a] feat: add 4-p2-t368 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t368.log
+ create mode 100644 results/rdf-4-p2-t368.xvg
