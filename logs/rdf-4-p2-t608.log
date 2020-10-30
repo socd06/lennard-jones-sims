@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." (Bill Gates)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd b892eabd3] feat: add 4-p2-t608 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t608.log
+ create mode 100644 results/rdf-4-p2-t608.xvg
