@@ -129,3 +129,4 @@ remove the file manually to continue.
  create mode 100644 logs/rdf-3-p93-t548.log
  create mode 100644 logs/rdf-3-p93-t566.log
  create mode 100644 logs/sim-3-p93-t566.log
+fatal: could not read Username for 'https://github.com': Input/output error
