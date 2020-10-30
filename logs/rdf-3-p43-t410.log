@@ -131,3 +131,45 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p26-t728.log
+	modified:   ../logs/rdf-3-p26-t734.log
+	modified:   ../logs/rdf-3-p26-t740.log
+	modified:   ../logs/rdf-3-p26-t746.log
+	modified:   ../logs/rdf-3-p26-t752.log
+	modified:   ../logs/rdf-3-p26-t758.log
+	modified:   ../logs/rdf-3-p26-t764.log
+	modified:   ../logs/rdf-3-p26-t770.log
+	modified:   ../logs/rdf-3-p26-t776.log
+	modified:   ../logs/rdf-3-p26-t782.log
+	modified:   ../logs/rdf-3-p26-t788.log
+	modified:   ../logs/rdf-3-p26-t794.log
+	modified:   ../logs/rdf-3-p26-t800.log
+	modified:   ../logs/rdf-3-p27-t200.log
+	modified:   ../logs/rdf-3-p27-t206.log
+	modified:   ../logs/rdf-3-p27-t212.log
+	modified:   ../logs/rdf-3-p27-t218.log
+	modified:   ../logs/rdf-3-p27-t224.log
+	modified:   ../logs/rdf-3-p27-t230.log
+	modified:   ../logs/rdf-3-p27-t236.log
+	modified:   ../logs/rdf-3-p27-t242.log
+	modified:   ../logs/rdf-3-p27-t248.log
+	modified:   ../logs/rdf-3-p27-t254.log
+	modified:   ../logs/rdf-3-p43-t392.log
+	modified:   ../logs/rdf-3-p43-t404.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p43-t410.log
+	../logs/sim-3-p43-t410.log
+	../logs/sim-3-p43-t416.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
