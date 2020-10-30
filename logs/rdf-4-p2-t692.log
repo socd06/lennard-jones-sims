@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "XML is not a language in the sense of a programming language any more than sketches on a napkin are a language." (Charles Simonyi)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md eed8991] feat: add 4-p2-t692 radial distribution function
+ 3 files changed, 2156 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t692.log
+ create mode 100644 results/rdf-4-p2-t692.xvg
