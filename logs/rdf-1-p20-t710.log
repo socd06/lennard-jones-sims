@@ -137,3 +137,6 @@ git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
 error: Ref refs/heads/beo is at 6ceb1a3084c9cc819878596740b0299b889f7165 but expected e74ad6e5d7a1aca03d0c56194b889fe9df9d6e29
 fatal: cannot lock HEAD ref
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected] beo -> beo (cannot lock ref 'refs/heads/beo': is at e5d118b09a32694e29b98798b14f785d86ffdf64 but expected 1705681772d4152c8016a9854656f5b3c1e2bfca)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
