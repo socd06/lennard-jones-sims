@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t578.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "To dissimulate is to feign not to have what one has. To simulate is to feign to have what one hasn't." (Jean Baudrillard)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md f6a96b5] feat: add 4-p1-t578 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t578.xvg (71%)
