@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's Not Dark Yet, But It's Getting There" (Bob Dylan)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 2c21ece5b] feat: add 4-p3-t584 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t584.log
+ create mode 100644 results/rdf-4-p3-t584.xvg
