@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t662.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Don't Eat That Yellow Snow" (F. Zappa)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c7c9fe9] feat: add 4-p1-t662 radial distribution function
+ 3 files changed, 2061 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t662.xvg (71%)
