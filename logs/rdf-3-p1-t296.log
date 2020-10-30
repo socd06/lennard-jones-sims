@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#307: "California, R.I.P." (Red Hot Chili Peppars)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 04445ebd] feat: add 3-p1-t296 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-3-p1-t296.log
+ create mode 100644 results/rdf-3-p1-t296.xvg
