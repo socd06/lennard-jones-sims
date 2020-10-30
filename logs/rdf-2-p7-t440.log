@@ -121,3 +121,6 @@ remove the file manually to continue.
  5 files changed, 144 insertions(+)
  create mode 100644 logs/rdf-2-p7-t440.log
  create mode 100644 logs/sim-2-p7-t440.log
+[dev d8a12afd6] add commit head to log backlog
+ 3 files changed, 36 insertions(+)
+ create mode 100644 logs/sim-2-p7-t446.log
