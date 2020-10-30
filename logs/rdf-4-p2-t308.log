@@ -121,3 +121,8 @@ GROMACS reminds you: "Though the path of the comet is sure, it's constitution is
  3 files changed, 2165 insertions(+)
  create mode 100644 logs/rdf-4-p2-t308.log
  create mode 100644 results/rdf-4-p2-t308.xvg
+[cd beff19b] add commit head to log backlog
+ 3 files changed, 23 insertions(+)
+ create mode 100644 logs/sim-4-p2-t314.log
+To https://github.com/socd06/lennard-jones-sims.git
+   95932ae..beff19b  cd -> cd

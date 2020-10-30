@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "That Was Really Cool" (Butthead)
 
+[cd 0c65c1e] feat: add 4-p2-t314 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t314.log
+ create mode 100644 results/rdf-4-p2-t314.xvg
