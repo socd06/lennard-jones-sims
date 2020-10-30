@@ -105,3 +105,12 @@ error: failed to run reflog
  2 files changed, 107 insertions(+)
  create mode 100644 logs/rdf-2-p5-t488.log
  create mode 100644 logs/sim-2-p5-t488.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev a77aad1f1] add commit head to log backlog
+ 7 files changed, 168 insertions(+)
+ create mode 100644 logs/rdf-2-p5-t494.log
+ create mode 100644 logs/sim-2-p5-t494.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at a77aad1f1c4c9b3b0d0f0797a147f7a331bcb4fc but expected cb2aa8f1bc7cf6d919c3c1901639279762dfc345)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
