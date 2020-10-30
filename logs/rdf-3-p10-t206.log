@@ -103,3 +103,7 @@ See "git help gc" for manual housekeeping.
  2 files changed, 105 insertions(+)
  create mode 100644 logs/rdf-3-p10-t206.log
  create mode 100644 logs/sim-3-p10-t206.log
+[dev 9b6f2540] add commit head to log backlog
+ 342 files changed, 1141 insertions(+)
+ create mode 100644 logs/rdf-3-p10-t212.log
+ create mode 100644 logs/sim-3-p10-t212.log
