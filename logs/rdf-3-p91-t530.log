@@ -101,3 +101,4 @@ fatal: pathspec '../results/rdf-3-p91-t530.xvg' did not match any files
  1 file changed, 53 insertions(+)
 [dev 69befa86a] add commit head to log backlog
  3 files changed, 9 insertions(+)
+fatal: could not read Password for 'https://ad@github.com': Input/output error

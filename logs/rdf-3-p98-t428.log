@@ -132,3 +132,4 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at b7375f960eda0d77e12dcf9a2c44c9f153f3993f but expected 9c4a4cea7f97059ff533db7fac27d862c9f6d095
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out

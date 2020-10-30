@@ -127,3 +127,4 @@ remove the file manually to continue.
 [dev c2d18c5dd] add commit head to log backlog
  3 files changed, 32 insertions(+)
  create mode 100644 logs/sim-3-p99-t560.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out

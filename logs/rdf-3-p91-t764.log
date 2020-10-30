@@ -106,3 +106,4 @@ fatal: pathspec '../results/rdf-3-p91-t764.xvg' did not match any files
  create mode 100644 logs/rdf-3-p91-t770.log
  create mode 100644 logs/sim-3-p91-t770.log
  create mode 100644 logs/sim-3-p91-t776.log
+fatal: could not read Password for 'https://w@github.com': Input/output error

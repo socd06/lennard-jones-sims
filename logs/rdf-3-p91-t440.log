@@ -105,3 +105,4 @@ fatal: pathspec '../results/rdf-3-p91-t440.xvg' did not match any files
  4 files changed, 10 insertions(+)
  create mode 100644 logs/rdf-3-p91-t446.log
  create mode 100644 logs/sim-3-p91-t446.log
+fatal: could not read Password for 'https://t@github.com': Input/output error

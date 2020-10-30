@@ -127,3 +127,4 @@ fatal: cannot lock ref 'HEAD': is at a5d9f4ff00f3cbd0f00a116cd1048d4679a4601d bu
  create mode 100644 logs/sim-3-p99-t758.log
  create mode 100644 logs/sim-3-p99-t764.log
  create mode 100644 logs/sim-3-p99-t770.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out

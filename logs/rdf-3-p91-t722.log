@@ -111,3 +111,4 @@ remove the file manually to continue.
  create mode 100644 logs/sim-3-p91-t722.log
  create mode 100644 logs/sim-3-p91-t728.log
  create mode 100644 logs/sim-3-p91-t734.log
+fatal: could not read Password for 'https://w@github.com': Input/output error

@@ -115,3 +115,4 @@ remove the file manually to continue.
  5 files changed, 127 insertions(+)
  create mode 100644 logs/rdf-3-p92-t278.log
  create mode 100644 logs/sim-3-p92-t278.log
+fatal: could not read Password for 'https://q@github.com': Input/output error

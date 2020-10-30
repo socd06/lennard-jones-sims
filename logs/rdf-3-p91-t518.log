@@ -103,3 +103,4 @@ fatal: pathspec '../results/rdf-3-p91-t518.xvg' did not match any files
  create mode 100644 logs/sim-3-p91-t518.log
 [dev 5010ab1e0] add commit head to log backlog
  2 files changed, 6 insertions(+)
+fatal: could not read Password for 'https://adw@github.com': Input/output error

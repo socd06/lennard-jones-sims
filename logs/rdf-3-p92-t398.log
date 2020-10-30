@@ -132,3 +132,4 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at 3bc99469776684cd8cf6444d29ee3a1d2c6f54b7 but expected 45de50e3e5854c1afa810dfe8405fd4df776c2d3
+fatal: could not read Password for 'https://w@github.com': Input/output error
