@@ -113,3 +113,6 @@ rm: cannot remove '*.ndx*': No such file or directory
 [dev 7613cd11b] feat: add 2-p1-t206 radial distribution function
  2 files changed, 2030 insertions(+), 1 deletion(-)
  create mode 100644 results/rdf-2-p1-t206.xvg
+[dev 3f22939b2] add commit head to log backlog
+ 4 files changed, 44 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t212.log

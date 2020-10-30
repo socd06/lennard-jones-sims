@@ -110,3 +110,6 @@ Analyzed 1501 frames, last time 3000.000
 gcq#315: "Screw a Lightbulb in your Head" (Gogol Bordello)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 99482c1c4] feat: add 2-p1-t212 radial distribution function
+ 2 files changed, 2135 insertions(+)
+ create mode 100644 results/rdf-2-p1-t212.xvg
