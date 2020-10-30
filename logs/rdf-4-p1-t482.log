@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t482.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "There are only two hard things in computer science - cache invalidation, naming things and off-by-one errors." (Anonymous)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 8bd5053] feat: add 4-p1-t482 radial distribution function
+ 3 files changed, 2061 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t482.xvg (72%)
