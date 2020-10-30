@@ -145,3 +145,7 @@ no changes added to commit
  create mode 100644 logs/sim-3-p89-t548.log
  create mode 100644 logs/sim-3-p89-t560.log
  create mode 100644 logs/sim-3-p89-t566.log
+error: RPC failed; curl 28 The requested URL returned error: 401
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date

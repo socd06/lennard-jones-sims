@@ -141,3 +141,9 @@ no changes added to commit
  create mode 100644 logs/rdf-3-p89-t416.log
  create mode 100644 logs/sim-3-p89-t410.log
  create mode 100644 logs/sim-3-p89-t416.log
+error: pack-objects died of signal 9
+error: pack-objects died of signal 9
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'

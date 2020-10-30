@@ -113,3 +113,7 @@ See "git help gc" for manual housekeeping.
  create mode 100644 logs/rdf-3-p86-t500.log
  create mode 100644 logs/sim-3-p86-t482.log
  create mode 100644 logs/sim-3-p86-t500.log
+error: RPC failed; curl 56 GnuTLS recv error (-54): Error in the pull function.
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
