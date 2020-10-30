@@ -101,3 +101,12 @@ fatal: pathspec '../results/rdf-3-p90-t284.xvg' did not match any files
  2 files changed, 103 insertions(+)
  create mode 100644 logs/rdf-3-p90-t284.log
  create mode 100644 logs/sim-3-p90-t284.log
+[dev 781bb6722] add commit head to log backlog
+ 9 files changed, 588 insertions(+)
+ create mode 100644 logs/rdf-3-p90-t272.log
+ create mode 100644 logs/rdf-3-p90-t278.log
+ create mode 100644 logs/rdf-3-p90-t290.log
+ create mode 100644 logs/rdf-3-p90-t296.log
+ create mode 100644 logs/sim-3-p90-t278.log
+ create mode 100644 logs/sim-3-p90-t290.log
+ create mode 100644 logs/sim-3-p90-t296.log
