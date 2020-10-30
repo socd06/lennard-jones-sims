@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p14-t596/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p14-t602/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p14-t596/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p14-t602/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p14-t596/3-md.trr -s OUT/p14-t596/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p14-t596.xvg
+  gmx rdf -f OUT/p14-t602/3-md.trr -s OUT/p14-t602/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p14-t602.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p14-t596/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p14-t602/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p14-t596/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p14-t602/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -96,13 +96,47 @@ website at http://www.gromacs.org/Documentation/Errors
 -------------------------------------------------------
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
-fatal: pathspec '../results/rdf-2-p14-t596.xvg' did not match any files
-[dev 25b31dcb4] feat: add 2-p14-t596 radial distribution function
- 1 file changed, 99 insertions(+)
- create mode 100644 logs/rdf-2-p14-t596.log
-[dev e70be11a9] add commit head to log backlog
- 4 files changed, 14 insertions(+)
- create mode 100644 logs/sim-2-p14-t602.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
 To https://github.com/socd06/lennard-jones-sims.git
- ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at e70be11a9754d5b8ba6a9fd8d43c0d945f423a38 but expected 4c88dfd8f0a2b2d8432ce1b10c6a9070d6e6381a)
-error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
+   4c88dfd8f..25b31dcb4  dev -> dev
