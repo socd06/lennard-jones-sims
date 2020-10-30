@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p2-t242.xvg to ../results/#rdf-4-p2-
 GROMACS reminds you: "We are perhaps not far removed from the time when we shall be able to submit the bulk of chemical phenomena to calculation." (Joseph Gay-Lussac, 1808)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 58c177a] feat: add 4-p2-t242 radial distribution function
+ 3 files changed, 2051 insertions(+), 2044 deletions(-)
+ rewrite results/rdf-4-p2-t242.xvg (68%)
