@@ -117,3 +117,7 @@ Analyzed 1440 frames, last time 2878.000
 
 GROMACS reminds you: "All I Ever Wanted Was Your Life" (Red Hot Chili Peppers)
 
+[cd ce43ac99c] feat: add 4-p2-t380 radial distribution function
+ 2 files changed, 2144 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t380.log
+ create mode 100644 results/rdf-4-p2-t380.xvg
