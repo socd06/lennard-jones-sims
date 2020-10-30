@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "For a research worker the unforgotten moments of his life are those rare ones which come after years of plodding work, when the veil over natures secret seems suddenly to lift & when what was dark & chaotic appears in a clear & beautiful light & pattern." (Gerty Cori)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 94c565532] feat: add 4-p4-t542 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t542.log
+ create mode 100644 results/rdf-4-p4-t542.xvg
