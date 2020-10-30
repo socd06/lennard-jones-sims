@@ -131,3 +131,27 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p82-t680.log
+	modified:   ../logs/rdf-3-p84-t710.log
+	modified:   ../logs/rdf-3-p84-t716.log
+	modified:   ../logs/rdf-3-p85-t350.log
+	modified:   ../logs/rdf-3-p85-t368.log
+	modified:   ../logs/rdf-3-p85-t656.log
+	modified:   ../logs/rdf-3-p85-t662.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p85-t668.log
+	../logs/sim-3-p85-t668.log
+	../logs/sim-3-p85-t674.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
