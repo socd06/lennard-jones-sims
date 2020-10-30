@@ -106,3 +106,6 @@ remove the file manually to continue.
 [dev fa35b993] feat: add 3-p5-t770 radial distribution function
  2 files changed, 106 insertions(+)
  create mode 100644 logs/rdf-3-p5-t770.log
+[dev 9422b409] add commit head to log backlog
+ 3 files changed, 8 insertions(+)
+ create mode 100644 logs/sim-3-p5-t776.log
