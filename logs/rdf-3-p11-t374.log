@@ -120,3 +120,4 @@ remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at f2f3e867d223c11a7d39a55bbc85f3e448f9bbe1 but expected 22afd35c8707b2232c3eade242b9461973bd9097
 [dev b706dca3] add commit head to log backlog
  2 files changed, 97 insertions(+)
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
