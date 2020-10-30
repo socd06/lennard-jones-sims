@@ -115,3 +115,8 @@ rm: cannot remove '*.ndx*': No such file or directory
  create mode 100644 logs/rdf-2-p1-t200.log
  create mode 100644 logs/sim-2-p1-t200.log
  create mode 100644 results/rdf-2-p1-t200.xvg
+[dev 7b78a1f69] add commit head to log backlog
+ 4 files changed, 147 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t206.log
+ create mode 100644 logs/sim-2-p1-t206.log
+ create mode 100644 logs/sim-2-p1-t212.log
