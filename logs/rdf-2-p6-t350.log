@@ -111,3 +111,6 @@ remove the file manually to continue.
 [dev acb55e292] add commit head to log backlog
  1 file changed, 120 insertions(+)
  create mode 100644 logs/rdf-2-p6-t356.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at acb55e2923b5db2a26377115cdf380371dda4d85 but expected 6f85d8ecf9199e374f444a81865163247b5fa07a)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
