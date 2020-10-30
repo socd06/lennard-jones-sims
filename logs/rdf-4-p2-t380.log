@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Philosophy of science is about as useful to scientists as ornithology is to birds." (Richard Feynman)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md b6cfa45] feat: add 4-p2-t380 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t380.log
+ create mode 100644 results/rdf-4-p2-t380.xvg
