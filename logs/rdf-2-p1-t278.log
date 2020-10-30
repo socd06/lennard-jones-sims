@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#1: "I Live the Life They Wish They Did" (Tricky)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 093525558] feat: add 2-p1-t278 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t278.log
+ create mode 100644 results/rdf-2-p1-t278.xvg
