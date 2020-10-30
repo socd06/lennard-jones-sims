@@ -109,3 +109,9 @@ error: failed to run reflog
  create mode 100644 logs/rdf-2-p15-t314.log
  create mode 100644 logs/sim-2-p15-t308.log
  create mode 100644 logs/sim-2-p15-t314.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 91a358c30] add commit head to log backlog
+ 7 files changed, 242 insertions(+)
+ create mode 100644 logs/rdf-2-p15-t326.log
+ create mode 100644 logs/sim-2-p15-t326.log
