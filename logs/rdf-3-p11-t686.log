@@ -118,3 +118,7 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at df9f6c19cdc8f384f3e4dcb78c9c67bf1f2bd565 but expected 9ac66a5b1207feaeb073c12ba515db6004520109
+[dev ab1e51a6] add commit head to log backlog
+ 3 files changed, 123 insertions(+)
+ create mode 100644 logs/rdf-3-p11-t686.log
+ create mode 100644 logs/sim-3-p11-t692.log
