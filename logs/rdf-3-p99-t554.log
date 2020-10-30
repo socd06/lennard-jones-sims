@@ -124,3 +124,6 @@ remove the file manually to continue.
  create mode 100644 logs/sim-3-p99-t542.log
  create mode 100644 logs/sim-3-p99-t548.log
  create mode 100644 logs/sim-3-p99-t554.log
+[dev c2d18c5dd] add commit head to log backlog
+ 3 files changed, 32 insertions(+)
+ create mode 100644 logs/sim-3-p99-t560.log
