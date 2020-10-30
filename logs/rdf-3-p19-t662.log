@@ -129,3 +129,4 @@ See "git help gc" for manual housekeeping.
 [dev 7cd1790c] add commit head to log backlog
  3 files changed, 135 insertions(+)
  create mode 100644 logs/rdf-3-p19-t662.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
