@@ -140,3 +140,9 @@ Untracked files:
 	../logs/sim-2-p10-t560.log
 
 no changes added to commit
+[dev f959960ee] add commit head to log backlog
+ 8 files changed, 314 insertions(+)
+ create mode 100644 logs/rdf-2-p10-t542.log
+ create mode 100644 logs/rdf-2-p10-t554.log
+ create mode 100644 logs/sim-2-p10-t554.log
+ create mode 100644 logs/sim-2-p10-t560.log
