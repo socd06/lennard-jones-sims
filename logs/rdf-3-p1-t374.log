@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Boom Boom Boom Boom, I Want You in My Room" (Venga Boys)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c2bd954] feat: add 3-p1-t374 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t374.log (69%)
+ create mode 100644 results/rdf-3-p1-t374.xvg
