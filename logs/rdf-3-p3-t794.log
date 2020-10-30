@@ -114,3 +114,9 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 [dev e21de66e] feat: add 3-p3-t794 radial distribution function
  1 file changed, 1 insertion(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev f2ffca30] add commit head to log backlog
+ 3 files changed, 125 insertions(+)
+ create mode 100644 logs/rdf-3-p3-t794.log
+ create mode 100644 logs/sim-3-p3-t800.log
