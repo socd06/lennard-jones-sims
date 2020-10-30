@@ -128,3 +128,4 @@ remove the file manually to continue.
  5 files changed, 188 insertions(+), 1 deletion(-)
  create mode 100644 logs/rdf-3-p20-t560.log
  create mode 100644 logs/sim-3-p20-t560.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
