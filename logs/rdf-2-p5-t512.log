@@ -108,3 +108,5 @@ See "git help gc" for manual housekeeping.
 [dev 508a8104d] add commit head to log backlog
  4 files changed, 21 insertions(+)
  create mode 100644 logs/sim-2-p5-t518.log
+To https://github.com/socd06/lennard-jones-sims.git
+   bcaf4de2f..508a8104d  dev -> dev
