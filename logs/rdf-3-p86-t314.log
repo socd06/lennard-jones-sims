@@ -150,3 +150,10 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [rejected]            dev -> dev (non-fast-forward)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
