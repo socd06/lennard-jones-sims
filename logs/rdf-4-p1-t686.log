@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t686.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "These Gromacs Guys Really Rock" (P.J. Meulenhoff)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md fef8b2c] feat: add 4-p1-t686 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t686.xvg (70%)
