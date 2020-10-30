@@ -97,3 +97,8 @@ website at http://www.gromacs.org/Documentation/Errors
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
 fatal: pathspec '../results/rdf-2-p5-t566.xvg' did not match any files
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev aa8208dde] feat: add 2-p5-t566 radial distribution function
+ 1 file changed, 101 insertions(+)
+ create mode 100644 logs/rdf-2-p5-t566.log

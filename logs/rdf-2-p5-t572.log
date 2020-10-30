@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p5-t560/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p5-t572/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p5-t560/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p5-t572/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,39 +74,5 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p5-t560/3-md.trr -s OUT/p5-t560/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p5-t560.xvg
+  gmx rdf -f OUT/p5-t572/3-md.trr -s OUT/p5-t572/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p5-t572.xvg
 
-
--------------------------------------------------------
-Program:     gmx rdf, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
-
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p5-t560/3-md.trr' does not exist or is not accessible.
-  In command-line option -s
-    File 'OUT/p5-t560/3-md.tpr' does not exist or is not accessible.
-  In command-line option -n
-    File 'indexrdf.ndx' does not exist or is not accessible.
-
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
-rm: cannot remove 'indexrdf.ndx': No such file or directory
-rm: cannot remove '*.ndx*': No such file or directory
-fatal: pathspec '../results/rdf-2-p5-t560.xvg' did not match any files
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[dev 46bf55466] feat: add 2-p5-t560 radial distribution function
- 1 file changed, 101 insertions(+)
- create mode 100644 logs/rdf-2-p5-t560.log
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[dev b64ca0017] add commit head to log backlog
- 3 files changed, 16 insertions(+)
- create mode 100644 logs/sim-2-p5-t566.log
-To https://github.com/socd06/lennard-jones-sims.git
- ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 46bf55466c17c23a6ae9822d00513e5f866f077b but expected 5c5c180083c923d66050fb6d30ea253cb1939369)
-error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
