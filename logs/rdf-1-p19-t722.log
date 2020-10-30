@@ -142,3 +142,5 @@ After doing this, you may fix the identity used for this commit with:
  4 files changed, 85 insertions(+)
  create mode 100644 logs/rdf-1-p19-t728.log
  create mode 100644 logs/sim-1-p19-t728.log
+To https://github.com/socd06/lennard-jones-sims.git
+   371c0de..8083687  beo -> beo
