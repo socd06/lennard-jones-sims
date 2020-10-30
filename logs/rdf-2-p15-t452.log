@@ -108,3 +108,5 @@ See "git help gc" for manual housekeeping.
 [dev 7d449137b] add commit head to log backlog
  4 files changed, 117 insertions(+)
  create mode 100644 logs/sim-2-p15-t458.log
+To https://github.com/socd06/lennard-jones-sims.git
+   9dffbb7aa..7d449137b  dev -> dev
