@@ -96,3 +96,86 @@ website at http://www.gromacs.org/Documentation/Errors
 -------------------------------------------------------
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx*': No such file or directory
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p15-t404.log
+	modified:   ../logs/rdf-3-p15-t410.log
+	modified:   ../logs/rdf-3-p15-t416.log
+	modified:   ../logs/rdf-3-p15-t422.log
+	modified:   ../logs/rdf-3-p15-t428.log
+	modified:   ../logs/rdf-3-p15-t434.log
+	modified:   ../logs/rdf-3-p15-t440.log
+	modified:   ../logs/rdf-3-p15-t446.log
+	modified:   ../logs/rdf-3-p15-t452.log
+	modified:   ../logs/rdf-3-p15-t458.log
+	modified:   ../logs/rdf-3-p15-t464.log
+	modified:   ../logs/rdf-3-p15-t470.log
+	modified:   ../logs/rdf-3-p15-t476.log
+	modified:   ../logs/rdf-3-p15-t482.log
+	modified:   ../logs/rdf-3-p15-t488.log
+	modified:   ../logs/rdf-3-p15-t494.log
+	modified:   ../logs/rdf-3-p15-t500.log
+	modified:   ../logs/rdf-3-p15-t506.log
+	modified:   ../logs/rdf-3-p15-t512.log
+	modified:   ../logs/rdf-3-p15-t518.log
+	modified:   ../logs/rdf-3-p15-t524.log
+	modified:   ../logs/rdf-3-p15-t530.log
+	modified:   ../logs/rdf-3-p15-t536.log
+	modified:   ../logs/rdf-3-p15-t542.log
+	modified:   ../logs/rdf-3-p15-t548.log
+	modified:   ../logs/rdf-3-p15-t554.log
+	modified:   ../logs/rdf-3-p15-t560.log
+	modified:   ../logs/rdf-3-p15-t566.log
+	modified:   ../logs/rdf-3-p32-t368.log
+	modified:   ../logs/rdf-3-p32-t374.log
+	modified:   ../logs/rdf-3-p32-t380.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p32-t386.log
+	../logs/sim-3-p32-t386.log
+	../logs/sim-3-p32-t392.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
