@@ -124,3 +124,10 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 45439e173] add commit head to log backlog
+ 1 file changed, 128 insertions(+)
+ create mode 100644 logs/rdf-2-p15-t356.log
+To https://github.com/socd06/lennard-jones-sims.git
+   cdb10815d..45439e173  dev -> dev
