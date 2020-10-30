@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "How Do You Like Your Vacation So Far ?" (Speed 2 - Cruise Control)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 5fc6818d7] feat: add 4-p3-t662 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t662.log
+ create mode 100644 results/rdf-4-p3-t662.xvg
