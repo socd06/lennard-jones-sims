@@ -123,3 +123,5 @@ rm: cannot remove '*.ndx*': No such file or directory
 [md 7d7b3f9] feat: add 4-p1-t452 radial distribution function
  3 files changed, 2051 insertions(+), 2038 deletions(-)
  rewrite results/rdf-4-p1-t452.xvg (71%)
+[md bb928ea] add commit head to log backlog
+ 3 files changed, 5 insertions(+), 11 deletions(-)
