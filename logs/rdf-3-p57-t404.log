@@ -180,3 +180,22 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 767143a6] add commit head to log backlog
+ 50 files changed, 1677 insertions(+)
+ create mode 100644 logs/rdf-3-p57-t308.log
+ create mode 100644 logs/rdf-3-p57-t320.log
+ create mode 100644 logs/rdf-3-p57-t332.log
+ create mode 100644 logs/rdf-3-p57-t344.log
+ create mode 100644 logs/rdf-3-p57-t356.log
+ create mode 100644 logs/rdf-3-p57-t368.log
+ create mode 100644 logs/rdf-3-p57-t386.log
+ create mode 100644 logs/rdf-3-p57-t404.log
+ create mode 100644 logs/sim-3-p57-t320.log
+ create mode 100644 logs/sim-3-p57-t332.log
+ create mode 100644 logs/sim-3-p57-t344.log
+ create mode 100644 logs/sim-3-p57-t356.log
+ create mode 100644 logs/sim-3-p57-t368.log
+ create mode 100644 logs/sim-3-p57-t386.log
+ create mode 100644 logs/sim-3-p57-t404.log
