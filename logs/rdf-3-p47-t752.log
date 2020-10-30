@@ -107,3 +107,4 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 [dev 90f5e2a4] add commit head to log backlog
  4 files changed, 42 insertions(+)
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
