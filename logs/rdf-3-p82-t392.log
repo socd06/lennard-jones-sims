@@ -103,3 +103,11 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev 857f2b8c2] feat: add 3-p82-t392 radial distribution function
+ 33 files changed, 441 insertions(+)
+ create mode 100644 logs/rdf-3-p82-t380.log
+ create mode 100644 logs/rdf-3-p82-t386.log
+ create mode 100644 logs/rdf-3-p82-t392.log
+ create mode 100644 logs/sim-3-p82-t380.log
+ create mode 100644 logs/sim-3-p82-t386.log
+ create mode 100644 logs/sim-3-p82-t392.log
