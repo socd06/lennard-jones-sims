@@ -115,3 +115,5 @@ See "git help gc" for manual housekeeping.
  7 files changed, 242 insertions(+)
  create mode 100644 logs/rdf-2-p15-t326.log
  create mode 100644 logs/sim-2-p15-t326.log
+To https://github.com/socd06/lennard-jones-sims.git
+   64021ce5e..91a358c30  dev -> dev
