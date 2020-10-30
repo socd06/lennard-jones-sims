@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t770.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "The absence of real intelligence doesn't prove you're using AI" (Magnus Lundborg)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 08d41d6] feat: add 4-p1-t770 radial distribution function
+ 3 files changed, 2041 insertions(+), 2044 deletions(-)
+ rewrite results/rdf-4-p1-t770.xvg (73%)
