@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#248: "It's Coming Right For Us !" (South Park)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 650e175d] feat: add 3-p1-t314 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-3-p1-t314.log
+ create mode 100644 results/rdf-3-p1-t314.xvg
