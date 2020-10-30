@@ -102,3 +102,8 @@ See "git help gc" for manual housekeeping.
 [dev 28993d210] feat: add 2-p5-t554 radial distribution function
  1 file changed, 101 insertions(+)
  create mode 100644 logs/rdf-2-p5-t554.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev a5d4d1f51] add commit head to log backlog
+ 3 files changed, 18 insertions(+)
+ create mode 100644 logs/sim-2-p5-t560.log
