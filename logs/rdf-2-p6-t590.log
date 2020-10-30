@@ -100,3 +100,9 @@ fatal: pathspec '../results/rdf-2-p6-t590.xvg' did not match any files
 [dev 3c3b004fc] feat: add 2-p6-t590 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p6-t590.log
+[dev 79a86bf67] add commit head to log backlog
+ 5 files changed, 15 insertions(+)
+ create mode 100644 logs/sim-2-p6-t596.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 3c3b004fc8e25bb038a8af0cc5e8b902e7bb8b90 but expected 4802ff8e8f80c53e53559225c7b34882baaee6a9)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
