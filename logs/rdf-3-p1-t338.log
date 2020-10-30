@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Hangout In the Suburbs If You've Got the Guts" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 9484c45] feat: add 3-p1-t338 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t338.log (69%)
+ create mode 100644 results/rdf-3-p1-t338.xvg
