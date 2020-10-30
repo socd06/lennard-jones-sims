@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p2-t344.xvg to ../results/#rdf-4-p2-
 GROMACS reminds you: "When you get right down to it, almost every explanation Man came up with for anything until about 1926 was stupid." (Dave Barry)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 393545b] feat: add 4-p2-t344 radial distribution function
+ 3 files changed, 2042 insertions(+), 2047 deletions(-)
+ rewrite results/rdf-4-p2-t344.xvg (70%)
