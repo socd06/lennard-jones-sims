@@ -102,3 +102,8 @@ See "git help gc" for manual housekeeping.
 [dev 12815f009] feat: add 2-p15-t518 radial distribution function
  1 file changed, 101 insertions(+)
  create mode 100644 logs/rdf-2-p15-t518.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 2582e3228] add commit head to log backlog
+ 3 files changed, 18 insertions(+)
+ create mode 100644 logs/sim-2-p15-t524.log
