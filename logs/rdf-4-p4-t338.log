@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "In practice, throwing traditional norms and values overboard results not in perfect freedom and relationships based on reason, but in chaos and fear" (Paul Verhaeghe)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 03c87613b] feat: add 4-p4-t338 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t338.log
+ create mode 100644 results/rdf-4-p4-t338.xvg
