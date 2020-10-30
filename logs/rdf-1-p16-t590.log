@@ -126,3 +126,19 @@ After doing this, you may fix the identity used for this commit with:
 
  1 file changed, 113 insertions(+)
  create mode 100644 logs/rdf-1-p16-t590.log
+[beo 0e8c9af] add commit head to log backlog
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 94 insertions(+)
+ create mode 100644 logs/rdf-1-p16-t596.log
+ create mode 100644 logs/sim-1-p16-t596.log
