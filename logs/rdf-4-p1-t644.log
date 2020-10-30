@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t644.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "The programmer got stuck in the shower because the instructions on the shampoo bottle said: Lather, Rinse, Repeat." (Anonymous)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 491754d] feat: add 4-p1-t644 radial distribution function
+ 3 files changed, 2050 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t644.xvg (70%)
