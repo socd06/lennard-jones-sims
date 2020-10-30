@@ -102,3 +102,8 @@ See "git help gc" for manual housekeeping.
 [dev 863ce136] feat: add 3-p3-t758 radial distribution function
  2 files changed, 102 insertions(+)
  create mode 100644 logs/rdf-3-p3-t758.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev e87d038c] add commit head to log backlog
+ 5 files changed, 21 insertions(+)
+ create mode 100644 logs/sim-3-p3-t764.log
