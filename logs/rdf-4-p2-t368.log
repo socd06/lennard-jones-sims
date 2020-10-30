@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A weed scientist goes into a shop. He asks: 'Hey, you got any of that inhibitor of 3-phosphoshikimate-carboxyvinyl transferase?' Shopkeeper: 'You mean Roundup?' Scientist: 'Yeah, that's it. I can never remember that dang name!'" (John Pickett)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 340e28d] feat: add 4-p2-t368 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t368.log
+ create mode 100644 results/rdf-4-p2-t368.xvg
