@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Weaseling out of things is important to learn. It's what separates us from the animals... except the weasels." (Homer Simpson)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 1e159fd] feat: add 4-p2-t794 radial distribution function
+ 3 files changed, 2155 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t794.log
+ create mode 100644 results/rdf-4-p2-t794.xvg
