@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The determined Real Programmer can write FORTRAN programs in any language." (Ed Post)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 12bb7bd77] feat: add 4-p4-t482 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t482.log
+ create mode 100644 results/rdf-4-p4-t482.xvg
