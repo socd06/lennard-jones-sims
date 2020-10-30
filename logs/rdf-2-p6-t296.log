@@ -117,3 +117,7 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev b8afd1fc7] feat: add 2-p6-t296 radial distribution function
+ 6 files changed, 143 insertions(+)
+ create mode 100644 logs/rdf-2-p6-t296.log
+ create mode 100644 logs/sim-2-p6-t296.log
