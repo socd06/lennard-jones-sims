@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'll Match Your DNA" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 7922a29] feat: add 3-p1-t662 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t662.log (69%)
+ create mode 100644 results/rdf-3-p1-t662.xvg
