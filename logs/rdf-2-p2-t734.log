@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p2-t728/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p2-t734/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p2-t728/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p2-t734/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,29 +74,5 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p2-t728/3-md.trr -s OUT/p2-t728/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p2-t728.xvg
+  gmx rdf -f OUT/p2-t734/3-md.trr -s OUT/p2-t734/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-2-p2-t734.xvg
 
-
--------------------------------------------------------
-Program:     gmx rdf, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
-
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p2-t728/3-md.trr' does not exist or is not accessible.
-  In command-line option -s
-    File 'OUT/p2-t728/3-md.tpr' does not exist or is not accessible.
-  In command-line option -n
-    File 'indexrdf.ndx' does not exist or is not accessible.
-
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
-rm: cannot remove 'indexrdf.ndx': No such file or directory
-rm: cannot remove '*.ndx*': No such file or directory
-fatal: pathspec '../results/rdf-2-p2-t728.xvg' did not match any files
-[dev ff9597c3c] feat: add 2-p2-t728 radial distribution function
- 1 file changed, 99 insertions(+)
- create mode 100644 logs/rdf-2-p2-t728.log
