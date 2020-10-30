@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The aim of science is not to open the door to infinite wisdom, but to set a limit to infinite error." (Bertolt Brecht, Life of Galileo)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 77ec25e5c] feat: add 4-p3-t290 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t290.log
+ create mode 100644 results/rdf-4-p3-t290.xvg
