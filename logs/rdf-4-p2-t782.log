@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Der Ball ist rund, das Spiel dauert 90 minuten, alles andere ist Theorie" (Lola rennt)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd d62982014] feat: add 4-p2-t782 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t782.log
+ create mode 100644 results/rdf-4-p2-t782.xvg
