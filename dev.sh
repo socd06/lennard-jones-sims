@@ -85,6 +85,7 @@ run-folders() {
 										else
 											echo "Folder exists... Skipping to radial distribution function"
 										fi
+											sudo ./../scripts/clearRAM.sh
 											gas-gas > ../logs/rdf-$preffix-p$p-t$t.log 2>&1 &
 							fi
 					done
