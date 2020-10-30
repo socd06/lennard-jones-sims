@@ -127,3 +127,21 @@ After doing this, you may fix the identity used for this commit with:
 
  3 files changed, 2101 insertions(+), 44 deletions(-)
  create mode 100644 results/rdf-1-p1-t350.xvg
+[beo 5d8754a] add commit head to log backlog
+ Committer: root <root@localhost.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 66 insertions(+), 148 deletions(-)
+ rewrite logs/rdf-1-p1-t356.log (78%)
+ create mode 100644 logs/sim-1-p45-t338.log
+To https://github.com/socd06/lennard-jones-sims.git
+   100677d..5d8754a  beo -> beo
