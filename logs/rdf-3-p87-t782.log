@@ -100,3 +100,10 @@ fatal: pathspec '../results/rdf-3-p87-t782.xvg' did not match any files
 [dev e7c23a2d9] feat: add 3-p87-t782 radial distribution function
  2 files changed, 101 insertions(+)
  create mode 100644 logs/rdf-3-p87-t782.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
