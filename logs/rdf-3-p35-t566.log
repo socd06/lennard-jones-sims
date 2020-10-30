@@ -112,3 +112,8 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev 7daf6038] feat: add 3-p35-t566 radial distribution function
  1 file changed, 3 insertions(+)
+[dev 024b31e0] add commit head to log backlog
+ 4 files changed, 219 insertions(+)
+ create mode 100644 logs/rdf-3-p35-t566.log
+ create mode 100644 logs/rdf-3-p35-t572.log
+ create mode 100644 logs/sim-3-p35-t572.log
