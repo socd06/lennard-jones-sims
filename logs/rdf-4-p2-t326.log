@@ -121,3 +121,8 @@ GROMACS reminds you: "Everybody Wants to Be Naked and Famous" (Tricky)
  3 files changed, 2165 insertions(+)
  create mode 100644 logs/rdf-4-p2-t326.log
  create mode 100644 results/rdf-4-p2-t326.xvg
+[cd 3f8ae97] add commit head to log backlog
+ 3 files changed, 23 insertions(+)
+ create mode 100644 logs/sim-4-p2-t332.log
+To https://github.com/socd06/lennard-jones-sims.git
+   4a95a14..3f8ae97  cd -> cd
