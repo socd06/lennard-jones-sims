@@ -130,3 +130,31 @@ fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': Fil
 If no other git process is currently running, this probably means a
 git process crashed in this repository earlier. Make sure no other git
 process is running and remove the file manually to continue.
+fatal: Unable to create '/home/test/git/lennard-jones-sims/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+# On branch beo
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   MDP/0_md.mdp
+#	modified:   MDP/0_npt.mdp
+#	modified:   MDP/0_nvt.mdp
+#	modified:   mdout.mdp
+#	modified:   ../logs/rdf-1-p32-t350.log
+#	modified:   ../logs/rdf-1-p36-t416.log
+#	modified:   ../logs/rdf-1-p36-t422.log
+#	deleted:    ../test.file
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../logs/rdf-1-p36-t428.log
+#	../logs/sim-1-p36-t428.log
+#	../logs/sim-1-p36-t434.log
+#	../results/#rdf-1-p1-t206.xvg.1#
+#	../results/rdf-1-p1-t344.xvg
+no changes added to commit (use "git add" and/or "git commit -a")
