@@ -130,3 +130,8 @@ remove the file manually to continue.
  create mode 100644 logs/rdf-3-p83-t308.log
  create mode 100644 logs/sim-3-p83-t308.log
  create mode 100644 logs/sim-3-p83-t314.log
+error: pack-objects died of signal 9
+error: pack-objects died of signal 9
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly

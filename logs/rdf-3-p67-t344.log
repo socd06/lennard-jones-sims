@@ -157,3 +157,4 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out

@@ -140,3 +140,4 @@ See "git help gc" for manual housekeeping.
  create mode 100644 logs/rdf-3-p79-t602.log
  create mode 100644 logs/sim-3-p79-t596.log
  create mode 100644 logs/sim-3-p79-t602.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
