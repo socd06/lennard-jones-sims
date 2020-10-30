@@ -104,3 +104,6 @@ fatal: pathspec '../results/rdf-2-p14-t482.xvg' did not match any files
  4 files changed, 153 insertions(+)
  create mode 100644 logs/rdf-2-p14-t488.log
  create mode 100644 logs/sim-2-p14-t488.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 3e8cc96f6c81bd69f423863173bdb6ffb37e6d1c but expected dc20f3a7e2e47118ef80ef069f1ef448d99ec58f)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
