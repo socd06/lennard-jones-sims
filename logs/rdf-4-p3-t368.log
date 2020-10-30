@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The easiest way to scale well is to have bad single-core performance" (Blind Freddie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd ccb33605f] feat: add 4-p3-t368 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t368.log
+ create mode 100644 results/rdf-4-p3-t368.xvg
