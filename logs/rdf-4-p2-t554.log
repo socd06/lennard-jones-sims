@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things." (Grace Hopper, developer of COBOL)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 2c1d8b2ab] feat: add 4-p2-t554 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t554.log
+ create mode 100644 results/rdf-4-p2-t554.xvg
