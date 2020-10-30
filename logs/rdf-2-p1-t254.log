@@ -110,3 +110,7 @@ Analyzed 1501 frames, last time 3000.000
 gcq#418: "A curious aspect of the theory of evolution is that everybody thinks he understands it." (Jacques Monod)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[dev 24af6e7c1] feat: add 2-p1-t254 radial distribution function
+ 3 files changed, 2137 insertions(+)
+ create mode 100644 logs/rdf-2-p1-t254.log
+ create mode 100644 results/rdf-2-p1-t254.xvg
