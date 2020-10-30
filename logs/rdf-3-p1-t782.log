@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "An intellectual is someone who has found something more interesting than sex." (Edgar Wallace)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 83fc93f] feat: add 3-p1-t782 radial distribution function
+ 3 files changed, 2166 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p1-t782.log (71%)
+ create mode 100644 results/rdf-3-p1-t782.xvg
