@@ -100,3 +100,8 @@ fatal: pathspec '../results/rdf-2-p13-t686.xvg' did not match any files
 [dev 89824c708] feat: add 2-p13-t686 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p13-t686.log
+[dev 15584913f] add commit head to log backlog
+ 4 files changed, 12 insertions(+)
+ create mode 100644 logs/sim-2-p13-t692.log
+To https://github.com/socd06/lennard-jones-sims.git
+   2715176fc..15584913f  dev -> dev
