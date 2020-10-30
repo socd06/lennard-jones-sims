@@ -132,3 +132,5 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 fatal: cannot lock ref 'HEAD': is at f012817915658235d96fe7c4f3f579e165d0f510 but expected 807627d3a70410991e10dd7a3e526527a796413d
+To https://github.com/socd06/lennard-jones-sims.git
+   e54ef2bf7..f01281791  dev -> dev
