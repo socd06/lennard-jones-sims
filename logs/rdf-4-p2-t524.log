@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It has been discovered that C++ provides a remarkable facility for concealing the trivial details of a program - such as where its bugs are." (David Keppel)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 4205ff5a3] feat: add 4-p2-t524 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t524.log
+ create mode 100644 results/rdf-4-p2-t524.xvg
