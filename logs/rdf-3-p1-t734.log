@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's an old saying among scientific guys: “You can't make an omelet without breaking eggs, ideally by dropping a cement truck on them from a crane." (Dave Barry)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 1a8f23e] feat: add 3-p1-t734 radial distribution function
+ 3 files changed, 2166 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t734.log (69%)
+ create mode 100644 results/rdf-3-p1-t734.xvg
