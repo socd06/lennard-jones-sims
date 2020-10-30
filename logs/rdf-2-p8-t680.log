@@ -102,3 +102,5 @@ fatal: cannot lock ref 'HEAD': is at fe80aff16086e20a3c4bb7cb82ac8ef78093de94 bu
  4 files changed, 109 insertions(+)
  create mode 100644 logs/rdf-2-p8-t680.log
  create mode 100644 logs/sim-2-p8-t686.log
+To https://github.com/socd06/lennard-jones-sims.git
+   01fbf35d7..151bd0868  dev -> dev
