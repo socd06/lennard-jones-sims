@@ -141,3 +141,7 @@ After doing this, you may fix the identity used for this commit with:
 
  3 files changed, 34 insertions(+)
  create mode 100644 logs/sim-1-p27-t482.log
+error: RPC failed; result=6, HTTP code = 0
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date
