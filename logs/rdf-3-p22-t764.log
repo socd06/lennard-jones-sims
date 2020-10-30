@@ -112,3 +112,7 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [dev c35d0834] feat: add 3-p22-t764 radial distribution function
  1 file changed, 1 insertion(+)
+[dev a0c618ba] add commit head to log backlog
+ 3 files changed, 120 insertions(+)
+ create mode 100644 logs/rdf-3-p22-t764.log
+ create mode 100644 logs/sim-3-p22-t770.log
