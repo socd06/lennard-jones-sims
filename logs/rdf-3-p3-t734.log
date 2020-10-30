@@ -107,3 +107,7 @@ See "git help gc" for manual housekeeping.
 [dev c0d0316f] add commit head to log backlog
  5 files changed, 19 insertions(+)
  create mode 100644 logs/sim-3-p3-t740.log
+error: RPC failed; curl 56 GnuTLS recv error (-54): Error in the pull function.
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date

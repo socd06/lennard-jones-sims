@@ -178,3 +178,4 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': GnuTLS recv error (-54): Error in the pull function.

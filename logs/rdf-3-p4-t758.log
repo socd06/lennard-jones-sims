@@ -136,3 +136,7 @@ no changes added to commit
 [dev fc5625ed] add commit head to log backlog
  3 files changed, 139 insertions(+)
  create mode 100644 logs/rdf-3-p4-t758.log
+error: RPC failed; curl 56 GnuTLS recv error (-54): Error in the pull function.
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+Everything up-to-date

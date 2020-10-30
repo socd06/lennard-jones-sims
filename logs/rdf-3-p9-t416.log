@@ -136,3 +136,6 @@ no changes added to commit
  3 files changed, 138 insertions(+)
  create mode 100644 logs/rdf-3-p9-t416.log
  create mode 100644 logs/sim-3-p9-t422.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]   dev -> dev (cannot lock ref 'refs/heads/dev': is at c7690dfff64ee1c36abe48ff4e054af9afa37508 but expected 49786308eb3d49593db6e941039dccea3d6b671d)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'

@@ -100,3 +100,8 @@ fatal: pathspec '../results/rdf-3-p83-t320.xvg' did not match any files
 [dev 81a8e5bdc] feat: add 3-p83-t320 radial distribution function
  2 files changed, 103 insertions(+)
  create mode 100644 logs/rdf-3-p83-t320.log
+[dev e1db257d6] add commit head to log backlog
+ 1560 files changed, 1744 insertions(+)
+ create mode 100644 logs/rdf-3-p83-t326.log
+ create mode 100644 logs/sim-3-p83-t326.log
+ create mode 100644 logs/sim-3-p83-t332.log
