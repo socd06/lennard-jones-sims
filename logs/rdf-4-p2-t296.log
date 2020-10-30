@@ -117,3 +117,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Predictions can be very difficult - especially about the future." (Niels Bohr)
 
+[cd e341626] feat: add 4-p2-t296 radial distribution function
+ 3 files changed, 2165 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t296.log
+ create mode 100644 results/rdf-4-p2-t296.xvg
