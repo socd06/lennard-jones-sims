@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Your Country Raised You, Your Country Fed You, and Just Like Any Other Country it Will Break You" (Gogol Bordello)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 712ce33] feat: add 4-p2-t650 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t650.log
+ create mode 100644 results/rdf-4-p2-t650.xvg
