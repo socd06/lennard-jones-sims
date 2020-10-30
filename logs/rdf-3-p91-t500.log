@@ -99,3 +99,5 @@ rm: cannot remove '*.ndx*': No such file or directory
 fatal: pathspec '../results/rdf-3-p91-t500.xvg' did not match any files
 [dev 51b8f29ba] feat: add 3-p91-t500 radial distribution function
  1 file changed, 99 insertions(+)
+[dev 1c048f914] add commit head to log backlog
+ 3 files changed, 9 insertions(+)
