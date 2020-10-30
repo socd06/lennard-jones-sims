@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: ""Everything organic and natural is good" - ignoring the fact that organic natural substances include arsenic and poo and crocodiles. And everything chemical is bad, ignoring the fact that... everything is chemicals." (Tim Minchin)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 6b96086f8] feat: add 4-p2-t614 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t614.log
+ create mode 100644 results/rdf-4-p2-t614.xvg
