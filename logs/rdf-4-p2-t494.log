@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Above all, don't fear difficult moments. The best comes from them." (Rita Levi-Montalcini)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 44f8c76c7] feat: add 4-p2-t494 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t494.log
+ create mode 100644 results/rdf-4-p2-t494.xvg
