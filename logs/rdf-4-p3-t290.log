@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Fly to the Court of England and Unfold" (Macbeth, Act 3, Scene 6, William Shakespeare)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 0380fc1] feat: add 4-p3-t290 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t290.log
+ create mode 100644 results/rdf-4-p3-t290.xvg
