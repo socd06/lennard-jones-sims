@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The sign of wisdom is to have more questions than answers." (Abhijit Naskar)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 6ba33fa02] feat: add 4-p4-t380 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t380.log
+ create mode 100644 results/rdf-4-p4-t380.xvg
