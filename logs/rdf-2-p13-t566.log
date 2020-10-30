@@ -101,3 +101,6 @@ fatal: pathspec '../results/rdf-2-p13-t566.xvg' did not match any files
  1 file changed, 67 insertions(+)
 [dev 2b33115fd] add commit head to log backlog
  2 files changed, 4 insertions(+)
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at 2b33115fd78718c83571fe4a80450b2fab0dd42a but expected 5ccdc11737c71d739e20a881cf78325225a33ba5)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
