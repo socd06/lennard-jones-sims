@@ -105,3 +105,5 @@ fatal: pathspec '../results/rdf-2-p5-t206.xvg' did not match any files
  5 files changed, 153 insertions(+)
  create mode 100644 logs/rdf-2-p5-t200.log
  create mode 100644 logs/sim-2-p5-t212.log
+To https://github.com/socd06/lennard-jones-sims.git
+   9af9d1679..4e0a6cb4b  dev -> dev
