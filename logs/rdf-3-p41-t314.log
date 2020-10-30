@@ -105,3 +105,4 @@ fatal: pathspec '../results/rdf-3-p41-t314.xvg' did not match any files
  4 files changed, 58 insertions(+)
  create mode 100644 logs/rdf-3-p41-t320.log
  create mode 100644 logs/sim-3-p41-t320.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
