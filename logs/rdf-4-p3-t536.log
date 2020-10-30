@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it..." (Dan Ariely)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 6b9ef09ec] feat: add 4-p3-t536 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t536.log
+ create mode 100644 results/rdf-4-p3-t536.xvg
