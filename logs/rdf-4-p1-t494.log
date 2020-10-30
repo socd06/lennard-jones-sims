@@ -123,3 +123,8 @@ rm: cannot remove '*.ndx*': No such file or directory
 [md 5b2dd5d] feat: add 4-p1-t494 radial distribution function
  3 files changed, 2051 insertions(+), 2038 deletions(-)
  rewrite results/rdf-4-p1-t494.xvg (71%)
+[md 47ca762] add commit head to log backlog
+ 3 files changed, 21 insertions(+), 35 deletions(-)
+ rewrite logs/sim-4-p1-t500.log (60%)
+To https://github.com/socd06/lennard-jones-sims.git
+   9cfdd51..47ca762  md -> md
