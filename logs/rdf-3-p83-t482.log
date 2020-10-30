@@ -101,3 +101,11 @@ fatal: pathspec '../results/rdf-3-p83-t482.xvg' did not match any files
  2 files changed, 103 insertions(+)
  create mode 100644 logs/rdf-3-p83-t482.log
  create mode 100644 logs/sim-3-p83-t482.log
+[dev 99c86bd9e] add commit head to log backlog
+ 9 files changed, 440 insertions(+)
+ create mode 100644 logs/rdf-3-p83-t476.log
+ create mode 100644 logs/rdf-3-p83-t488.log
+ create mode 100644 logs/rdf-3-p83-t494.log
+ create mode 100644 logs/sim-3-p83-t476.log
+ create mode 100644 logs/sim-3-p83-t488.log
+ create mode 100644 logs/sim-3-p83-t494.log
