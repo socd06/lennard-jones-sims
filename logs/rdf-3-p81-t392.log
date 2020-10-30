@@ -142,3 +142,4 @@ no changes added to commit
  create mode 100644 logs/rdf-3-p81-t398.log
  create mode 100644 logs/sim-3-p81-t392.log
  create mode 100644 logs/sim-3-p81-t398.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Operation timed out after 300018 milliseconds with 0 out of 0 bytes received
