@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "When the universe has expanded, time will contract" (Franz Ferdinand)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd b41882d74] feat: add 4-p3-t392 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t392.log
+ create mode 100644 results/rdf-4-p3-t392.xvg
