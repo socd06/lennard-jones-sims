@@ -99,3 +99,7 @@ rm: cannot remove '*.ndx*': No such file or directory
 fatal: pathspec '../results/rdf-3-p83-t440.xvg' did not match any files
 [dev f712b1c09] feat: add 3-p83-t440 radial distribution function
  1 file changed, 53 insertions(+)
+[dev 41e322a08] add commit head to log backlog
+ 5 files changed, 154 insertions(+)
+ create mode 100644 logs/rdf-3-p83-t446.log
+ create mode 100644 logs/sim-3-p83-t446.log
