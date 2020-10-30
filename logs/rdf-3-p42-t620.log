@@ -110,3 +110,4 @@ remove the file manually to continue.
  4 files changed, 124 insertions(+)
  create mode 100644 logs/rdf-3-p42-t626.log
  create mode 100644 logs/sim-3-p42-t626.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Operation timed out after 300018 milliseconds with 0 out of 0 bytes received
