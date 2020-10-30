@@ -121,3 +121,8 @@ GROMACS reminds you: "All I Ever Wanted Was Your Life" (Red Hot Chili Peppers)
  2 files changed, 2144 insertions(+)
  create mode 100644 logs/rdf-4-p2-t380.log
  create mode 100644 results/rdf-4-p2-t380.xvg
+[cd 8ff8842dd] add commit head to log backlog
+ 2 files changed, 18 insertions(+)
+ create mode 100644 logs/sim-4-p2-t386.log
+To https://github.com/socd06/lennard-jones-sims.git
+   e968de773..8ff8842dd  cd -> cd
