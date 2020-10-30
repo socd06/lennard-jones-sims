@@ -138,3 +138,6 @@ no changes added to commit
  5 files changed, 143 insertions(+)
  create mode 100644 logs/rdf-3-p3-t332.log
  create mode 100644 logs/sim-3-p3-t338.log
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [rejected]          dev -> dev (non-fast-forward)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
