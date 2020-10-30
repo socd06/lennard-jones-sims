@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t554.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "Science is not a boy's game, it's not a girl's game. It's everyone's game. It's about where we are and where we're going." (Nichelle Nichols)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md fd1b9d6] feat: add 4-p1-t554 radial distribution function
+ 3 files changed, 2051 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t554.xvg (71%)
