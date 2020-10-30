@@ -106,3 +106,4 @@ fatal: pathspec '../results/rdf-3-p92-t422.xvg' did not match any files
  create mode 100644 logs/rdf-3-p92-t416.log
  create mode 100644 logs/rdf-3-p92-t428.log
  create mode 100644 logs/sim-3-p92-t428.log
+fatal: could not read Username for 'https://github.com': Input/output error

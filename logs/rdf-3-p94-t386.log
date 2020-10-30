@@ -154,3 +154,4 @@ no changes added to commit
  create mode 100644 logs/sim-3-p94-t368.log
  create mode 100644 logs/sim-3-p94-t386.log
  create mode 100644 logs/sim-3-p94-t392.log
+fatal: could not read Username for 'https://github.com': Input/output error

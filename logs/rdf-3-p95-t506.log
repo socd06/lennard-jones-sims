@@ -122,3 +122,4 @@ remove the file manually to continue.
  create mode 100644 logs/sim-3-p95-t494.log
  create mode 100644 logs/sim-3-p95-t512.log
  create mode 100644 logs/sim-3-p95-t518.log
+fatal: could not read Username for 'https://github.com': Input/output error

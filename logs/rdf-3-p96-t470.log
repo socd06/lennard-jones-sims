@@ -157,3 +157,4 @@ Untracked files:
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
+fatal: could not read Username for 'https://github.com': Input/output error

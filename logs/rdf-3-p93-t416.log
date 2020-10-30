@@ -105,3 +105,4 @@ fatal: pathspec '../results/rdf-3-p93-t416.xvg' did not match any files
  5 files changed, 246 insertions(+)
  create mode 100644 logs/rdf-3-p93-t422.log
  create mode 100644 logs/sim-3-p93-t422.log
+fatal: could not read Username for 'https://github.com': Input/output error
