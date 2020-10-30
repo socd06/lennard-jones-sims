@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The farther the experiment is from theory, the closer it is to the Nobel Prize." (Irene Joliot-Curie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 25de0e9] feat: add 4-p2-t482 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t482.log
+ create mode 100644 results/rdf-4-p2-t482.xvg
