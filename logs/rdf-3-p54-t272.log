@@ -156,3 +156,4 @@ no changes added to commit
  create mode 100644 logs/sim-3-p54-t254.log
  create mode 100644 logs/sim-3-p54-t272.log
  create mode 100644 logs/sim-3-p54-t278.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
