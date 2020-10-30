@@ -103,3 +103,33 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[dev b16f6d75] feat: add 3-p61-t458 radial distribution function
+ 2 files changed, 109 insertions(+)
+ create mode 100644 logs/rdf-3-p61-t458.log
+ create mode 100644 logs/sim-3-p61-t458.log
+fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch dev
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   MDP/0_nvt.mdp
+	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p61-t446.log
+	modified:   ../logs/rdf-3-p61-t458.log
+
+Untracked files:
+	../2-ar/input
+	input
+	../input
+	../logs/rdf-3-p61-t464.log
+	../logs/sim-3-p61-t464.log
+	../logs/sim-3-p61-t470.log
+	../results/rdf-3-p1-t326.xvg
+
+no changes added to commit
