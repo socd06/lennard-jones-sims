@@ -102,3 +102,5 @@ fatal: cannot lock ref 'HEAD': is at 5fc4c277450051040b641e0311e06cf7adff20dd bu
  3 files changed, 106 insertions(+)
  create mode 100644 logs/rdf-2-p11-t620.log
  create mode 100644 logs/sim-2-p11-t626.log
+To https://github.com/socd06/lennard-jones-sims.git
+   5c45cd179..460c6d0a4  dev -> dev

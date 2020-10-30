@@ -100,3 +100,9 @@ fatal: pathspec '../results/rdf-2-p11-t626.xvg' did not match any files
 [dev 725de4fba] feat: add 2-p11-t626 radial distribution function
  1 file changed, 99 insertions(+)
  create mode 100644 logs/rdf-2-p11-t626.log
+[dev 185ec8b15] add commit head to log backlog
+ 5 files changed, 115 insertions(+)
+ create mode 100644 logs/rdf-2-p11-t632.log
+ create mode 100644 logs/sim-2-p11-t632.log
+To https://github.com/socd06/lennard-jones-sims.git
+   460c6d0a4..185ec8b15  dev -> dev
