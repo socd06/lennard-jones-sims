@@ -107,3 +107,10 @@ remove the file manually to continue.
  2 files changed, 109 insertions(+)
  create mode 100644 logs/rdf-3-p84-t536.log
  create mode 100644 logs/sim-3-p84-t536.log
+[dev 1964df4bf] add commit head to log backlog
+ 10 files changed, 466 insertions(+)
+ create mode 100644 logs/rdf-3-p84-t530.log
+ create mode 100644 logs/rdf-3-p84-t542.log
+ create mode 100644 logs/rdf-3-p84-t548.log
+ create mode 100644 logs/sim-3-p84-t542.log
+ create mode 100644 logs/sim-3-p84-t548.log
