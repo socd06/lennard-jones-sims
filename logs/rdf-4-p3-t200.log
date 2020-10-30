@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Why, how now, Claudio ! Whence Comes this Restraint ?" (Lucio in Measure for measure, Act 1, Scene 4, William Shakespeare)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 33e960b48] feat: add 4-p3-t200 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t200.log
+ create mode 100644 results/rdf-4-p3-t200.xvg
