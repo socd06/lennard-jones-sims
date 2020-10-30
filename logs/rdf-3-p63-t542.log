@@ -28,7 +28,7 @@ GROMACS:      gmx make_ndx, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx make_ndx -f OUT/p47-t500/3-md.tpr -o indexrdf.ndx
+  gmx make_ndx -f OUT/p63-t542/3-md.tpr -o indexrdf.ndx
 
 
 -------------------------------------------------------
@@ -39,7 +39,7 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p47-t500/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p63-t542/3-md.tpr' does not exist or is not accessible.
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
@@ -74,7 +74,7 @@ GROMACS:      gmx rdf, VERSION 5.1.5
 Executable:   /usr/local/gromacs5-1-5/bin/gmx
 Data prefix:  /usr/local/gromacs5-1-5
 Command line:
-  gmx rdf -f OUT/p47-t500/3-md.trr -s OUT/p47-t500/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p47-t500.xvg
+  gmx rdf -f OUT/p63-t542/3-md.trr -s OUT/p63-t542/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p63-t542.xvg
 
 
 -------------------------------------------------------
@@ -85,9 +85,9 @@ Function:    void gmx::CommandLineParser::parse(int*, char**)
 Error in user input:
 Invalid command-line options
   In command-line option -f
-    File 'OUT/p47-t500/3-md.trr' does not exist or is not accessible.
+    File 'OUT/p63-t542/3-md.trr' does not exist or is not accessible.
   In command-line option -s
-    File 'OUT/p47-t500/3-md.tpr' does not exist or is not accessible.
+    File 'OUT/p63-t542/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
 
@@ -123,22 +123,41 @@ Changes not staged for commit:
 	modified:   MDP/0_npt.mdp
 	modified:   MDP/0_nvt.mdp
 	modified:   mdout.mdp
+	modified:   ../logs/rdf-3-p47-t458.log
+	modified:   ../logs/rdf-3-p47-t464.log
+	modified:   ../logs/rdf-3-p47-t470.log
+	modified:   ../logs/rdf-3-p47-t476.log
 	modified:   ../logs/rdf-3-p47-t482.log
+	modified:   ../logs/rdf-3-p47-t488.log
+	modified:   ../logs/rdf-3-p47-t494.log
+	modified:   ../logs/rdf-3-p47-t500.log
+	modified:   ../logs/rdf-3-p47-t506.log
+	modified:   ../logs/rdf-3-p47-t512.log
+	modified:   ../logs/rdf-3-p47-t518.log
+	modified:   ../logs/rdf-3-p47-t524.log
+	modified:   ../logs/rdf-3-p47-t530.log
+	modified:   ../logs/rdf-3-p47-t536.log
+	modified:   ../logs/rdf-3-p47-t542.log
+	modified:   ../logs/rdf-3-p47-t548.log
+	modified:   ../logs/rdf-3-p47-t554.log
+	modified:   ../logs/rdf-3-p47-t560.log
+	modified:   ../logs/rdf-3-p47-t566.log
+	modified:   ../logs/rdf-3-p47-t572.log
+	modified:   ../logs/rdf-3-p47-t578.log
+	modified:   ../logs/rdf-3-p47-t584.log
+	modified:   ../logs/rdf-3-p47-t590.log
+	modified:   ../logs/rdf-3-p47-t596.log
+	modified:   ../logs/rdf-3-p47-t602.log
+	modified:   ../logs/rdf-3-p47-t608.log
+	modified:   ../logs/rdf-3-p63-t530.log
 
 Untracked files:
 	../2-ar/input
 	input
 	../input
-	../logs/rdf-3-p47-t500.log
-	../logs/sim-3-p47-t500.log
+	../logs/rdf-3-p63-t542.log
+	../logs/sim-3-p63-t542.log
+	../logs/sim-3-p63-t548.log
 	../results/rdf-3-p1-t326.xvg
 
 no changes added to commit
-Auto packing the repository in background for optimum performance.
-See "git help gc" for manual housekeeping.
-[dev 79ad697d] add commit head to log backlog
- 5 files changed, 169 insertions(+)
- create mode 100644 logs/rdf-3-p47-t500.log
- create mode 100644 logs/sim-3-p47-t500.log
- create mode 100644 logs/sim-3-p47-t506.log
-fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
