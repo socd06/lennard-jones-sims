@@ -113,3 +113,9 @@ remove the file manually to continue.
 [dev 9aa95153] feat: add 3-p64-t500 radial distribution function
  1 file changed, 4 insertions(+)
  create mode 100644 logs/sim-3-p64-t500.log
+[dev 7a992aab] add commit head to log backlog
+ 5 files changed, 280 insertions(+)
+ create mode 100644 logs/rdf-3-p64-t500.log
+ create mode 100644 logs/rdf-3-p64-t506.log
+ create mode 100644 logs/sim-3-p64-t506.log
+ create mode 100644 logs/sim-3-p64-t512.log
