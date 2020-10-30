@@ -106,3 +106,5 @@ fatal: pathspec '../results/rdf-2-p12-t716.xvg' did not match any files
  create mode 100644 logs/rdf-2-p12-t710.log
  create mode 100644 logs/rdf-2-p12-t722.log
  create mode 100644 logs/sim-2-p12-t722.log
+To https://github.com/socd06/lennard-jones-sims.git
+   7731fc6c9..8999419ee  dev -> dev
