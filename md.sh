@@ -21,7 +21,7 @@ main() {
 }
 
 run-folders() {
-	for preffix in {4..4}
+	for preffix in {3..3}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
