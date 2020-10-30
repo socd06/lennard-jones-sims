@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t764.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "I was told I'd never make it to VP rank because I was too outspoken. Maybe so, but I think men will always find an excuse for keeping women in their 'place.' So, let's make that place the executive suite and start more of our own companies." (Jean Bartik, ENIAC developer)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md f94630a] feat: add 4-p1-t764 radial distribution function
+ 3 files changed, 2061 insertions(+), 2043 deletions(-)
+ rewrite results/rdf-4-p1-t764.xvg (71%)
