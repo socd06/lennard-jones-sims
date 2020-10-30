@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I have noticed a large, negative correlation between having a well-defined mission workload and concern for the Top500. It's almost like LINPACK is what you focus on when you don't know what to focus on." (Jeff Hammond)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 589df0d] feat: add 3-p1-t440 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t440.log (69%)
+ create mode 100644 results/rdf-3-p1-t440.xvg
