@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Physics isn't a religion. If it were, we'd have a much easier time raising money." (Leon Lederman)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md fa63dc7] feat: add 4-p3-t254 radial distribution function
+ 3 files changed, 2146 insertions(+)
+ create mode 100644 logs/rdf-4-p3-t254.log
+ create mode 100644 results/rdf-4-p3-t254.xvg
