@@ -102,3 +102,10 @@ See "git help gc" for manual housekeeping.
 [dev b409541e1] feat: add 2-p15-t488 radial distribution function
  1 file changed, 101 insertions(+)
  create mode 100644 logs/rdf-2-p15-t488.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 91c7da598] add commit head to log backlog
+ 4 files changed, 20 insertions(+)
+ create mode 100644 logs/sim-2-p15-t494.log
+To https://github.com/socd06/lennard-jones-sims.git
+   24dda184a..91c7da598  dev -> dev
