@@ -102,3 +102,10 @@ See "git help gc" for manual housekeeping.
 [dev eed562e24] feat: add 2-p5-t506 radial distribution function
  1 file changed, 101 insertions(+)
  create mode 100644 logs/rdf-2-p5-t506.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev bcaf4de2f] add commit head to log backlog
+ 2 files changed, 12 insertions(+)
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at bcaf4de2f04ed76b444ffcd8040b80262df7973f but expected a77aad1f1c4c9b3b0d0f0797a147f7a331bcb4fc)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
