@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The physical chemists never use their eyes and are most lamentably lacking in chemical culture. It is essential to cast out from our midst, root and branch, this physical element and return to our laboratories." (Henry Edward Armstrong)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 61b2dd468] feat: add 4-p2-t680 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t680.log
+ create mode 100644 results/rdf-4-p2-t680.xvg
