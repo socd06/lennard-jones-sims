@@ -110,3 +110,4 @@ See "git help gc" for manual housekeeping.
  create mode 100644 logs/rdf-3-p86-t680.log
  create mode 100644 logs/sim-3-p86-t680.log
  create mode 100644 logs/sim-3-p86-t692.log
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Empty reply from server
