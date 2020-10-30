@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Shoot them in the back now" (The Ramones)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd e8217c16d] feat: add 4-p2-t668 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p2-t668.log
+ create mode 100644 results/rdf-4-p2-t668.xvg
