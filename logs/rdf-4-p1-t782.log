@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t782.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "If your experiment needs a statistician, you need a better experiment." (Ernest Rutherford)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 5db8925] feat: add 4-p1-t782 radial distribution function
+ 3 files changed, 2061 insertions(+), 2044 deletions(-)
+ rewrite results/rdf-4-p1-t782.xvg (72%)
