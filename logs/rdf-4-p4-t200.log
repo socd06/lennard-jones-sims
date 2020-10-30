@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "What about my nose?" (Aneesur Rahman, responding to an Argonne manager arguing the long hair of Charles Bennett in his group was disreputing the lab; Retold by Michael Klein)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[cd 533a315c9] feat: add 4-p4-t200 radial distribution function
+ 3 files changed, 2166 insertions(+)
+ create mode 100644 logs/rdf-4-p4-t200.log
+ create mode 100644 results/rdf-4-p4-t200.xvg
