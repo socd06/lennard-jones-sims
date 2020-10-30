@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t752.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "You fight, work, sweat, nearly kill yourself, sometimes you do kill yourself, trying to accomplish something - and you can't." (Joseph Conrad)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 384ea73] feat: add 4-p1-t752 radial distribution function
+ 3 files changed, 2060 insertions(+), 2042 deletions(-)
+ rewrite results/rdf-4-p1-t752.xvg (72%)
