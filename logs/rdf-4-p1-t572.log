@@ -120,3 +120,6 @@ Back Off! I just backed up ../results/rdf-4-p1-t572.xvg to ../results/#rdf-4-p1-
 GROMACS reminds you: "It Just Tastes Better" (Burger King)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 5c2cc2b] feat: add 4-p1-t572 radial distribution function
+ 3 files changed, 2061 insertions(+), 2038 deletions(-)
+ rewrite results/rdf-4-p1-t572.xvg (72%)
