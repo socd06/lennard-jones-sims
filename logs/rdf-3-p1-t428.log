@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We haven't the money, so we've got to think." (Ernest Rutherford)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md aca4cfe] feat: add 3-p1-t428 radial distribution function
+ 3 files changed, 2166 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p1-t428.log (70%)
+ create mode 100644 results/rdf-3-p1-t428.xvg
