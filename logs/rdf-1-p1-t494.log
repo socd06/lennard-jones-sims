@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The best way to obtain plausible negative examples is to run a docking program with a biophysics-based function." (Julie Bernauer)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 28a899e] feat: add 1-p1-t494 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   30feb3e..28a899e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
