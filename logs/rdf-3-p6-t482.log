@@ -119,3 +119,7 @@ GROMACS reminds you: "Studying expands knowledge. Knowledge is power. Power corr
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 8f046ff] feat: add 3-p6-t482 radial distribution function
+ 3 files changed, 2157 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p6-t482.log (69%)
+ create mode 100644 results/rdf-3-p6-t482.xvg
