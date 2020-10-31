@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Nothing shocks me. I'm a scientist." (Harrison Ford as Indiana Jones)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 51aa62e] feat: add 3-p4-t464 radial distribution function
+ 3 files changed, 2166 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p4-t464.log (68%)
+ create mode 100644 results/rdf-3-p4-t464.xvg
