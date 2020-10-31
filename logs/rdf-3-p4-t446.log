@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The future still looks good, and you've got time to rectify all the things that you should" (G. Harrison)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 9a5f641] feat: add 3-p4-t446 radial distribution function
+ 3 files changed, 2146 insertions(+), 139 deletions(-)
+ rewrite logs/rdf-3-p4-t446.log (74%)
+ create mode 100644 results/rdf-3-p4-t446.xvg
