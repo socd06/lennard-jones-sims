@@ -119,3 +119,11 @@ GROMACS reminds you: "Don't Follow Me Home" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 14f62eb4c] feat: add 3-p6-t554 radial distribution function and updates to logs
+ 6 files changed, 2225 insertions(+), 217 deletions(-)
+ rewrite logs/rdf-3-p6-t554.log (70%)
+ rewrite logs/rdf-3-p6-t560.log (86%)
+ create mode 100644 results/rdf-3-p6-t554.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   2517a225f..14f62eb4c  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
