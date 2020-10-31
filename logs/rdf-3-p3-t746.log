@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A program that has not been tested does not work." (Bjarne Stroustrup)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md c771434] feat: add 3-p3-t746 radial distribution function
+ 3 files changed, 2156 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p3-t746.log (70%)
+ create mode 100644 results/rdf-3-p3-t746.xvg
