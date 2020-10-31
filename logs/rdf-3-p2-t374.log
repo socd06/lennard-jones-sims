@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We think there is color, we think there is sweet, we think there is bitter, but in reality there are atoms and a void." (Democritus)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 3c27e9b] feat: add 3-p2-t374 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p2-t374.log (69%)
+ create mode 100644 results/rdf-3-p2-t374.xvg
