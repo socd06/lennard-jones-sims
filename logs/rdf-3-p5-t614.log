@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "All You Need is Greed" (Aztec Camera)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md f24b21b] feat: add 3-p5-t614 radial distribution function
+ 3 files changed, 2156 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p5-t614.log (69%)
+ create mode 100644 results/rdf-3-p5-t614.xvg
