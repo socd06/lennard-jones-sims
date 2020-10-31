@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A Pretty Village Burning Makes a Pretty Fire" (David Sandstrom)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 93b315f] feat: add 3-p3-t596 radial distribution function
+ 3 files changed, 2156 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p3-t596.log (70%)
+ create mode 100644 results/rdf-3-p3-t596.xvg
