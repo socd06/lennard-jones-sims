@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We are perhaps not far removed from the time when we shall be able to submit the bulk of chemical phenomena to calculation." (Joseph Gay-Lussac, 1808)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 6654ee6] feat: add 3-p5-t314 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p5-t314.log (69%)
+ create mode 100644 results/rdf-3-p5-t314.xvg
