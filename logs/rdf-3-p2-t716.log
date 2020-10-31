@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Don't Want to Calm Down" (Throwing Muses)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md b50f931] feat: add 3-p2-t716 radial distribution function
+ 3 files changed, 2166 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p2-t716.log (70%)
+ create mode 100644 results/rdf-3-p2-t716.xvg
