@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If You Touch Me, You'll Get Shocked" (Beastie Boys)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo b50a90a] feat: add 1-p1-t410 radial distribution function and updates to logs
+ 4 files changed, 2107 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c290439..b50a90a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
