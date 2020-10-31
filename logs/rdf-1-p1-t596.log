@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Erwin with his psi can do / Calculations quite a few. / But one thing has not been seen / Just what psi really mean." (Felix Bloch)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9421956] feat: add 1-p1-t596 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   848b72c..9421956  beo -> beo
+Branch beo set up to track remote branch beo from origin.
