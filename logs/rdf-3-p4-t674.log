@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "C has the power of assembly language and the convenience of... assembly language." (Dennis Ritchie)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md f08632e] feat: add 3-p4-t674 radial distribution function
+ 3 files changed, 2146 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p4-t674.log (69%)
+ create mode 100644 results/rdf-3-p4-t674.xvg
