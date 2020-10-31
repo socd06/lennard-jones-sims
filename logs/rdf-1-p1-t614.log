@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "People disagree with me. I just ignore them." (Linus Torvalds on the use of C++ in the kernel)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7363f50] feat: add 1-p1-t614 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f1f2e48..7363f50  beo -> beo
+Branch beo set up to track remote branch beo from origin.
