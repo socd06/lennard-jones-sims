@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Forcefields are like dating; things go fine for a while and then sometimes it goes really bad." (Alex MacKerell)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md ed3fae0] feat: add 3-p3-t626 radial distribution function
+ 3 files changed, 2146 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p3-t626.log (71%)
+ create mode 100644 results/rdf-3-p3-t626.xvg
