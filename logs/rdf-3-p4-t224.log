@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Teemu [Murtola] keeps beating our code, but that's fine because he's always right." (Berk Hess)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 61233cb] feat: add 3-p4-t224 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p4-t224.log (69%)
+ create mode 100644 results/rdf-3-p4-t224.xvg
