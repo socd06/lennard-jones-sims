@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Like other defaulters, I like to lay half the blame on ill-fortune and adverse circumstances" (Mr. Rochester in Jane Eyre by Charlotte Bronte)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo e9e35db] feat: add 1-p1-t686 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d08517a..e9e35db  beo -> beo
+Branch beo set up to track remote branch beo from origin.
