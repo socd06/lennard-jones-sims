@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "In mathematics you don't understand things, you just get used to them" (John von Neumann)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md ddf4a42] feat: add 3-p6-t260 radial distribution function
+ 3 files changed, 2146 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p6-t260.log (68%)
+ create mode 100644 results/rdf-3-p6-t260.xvg
