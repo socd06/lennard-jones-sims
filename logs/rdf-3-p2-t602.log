@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The scientific method is an integral part of human intelligence, and when it has once been set at work it can only be dismissed by dismissing the intelligence itself" (George H. Mead)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md d3efd78] feat: add 3-p2-t602 radial distribution function
+ 3 files changed, 2156 insertions(+), 129 deletions(-)
+ rewrite logs/rdf-3-p2-t602.log (74%)
+ create mode 100644 results/rdf-3-p2-t602.xvg
