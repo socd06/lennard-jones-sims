@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "What They Need's a Damn Good Whacking" (The Beatles)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 6c3b5ef] feat: add 3-p5-t662 radial distribution function
+ 3 files changed, 2146 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p5-t662.log (69%)
+ create mode 100644 results/rdf-3-p5-t662.xvg
