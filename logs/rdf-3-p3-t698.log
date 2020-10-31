@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Jesus Not Only Saves, He Also Frequently Makes Backups." (Myron Bradshaw)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md cd06b5d] feat: add 3-p3-t698 radial distribution function
+ 3 files changed, 2166 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p3-t698.log (71%)
+ create mode 100644 results/rdf-3-p3-t698.xvg
