@@ -119,3 +119,10 @@ GROMACS reminds you: "It's Time to Move On" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 06c9a5b6c] feat: add 3-p6-t590 radial distribution function and updates to logs
+ 5 files changed, 2185 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p6-t590.log (69%)
+ create mode 100644 results/rdf-3-p6-t590.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   056fa5a50..06c9a5b6c  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
