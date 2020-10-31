@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Religion is a culture of faith; science is a culture of doubt." (Richard Feynman)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 3c2bc6e] feat: add 3-p3-t794 radial distribution function
+ 3 files changed, 2166 insertions(+), 126 deletions(-)
+ rewrite logs/rdf-3-p3-t794.log (73%)
+ create mode 100644 results/rdf-3-p3-t794.xvg
