@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Humans are allergic to change. They love to say, 'We've always done it this way.' I try to fight that. That's why I have a clock on my wall that runs counter-clockwise." (Grace Hopper)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 10a1f76] feat: add 3-p2-t452 radial distribution function
+ 3 files changed, 2156 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p2-t452.log (69%)
+ create mode 100644 results/rdf-3-p2-t452.xvg
