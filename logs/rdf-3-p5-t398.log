@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Computers are like humans - they do everything except think." (John von Neumann)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 2bedab1] feat: add 3-p5-t398 radial distribution function
+ 3 files changed, 2166 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p5-t398.log (68%)
+ create mode 100644 results/rdf-3-p5-t398.xvg
