@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Don't be afraid of hard work. Nothing worthwhile comes easily. Don't let others discourage you or tell you that you can't do it. In my day I was told women didn't go into chemistry. I saw no reason why we couldn't." (Gertrude Elion)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 77db2e3] feat: add 1-p1-t422 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t422.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b37d085..77db2e3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
