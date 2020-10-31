@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "They Paint Their Faces So Differently From Ours" (Gogol Bordello)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 59ebabd] feat: add 3-p5-t488 radial distribution function
+ 3 files changed, 2146 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p5-t488.log (71%)
+ create mode 100644 results/rdf-3-p5-t488.xvg
