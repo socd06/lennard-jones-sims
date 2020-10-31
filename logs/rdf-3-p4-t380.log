@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You got one part of that wrong. This is not meth." (Breaking Bad)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md fa596ad] feat: add 3-p4-t380 radial distribution function
+ 3 files changed, 2146 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p4-t380.log (70%)
+ create mode 100644 results/rdf-3-p4-t380.xvg
