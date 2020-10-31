@@ -119,3 +119,7 @@ GROMACS reminds you: "It has been discovered that C++ provides a remarkable faci
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 313bd2b] feat: add 3-p6-t716 radial distribution function
+ 3 files changed, 2147 insertions(+), 136 deletions(-)
+ rewrite logs/rdf-3-p6-t716.log (74%)
+ create mode 100644 results/rdf-3-p6-t716.xvg
