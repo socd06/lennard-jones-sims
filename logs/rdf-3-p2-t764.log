@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The great tragedy of science - the slaying of a beautiful hypothesis by an ugly fact." (Thomas Henry Huxley)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 74df9f1] feat: add 3-p2-t764 radial distribution function
+ 3 files changed, 2146 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p2-t764.log (69%)
+ create mode 100644 results/rdf-3-p2-t764.xvg
