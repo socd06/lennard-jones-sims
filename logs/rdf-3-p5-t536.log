@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "What If None Of Your Dreams Come True ?" (E. Costello)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md e8c5f80] feat: add 3-p5-t536 radial distribution function
+ 3 files changed, 2146 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p5-t536.log (69%)
+ create mode 100644 results/rdf-3-p5-t536.xvg
