@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Pain is inevitable. Suffering is optional." (Haruki Murakami)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 740047a] feat: add 3-p3-t788 radial distribution function
+ 3 files changed, 2156 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p3-t788.log (71%)
+ create mode 100644 results/rdf-3-p3-t788.xvg
