@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I like single-molecule experiments because I hate to simulate 10^23 molecules at the same time." (Helmut Grubmüller)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 2f87c5f] feat: add 3-p5-t548 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p5-t548.log (69%)
+ create mode 100644 results/rdf-3-p5-t548.xvg
