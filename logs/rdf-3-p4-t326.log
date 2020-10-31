@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in 1906, by his own hand. Paul Ehrenfest, carrying on the same work, died similarly in 1933. Now it is our turn to study statistical mechanics. Perhaps it will be wise to approach the subject cautiously." (David Goodstein)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 9349302] feat: add 3-p4-t326 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p4-t326.log (69%)
+ create mode 100644 results/rdf-3-p4-t326.xvg
