@@ -1,17 +1,17 @@
 ;
 ;	File 'mdout.mdp' was generated
-;	By user: carlos (1000)
-;	On host: carlos-X470-AORUS-GAMING-5-WIFI
-;	At date: Mon Oct 12 12:48:58 2020
+;	By user: test (0)
+;	On host: mdsim
+;	At date: Fri Oct 30 10:23:57 2020
 ;
 ;	Created by:
-;	                     :-) GROMACS - gmx grompp, 2020.3 (-:
+;	                     :-) GROMACS - gmx grompp, 2020.2 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/carlos/git/lennard-jones-sims/4-xe
+;	Working dir:  /home/test/lennard-jones-sims/4-xe
 ;	Command line:
-;	  gmx grompp -f MDP/0_minim.mdp -c OUT/solv2.gro -p FF/topol.top -o OUT/p1-t200/0-em.tpr
+;	  gmx grompp -f MDP/0_md.mdp -c OUT/p1-t206/2-npt.gro -p FF/topol.top -o OUT/p1-t206/3-md.tpr -maxwarn 1
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -21,11 +21,11 @@ include                  =
 define                   = 
 
 ; RUN CONTROL PARAMETERS
-integrator               = steep
+integrator               = md
 ; Start time and timestep in ps
 tinit                    = 0
-dt                       = 0.001
-nsteps                   = 50000
+dt                       = 0.002
+nsteps                   = 1500000
 ; For exact run continuation or redoing part of a run
 init-step                = 0
 ; Part index is updated automatically on checkpointing (keeps files separate)
@@ -44,7 +44,7 @@ ld-seed                  = -1
 
 ; ENERGY MINIMIZATION OPTIONS
 ; Force tolerance and initial step-size
-emtol                    = 1000.0
+emtol                    = 10
 emstep                   = 0.01
 ; Max number of iterations in relax-shells
 niter                    = 20
@@ -59,13 +59,13 @@ rtpi                     = 0.05
 
 ; OUTPUT CONTROL OPTIONS
 ; Output frequency for coords (x), velocities (v) and forces (f)
-nstxout                  = 0
+nstxout                  = 1000
 nstvout                  = 0
 nstfout                  = 0
 ; Output frequency for energies to log file and energy file
-nstlog                   = 1000
+nstlog                   = 0
 nstcalcenergy            = 100
-nstenergy                = 1000
+nstenergy                = 0
 ; Output frequency and precision for .xtc file
 nstxout-compressed       = 0
 compressed-x-precision   = 1000
@@ -107,7 +107,7 @@ vdw-modifier             = Potential-shift-Verlet
 rvdw-switch              = 0
 rvdw                     = 1.0
 ; Apply long range dispersion corrections for Energy and Pressure
-DispCorr                 = No
+DispCorr                 = EnerPres
 ; Extension of the potential lookup tables beyond the cut-off
 table-extension          = 1
 ; Separate tables between energy group pairs
@@ -129,23 +129,23 @@ implicit-solvent         = no
 
 ; OPTIONS FOR WEAK COUPLING ALGORITHMS
 ; Temperature coupling  
-tcoupl                   = No
+tcoupl                   = V-rescale
 nsttcouple               = -1
 nh-chain-length          = 10
 print-nose-hoover-chain-variables = no
 ; Groups to couple separately
-tc-grps                  = 
+tc-grps                  = System
 ; Time constant (ps) and reference temperature (K)
-tau-t                    = 
-ref-t                    = 
+tau_t                    = 0.1
+ref_t                    = 206
 ; pressure coupling     
-pcoupl                   = No
-pcoupltype               = Isotropic
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
 nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
-tau-p                    = 1
-compressibility          = 
-ref-p                    = 
+tau_p                    = 2.0
+compressibility          = 4.5e-5
+ref_p                    = 1
 ; Scaling of reference coordinates, No, All or COM
 refcoord-scaling         = No
 
@@ -185,26 +185,26 @@ annealing-time           =
 annealing-temp           = 
 
 ; GENERATE VELOCITIES FOR STARTUP RUN
-gen-vel                  = no
+gen_vel                  = no
 gen-temp                 = 300
 gen-seed                 = -1
 
 ; OPTIONS FOR BONDS    
-constraints              = none
+constraints              = h-bonds
 ; Type of constraint algorithm
-constraint-algorithm     = Lincs
+constraint_algorithm     = lincs
 ; Do not constrain the start configuration
-continuation             = no
+continuation             = yes
 ; Use successive overrelaxation to reduce the number of shake iterations
 Shake-SOR                = no
 ; Relative tolerance of shake
 shake-tol                = 0.0001
 ; Highest order in the expansion of the constraint coupling matrix
-lincs-order              = 4
+lincs_order              = 4
 ; Number of iterations in the final step of LINCS. 1 is fine for
 ; normal simulations, but use 2 to conserve energy in NVE runs.
 ; For energy minimization with constraints it should be 4 to 8.
-lincs-iter               = 1
+lincs_iter               = 1
 ; Lincs will write a warning to the stderr if in one step a bond
 ; rotates over more degrees than
 lincs-warnangle          = 30
