@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's more useful when you know what you're doing." (Artem Zhmurov)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md d453942] feat: add 3-p4-t698 radial distribution function
+ 3 files changed, 2146 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p4-t698.log (68%)
+ create mode 100644 results/rdf-3-p4-t698.xvg
