@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Bad As This Shit Is, This Shit Ain't As Bad As You Think It Is." (Jackie Brown)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 70a795a] feat: add 3-p4-t620 radial distribution function
+ 3 files changed, 2166 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p4-t620.log (68%)
+ create mode 100644 results/rdf-3-p4-t620.xvg
