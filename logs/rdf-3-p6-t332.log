@@ -119,3 +119,11 @@ GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 7f39cd09f] feat: add 3-p6-t332 radial distribution function and updates to logs
+ 6 files changed, 2299 insertions(+), 223 deletions(-)
+ rewrite logs/rdf-3-p6-t332.log (72%)
+ rewrite logs/rdf-3-p6-t338.log (70%)
+ create mode 100644 results/rdf-3-p6-t332.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   df8715d1d..7f39cd09f  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
