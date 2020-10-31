@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I believe in miracles cause I'm one" (The Ramones)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md afa14d2] feat: add 3-p3-t260 radial distribution function
+ 3 files changed, 2156 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p3-t260.log (70%)
+ create mode 100644 results/rdf-3-p3-t260.xvg
