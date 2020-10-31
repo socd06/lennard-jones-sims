@@ -122,3 +122,5 @@ rm: cannot remove '*.ndx*': No such file or directory
  3 files changed, 2166 insertions(+), 114 deletions(-)
  rewrite logs/rdf-3-p5-t770.log (71%)
  create mode 100644 results/rdf-3-p5-t770.xvg
+[md f6532d6] add commit head to log backlog
+ 3 files changed, 38 insertions(+), 1 deletion(-)
