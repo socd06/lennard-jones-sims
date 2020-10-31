@@ -42,4 +42,4 @@ DispCorr	= EnerPres	; account for cut-off vdW scheme
 ; Velocity generation
 gen_vel		= no		; Velocity generation is off 
 ref_p 		= 1
-ref_t 		= 224
+ref_t 		= 206

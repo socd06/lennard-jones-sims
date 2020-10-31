@@ -41,5 +41,5 @@ pbc		= xyz		; 3-D PBC
 DispCorr	= EnerPres	; account for cut-off vdW scheme
 ; Velocity generation
 gen_vel		= no		; Velocity generation is off 
-ref_t		= 200	        ; reference temperature, one for each group, in K
-ref_p		= 1.0		        ; reference pressure, x-y, z (in bar)
+ref_p 		= 6
+ref_t 		= 302
