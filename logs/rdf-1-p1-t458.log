@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Am the Psychotherapist. Please, Describe Your Problems." (GNU Emacs)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 782a395] feat: add 1-p1-t458 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 77 deletions(-)
+ create mode 100644 results/rdf-1-p1-t458.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cac7f73..782a395  beo -> beo
+Branch beo set up to track remote branch beo from origin.
