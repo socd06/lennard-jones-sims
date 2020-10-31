@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Heavier-than-air flying machines are impossible." (Lord Kelvin, President of Royal Society, 1895.)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 611381a] feat: add 3-p2-t248 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p2-t248.log (69%)
+ create mode 100644 results/rdf-3-p2-t248.xvg
