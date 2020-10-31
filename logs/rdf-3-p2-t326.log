@@ -122,3 +122,7 @@ rm: cannot remove '*.ndx*': No such file or directory
  3 files changed, 2156 insertions(+), 109 deletions(-)
  rewrite logs/rdf-3-p2-t326.log (69%)
  create mode 100644 results/rdf-3-p2-t326.xvg
+[md 9d78178] add commit head to log backlog
+ 3 files changed, 30 insertions(+), 2 deletions(-)
+To https://github.com/socd06/lennard-jones-sims.git
+   129e2a3..9d78178  md -> md
