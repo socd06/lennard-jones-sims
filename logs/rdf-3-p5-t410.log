@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "When a distinguished but elderly scientist states that something is possible, he is almost certainly right. When he states that something is impossible, he is very probably wrong." (Arthur C. Clarke)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md b0829f9] feat: add 3-p5-t410 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p5-t410.log (69%)
+ create mode 100644 results/rdf-3-p5-t410.xvg
