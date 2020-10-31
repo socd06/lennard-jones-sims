@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human." (Alan Turing)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo f1f2e48] feat: add 1-p1-t608 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t608.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d418ff2..f1f2e48  beo -> beo
+Branch beo set up to track remote branch beo from origin.
