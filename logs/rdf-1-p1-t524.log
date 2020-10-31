@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Uh-oh" (Tinky Winky)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a0bb62b] feat: add 1-p1-t524 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t524.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6520515..a0bb62b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
