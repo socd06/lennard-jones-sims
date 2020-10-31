@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 59c25d2] feat: add 1-p1-t584 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ac41331..59c25d2  beo -> beo
+Branch beo set up to track remote branch beo from origin.
