@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Teaching quantum computing is like teaching computer science at Hogwarts." (Thomas Sterling, ISC2018 keynote)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md b6669cf] feat: add 3-p2-t788 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p2-t788.log (69%)
+ create mode 100644 results/rdf-3-p2-t788.xvg
