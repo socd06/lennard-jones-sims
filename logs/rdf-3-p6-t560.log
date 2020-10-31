@@ -119,3 +119,7 @@ GROMACS reminds you: "There's no way you can rely on an experiment" (Gerrit Groe
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md f79166d] feat: add 3-p6-t560 radial distribution function
+ 3 files changed, 2157 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p6-t560.log (69%)
+ create mode 100644 results/rdf-3-p6-t560.xvg
