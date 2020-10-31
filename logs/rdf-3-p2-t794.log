@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The scientist is not a person who gives the right answers, he's one who asks the right questions." (Claude Levi-Strauss)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 4c4fd8e] feat: add 3-p2-t794 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p2-t794.log (69%)
+ create mode 100644 results/rdf-3-p2-t794.xvg
