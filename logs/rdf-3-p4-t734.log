@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "And after some more talk we agreed that the wisdom of rats had been grossly overrated, being in fact no greater than that of men" (Joseph Conrad)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 180d8ed] feat: add 3-p4-t734 radial distribution function
+ 3 files changed, 2146 insertions(+), 128 deletions(-)
+ rewrite logs/rdf-3-p4-t734.log (74%)
+ create mode 100644 results/rdf-3-p4-t734.xvg
