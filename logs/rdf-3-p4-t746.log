@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "And You Will Know That My Name is the Lord When I Lay My Vengeance Upon Thee." (Pulp Fiction)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 92ac425] feat: add 3-p4-t746 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p4-t746.log (69%)
+ create mode 100644 results/rdf-3-p4-t746.xvg
