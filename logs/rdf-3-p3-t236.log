@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Bailed Out Of Edge Synchronization After 10,000 Iterations" (X/Motif)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 8b5992d] feat: add 3-p3-t236 radial distribution function
+ 3 files changed, 2156 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p3-t236.log (69%)
+ create mode 100644 results/rdf-3-p3-t236.xvg
