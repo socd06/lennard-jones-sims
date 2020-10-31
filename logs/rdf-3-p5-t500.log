@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'm a Jerk" (F. Black)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 0cb927e] feat: add 3-p5-t500 radial distribution function
+ 3 files changed, 2156 insertions(+), 138 deletions(-)
+ rewrite logs/rdf-3-p5-t500.log (74%)
+ create mode 100644 results/rdf-3-p5-t500.xvg
