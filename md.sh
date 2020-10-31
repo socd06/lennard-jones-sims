@@ -104,7 +104,7 @@ run-folders() {
 		git commit -m "add commit head to log backlog"
 		# Always use branch computer alias
 		# make sure to have a branch for each
-		git push origin md
+		git push -u origin md
 	}
 
 	gas-gas(){
@@ -120,6 +120,7 @@ run-folders() {
 		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
 		rm *.ndx*
+		rm *.mdout.*
 		rm -r OUT/p$p-t$t
 		submit
 	}
