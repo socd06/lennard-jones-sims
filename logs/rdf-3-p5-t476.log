@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Count the Bubbles In Your Hair" (The Breeders)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md a48764a] feat: add 3-p5-t476 radial distribution function
+ 3 files changed, 2146 insertions(+), 143 deletions(-)
+ rewrite logs/rdf-3-p5-t476.log (75%)
+ create mode 100644 results/rdf-3-p5-t476.xvg
