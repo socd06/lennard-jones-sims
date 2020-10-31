@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You can get into a habit of thought in which you enjoy making fun of all those other people who don't see things as clearly as you do. We have to guard carefully against it." (Carl Sagan)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 3963f4b] feat: add 3-p4-t236 radial distribution function
+ 3 files changed, 2146 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p4-t236.log (69%)
+ create mode 100644 results/rdf-3-p4-t236.xvg
