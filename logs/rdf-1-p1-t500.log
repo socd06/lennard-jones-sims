@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Keep Your Shoes and Socks On, People" (F. Zappa)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 72dfa1b] feat: add 1-p1-t500 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t500.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   28a899e..72dfa1b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
