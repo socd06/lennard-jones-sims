@@ -119,3 +119,10 @@ GROMACS reminds you: "Safety lights are for dudes" (Ghostbusters 2016)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 0b1756091] feat: add 3-p6-t356 radial distribution function and updates to logs
+ 4 files changed, 2184 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p6-t356.log (72%)
+ create mode 100644 results/rdf-3-p6-t356.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   833a1d588..0b1756091  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
