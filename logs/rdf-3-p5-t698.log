@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Do not go where the path may lead, go instead where there is no path and leave a trail" (Ralph Waldo Emerson)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md d5bbfc2] feat: add 3-p5-t698 radial distribution function
+ 3 files changed, 2156 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p5-t698.log (68%)
+ create mode 100644 results/rdf-3-p5-t698.xvg
