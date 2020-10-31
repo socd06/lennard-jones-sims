@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Science adjusts its views based on what's observed. Faith is the denial of observation so that belief can be preserved." (Tim Minchin)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 58063e4] feat: add 3-p5-t302 radial distribution function
+ 3 files changed, 2156 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p5-t302.log (70%)
+ create mode 100644 results/rdf-3-p5-t302.xvg
