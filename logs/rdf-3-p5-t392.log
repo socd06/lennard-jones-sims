@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I wanted to make a clever chemistry joke, but the best ones Argon." (39.948)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 4539342] feat: add 3-p5-t392 radial distribution function
+ 3 files changed, 2146 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p5-t392.log (69%)
+ create mode 100644 results/rdf-3-p5-t392.xvg
