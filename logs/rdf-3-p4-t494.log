@@ -118,3 +118,7 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Encountered Subspace Anomaly" (Star Trek)
 
 rm: cannot remove '*.ndx*': No such file or directory
+[md 99ddc52] feat: add 3-p4-t494 radial distribution function
+ 3 files changed, 2156 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p4-t494.log (69%)
+ create mode 100644 results/rdf-3-p4-t494.xvg
