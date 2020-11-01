@@ -119,3 +119,7 @@ GROMACS reminds you: "It's more useful when you know what you're doing." (Artem 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md df11ec0] feat: add 3-p10-t656 radial distribution function
+ 3 files changed, 2157 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p10-t656.log (69%)
+ create mode 100644 results/rdf-3-p10-t656.xvg
