@@ -119,3 +119,11 @@ GROMACS reminds you: "Cowardly refusing to create an empty archive" (GNU tar)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 9de6d4f66] feat: add 3-p10-t692 radial distribution function and updates to logs
+ 6 files changed, 2300 insertions(+), 212 deletions(-)
+ rewrite logs/rdf-3-p10-t692.log (70%)
+ rewrite logs/rdf-3-p10-t698.log (69%)
+ create mode 100644 results/rdf-3-p10-t692.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4cb0c4b58..9de6d4f66  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
