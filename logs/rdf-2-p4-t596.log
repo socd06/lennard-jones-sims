@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#15: "Don't Grumble, Give a Whistle !" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 08bcc3375] feat: add 2-p4-t596 radial distribution function and updates to logs
+ 5 files changed, 2178 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p4-t602.log
+ create mode 100644 logs/sim-2-p4-t602.log
+ create mode 100644 results/rdf-2-p4-t596.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
