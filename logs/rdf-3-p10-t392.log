@@ -122,3 +122,9 @@ GROMACS reminds you: "Protons give an atom its identity, electrons its personali
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 893687bfe] feat: add 3-p10-t392 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p10-t392.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   9c833d0e2..893687bfe  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
