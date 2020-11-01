@@ -119,3 +119,7 @@ GROMACS reminds you: "...sometimes a scream is better than a thesis." (Ralph Wal
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 4af183a] feat: add 3-p9-t530 radial distribution function
+ 3 files changed, 2147 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p9-t530.log (69%)
+ create mode 100644 results/rdf-3-p9-t530.xvg
