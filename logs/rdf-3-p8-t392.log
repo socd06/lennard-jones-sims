@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it..." (Dan Ariely)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 bfa52c3b6] feat: add 3-p8-t392 radial distribution function and updates to logs
+ 7 files changed, 2304 insertions(+), 222 deletions(-)
+ rewrite logs/rdf-3-p8-t392.log (70%)
+ rewrite logs/rdf-3-p8-t398.log (70%)
+ create mode 100644 results/rdf-3-p8-t392.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   8b98297ba..bfa52c3b6  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
