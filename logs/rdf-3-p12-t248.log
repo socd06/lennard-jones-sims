@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We mathematicians are all a bit crazy." (Lev Landau)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 972389778] feat: add 3-p12-t248 radial distribution function and updates to logs
+ 7 files changed, 2314 insertions(+), 216 deletions(-)
+ rewrite logs/rdf-3-p12-t248.log (69%)
+ rewrite logs/rdf-3-p12-t254.log (69%)
+ rewrite logs/sim-3-p12-t260.log (75%)
+ create mode 100644 results/rdf-3-p12-t248.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   593f9345f..972389778  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
