@@ -119,3 +119,11 @@ GROMACS reminds you: "Give a Man a Fish" (Arrested Development)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 090cf4681] feat: add 3-p9-t728 radial distribution function and updates to logs
+ 6 files changed, 2299 insertions(+), 216 deletions(-)
+ rewrite logs/rdf-3-p9-t728.log (70%)
+ rewrite logs/rdf-3-p9-t734.log (69%)
+ create mode 100644 results/rdf-3-p9-t728.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   43c502b02..090cf4681  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
