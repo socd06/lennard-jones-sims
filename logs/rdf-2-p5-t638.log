@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#202: "It's Bicycle Repair Man !" (Monty Python)
 
+[dev 0ad1a4b27] feat: add 2-p5-t638 radial distribution function and updates to logs
+ 6 files changed, 2193 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t644.log
+ create mode 100644 logs/sim-2-p5-t644.log
+ create mode 100644 logs/sim-2-p5-t650.log
+ create mode 100644 results/rdf-2-p5-t638.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
