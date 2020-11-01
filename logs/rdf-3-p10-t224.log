@@ -119,3 +119,7 @@ GROMACS reminds you: "As an adolescent I aspired to lasting fame, I craved factu
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 55e837a] feat: add 3-p10-t224 radial distribution function
+ 3 files changed, 2147 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p10-t224.log (77%)
+ create mode 100644 results/rdf-3-p10-t224.xvg
