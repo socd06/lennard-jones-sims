@@ -119,3 +119,7 @@ GROMACS reminds you: "Nothing is more anarchic than power." (Pier Paolo Pasolini
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 606efab] feat: add 3-p7-t704 radial distribution function
+ 3 files changed, 2147 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p7-t704.log (70%)
+ create mode 100644 results/rdf-3-p7-t704.xvg
