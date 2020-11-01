@@ -119,3 +119,9 @@ GROMACS reminds you: "Your assumptions are your windows on the world. Scrub them
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 623101cad] feat: add 3-p9-t584 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p9-t584.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ab1699f5c..623101cad  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
