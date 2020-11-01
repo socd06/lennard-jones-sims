@@ -109,3 +109,12 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#349: "Never, I said never, compare with experiment" (Magnus Bergh)
 
+[dev c16a1cd5d] feat: add 2-p3-t248 radial distribution function and updates to logs
+ 6 files changed, 2299 insertions(+)
+ create mode 100644 logs/rdf-2-p3-t248.log
+ create mode 100644 logs/rdf-2-p3-t254.log
+ create mode 100644 logs/sim-2-p3-t254.log
+ create mode 100644 logs/sim-2-p3-t260.log
+ create mode 100644 results/rdf-2-p3-t248.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
