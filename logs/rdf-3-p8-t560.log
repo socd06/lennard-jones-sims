@@ -119,3 +119,10 @@ GROMACS reminds you: "What's the point, yo, what's the spread?" (Red Hot Chili P
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 e7a527242] feat: add 3-p8-t560 radial distribution function and updates to logs
+ 4 files changed, 2184 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p8-t560.log (70%)
+ create mode 100644 results/rdf-3-p8-t560.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   847619ebd..e7a527242  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
