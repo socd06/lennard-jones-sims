@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Good Music Saves your Soul" (Lemmy)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 171509614] feat: add 3-p9-t362 radial distribution function and updates to logs
+ 7 files changed, 2304 insertions(+), 246 deletions(-)
+ rewrite logs/rdf-3-p9-t362.log (70%)
+ rewrite logs/rdf-3-p9-t368.log (75%)
+ create mode 100644 results/rdf-3-p9-t362.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   6cf39a58c..171509614  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
