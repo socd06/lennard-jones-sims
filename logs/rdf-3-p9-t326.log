@@ -119,3 +119,11 @@ GROMACS reminds you: "I'm An Oakman" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 06a2d7ed7] feat: add 3-p9-t326 radial distribution function and updates to logs
+ 6 files changed, 2302 insertions(+), 271 deletions(-)
+ rewrite logs/rdf-3-p9-t326.log (71%)
+ rewrite logs/rdf-3-p9-t332.log (77%)
+ create mode 100644 results/rdf-3-p9-t326.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   16b53bdd7..06a2d7ed7  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
