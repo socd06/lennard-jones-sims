@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You're About to Hurt Somebody" (Jazzy Jeff)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 957a73a3a] feat: add 3-p11-t200 radial distribution function and updates to logs
+ 7 files changed, 2323 insertions(+), 251 deletions(-)
+ rewrite logs/rdf-3-p11-t200.log (75%)
+ rewrite logs/rdf-3-p11-t206.log (71%)
+ create mode 100644 results/rdf-3-p11-t200.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   25c6611b7..957a73a3a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
