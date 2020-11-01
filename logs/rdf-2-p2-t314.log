@@ -110,3 +110,12 @@ Analyzed 1501 frames, last time 3000.000
 gcq#252: "Fly to the Court of England and Unfold" (Macbeth, Act 3, Scene 6, William Shakespeare)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 56d17dfba] feat: add 2-p2-t314 radial distribution function and updates to logs
+ 6 files changed, 2284 insertions(+)
+ create mode 100644 logs/rdf-2-p2-t314.log
+ create mode 100644 logs/rdf-2-p2-t320.log
+ create mode 100644 logs/sim-2-p2-t320.log
+ create mode 100644 logs/sim-2-p2-t326.log
+ create mode 100644 results/rdf-2-p2-t314.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
