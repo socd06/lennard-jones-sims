@@ -119,3 +119,9 @@ GROMACS reminds you: "Mendeleev's first attempt, the perfluoric table, was a tot
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 f184d8ddb] feat: add 3-p7-t476 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p7-t476.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b0316fbc1..f184d8ddb  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
