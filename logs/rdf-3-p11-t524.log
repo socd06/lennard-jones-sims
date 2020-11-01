@@ -119,3 +119,9 @@ GROMACS reminds you: "People disagree with me. I just ignore them." (Linus Torva
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 d5d3afa53] feat: add 3-p11-t524 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p11-t524.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   0e8b3d369..d5d3afa53  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
