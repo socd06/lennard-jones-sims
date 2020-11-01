@@ -119,3 +119,7 @@ GROMACS reminds you: "Mathematics is a game played according to certain rules wi
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 8ef399d] feat: add 3-p12-t206 radial distribution function
+ 3 files changed, 2147 insertions(+), 129 deletions(-)
+ rewrite logs/rdf-3-p12-t206.log (74%)
+ create mode 100644 results/rdf-3-p12-t206.xvg
