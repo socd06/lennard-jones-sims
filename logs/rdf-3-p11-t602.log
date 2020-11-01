@@ -119,3 +119,7 @@ GROMACS reminds you: "This type of advanced sampling techniques... which are not
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 29fcb63] feat: add 3-p11-t602 radial distribution function
+ 3 files changed, 2157 insertions(+), 150 deletions(-)
+ rewrite logs/rdf-3-p11-t602.log (76%)
+ create mode 100644 results/rdf-3-p11-t602.xvg
