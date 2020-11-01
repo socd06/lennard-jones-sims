@@ -119,3 +119,7 @@ GROMACS reminds you: "Mendeleev's first attempt, the perfluoric table, was a tot
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 02cb79c] feat: add 3-p10-t554 radial distribution function
+ 3 files changed, 2147 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p10-t554.log (74%)
+ create mode 100644 results/rdf-3-p10-t554.xvg
