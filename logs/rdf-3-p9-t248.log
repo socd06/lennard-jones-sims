@@ -119,3 +119,7 @@ GROMACS reminds you: "Hangout In the Suburbs If You've Got the Guts" (Urban Danc
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md ce299ab] feat: add 3-p9-t248 radial distribution function
+ 3 files changed, 2147 insertions(+), 153 deletions(-)
+ rewrite logs/rdf-3-p9-t248.log (77%)
+ create mode 100644 results/rdf-3-p9-t248.xvg
