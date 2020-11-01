@@ -119,3 +119,9 @@ GROMACS reminds you: "What's Your Definition Of Dirty ?" (G. Michael)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 185ed67da] feat: add 3-p11-t752 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-3-p11-t752.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4aece64bb..185ed67da  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
