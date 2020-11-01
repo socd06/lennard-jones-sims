@@ -119,3 +119,7 @@ GROMACS reminds you: "Science is not a boy's game, it's not a girl's game. It's 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 49bbbec] feat: add 3-p8-t620 radial distribution function
+ 3 files changed, 2147 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p8-t620.log (69%)
+ create mode 100644 results/rdf-3-p8-t620.xvg
