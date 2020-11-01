@@ -119,3 +119,7 @@ GROMACS reminds you: "Welcome to the Power Age" (2 Unlimited)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 2fbdaff] feat: add 3-p11-t410 radial distribution function
+ 3 files changed, 2147 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p11-t410.log (69%)
+ create mode 100644 results/rdf-3-p11-t410.xvg
