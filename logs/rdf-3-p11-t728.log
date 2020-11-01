@@ -119,3 +119,11 @@ GROMACS reminds you: "It's Bicycle Repair Man !" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 10a679e23] feat: add 3-p11-t728 radial distribution function and updates to logs
+ 6 files changed, 2300 insertions(+), 213 deletions(-)
+ rewrite logs/rdf-3-p11-t728.log (70%)
+ rewrite logs/rdf-3-p11-t734.log (70%)
+ create mode 100644 results/rdf-3-p11-t728.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   efa3ca857..10a679e23  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
