@@ -119,3 +119,7 @@ GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d1aa9f7] feat: add 3-p9-t692 radial distribution function
+ 3 files changed, 2147 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p9-t692.log (69%)
+ create mode 100644 results/rdf-3-p9-t692.xvg
