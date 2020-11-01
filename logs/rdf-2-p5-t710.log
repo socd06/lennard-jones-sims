@@ -110,3 +110,9 @@ Analyzed 1501 frames, last time 3000.000
 gcq#108: "Motherhood Means Mental Freeze" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 6f3fdc049] feat: add 2-p5-t710 radial distribution function and updates to logs
+ 5 files changed, 2181 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t716.log
+ create mode 100644 results/rdf-2-p5-t710.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
