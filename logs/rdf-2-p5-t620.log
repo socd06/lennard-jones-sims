@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#117: "And You Will Know That My Name is the Lord When I Lay My Vengeance Upon Thee." (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 60b585752] feat: add 2-p5-t620 radial distribution function and updates to logs
+ 5 files changed, 2178 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t626.log
+ create mode 100644 logs/sim-2-p5-t626.log
+ create mode 100644 results/rdf-2-p5-t620.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
