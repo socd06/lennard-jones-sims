@@ -119,3 +119,11 @@ GROMACS reminds you: "Everything's formed from particles" (Van der Graaf Generat
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 6c8c66a85] feat: add 3-p9-t716 radial distribution function and updates to logs
+ 5 files changed, 2299 insertions(+), 251 deletions(-)
+ rewrite logs/rdf-3-p9-t716.log (70%)
+ rewrite logs/rdf-3-p9-t722.log (75%)
+ create mode 100644 results/rdf-3-p9-t716.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   913a3d379..6c8c66a85  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
