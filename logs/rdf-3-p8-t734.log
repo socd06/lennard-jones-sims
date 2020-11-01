@@ -119,3 +119,11 @@ GROMACS reminds you: "According to my computations we're overdue for a transform
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 cb75a669b] feat: add 3-p8-t734 radial distribution function and updates to logs
+ 5 files changed, 2296 insertions(+), 251 deletions(-)
+ rewrite logs/rdf-3-p8-t734.log (75%)
+ rewrite logs/rdf-3-p8-t740.log (71%)
+ create mode 100644 results/rdf-3-p8-t734.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   74c44dee9..cb75a669b  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
