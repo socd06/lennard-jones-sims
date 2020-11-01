@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#280: "Baby, It Aint Over Till It's Over" (Lenny Kravitz)
 
+[dev 1ac2b0325] feat: add 2-p2-t260 radial distribution function and updates to logs
+ 6 files changed, 2229 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p2-t266.log
+ create mode 100644 logs/sim-2-p2-t266.log
+ create mode 100644 logs/sim-2-p2-t272.log
+ create mode 100644 results/rdf-2-p2-t260.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
