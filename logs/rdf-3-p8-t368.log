@@ -119,3 +119,11 @@ GROMACS reminds you: "Correctomundo" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 366c4c039] feat: add 3-p8-t368 radial distribution function and updates to logs
+ 5 files changed, 2184 insertions(+), 256 deletions(-)
+ rewrite logs/rdf-3-p8-t368.log (77%)
+ rewrite logs/rdf-3-p8-t374.log (99%)
+ create mode 100644 results/rdf-3-p8-t368.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   0cffcdfc1..366c4c039  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
