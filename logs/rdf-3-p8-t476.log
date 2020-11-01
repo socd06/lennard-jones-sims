@@ -119,3 +119,7 @@ GROMACS reminds you: "Check Your Output" (P. Ahlstrom)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d2828db] feat: add 3-p8-t476 radial distribution function
+ 3 files changed, 2147 insertions(+), 121 deletions(-)
+ rewrite logs/rdf-3-p8-t476.log (70%)
+ create mode 100644 results/rdf-3-p8-t476.xvg
