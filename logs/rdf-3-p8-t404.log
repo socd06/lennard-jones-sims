@@ -119,3 +119,12 @@ GROMACS reminds you: "It Doesn't Have to Be Tip Top" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 18ed2f3d2] feat: add 3-p8-t404 radial distribution function and updates to logs
+ 7 files changed, 2313 insertions(+), 259 deletions(-)
+ rewrite logs/rdf-3-p8-t404.log (77%)
+ rewrite logs/rdf-3-p8-t410.log (71%)
+ rewrite logs/sim-3-p8-t416.log (75%)
+ create mode 100644 results/rdf-3-p8-t404.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   3196c0396..18ed2f3d2  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
