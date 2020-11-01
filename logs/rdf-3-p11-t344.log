@@ -120,3 +120,9 @@ GROMACS reminds you: "Shoot them in the back now" (The Ramones)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 244865afa] feat: add 3-p11-t344 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p11-t344.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f188e0e52..244865afa  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
