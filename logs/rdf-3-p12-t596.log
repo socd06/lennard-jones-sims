@@ -119,3 +119,11 @@ GROMACS reminds you: "We Can Dance Like Iggy Pop" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 27db0f01d] feat: add 3-p12-t596 radial distribution function and updates to logs
+ 6 files changed, 2299 insertions(+), 245 deletions(-)
+ rewrite logs/rdf-3-p12-t596.log (70%)
+ rewrite logs/rdf-3-p12-t602.log (75%)
+ create mode 100644 results/rdf-3-p12-t596.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   5139d769a..27db0f01d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
