@@ -119,3 +119,9 @@ GROMACS reminds you: "During my undergraduate work I concluded that electrostati
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 af9c09b2e] feat: add 3-p9-t596 radial distribution function and updates to logs
+ 4 files changed, 2074 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p9-t596.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f39a1282f..af9c09b2e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
