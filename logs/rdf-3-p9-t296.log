@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Why, how now, Claudio ! Whence Comes this Restraint ?" (Lucio in Measure for measure, Act 1, Scene 4, William Shakespeare)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 98f49b737] feat: add 3-p9-t296 radial distribution function and updates to logs
+ 7 files changed, 2304 insertions(+), 223 deletions(-)
+ rewrite logs/rdf-3-p9-t296.log (70%)
+ rewrite logs/rdf-3-p9-t302.log (70%)
+ create mode 100644 results/rdf-3-p9-t296.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   bfd3cb69a..98f49b737  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
