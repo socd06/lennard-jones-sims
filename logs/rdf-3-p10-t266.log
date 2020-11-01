@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "In the processing of models we must be especially cautious of the human weakness to think that models can be verified or validated. Especially one's own." (Roald Hoffmann)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 807f5ac6a] feat: add 3-p10-t266 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 250 deletions(-)
+ rewrite logs/rdf-3-p10-t266.log (75%)
+ rewrite logs/rdf-3-p10-t272.log (69%)
+ rewrite logs/sim-3-p10-t278.log (75%)
+ create mode 100644 results/rdf-3-p10-t266.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   beacbdb1f..807f5ac6a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
