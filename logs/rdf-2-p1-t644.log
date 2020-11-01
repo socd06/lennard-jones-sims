@@ -111,3 +111,12 @@ Analyzed 352 frames, last time 702.000
 
 gcq#399: "The soul? There's nothing but chemistry here" (Breaking Bad)
 
+[dev 3cfb3e888] feat: add 2-p1-t644 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 2 deletions(-)
+ create mode 100644 logs/.rdf-2-p1-t638.log.swp
+ create mode 100644 logs/rdf-2-p1-t644.log
+ create mode 100644 logs/sim-2-p1-t644.log
+ create mode 100644 logs/sim-2-p1-t650.log
+ create mode 100644 results/rdf-2-p1-t644.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
