@@ -119,3 +119,7 @@ GROMACS reminds you: "Fifty years of programming language research, and we end u
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 973ac5f] feat: add 3-p9-t296 radial distribution function
+ 3 files changed, 2147 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p9-t296.log (69%)
+ create mode 100644 results/rdf-3-p9-t296.xvg
