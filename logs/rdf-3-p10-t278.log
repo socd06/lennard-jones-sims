@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You Leave Me Dry" (P.J. Harvey)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 08bd4a44e] feat: add 3-p10-t278 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 216 deletions(-)
+ rewrite logs/rdf-3-p10-t278.log (69%)
+ rewrite logs/rdf-3-p10-t284.log (69%)
+ rewrite logs/sim-3-p10-t290.log (75%)
+ create mode 100644 results/rdf-3-p10-t278.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   23eb9039e..08bd4a44e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
