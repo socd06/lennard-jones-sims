@@ -119,3 +119,11 @@ GROMACS reminds you: "Come on boys, Let's push it hard" (P.J. Harvey)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 fab94c644] feat: add 3-p8-t782 radial distribution function and updates to logs
+ 6 files changed, 2216 insertions(+), 253 deletions(-)
+ rewrite logs/rdf-3-p8-t782.log (76%)
+ rewrite logs/rdf-3-p8-t788.log (87%)
+ create mode 100644 results/rdf-3-p8-t782.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e295edbea..fab94c644  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
