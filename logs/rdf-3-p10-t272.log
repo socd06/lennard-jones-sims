@@ -119,3 +119,7 @@ GROMACS reminds you: "Hey Man You Know, I'm Really OK" (Offspring)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 701f37d] feat: add 3-p10-t272 radial distribution function
+ 3 files changed, 2147 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p10-t272.log (68%)
+ create mode 100644 results/rdf-3-p10-t272.xvg
