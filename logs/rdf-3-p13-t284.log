@@ -120,3 +120,9 @@ GROMACS reminds you: "If it weren't for C, we'd all be programming in BASI and O
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c7dede598] feat: add 3-p13-t284 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p13-t284.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   c3a4b78c4..c7dede598  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
