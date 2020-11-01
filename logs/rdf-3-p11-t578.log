@@ -119,3 +119,9 @@ GROMACS reminds you: "I'm a Jerk" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 617c6e74d] feat: add 3-p11-t578 radial distribution function and updates to logs
+ 4 files changed, 2184 insertions(+)
+ create mode 100644 results/rdf-3-p11-t578.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ca0f867bf..617c6e74d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
