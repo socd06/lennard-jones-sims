@@ -119,3 +119,10 @@ GROMACS reminds you: "Science is the great antidote to the poison of enthusiasm 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 03a9ec7da] feat: add 3-p7-t764 radial distribution function and updates to logs
+ 4 files changed, 2184 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p7-t764.log (71%)
+ create mode 100644 results/rdf-3-p7-t764.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   762df4a3d..03a9ec7da  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
