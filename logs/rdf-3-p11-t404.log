@@ -119,3 +119,7 @@ GROMACS reminds you: "Everything's formed from particles" (Van der Graaf Generat
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d827041] feat: add 3-p11-t404 radial distribution function
+ 3 files changed, 2147 insertions(+), 149 deletions(-)
+ rewrite logs/rdf-3-p11-t404.log (76%)
+ create mode 100644 results/rdf-3-p11-t404.xvg
