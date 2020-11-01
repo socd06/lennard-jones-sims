@@ -119,3 +119,11 @@ GROMACS reminds you: "I was elected to lead, not to read" (President A. Schwarze
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 05f79d8dc] feat: add 3-p7-t458 radial distribution function and updates to logs
+ 6 files changed, 2298 insertions(+), 227 deletions(-)
+ rewrite logs/rdf-3-p7-t458.log (70%)
+ rewrite logs/rdf-3-p7-t464.log (72%)
+ create mode 100644 results/rdf-3-p7-t458.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f175259f9..05f79d8dc  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
