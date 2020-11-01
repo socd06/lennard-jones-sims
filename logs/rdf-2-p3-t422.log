@@ -113,3 +113,10 @@ gcq#297: "It's Calling Me to Break my Bonds, Again..." (Van der Graaf)
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev fe4894e35] feat: add 2-p3-t422 radial distribution function and updates to logs
+ 6 files changed, 2181 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p3-t428.log
+ create mode 100644 logs/sim-2-p3-t434.log
+ create mode 100644 results/rdf-2-p3-t422.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
