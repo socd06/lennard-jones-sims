@@ -111,3 +111,9 @@ gcq#566: "There's a limit to how many times you can read how great you are and w
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev e84efb010] feat: add 2-p5-t662 radial distribution function and updates to logs
+ 5 files changed, 2176 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t668.log
+ create mode 100644 results/rdf-2-p5-t662.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
