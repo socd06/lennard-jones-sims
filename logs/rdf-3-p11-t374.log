@@ -119,3 +119,7 @@ GROMACS reminds you: "I try to identify myself with the atoms... I ask what I wo
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 2bdc17a] feat: add 3-p11-t374 radial distribution function
+ 3 files changed, 2147 insertions(+), 123 deletions(-)
+ rewrite logs/rdf-3-p11-t374.log (73%)
+ create mode 100644 results/rdf-3-p11-t374.xvg
