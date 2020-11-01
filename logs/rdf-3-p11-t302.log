@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Proceed, With Fingers Crossed" (TeX)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c75522352] feat: add 3-p11-t302 radial distribution function and updates to logs
+ 8 files changed, 2341 insertions(+), 216 deletions(-)
+ rewrite logs/rdf-3-p11-t302.log (70%)
+ rewrite logs/rdf-3-p11-t308.log (70%)
+ create mode 100644 results/rdf-3-p11-t302.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   62d75fc9c..c75522352  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
