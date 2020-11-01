@@ -120,3 +120,8 @@ GROMACS reminds you: "Since the mathematicians have invaded the theory of relati
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in cd branch
+[cd d20eea02c] feat: add 4-p5-t224 radial distribution function and updates to logs
+ 6 files changed, 2188 insertions(+)
+ create mode 100644 logs/rdf-4-p5-t224.log
+ create mode 100644 logs/sim-4-p5-t230.log
+ create mode 100644 results/rdf-4-p5-t224.xvg

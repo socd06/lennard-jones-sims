@@ -1,5 +1,9 @@
 Generating index groups
+<<<<<<< HEAD
                      :-) GROMACS - gmx make_ndx, 2020.2 (-:
+=======
+                     :-) GROMACS - gmx make_ndx, 2020.3 (-:
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 
                             GROMACS is written by:
      Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
@@ -27,20 +31,37 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
+<<<<<<< HEAD
 GROMACS:      gmx make_ndx, version 2020.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/lennard-jones-sims/3-kr
+=======
+GROMACS:      gmx make_ndx, version 2020.3
+Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
+Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
+Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 Command line:
   gmx make_ndx -f OUT/p7-t332/3-md.tpr -o indexrdf.ndx
 
 
 Reading structure file
+<<<<<<< HEAD
 Reading file OUT/p7-t332/3-md.tpr, VERSION 2020.2 (single precision)
 Reading file OUT/p7-t332/3-md.tpr, VERSION 2020.2 (single precision)
 
 GROMACS reminds you: "Shit Happens" (Pulp Fiction)
 
+=======
+Reading file OUT/p7-t332/3-md.tpr, VERSION 2020.3 (single precision)
+Reading file OUT/p7-t332/3-md.tpr, VERSION 2020.3 (single precision)
+
+Back Off! I just backed up indexrdf.ndx to ./#indexrdf.ndx.1#
+
+GROMACS reminds you: "Everything He Lacks, He Makes Up In Denial" (Offspring)
+
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 Going to read 0 old index file(s)
 Analysing residue names:
 There are:  4000      Other residues
@@ -74,7 +95,11 @@ Removed group 1 'Other'
 
 > 
 calculating radial distribution function
+<<<<<<< HEAD
                        :-) GROMACS - gmx rdf, 2020.2 (-:
+=======
+                       :-) GROMACS - gmx rdf, 2020.3 (-:
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 
                             GROMACS is written by:
      Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
@@ -102,10 +127,17 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
+<<<<<<< HEAD
 GROMACS:      gmx rdf, version 2020.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/lennard-jones-sims/3-kr
+=======
+GROMACS:      gmx rdf, version 2020.3
+Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
+Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
+Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 Command line:
   gmx rdf -f OUT/p7-t332/3-md.trr -s OUT/p7-t332/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p7-t332.xvg
 
@@ -117,6 +149,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Men love to wonder, and that is the seed of science." (Ralph Waldo Emerson)
 
+<<<<<<< HEAD
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
 [md 4213ed3] feat: add 3-p7-t332 radial distribution function
@@ -128,3 +161,47 @@ rm: cannot remove '*.mdout.*': No such file or directory
 To https://github.com/socd06/lennard-jones-sims.git
    db87831..9946cf0  md -> md
 Branch md set up to track remote branch md from origin.
+=======
+-------------------------------------------------------
+Program:     gmx rdf, version 2020.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 275)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -n
+    File 'indexrdf.ndx' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+rm: cannot remove 'indexrdf.ndx': No such file or directory
+rm: cannot remove '*.ndx.*': No such file or directory
+rm: cannot remove '*.mdp.*': No such file or directory
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
+>>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
