@@ -119,3 +119,12 @@ GROMACS reminds you: "If mathematical analysis should ever hold a prominent plac
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 bbfd6af36] feat: add 3-p8-t518 radial distribution function and updates to logs
+ 7 files changed, 2313 insertions(+), 246 deletions(-)
+ rewrite logs/rdf-3-p8-t518.log (72%)
+ rewrite logs/rdf-3-p8-t524.log (75%)
+ rewrite logs/sim-3-p8-t530.log (75%)
+ create mode 100644 results/rdf-3-p8-t518.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   c7fc46637..bbfd6af36  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
