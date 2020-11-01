@@ -119,3 +119,7 @@ GROMACS reminds you: "C has the power of assembly language and the convenience o
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md dc7538f] feat: add 3-p8-t470 radial distribution function
+ 3 files changed, 2157 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p8-t470.log (69%)
+ create mode 100644 results/rdf-3-p8-t470.xvg
