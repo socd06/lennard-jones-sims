@@ -119,3 +119,10 @@ GROMACS reminds you: "Life in the streets is not easy" (Marky Mark)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 06cdf513c] feat: add 3-p12-t446 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p12-t446.log (70%)
+ create mode 100644 results/rdf-3-p12-t446.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4d0cdadb0..06cdf513c  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
