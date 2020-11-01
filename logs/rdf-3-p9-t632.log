@@ -119,3 +119,7 @@ GROMACS reminds you: "The road to openness is paved with git commits" (Vedran Mi
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 561fc2d] feat: add 3-p9-t632 radial distribution function
+ 3 files changed, 2157 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p9-t632.log (70%)
+ create mode 100644 results/rdf-3-p9-t632.xvg
