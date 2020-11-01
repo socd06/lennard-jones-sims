@@ -111,3 +111,10 @@ gcq#184: "I Am a Poor Lonesome Cowboy" (Lucky Luke)
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev d2d0ea9ab] feat: add 2-p4-t428 radial distribution function and updates to logs
+ 5 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p4-t434.log
+ create mode 100644 logs/sim-2-p4-t434.log
+ create mode 100644 results/rdf-2-p4-t428.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
