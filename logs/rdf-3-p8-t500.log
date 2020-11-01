@@ -119,3 +119,9 @@ GROMACS reminds you: "Every Sperm is Sacred" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 6f27afaca] feat: add 3-p8-t500 radial distribution function and updates to logs
+ 4 files changed, 2141 insertions(+)
+ create mode 100644 results/rdf-3-p8-t500.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   8ad53678a..6f27afaca  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
