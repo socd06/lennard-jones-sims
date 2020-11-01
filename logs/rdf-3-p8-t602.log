@@ -119,3 +119,7 @@ GROMACS reminds you: "Almost without exception, the talented women I have known 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 9c3bf7c] feat: add 3-p8-t602 radial distribution function
+ 3 files changed, 2157 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p8-t602.log (69%)
+ create mode 100644 results/rdf-3-p8-t602.xvg
