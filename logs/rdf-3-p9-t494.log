@@ -119,3 +119,7 @@ GROMACS reminds you: "I'm no model lady. A model's just an imitation of the real
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 21cde6d] feat: add 3-p9-t494 radial distribution function
+ 3 files changed, 2147 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p9-t494.log (74%)
+ create mode 100644 results/rdf-3-p9-t494.xvg
