@@ -121,3 +121,10 @@ GROMACS reminds you: "I don't believe in astrology; I'm a Sagittarian and we're 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 38b10ffdb] feat: add 3-p11-t368 radial distribution function and updates to logs
+ 5 files changed, 2187 insertions(+), 124 deletions(-)
+ rewrite logs/rdf-3-p11-t374.log (74%)
+ create mode 100644 results/rdf-3-p11-t368.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b41077b04..38b10ffdb  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
