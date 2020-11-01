@@ -120,3 +120,10 @@ GROMACS reminds you: "Ease Myself Into the Body Bag" (P.J. Harvey)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c899081cb] feat: add 3-p7-t236 radial distribution function and updates to logs
+ 6 files changed, 2191 insertions(+), 147 deletions(-)
+ rewrite logs/rdf-3-p7-t242.log (76%)
+ create mode 100644 results/rdf-3-p7-t236.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   78a95c2b8..c899081cb  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
