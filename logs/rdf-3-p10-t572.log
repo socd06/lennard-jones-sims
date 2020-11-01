@@ -119,3 +119,7 @@ GROMACS reminds you: "Your Bones Got a Little Machine" (Pixies)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 8bc599e] feat: add 3-p10-t572 radial distribution function
+ 3 files changed, 2147 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p10-t572.log (74%)
+ create mode 100644 results/rdf-3-p10-t572.xvg
