@@ -119,3 +119,7 @@ GROMACS reminds you: "Don't waste pure thoughts on dirty enzymes." (Efraim Racke
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md dfc99a5] feat: add 3-p11-t212 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p11-t212.log (69%)
+ create mode 100644 results/rdf-3-p11-t212.xvg
