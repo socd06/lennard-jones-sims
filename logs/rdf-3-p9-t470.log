@@ -119,3 +119,9 @@ GROMACS reminds you: "Teemu [Murtola] keeps beating our code, but that's fine be
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 70141bdce] feat: add 3-p9-t470 radial distribution function and updates to logs
+ 4 files changed, 2074 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p9-t470.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   66cc83cbd..70141bdce  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
