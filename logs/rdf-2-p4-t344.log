@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#258: "All You Need is Greed" (Aztec Camera)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev d64a2c2d8] feat: add 2-p4-t344 radial distribution function and updates to logs
+ 6 files changed, 2191 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p4-t350.log
+ create mode 100644 logs/sim-2-p4-t356.log
+ create mode 100644 results/rdf-2-p4-t344.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
