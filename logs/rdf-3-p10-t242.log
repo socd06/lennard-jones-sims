@@ -119,3 +119,11 @@ GROMACS reminds you: "Does All This Money Really Have To Go To Charity ?" (Rick)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 e3fc7d68f] feat: add 3-p10-t242 radial distribution function and updates to logs
+ 6 files changed, 2200 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p10-t248.log (69%)
+ rewrite logs/sim-3-p10-t254.log (75%)
+ create mode 100644 results/rdf-3-p10-t242.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   5bed83945..e3fc7d68f  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
