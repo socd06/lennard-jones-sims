@@ -119,3 +119,7 @@ GROMACS reminds you: "Some People Say Not to Worry About the Air" (The Talking H
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 563bdea] feat: add 3-p8-t236 radial distribution function
+ 3 files changed, 2147 insertions(+), 105 deletions(-)
+ rewrite logs/rdf-3-p8-t236.log (68%)
+ create mode 100644 results/rdf-3-p8-t236.xvg
