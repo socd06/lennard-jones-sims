@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "A protein is a chain of letters." (Julie Bernauer)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 33568ed] feat: add 1-p1-t716 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 77 deletions(-)
+ create mode 100644 results/rdf-1-p1-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0ab7466..33568ed  beo -> beo
+Branch beo set up to track remote branch beo from origin.
