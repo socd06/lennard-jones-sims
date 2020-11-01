@@ -119,3 +119,7 @@ GROMACS reminds you: "Good judgement is the result of experience; experience is 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md ff9a880] feat: add 3-p10-t776 radial distribution function
+ 3 files changed, 2147 insertions(+), 139 deletions(-)
+ rewrite logs/rdf-3-p10-t776.log (74%)
+ create mode 100644 results/rdf-3-p10-t776.xvg
