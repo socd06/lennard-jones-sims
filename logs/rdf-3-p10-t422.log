@@ -119,3 +119,12 @@ GROMACS reminds you: "If everything seems under control, you're just not going f
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 ab6e61edc] feat: add 3-p10-t422 radial distribution function and updates to logs
+ 7 files changed, 2313 insertions(+), 216 deletions(-)
+ rewrite logs/rdf-3-p10-t422.log (69%)
+ rewrite logs/rdf-3-p10-t428.log (69%)
+ rewrite logs/sim-3-p10-t434.log (75%)
+ create mode 100644 results/rdf-3-p10-t422.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f71b01422..ab6e61edc  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
