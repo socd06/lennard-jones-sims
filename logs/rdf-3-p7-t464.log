@@ -119,3 +119,7 @@ GROMACS reminds you: "You Fill Me With Inertia" (The Long Blondes)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md e7e4ae8] feat: add 3-p7-t464 radial distribution function
+ 3 files changed, 2147 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p7-t464.log (71%)
+ create mode 100644 results/rdf-3-p7-t464.xvg
