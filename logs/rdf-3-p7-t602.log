@@ -119,3 +119,7 @@ GROMACS reminds you: "I've Got Two Turntables and a Microphone" (B. Hansen)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1632fa0] feat: add 3-p7-t602 radial distribution function
+ 3 files changed, 2147 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p7-t602.log (69%)
+ create mode 100644 results/rdf-3-p7-t602.xvg
