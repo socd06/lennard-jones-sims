@@ -119,3 +119,7 @@ GROMACS reminds you: "The farther the experiment is from theory, the closer it i
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 839117f] feat: add 3-p8-t578 radial distribution function
+ 3 files changed, 2157 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p8-t578.log (69%)
+ create mode 100644 results/rdf-3-p8-t578.xvg
