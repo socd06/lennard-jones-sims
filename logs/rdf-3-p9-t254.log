@@ -119,3 +119,11 @@ GROMACS reminds you: "And I Will Strike Down Upon Thee With Great Vengeance and 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 252add305] feat: add 3-p9-t254 radial distribution function and updates to logs
+ 6 files changed, 2199 insertions(+), 148 deletions(-)
+ rewrite logs/rdf-3-p9-t260.log (75%)
+ rewrite logs/sim-3-p9-t266.log (75%)
+ create mode 100644 results/rdf-3-p9-t254.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f2d8b3449..252add305  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
