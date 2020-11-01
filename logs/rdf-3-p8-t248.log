@@ -119,3 +119,7 @@ GROMACS reminds you: "Forcefields are like dating; things go fine for a while an
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 8d49c5a] feat: add 3-p8-t248 radial distribution function
+ 3 files changed, 2147 insertions(+), 116 deletions(-)
+ rewrite logs/rdf-3-p8-t248.log (71%)
+ create mode 100644 results/rdf-3-p8-t248.xvg
