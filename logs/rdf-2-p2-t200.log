@@ -109,3 +109,12 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#72: "Baseball Heroes Only" (P.J. Harvey)
 
+[dev 436e0345f] feat: add 2-p2-t200 radial distribution function and updates to logs
+ 7 files changed, 2301 insertions(+)
+ create mode 100644 logs/rdf-2-p2-t200.log
+ create mode 100644 logs/rdf-2-p2-t206.log
+ create mode 100644 logs/sim-2-p2-t206.log
+ create mode 100644 logs/sim-2-p2-t212.log
+ create mode 100644 results/rdf-2-p2-t200.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
