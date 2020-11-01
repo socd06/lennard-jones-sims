@@ -119,3 +119,7 @@ GROMACS reminds you: "Every Sperm is Sacred" (Monty Python)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md ce61655] feat: add 3-p11-t632 radial distribution function
+ 3 files changed, 2147 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p11-t632.log (68%)
+ create mode 100644 results/rdf-3-p11-t632.xvg
