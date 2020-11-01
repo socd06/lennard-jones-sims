@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#298: "I believe in miracles cause I'm one" (The Ramones)
 
+[dev db069b6bb] feat: add 2-p5-t728 radial distribution function and updates to logs
+ 6 files changed, 2194 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t734.log
+ create mode 100644 logs/sim-2-p5-t734.log
+ create mode 100644 logs/sim-2-p5-t740.log
+ create mode 100644 results/rdf-2-p5-t728.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
