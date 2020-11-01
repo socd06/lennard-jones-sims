@@ -119,3 +119,11 @@ GROMACS reminds you: "Quite frankly, even if the choice of C were to do *nothing
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 630e62573] feat: add 3-p8-t542 radial distribution function and updates to logs
+ 6 files changed, 2298 insertions(+), 223 deletions(-)
+ rewrite logs/rdf-3-p8-t542.log (70%)
+ rewrite logs/rdf-3-p8-t548.log (70%)
+ create mode 100644 results/rdf-3-p8-t542.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f2decf80d..630e62573  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
