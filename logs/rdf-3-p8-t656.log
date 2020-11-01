@@ -119,3 +119,7 @@ GROMACS reminds you: "Since the mathematicians have invaded the theory of relati
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 6da538a] feat: add 3-p8-t656 radial distribution function
+ 3 files changed, 2147 insertions(+), 129 deletions(-)
+ rewrite logs/rdf-3-p8-t656.log (74%)
+ create mode 100644 results/rdf-3-p8-t656.xvg
