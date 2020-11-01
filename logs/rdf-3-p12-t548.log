@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Ease Myself Into the Body Bag" (P.J. Harvey)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 a51606e02] feat: add 3-p12-t548 radial distribution function and updates to logs
+ 7 files changed, 2304 insertions(+), 241 deletions(-)
+ rewrite logs/rdf-3-p12-t548.log (75%)
+ rewrite logs/rdf-3-p12-t554.log (71%)
+ create mode 100644 results/rdf-3-p12-t548.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   3d3311073..a51606e02  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
