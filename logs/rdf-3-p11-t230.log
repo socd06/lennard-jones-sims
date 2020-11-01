@@ -119,3 +119,7 @@ GROMACS reminds you: "But in my opinion, all things in nature occur mathematical
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 3af001e] feat: add 3-p11-t230 radial distribution function
+ 3 files changed, 2147 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p11-t230.log (68%)
+ create mode 100644 results/rdf-3-p11-t230.xvg
