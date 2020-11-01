@@ -96,15 +96,11 @@ run-folders() {
 
 	submit(){
 		git add ../results/rdf-$preffix-p$p-t$t.xvg
-		git add ../logs/rdf-$preffix-p$p-t$t.log
-		git add ../logs/sim-$preffix-p$p-t$t.log
-		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
-
 		git add ../logs
-		git commit -m "add commit head to log backlog"
+		git commit -m "feat: add $preffix-p$p-t$t radial distribution function and updates to logs"
 		# Always use branch computer alias
 		# make sure to have a branch for each
-		git push origin dev
+		git push -u origin beo
 	}
 
 	gas-gas(){
@@ -119,7 +115,8 @@ run-folders() {
 		echo "calculating radial distribution function"
 		gmx rdf -f $FILE.trr -s $FILE.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-$preffix-p$p-t$t.xvg < input
 		rm indexrdf.ndx
-		rm *.ndx*
+		rm *.ndx.*
+		rm *.mdp.*
 		rm -r OUT/p$p-t$t
 		submit
 	}
