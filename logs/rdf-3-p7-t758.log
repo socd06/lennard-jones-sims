@@ -119,3 +119,7 @@ GROMACS reminds you: "I wanted to make a clever chemistry joke, but the best one
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 24cc65f] feat: add 3-p7-t758 radial distribution function
+ 3 files changed, 2157 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p7-t758.log (69%)
+ create mode 100644 results/rdf-3-p7-t758.xvg
