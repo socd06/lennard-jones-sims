@@ -119,3 +119,7 @@ GROMACS reminds you: "Rockets are cool. There's no getting around that." (Elon M
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1ae19ce] feat: add 3-p8-t350 radial distribution function
+ 3 files changed, 2157 insertions(+), 163 deletions(-)
+ rewrite logs/rdf-3-p8-t350.log (77%)
+ create mode 100644 results/rdf-3-p8-t350.xvg
