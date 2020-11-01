@@ -119,3 +119,7 @@ GROMACS reminds you: "I have a hunch that the unknown sequences of DNA will deco
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md fadddae] feat: add 3-p9-t548 radial distribution function
+ 3 files changed, 2157 insertions(+), 144 deletions(-)
+ rewrite logs/rdf-3-p9-t548.log (75%)
+ create mode 100644 results/rdf-3-p9-t548.xvg
