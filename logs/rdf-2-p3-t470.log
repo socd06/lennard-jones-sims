@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#85: "It's Because Of the Metric System" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 54af92c08] feat: add 2-p3-t470 radial distribution function and updates to logs
+ 6 files changed, 2285 insertions(+)
+ create mode 100644 logs/rdf-2-p3-t470.log
+ create mode 100644 logs/rdf-2-p3-t476.log
+ create mode 100644 logs/sim-2-p3-t476.log
+ create mode 100644 results/rdf-2-p3-t470.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
