@@ -119,3 +119,12 @@ GROMACS reminds you: "Boom Boom Boom Boom, I Want You in My Room" (Venga Boys)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 8529ae52d] feat: add 3-p9-t566 radial distribution function and updates to logs
+ 7 files changed, 2314 insertions(+), 256 deletions(-)
+ rewrite logs/rdf-3-p9-t566.log (75%)
+ rewrite logs/rdf-3-p9-t572.log (70%)
+ rewrite logs/sim-3-p9-t578.log (75%)
+ create mode 100644 results/rdf-3-p9-t566.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   d25f1e1bd..8529ae52d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
