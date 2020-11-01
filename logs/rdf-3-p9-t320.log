@@ -119,3 +119,9 @@ GROMACS reminds you: "Baby, It Aint Over Till It's Over" (Lenny Kravitz)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 16b53bdd7] feat: add 3-p9-t320 radial distribution function and updates to logs
+ 4 files changed, 2070 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p9-t320.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   0572e0567..16b53bdd7  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
