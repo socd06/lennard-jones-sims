@@ -119,3 +119,7 @@ GROMACS reminds you: "I always think there is something foreign about jolly phra
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md ea3aece] feat: add 3-p7-t722 radial distribution function
+ 3 files changed, 2157 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p7-t722.log (69%)
+ create mode 100644 results/rdf-3-p7-t722.xvg
