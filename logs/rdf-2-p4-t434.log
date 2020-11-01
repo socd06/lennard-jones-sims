@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#438: "What about my nose?" (Aneesur Rahman, responding to an Argonne manager arguing the long hair of Charles Bennett in his group was disreputing the lab; Retold by Michael Klein)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev f592d5a6a] feat: add 2-p4-t434 radial distribution function and updates to logs
+ 5 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p4-t440.log
+ create mode 100644 logs/sim-2-p4-t440.log
+ create mode 100644 results/rdf-2-p4-t434.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
