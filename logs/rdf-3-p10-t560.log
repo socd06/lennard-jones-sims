@@ -119,3 +119,7 @@ GROMACS reminds you: "Encountered Subspace Anomaly" (Star Trek)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md f364a4d] feat: add 3-p10-t560 radial distribution function
+ 3 files changed, 2147 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p10-t560.log (68%)
+ create mode 100644 results/rdf-3-p10-t560.xvg
