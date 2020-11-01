@@ -119,3 +119,12 @@ GROMACS reminds you: "There's only music to make new ringtones" (Arctic Monkeys)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 f00554ee0] feat: add 3-p7-t434 radial distribution function and updates to logs
+ 7 files changed, 2313 insertions(+), 220 deletions(-)
+ rewrite logs/rdf-3-p7-t434.log (70%)
+ rewrite logs/rdf-3-p7-t440.log (70%)
+ rewrite logs/sim-3-p7-t446.log (75%)
+ create mode 100644 results/rdf-3-p7-t434.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   d39da9652..f00554ee0  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
