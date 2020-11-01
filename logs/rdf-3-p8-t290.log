@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material." (Watson & Crick)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 27d1fd2a3] feat: add 3-p8-t290 radial distribution function and updates to logs
+ 7 files changed, 2314 insertions(+), 228 deletions(-)
+ rewrite logs/rdf-3-p8-t290.log (71%)
+ rewrite logs/rdf-3-p8-t296.log (70%)
+ rewrite logs/sim-3-p8-t302.log (75%)
+ create mode 100644 results/rdf-3-p8-t290.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   cf2ef13a7..27d1fd2a3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
