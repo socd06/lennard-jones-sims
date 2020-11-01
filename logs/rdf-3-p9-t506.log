@@ -119,3 +119,7 @@ GROMACS reminds you: "You Try to Run the Universe" (Tricky)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md bce741e] feat: add 3-p9-t506 radial distribution function
+ 3 files changed, 2157 insertions(+), 133 deletions(-)
+ rewrite logs/rdf-3-p9-t506.log (75%)
+ create mode 100644 results/rdf-3-p9-t506.xvg
