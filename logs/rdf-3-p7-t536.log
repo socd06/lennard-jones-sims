@@ -119,3 +119,11 @@ GROMACS reminds you: "In practice, throwing traditional norms and values overboa
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 d7126ce2b] feat: add 3-p7-t536 radial distribution function and updates to logs
+ 6 files changed, 2224 insertions(+), 215 deletions(-)
+ rewrite logs/rdf-3-p7-t536.log (70%)
+ rewrite logs/rdf-3-p7-t542.log (85%)
+ create mode 100644 results/rdf-3-p7-t536.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   bb8f99e23..d7126ce2b  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
