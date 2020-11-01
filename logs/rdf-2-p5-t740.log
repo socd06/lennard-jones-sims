@@ -110,3 +110,9 @@ Analyzed 1501 frames, last time 3000.000
 gcq#546: "In my opinion, we don't devote nearly enough scientific research to finding a cure for jerks." (Bill Watterson)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 1e63296e9] feat: add 2-p5-t740 radial distribution function and updates to logs
+ 5 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p5-t746.log
+ create mode 100644 results/rdf-2-p5-t740.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
