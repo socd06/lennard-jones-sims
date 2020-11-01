@@ -121,3 +121,9 @@ GROMACS reminds you: "Base eight is just like base ten really, if you're missing
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 f81385b79] feat: add 3-p10-t458 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p10-t458.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   31643e526..f81385b79  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
