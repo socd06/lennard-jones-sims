@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#503: "Heard a talk introducing a new language called Swift, from a guy named Wozniak, and it had nothing to do with Apple!" (Adam Cadien)
 
+[dev 7a80cbe54] feat: add 2-p2-t272 radial distribution function and updates to logs
+ 7 files changed, 2320 insertions(+)
+ create mode 100644 logs/rdf-2-p2-t272.log
+ create mode 100644 logs/rdf-2-p2-t278.log
+ create mode 100644 logs/sim-2-p2-t278.log
+ create mode 100644 results/rdf-2-p2-t272.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
