@@ -119,3 +119,9 @@ GROMACS reminds you: "I'm Looking for a New Simulation" (Stone Temple Pilots)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 b31475d1d] feat: add 3-p8-t572 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-3-p8-t572.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   c7d8da1b2..b31475d1d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
