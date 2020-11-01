@@ -119,3 +119,7 @@ GROMACS reminds you: "If There Is No Guitar In The House, You Know It's Owner Ca
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1b4de8d] feat: add 3-p8-t788 radial distribution function
+ 3 files changed, 2157 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p8-t788.log (69%)
+ create mode 100644 results/rdf-3-p8-t788.xvg
