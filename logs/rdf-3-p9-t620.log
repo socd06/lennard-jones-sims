@@ -119,3 +119,7 @@ GROMACS reminds you: "In the processing of models we must be especially cautious
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1baa88d] feat: add 3-p9-t620 radial distribution function
+ 3 files changed, 2157 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p9-t620.log (69%)
+ create mode 100644 results/rdf-3-p9-t620.xvg
