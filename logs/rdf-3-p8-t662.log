@@ -119,3 +119,11 @@ GROMACS reminds you: "Should we force science down the throats of those that hav
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 cbe1c72e5] feat: add 3-p8-t662 radial distribution function and updates to logs
+ 6 files changed, 2186 insertions(+), 250 deletions(-)
+ rewrite logs/rdf-3-p8-t662.log (70%)
+ rewrite logs/rdf-3-p8-t668.log (99%)
+ create mode 100644 results/rdf-3-p8-t662.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   86a53cb19..cbe1c72e5  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
