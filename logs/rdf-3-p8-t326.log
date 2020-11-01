@@ -119,3 +119,12 @@ GROMACS reminds you: "There is only one thing worse than coming home from the la
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 df5b1ad7d] feat: add 3-p8-t326 radial distribution function and updates to logs
+ 7 files changed, 2241 insertions(+), 238 deletions(-)
+ rewrite logs/rdf-3-p8-t326.log (73%)
+ rewrite logs/rdf-3-p8-t332.log (86%)
+ rewrite logs/sim-3-p8-t338.log (75%)
+ create mode 100644 results/rdf-3-p8-t326.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   d8b58dd2d..df5b1ad7d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
