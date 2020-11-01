@@ -119,3 +119,9 @@ GROMACS reminds you: "It's more useful when you know what you're doing." (Artem 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 8b98297ba] feat: add 3-p8-t386 radial distribution function and updates to logs
+ 4 files changed, 2073 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p8-t386.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   6935cea82..8b98297ba  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
