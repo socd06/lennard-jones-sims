@@ -121,3 +121,11 @@ GROMACS reminds you: "I believe the big bang of self-driving cars is about to co
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 252b5d3ed] feat: add 3-p8-t314 radial distribution function and updates to logs
+ 6 files changed, 2200 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p8-t320.log (69%)
+ rewrite logs/sim-3-p8-t326.log (75%)
+ create mode 100644 results/rdf-3-p8-t314.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   69f59c495..252b5d3ed  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
