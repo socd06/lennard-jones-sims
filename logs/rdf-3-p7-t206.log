@@ -122,3 +122,9 @@ GROMACS reminds you: "Boom Boom Boom Boom, I Want You in My Room" (Venga Boys)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 971c16ae3] feat: add 3-p7-t206 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p7-t206.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   206c42a1d..971c16ae3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
