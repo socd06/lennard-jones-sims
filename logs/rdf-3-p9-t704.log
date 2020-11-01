@@ -119,3 +119,7 @@ GROMACS reminds you: "Watch Out Where the Huskies Go" (F. Zappa)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 65912a1] feat: add 3-p9-t704 radial distribution function
+ 3 files changed, 2157 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p9-t704.log (70%)
+ create mode 100644 results/rdf-3-p9-t704.xvg
