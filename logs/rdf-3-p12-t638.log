@@ -119,3 +119,9 @@ GROMACS reminds you: "With a Lead Filled Snowshoe" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c6f40bce3] feat: add 3-p12-t638 radial distribution function and updates to logs
+ 4 files changed, 2074 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p12-t638.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e506b9a40..c6f40bce3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
