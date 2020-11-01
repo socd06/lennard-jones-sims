@@ -119,3 +119,10 @@ GROMACS reminds you: "Nothing is more anarchic than power." (Pier Paolo Pasolini
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 bdcfa7be0] feat: add 3-p12-t752 radial distribution function and updates to logs
+ 5 files changed, 2184 insertions(+), 135 deletions(-)
+ rewrite logs/rdf-3-p12-t752.log (76%)
+ create mode 100644 results/rdf-3-p12-t752.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   5f303f9d1..bdcfa7be0  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
