@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#549: "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." (Bill Gates)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 1310e9b44] feat: add 2-p2-t206 radial distribution function and updates to logs
+ 6 files changed, 2181 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p2-t212.log
+ create mode 100644 logs/sim-2-p2-t218.log
+ create mode 100644 results/rdf-2-p2-t206.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
