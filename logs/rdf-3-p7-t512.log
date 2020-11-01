@@ -119,3 +119,7 @@ GROMACS reminds you: "It has not escaped our notice that the specific pairing we
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 56bac43] feat: add 3-p7-t512 radial distribution function
+ 3 files changed, 2167 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p7-t512.log (69%)
+ create mode 100644 results/rdf-3-p7-t512.xvg

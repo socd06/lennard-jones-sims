@@ -123,3 +123,9 @@ rm: cannot remove '*.mdout.*': No such file or directory
  3 files changed, 2157 insertions(+), 122 deletions(-)
  rewrite logs/rdf-3-p7-t506.log (72%)
  create mode 100644 results/rdf-3-p7-t506.xvg
+[md 15efe02] add commit head to log backlog
+ 3 files changed, 23 insertions(+), 4 deletions(-)
+ rewrite logs/sim-3-p7-t512.log (75%)
+To https://github.com/socd06/lennard-jones-sims.git
+   2d57e6e..15efe02  md -> md
+Branch md set up to track remote branch md from origin.
