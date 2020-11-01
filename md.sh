@@ -100,7 +100,7 @@ run-folders() {
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function and updates to logs"
 		# Always use branch computer alias
 		# make sure to have a branch for each
-		git push -u origin beo
+		git push -u origin md
 	}
 
 	gas-gas(){
