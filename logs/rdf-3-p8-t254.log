@@ -118,3 +118,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Sir, spare your threats: The bug which you would fright me with I seek." (Hermione, Act III, scene II of Shakespeare's Winter's Tale)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 ec8183499] feat: add 3-p8-t254 radial distribution function and updates to logs
+ 6 files changed, 2190 insertions(+), 115 deletions(-)
+ rewrite logs/rdf-3-p8-t260.log (70%)
+ create mode 100644 results/rdf-3-p8-t254.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   47ab3099b..ec8183499  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
