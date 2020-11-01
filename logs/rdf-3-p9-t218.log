@@ -119,3 +119,7 @@ GROMACS reminds you: "I have had my results for a long time, but I do not yet kn
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md dc3168a] feat: add 3-p9-t218 radial distribution function
+ 3 files changed, 2147 insertions(+), 145 deletions(-)
+ rewrite logs/rdf-3-p9-t218.log (75%)
+ create mode 100644 results/rdf-3-p9-t218.xvg
