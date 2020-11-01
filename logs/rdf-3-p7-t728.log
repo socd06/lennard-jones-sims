@@ -119,3 +119,7 @@ GROMACS reminds you: "I Got a Forty Dollar Bill" (F. Zappa)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 579b8bc] feat: add 3-p7-t728 radial distribution function
+ 3 files changed, 2157 insertions(+), 121 deletions(-)
+ rewrite logs/rdf-3-p7-t728.log (73%)
+ create mode 100644 results/rdf-3-p7-t728.xvg
