@@ -119,3 +119,7 @@ GROMACS reminds you: "In ancient times they had no statistics so they had to fal
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 3755c41] feat: add 3-p7-t782 radial distribution function
+ 3 files changed, 2157 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p7-t782.log (69%)
+ create mode 100644 results/rdf-3-p7-t782.xvg
