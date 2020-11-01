@@ -119,3 +119,10 @@ GROMACS reminds you: "Heard a talk introducing a new language called Swift, from
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 89f451e13] feat: add 3-p7-t788 radial distribution function and updates to logs
+ 4 files changed, 2184 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p7-t788.log (70%)
+ create mode 100644 results/rdf-3-p7-t788.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   67b7d9bc3..89f451e13  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
