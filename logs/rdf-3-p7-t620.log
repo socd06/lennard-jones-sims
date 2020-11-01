@@ -119,3 +119,7 @@ GROMACS reminds you: "Out Of Register Space (Ugh)" (Vi)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md ae6a5af] feat: add 3-p7-t620 radial distribution function
+ 3 files changed, 2157 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p7-t620.log (69%)
+ create mode 100644 results/rdf-3-p7-t620.xvg
