@@ -119,3 +119,10 @@ GROMACS reminds you: "The Internet?  We are not interested in it." (Bill Gates, 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 bbec008fd] feat: add 3-p8-t482 radial distribution function and updates to logs
+ 5 files changed, 2184 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p8-t482.log (70%)
+ create mode 100644 results/rdf-3-p8-t482.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   be194b2fc..bbec008fd  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
