@@ -119,3 +119,10 @@ GROMACS reminds you: "I Wonder, Should I Get Up..." (J. Lennon)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 1d2b03a7d] feat: add 3-p12-t392 radial distribution function and updates to logs
+ 5 files changed, 2298 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p12-t398.log (69%)
+ create mode 100644 results/rdf-3-p12-t392.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   2d131d4c0..1d2b03a7d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
