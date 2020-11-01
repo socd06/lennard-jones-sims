@@ -121,3 +121,11 @@ GROMACS reminds you: "No One Could Foresee the End That Came So Fast" (Slayer)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 960bb4d9d] feat: add 3-p7-t248 radial distribution function and updates to logs
+ 6 files changed, 2200 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p7-t254.log (70%)
+ rewrite logs/sim-3-p7-t260.log (75%)
+ create mode 100644 results/rdf-3-p7-t248.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b5f6f213e..960bb4d9d  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
