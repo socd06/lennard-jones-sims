@@ -119,3 +119,11 @@ GROMACS reminds you: "Documentation is like sex: When it's good it's great, and 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 de0bf5d0e] feat: add 3-p7-t314 radial distribution function and updates to logs
+ 6 files changed, 2201 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p7-t320.log (69%)
+ rewrite logs/sim-3-p7-t326.log (75%)
+ create mode 100644 results/rdf-3-p7-t314.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   cb4e5d220..de0bf5d0e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
