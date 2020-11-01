@@ -119,3 +119,9 @@ GROMACS reminds you: "Louis Pasteur's theory of germs is ridiculous fiction." (P
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 95f59caec] feat: add 3-p10-t428 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p10-t428.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ab6e61edc..95f59caec  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
