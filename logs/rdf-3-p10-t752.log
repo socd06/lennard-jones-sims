@@ -119,3 +119,9 @@ GROMACS reminds you: "Don't be afraid of hard work. Nothing worthwhile comes eas
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c91298c3a] feat: add 3-p10-t752 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-3-p10-t752.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   59f29a27b..c91298c3a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
