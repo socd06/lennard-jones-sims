@@ -119,3 +119,11 @@ GROMACS reminds you: "Put Me Inside SSC, Let's Test Superstring Theory, Oh Yoi Y
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 7b573a42a] feat: add 3-p16-t296 radial distribution function and updates to logs
+ 6 files changed, 2199 insertions(+), 155 deletions(-)
+ rewrite logs/rdf-3-p16-t302.log (77%)
+ rewrite logs/sim-3-p16-t308.log (75%)
+ create mode 100644 results/rdf-3-p16-t296.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b34740c99..7b573a42a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
