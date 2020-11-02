@@ -119,3 +119,11 @@ GROMACS reminds you: "It's Not Your Fault" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 43783f61f] feat: add 3-p15-t614 radial distribution function and updates to logs
+ 6 files changed, 2200 insertions(+), 132 deletions(-)
+ rewrite logs/rdf-3-p15-t620.log (75%)
+ rewrite logs/sim-3-p15-t626.log (75%)
+ create mode 100644 results/rdf-3-p15-t614.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   69a646114..43783f61f  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
