@@ -119,3 +119,7 @@ GROMACS reminds you: "The programmer got stuck in the shower because the instruc
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 9eab29d] feat: add 3-p12-t362 radial distribution function
+ 3 files changed, 2147 insertions(+), 131 deletions(-)
+ rewrite logs/rdf-3-p12-t362.log (75%)
+ create mode 100644 results/rdf-3-p12-t362.xvg
