@@ -119,3 +119,10 @@ GROMACS reminds you: "Today we're not going to optimize our CUDA code, cause tha
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 aac5f437a] feat: add 3-p15-t230 radial distribution function and updates to logs
+ 5 files changed, 2150 insertions(+), 79 deletions(-)
+ create mode 100644 results/rdf-3-p15-t230.xvg
+fatal: unable to get credential storage lock: File exists
+To https://github.com/adreyesf/lennard-jones-sims.git
+   7118b8b2e..aac5f437a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
