@@ -5,7 +5,7 @@
 import os
 
 with open("../iters.txt","w+") as f:
-    for root, dirs, files in os.walk("results"):
+    for root, dirs, files in os.walk("../results"):
         for name in files:
             print(name[4:-4])
             f.write(name[4:-4])
