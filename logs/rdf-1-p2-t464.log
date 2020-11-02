@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "I Got a Forty Dollar Bill" (F. Zappa)
 
+[beo fca9d04] feat: add 1-p2-t464 radial distribution function and updates to logs
+ 8 files changed, 2192 insertions(+), 160 deletions(-)
+ create mode 100644 results/rdf-1-p2-t464.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c165037..fca9d04  beo -> beo
+Branch beo set up to track remote branch beo from origin.
