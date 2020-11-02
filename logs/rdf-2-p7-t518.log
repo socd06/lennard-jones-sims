@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#415: "In a talk you have a choice: You can make one point or no points." (Paul Sigler)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 644548d4d] feat: add 2-p7-t518 radial distribution function and updates to logs
+ 6 files changed, 2190 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p7-t524.log
+ create mode 100644 logs/sim-2-p7-t530.log
+ create mode 100644 results/rdf-2-p7-t518.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
