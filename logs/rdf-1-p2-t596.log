@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "X-rays will prove to be a hoax." (Lord Kelvin, while president of the Royal Society)
 
+[beo 1fae60f] feat: add 1-p2-t596 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p2-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9ec579f..1fae60f  beo -> beo
+Branch beo set up to track remote branch beo from origin.
