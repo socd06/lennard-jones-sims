@@ -122,3 +122,10 @@ GROMACS reminds you: "Energy is a very subtle concept. It is very, very difficul
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 555071da3] feat: add 3-p15-t542 radial distribution function and updates to logs
+ 6 files changed, 2187 insertions(+), 124 deletions(-)
+ rewrite logs/rdf-3-p15-t548.log (73%)
+ create mode 100644 results/rdf-3-p15-t542.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   80a1f3774..555071da3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
