@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Step On the Brakes" (2 Unlimited)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 19bfff790] feat: add 3-p16-t548 radial distribution function and updates to logs
+ 6 files changed, 2299 insertions(+), 252 deletions(-)
+ rewrite logs/rdf-3-p16-t548.log (70%)
+ rewrite logs/rdf-3-p16-t554.log (75%)
+ create mode 100644 results/rdf-3-p16-t548.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b2019f4d5..19bfff790  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
