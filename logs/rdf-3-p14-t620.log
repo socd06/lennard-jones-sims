@@ -119,3 +119,7 @@ GROMACS reminds you: "I know poetry is not dead, nor genius lost; nor has Mammon
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md b569a6f] feat: add 3-p14-t620 radial distribution function
+ 3 files changed, 2147 insertions(+), 139 deletions(-)
+ rewrite logs/rdf-3-p14-t620.log (74%)
+ create mode 100644 results/rdf-3-p14-t620.xvg
