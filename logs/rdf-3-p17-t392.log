@@ -119,3 +119,10 @@ GROMACS reminds you: "It doesn't pay to make predictions" (Crowded House)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 80e21e28e] feat: add 3-p17-t392 radial distribution function and updates to logs
+ 5 files changed, 2185 insertions(+), 142 deletions(-)
+ rewrite logs/rdf-3-p17-t398.log (77%)
+ create mode 100644 results/rdf-3-p17-t392.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   b6726cf4c..80e21e28e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
