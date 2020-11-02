@@ -119,3 +119,11 @@ GROMACS reminds you: "Pretend That You're Hercule Poirot" (TeX)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 dc4991e6a] feat: add 3-p17-t422 radial distribution function and updates to logs
+ 6 files changed, 2303 insertions(+), 252 deletions(-)
+ rewrite logs/rdf-3-p17-t422.log (70%)
+ rewrite logs/rdf-3-p17-t428.log (77%)
+ create mode 100644 results/rdf-3-p17-t422.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   95fc4226c..dc4991e6a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
