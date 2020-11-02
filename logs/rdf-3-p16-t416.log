@@ -122,3 +122,12 @@ GROMACS reminds you: "Der Ball ist rund, das Spiel dauert 90 minuten, alles ande
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[u1 1714e6dbd] feat: add 3-p16-t416 radial distribution function and updates to logs
+ 5 files changed, 2189 insertions(+), 121 deletions(-)
+ rewrite logs/rdf-3-p16-t422.log (73%)
+ create mode 100644 results/rdf-3-p16-t416.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   28e01a9e1..1714e6dbd  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
