@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Dr Pauling, how do you have so many good ideas? Well David, I have a lot of ideas and throw away the bad ones." (Linus Pauling)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9e99985] feat: add 1-p2-t236 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p2-t248.log (75%)
+ create mode 100644 results/rdf-1-p2-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   23464cc..9e99985  beo -> beo
+Branch beo set up to track remote branch beo from origin.
