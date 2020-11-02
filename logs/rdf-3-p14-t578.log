@@ -119,3 +119,7 @@ GROMACS reminds you: "You're About to Hurt Somebody" (Jazzy Jeff)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md bd2847e] feat: add 3-p14-t578 radial distribution function
+ 3 files changed, 2147 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p14-t578.log (70%)
+ create mode 100644 results/rdf-3-p14-t578.xvg
