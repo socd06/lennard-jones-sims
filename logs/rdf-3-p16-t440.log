@@ -122,3 +122,10 @@ GROMACS reminds you: "Right Between the Eyes" (F. Zappa)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 236b6cb42] feat: add 3-p16-t440 radial distribution function and updates to logs
+ 5 files changed, 2186 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p16-t446.log (70%)
+ create mode 100644 results/rdf-3-p16-t440.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ff156379a..236b6cb42  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
