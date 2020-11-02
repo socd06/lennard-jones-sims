@@ -119,3 +119,10 @@ GROMACS reminds you: "The scientific method is an integral part of human intelli
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 7ea6b0c6a] feat: add 3-p14-t344 radial distribution function and updates to logs
+ 6 files changed, 2193 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p14-t350.log (70%)
+ create mode 100644 results/rdf-3-p14-t344.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4fc438516..7ea6b0c6a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
