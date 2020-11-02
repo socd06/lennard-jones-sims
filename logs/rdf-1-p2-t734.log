@@ -113,3 +113,9 @@ Analyzed 136 frames, last time 270.000
 
 GROMACS reminds you: "If mathematical analysis should ever hold a prominent place in chemistry - an aberration which is happily almost impossible - it would occasion a rapid and widespread degeneration of that science." (Aguste Comte, 1830)
 
+[beo abe7fc5] feat: add 1-p2-t734 radial distribution function and updates to logs
+ 6 files changed, 2114 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p2-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   24441ef..abe7fc5  beo -> beo
+Branch beo set up to track remote branch beo from origin.
