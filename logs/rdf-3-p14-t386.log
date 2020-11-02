@@ -119,3 +119,7 @@ GROMACS reminds you: "PHP is a minor evil perpetrated and created by incompetent
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 82f284d] feat: add 3-p14-t386 radial distribution function
+ 3 files changed, 2147 insertions(+), 120 deletions(-)
+ rewrite logs/rdf-3-p14-t386.log (72%)
+ create mode 100644 results/rdf-3-p14-t386.xvg
