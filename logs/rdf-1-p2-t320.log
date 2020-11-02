@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "When the universe has expanded, time will contract" (Franz Ferdinand)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9d5f869] feat: add 1-p2-t320 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p2-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2a254e1..9d5f869  beo -> beo
+Branch beo set up to track remote branch beo from origin.
