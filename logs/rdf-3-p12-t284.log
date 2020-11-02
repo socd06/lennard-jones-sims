@@ -119,3 +119,7 @@ GROMACS reminds you: "If you're doing I/O, you're doing it wrong!" (Cannada "Dre
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 5e0456b] feat: add 3-p12-t284 radial distribution function
+ 3 files changed, 2147 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p12-t284.log (68%)
+ create mode 100644 results/rdf-3-p12-t284.xvg
