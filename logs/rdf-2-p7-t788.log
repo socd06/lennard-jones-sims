@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#466: "XML is not a language in the sense of a programming language any more than sketches on a napkin are a language." (Charles Simonyi)
 
+[dev 24fb4d6cf] feat: add 2-p7-t788 radial distribution function and updates to logs
+ 6 files changed, 2195 insertions(+)
+ create mode 100644 logs/rdf-2-p7-t794.log
+ create mode 100644 logs/sim-2-p7-t794.log
+ create mode 100644 logs/sim-2-p7-t800.log
+ create mode 100644 results/rdf-2-p7-t788.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
