@@ -119,3 +119,7 @@ GROMACS reminds you: "I'd Like Monday Mornings Better If They Started Later" (Ga
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md de1a44d] feat: add 3-p12-t494 radial distribution function
+ 3 files changed, 2147 insertions(+), 151 deletions(-)
+ rewrite logs/rdf-3-p12-t494.log (76%)
+ create mode 100644 results/rdf-3-p12-t494.xvg
