@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#170: "You Got to Relate to It" (A.E. Torda)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 95904dac1] feat: add 2-p7-t800 radial distribution function and updates to logs
+ 6 files changed, 2178 insertions(+)
+ create mode 100644 logs/rdf-2-p7-t800.log
+ create mode 100644 logs/rdf-2-p8-t200.log
+ create mode 100644 logs/sim-2-p8-t200.log
+ create mode 100644 results/rdf-2-p7-t800.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
