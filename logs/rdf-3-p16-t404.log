@@ -122,3 +122,10 @@ GROMACS reminds you: "To dissimulate is to feign not to have what one has. To si
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 6080590b2] feat: add 3-p16-t404 radial distribution function and updates to logs
+ 6 files changed, 2187 insertions(+), 123 deletions(-)
+ rewrite logs/rdf-3-p16-t410.log (73%)
+ create mode 100644 results/rdf-3-p16-t404.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   35eb97da7..6080590b2  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
