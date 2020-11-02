@@ -118,3 +118,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Protons give an atom its identity, electrons its personality." (Bill Bryson)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 ff156379a] feat: add 3-p16-t434 radial distribution function and updates to logs
+ 6 files changed, 2304 insertions(+), 134 deletions(-)
+ rewrite logs/rdf-3-p16-t440.log (75%)
+ create mode 100644 results/rdf-3-p16-t434.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   912195deb..ff156379a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
