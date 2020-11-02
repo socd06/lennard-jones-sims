@@ -119,3 +119,9 @@ GROMACS reminds you: "She's a Good Sheila Bruce" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 ab1c487be] feat: add 3-p15-t518 radial distribution function and updates to logs
+ 4 files changed, 2070 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p15-t518.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f9083c7a5..ab1c487be  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
