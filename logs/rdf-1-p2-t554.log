@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Even if you are on the right track, you will get run over if you just sit there." (Will Rogers)
 
+[beo 86c41d8] feat: add 1-p2-t554 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p2-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   894ea88..86c41d8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
