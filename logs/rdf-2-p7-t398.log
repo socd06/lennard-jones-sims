@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#429: "There is no such thing as free energy. Anyone who advocates it does not know what he is talking about." (Alireza Haghighat)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 460df8429] feat: add 2-p7-t398 radial distribution function and updates to logs
+ 6 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p7-t404.log
+ create mode 100644 logs/sim-2-p7-t410.log
+ create mode 100644 results/rdf-2-p7-t398.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
