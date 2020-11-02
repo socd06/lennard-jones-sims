@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "I'd Like Monday Mornings Better If They Started Later" (Garfield)
 
+[beo d66ee54] feat: add 1-p2-t536 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p2-t548.log (75%)
+ create mode 100644 results/rdf-1-p2-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f1fbd90..d66ee54  beo -> beo
+Branch beo set up to track remote branch beo from origin.
