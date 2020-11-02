@@ -120,3 +120,11 @@ GROMACS reminds you: "Statistics: The only science that enables different expert
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 69a646114] feat: add 3-p15-t608 radial distribution function and updates to logs
+ 6 files changed, 2201 insertions(+), 117 deletions(-)
+ rewrite logs/rdf-3-p15-t614.log (71%)
+ rewrite logs/sim-3-p15-t620.log (75%)
+ create mode 100644 results/rdf-3-p15-t608.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e5a566280..69a646114  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
