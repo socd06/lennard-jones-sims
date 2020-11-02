@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Still I had a lurking question. Would it not be better if one could really 'see' whether molecules as complicated as the sterols, or strychnine were just as experiment suggested?" (Dorothy Hodgkin)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 e69276def] feat: add 3-p13-t590 radial distribution function and updates to logs
+ 7 files changed, 2314 insertions(+), 263 deletions(-)
+ rewrite logs/rdf-3-p13-t590.log (77%)
+ rewrite logs/rdf-3-p13-t596.log (70%)
+ rewrite logs/sim-3-p13-t602.log (75%)
+ create mode 100644 results/rdf-3-p13-t590.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   9ce6f5969..e69276def  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
