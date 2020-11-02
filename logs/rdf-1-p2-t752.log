@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Don't Push Me, Cause I'm Close to the Edge" (Grandmaster Flash)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2c25d18] feat: add 1-p2-t752 radial distribution function and updates to logs
+ 5 files changed, 2113 insertions(+), 80 deletions(-)
+ create mode 100644 results/rdf-1-p2-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   340b512..2c25d18  beo -> beo
+Branch beo set up to track remote branch beo from origin.
