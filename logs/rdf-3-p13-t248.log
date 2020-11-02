@@ -119,3 +119,7 @@ GROMACS reminds you: "Load Up Your Rubber Bullets" (10 CC)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 3f3b953] feat: add 3-p13-t248 radial distribution function
+ 3 files changed, 2147 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p13-t248.log (70%)
+ create mode 100644 results/rdf-3-p13-t248.xvg
