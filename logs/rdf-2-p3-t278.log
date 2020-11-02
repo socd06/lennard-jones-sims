@@ -111,3 +111,9 @@ gcq#149: "I Smell Smoke From a Gun Named Extinction" (Pixies)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a5fb47bb5] feat: add 2-p3-t278 radial distribution function and updates to logs
+ 6 files changed, 2043 insertions(+), 41 deletions(-)
+ create mode 100644 results/rdf-2-p3-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   00d47fd2c..a5fb47bb5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
