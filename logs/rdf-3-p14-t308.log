@@ -119,3 +119,7 @@ GROMACS reminds you: "The difficulty lies, not in the new ideas, but in escaping
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d7743ae] feat: add 3-p14-t308 radial distribution function
+ 3 files changed, 2147 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p14-t308.log (74%)
+ create mode 100644 results/rdf-3-p14-t308.xvg
