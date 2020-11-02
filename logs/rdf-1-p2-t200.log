@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "I believe in miracles cause I'm one" (The Ramones)
 
+[beo 1cbc8fb] feat: add 1-p2-t200 radial distribution function and updates to logs
+ 7 files changed, 2166 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p2-t212.log (75%)
+ create mode 100644 results/rdf-1-p2-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   355e989..1cbc8fb  beo -> beo
+Branch beo set up to track remote branch beo from origin.
