@@ -119,3 +119,12 @@ GROMACS reminds you: "It's Unacceptable That Choclate Makes You Fat" (MI 3)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 ab173421e] feat: add 3-p15-t446 radial distribution function and updates to logs
+ 7 files changed, 2315 insertions(+), 267 deletions(-)
+ rewrite logs/rdf-3-p15-t446.log (77%)
+ rewrite logs/rdf-3-p15-t452.log (71%)
+ rewrite logs/sim-3-p15-t458.log (75%)
+ create mode 100644 results/rdf-3-p15-t446.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   53c5a8383..ab173421e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
