@@ -122,3 +122,10 @@ GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 d6baaff2e] feat: add 3-p16-t680 radial distribution function and updates to logs
+ 6 files changed, 2192 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p16-t686.log (70%)
+ create mode 100644 results/rdf-3-p16-t680.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4cd4f95d3..d6baaff2e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
