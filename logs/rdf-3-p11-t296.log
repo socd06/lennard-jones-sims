@@ -1,5 +1,9 @@
 Generating index groups
+<<<<<<< HEAD
                      :-) GROMACS - gmx make_ndx, 2020.2 (-:
+=======
+                     :-) GROMACS - gmx make_ndx, 2020.3 (-:
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 
                             GROMACS is written by:
      Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
@@ -27,19 +31,33 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
+<<<<<<< HEAD
 GROMACS:      gmx make_ndx, version 2020.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/lennard-jones-sims/3-kr
+=======
+GROMACS:      gmx make_ndx, version 2020.3
+Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
+Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
+Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 Command line:
   gmx make_ndx -f OUT/p11-t296/3-md.tpr -o indexrdf.ndx
 
 
 Reading structure file
+<<<<<<< HEAD
 Reading file OUT/p11-t296/3-md.tpr, VERSION 2020.2 (single precision)
 Reading file OUT/p11-t296/3-md.tpr, VERSION 2020.2 (single precision)
 
 GROMACS reminds you: "Just Give Me a Blip" (F. Black)
+=======
+Reading file OUT/p11-t296/3-md.tpr, VERSION 2020.3 (single precision)
+Reading file OUT/p11-t296/3-md.tpr, VERSION 2020.3 (single precision)
+
+GROMACS reminds you: "In science, truth always wins." (Max Perutz)
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 
 Going to read 0 old index file(s)
 Analysing residue names:
@@ -74,7 +92,11 @@ Removed group 1 'Other'
 
 > 
 calculating radial distribution function
+<<<<<<< HEAD
                        :-) GROMACS - gmx rdf, 2020.2 (-:
+=======
+                       :-) GROMACS - gmx rdf, 2020.3 (-:
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 
                             GROMACS is written by:
      Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
@@ -102,10 +124,17 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
+<<<<<<< HEAD
 GROMACS:      gmx rdf, version 2020.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
 Working dir:  /home/test/lennard-jones-sims/3-kr
+=======
+GROMACS:      gmx rdf, version 2020.3
+Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
+Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
+Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 Command line:
   gmx rdf -f OUT/p11-t296/3-md.trr -s OUT/p11-t296/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p11-t296.xvg
 
@@ -117,6 +146,7 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "The Internet?  We are not interested in it." (Bill Gates, 1993)
 
+<<<<<<< HEAD
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
 [md 74e8062] feat: add 3-p11-t296 radial distribution function
@@ -126,3 +156,47 @@ rm: cannot remove '*.mdout.*': No such file or directory
 [md 8c5e7c2] add commit head to log backlog
  3 files changed, 38 insertions(+), 1 deletion(-)
 fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
+=======
+-------------------------------------------------------
+Program:     gmx rdf, version 2020.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 275)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -n
+    File 'indexrdf.ndx' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+rm: cannot remove 'indexrdf.ndx': No such file or directory
+rm: cannot remove '*.ndx.*': No such file or directory
+rm: cannot remove '*.mdp.*': No such file or directory
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/adreyesf/lennard-jones-sims/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
+>>>>>>> 315021b360b307f22ed68200c34297090fe44c66

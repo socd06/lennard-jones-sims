@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/socd06/lennard-jones-sims/master/iters.txt
+https://raw.githubusercontent.com/socd06/lennard-jones-sims/cd/iters.txt
+https://raw.githubusercontent.com/socd06/lennard-jones-sims/md/iters.txt
+https://raw.githubusercontent.com/socd06/lennard-jones-sims/beo/iters.txt
+https://raw.githubusercontent.com/socd06/lennard-jones-sims/dev/iters.txt
+https://raw.githubusercontent.com/adreyesf/lennard-jones-sims/u1/iters.txt
