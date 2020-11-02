@@ -109,3 +109,12 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#30: "With a Little Penknife" (Nick Cave)
 
+[dev 2b3e52d34] feat: add 2-p6-t764 radial distribution function and updates to logs
+ 7 files changed, 2299 insertions(+)
+ create mode 100644 logs/rdf-2-p6-t764.log
+ create mode 100644 logs/rdf-2-p6-t770.log
+ create mode 100644 logs/sim-2-p6-t770.log
+ create mode 100644 logs/sim-2-p6-t776.log
+ create mode 100644 results/rdf-2-p6-t764.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
