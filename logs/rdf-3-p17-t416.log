@@ -119,3 +119,10 @@ GROMACS reminds you: "They Paint Their Faces So Differently From Ours" (Gogol Bo
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 95fc4226c] feat: add 3-p17-t416 radial distribution function and updates to logs
+ 5 files changed, 2184 insertions(+), 135 deletions(-)
+ rewrite logs/rdf-3-p17-t416.log (76%)
+ create mode 100644 results/rdf-3-p17-t416.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   0f027f3b9..95fc4226c  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
