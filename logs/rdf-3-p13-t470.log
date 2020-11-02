@@ -118,3 +118,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Oh, There Goes Gravity" (Eminem)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 cfd2c21fe] feat: add 3-p13-t470 radial distribution function and updates to logs
+ 6 files changed, 2190 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p13-t476.log (70%)
+ create mode 100644 results/rdf-3-p13-t470.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   88172f333..cfd2c21fe  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
