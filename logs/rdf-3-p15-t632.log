@@ -119,3 +119,9 @@ GROMACS reminds you: "People who do QM/MM must be rather patient and enjoy quali
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 34206c55a] feat: add 3-p15-t632 radial distribution function and updates to logs
+ 4 files changed, 2076 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p15-t632.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   9f7cb15ac..34206c55a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
