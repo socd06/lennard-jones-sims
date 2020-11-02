@@ -119,3 +119,7 @@ GROMACS reminds you: "You got one part of that wrong. This is not meth." (Breaki
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md fcf2bec] feat: add 3-p12-t734 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p12-t734.log (69%)
+ create mode 100644 results/rdf-3-p12-t734.xvg
