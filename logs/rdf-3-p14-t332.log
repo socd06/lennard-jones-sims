@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "... and that dream of dreams, a computational model that predicts everything accurately." (Roald Hoffmann)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 3cbb30ca3] feat: add 3-p14-t332 radial distribution function and updates to logs
+ 6 files changed, 2303 insertions(+), 263 deletions(-)
+ rewrite logs/rdf-3-p14-t332.log (77%)
+ rewrite logs/rdf-3-p14-t338.log (70%)
+ create mode 100644 results/rdf-3-p14-t332.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e0ed0ce63..3cbb30ca3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
