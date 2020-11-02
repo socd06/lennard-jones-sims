@@ -119,3 +119,7 @@ GROMACS reminds you: "There are only two things wrong with C++:  The initial con
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 0139f5e] feat: add 3-p13-t728 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p13-t728.log (69%)
+ create mode 100644 results/rdf-3-p13-t728.xvg
