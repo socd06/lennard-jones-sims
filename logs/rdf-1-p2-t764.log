@@ -112,3 +112,9 @@ Analyzed 1295 frames, last time 2588.000
 GROMACS reminds you: "Misslycka kan man med all kod" (Mats Nylen)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9465048] feat: add 1-p2-t764 radial distribution function and updates to logs
+ 4 files changed, 2071 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p2-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   317497c..9465048  beo -> beo
+Branch beo set up to track remote branch beo from origin.
