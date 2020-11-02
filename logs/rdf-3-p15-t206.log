@@ -121,3 +121,11 @@ GROMACS reminds you: "... an excellent man, almost worthy of such a wife ..." (J
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 3f01145fa] feat: add 3-p15-t206 radial distribution function and updates to logs
+ 6 files changed, 2201 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p15-t212.log (69%)
+ rewrite logs/sim-3-p15-t218.log (75%)
+ create mode 100644 results/rdf-3-p15-t206.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   76fc7935f..3f01145fa  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
