@@ -119,3 +119,10 @@ GROMACS reminds you: "The Path Of the Righteous Man is Beset On All Sides With t
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 7713e86ca] feat: add 3-p14-t692 radial distribution function and updates to logs
+ 5 files changed, 2299 insertions(+), 106 deletions(-)
+ rewrite logs/rdf-3-p14-t698.log (69%)
+ create mode 100644 results/rdf-3-p14-t692.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   fdd9be32e..7713e86ca  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
