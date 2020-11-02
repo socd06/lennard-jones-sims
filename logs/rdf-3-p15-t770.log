@@ -119,3 +119,9 @@ GROMACS reminds you: "Restraint! What possible restraint?" (Joseph Conrad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 0b45d92da] feat: add 3-p15-t770 radial distribution function and updates to logs
+ 4 files changed, 2072 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p15-t770.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e646e4fc9..0b45d92da  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
