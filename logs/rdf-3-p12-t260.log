@@ -119,3 +119,7 @@ GROMACS reminds you: "I admired Bohr very much. We had long talks together, long
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 687eb20] feat: add 3-p12-t260 radial distribution function
+ 3 files changed, 2147 insertions(+), 119 deletions(-)
+ rewrite logs/rdf-3-p12-t260.log (72%)
+ create mode 100644 results/rdf-3-p12-t260.xvg
