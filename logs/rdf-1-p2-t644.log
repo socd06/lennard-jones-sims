@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Would You Like to Be the Monster Tonight ?" (Captain Beefheart)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7a15e73] feat: add 1-p2-t644 radial distribution function and updates to logs
+ 5 files changed, 2110 insertions(+), 80 deletions(-)
+ create mode 100644 results/rdf-1-p2-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3992a8d..7a15e73  beo -> beo
+Branch beo set up to track remote branch beo from origin.
