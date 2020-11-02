@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Why Weren't You at My Funeral ?" (G. Groenhof)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c911eb45a] feat: add 3-p13-t386 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 237 deletions(-)
+ rewrite logs/rdf-3-p13-t386.log (75%)
+ rewrite logs/rdf-3-p13-t392.log (69%)
+ rewrite logs/sim-3-p13-t398.log (75%)
+ create mode 100644 results/rdf-3-p13-t386.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   835d21de4..c911eb45a  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
