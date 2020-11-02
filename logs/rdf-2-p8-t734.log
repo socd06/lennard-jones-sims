@@ -111,3 +111,10 @@ gcq#157: "The Microsecond is Within Reach" (P.J. Van Maaren)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b39c3e08f] feat: add 2-p8-t734 radial distribution function and updates to logs
+ 6 files changed, 2168 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p8-t740.log
+ create mode 100644 results/rdf-2-p8-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d15d84eb9..b39c3e08f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
