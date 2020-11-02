@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The only greatness for man is immortality." (James Dean)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 355e989] feat: add 1-p1-t800 radial distribution function and updates to logs
+ 4 files changed, 2102 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p1-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c2fd855..355e989  beo -> beo
+Branch beo set up to track remote branch beo from origin.
