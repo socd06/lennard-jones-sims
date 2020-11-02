@@ -119,3 +119,7 @@ GROMACS reminds you: "Yeah, uh uh, Neil's Head !" (Neil)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 579cf5a] feat: add 3-p15-t224 radial distribution function
+ 3 files changed, 2147 insertions(+), 131 deletions(-)
+ rewrite logs/rdf-3-p15-t224.log (75%)
+ create mode 100644 results/rdf-3-p15-t224.xvg
