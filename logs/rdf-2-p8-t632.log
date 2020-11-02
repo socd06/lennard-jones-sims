@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#418: "A curious aspect of the theory of evolution is that everybody thinks he understands it." (Jacques Monod)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 86b4a9c9c] feat: add 2-p8-t632 radial distribution function and updates to logs
+ 6 files changed, 2181 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p8-t638.log
+ create mode 100644 logs/sim-2-p8-t644.log
+ create mode 100644 results/rdf-2-p8-t632.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
