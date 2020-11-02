@@ -109,3 +109,11 @@ Analyzed 1501 frames, last time 3000.000
 
 gcq#145: "Everybody's Good Enough For Some Change" (LIVE)
 
+[dev 5f93a39dd] feat: add 2-p8-t200 radial distribution function and updates to logs
+ 6 files changed, 2320 insertions(+)
+ create mode 100644 logs/rdf-2-p8-t206.log
+ create mode 100644 logs/sim-2-p8-t206.log
+ create mode 100644 logs/sim-2-p8-t212.log
+ create mode 100644 results/rdf-2-p8-t200.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
