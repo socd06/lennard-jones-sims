@@ -123,3 +123,13 @@ rm: cannot remove '*.mdout.*': No such file or directory
  3 files changed, 2147 insertions(+), 138 deletions(-)
  rewrite logs/rdf-3-p14-t656.log (76%)
  create mode 100644 results/rdf-3-p14-t656.xvg
+[md affe365] add commit head to log backlog
+ 3 files changed, 36 insertions(+), 2 deletions(-)
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [rejected]        md -> md (fetch first)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
