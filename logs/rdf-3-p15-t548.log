@@ -119,3 +119,9 @@ GROMACS reminds you: "I Am a Poor Lonesome Cowboy" (Lucky Luke)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 a048403a0] feat: add 3-p15-t548 radial distribution function and updates to logs
+ 4 files changed, 2073 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p15-t548.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   555071da3..a048403a0  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
