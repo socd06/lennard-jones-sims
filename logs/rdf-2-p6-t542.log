@@ -113,3 +113,10 @@ gcq#564: "Even if you are on the right track, you will get run over if you just 
 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev ab70bb231] feat: add 2-p6-t542 radial distribution function and updates to logs
+ 6 files changed, 2191 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p6-t548.log
+ create mode 100644 logs/sim-2-p6-t554.log
+ create mode 100644 results/rdf-2-p6-t542.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
