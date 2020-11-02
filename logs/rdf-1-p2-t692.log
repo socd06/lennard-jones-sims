@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "This May Come As a Shock" (F. Black)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2b40af7] feat: add 1-p2-t692 radial distribution function and updates to logs
+ 5 files changed, 2110 insertions(+), 80 deletions(-)
+ create mode 100644 results/rdf-1-p2-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ff30a78..2b40af7  beo -> beo
+Branch beo set up to track remote branch beo from origin.
