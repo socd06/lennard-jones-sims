@@ -119,3 +119,10 @@ GROMACS reminds you: "The secret to getting ahead is getting started" (Mark Twai
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 05daf1759] feat: add 3-p16-t800 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+), 108 deletions(-)
+ rewrite logs/rdf-3-p16-t800.log (70%)
+ create mode 100644 results/rdf-3-p16-t800.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   320fa1d93..05daf1759  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
