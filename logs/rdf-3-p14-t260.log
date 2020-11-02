@@ -118,3 +118,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Academe, n.: An ancient school where morality and philosophy were taught. Academy, n.: A modern school where football is taught." (Ambrose Bierce)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 f7727a0ea] feat: add 3-p14-t260 radial distribution function and updates to logs
+ 6 files changed, 2190 insertions(+), 117 deletions(-)
+ rewrite logs/rdf-3-p14-t266.log (71%)
+ create mode 100644 results/rdf-3-p14-t260.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   4a84c5073..f7727a0ea  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
