@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The way to succeed is to double your failure rate." (Thomas J. Watson)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 27a90c4da] feat: add 3-p16-t284 radial distribution function and updates to logs
+ 6 files changed, 2200 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p16-t290.log (70%)
+ rewrite logs/sim-3-p16-t296.log (75%)
+ create mode 100644 results/rdf-3-p16-t284.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   bf74504d9..27a90c4da  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
