@@ -119,3 +119,7 @@ GROMACS reminds you: "I invented the term 'Object-Oriented', and I can tell you 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md fe5e17d] feat: add 3-p14-t224 radial distribution function
+ 3 files changed, 2147 insertions(+), 112 deletions(-)
+ rewrite logs/rdf-3-p14-t224.log (70%)
+ create mode 100644 results/rdf-3-p14-t224.xvg
