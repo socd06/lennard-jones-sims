@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 gcq#379: "It takes money to make money, they say" (Lou Reed)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev fd085d5eb] feat: add 2-p7-t692 radial distribution function and updates to logs
+ 5 files changed, 2177 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p7-t698.log
+ create mode 100644 results/rdf-2-p7-t692.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
