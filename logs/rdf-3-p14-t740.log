@@ -119,3 +119,7 @@ GROMACS reminds you: "Isn't this enough? Just this world? Just this beautiful, c
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 89ad7d1] feat: add 3-p14-t740 radial distribution function
+ 3 files changed, 2147 insertions(+), 130 deletions(-)
+ rewrite logs/rdf-3-p14-t740.log (74%)
+ create mode 100644 results/rdf-3-p14-t740.xvg
