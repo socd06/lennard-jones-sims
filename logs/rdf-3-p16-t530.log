@@ -119,3 +119,10 @@ GROMACS reminds you: "C has the power of assembly language and the convenience o
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 3bb432fbc] feat: add 3-p16-t530 radial distribution function and updates to logs
+ 5 files changed, 2186 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p16-t536.log (71%)
+ create mode 100644 results/rdf-3-p16-t530.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f697a35e0..3bb432fbc  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
