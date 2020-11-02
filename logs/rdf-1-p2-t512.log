@@ -114,3 +114,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Everybody's Good Enough For Some Change" (LIVE)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d79646c] feat: add 1-p2-t512 radial distribution function and updates to logs
+ 6 files changed, 2114 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p2-t512.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b0cc0a6..d79646c  beo -> beo
+Branch beo set up to track remote branch beo from origin.
