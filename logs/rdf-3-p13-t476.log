@@ -119,3 +119,7 @@ GROMACS reminds you: "If a rat is a good model for your emotional life, you're i
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 855cf8c] feat: add 3-p13-t476 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p13-t476.log (69%)
+ create mode 100644 results/rdf-3-p13-t476.xvg
