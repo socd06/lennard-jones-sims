@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'm Looking for a New Simulation" (Stone Temple Pilots)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 4b20e14bc] feat: add 3-p16-t464 radial distribution function and updates to logs
+ 6 files changed, 2303 insertions(+), 230 deletions(-)
+ rewrite logs/rdf-3-p16-t464.log (73%)
+ rewrite logs/rdf-3-p16-t470.log (70%)
+ create mode 100644 results/rdf-3-p16-t464.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ccd17fb7b..4b20e14bc  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
