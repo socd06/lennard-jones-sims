@@ -119,3 +119,11 @@ GROMACS reminds you: "The most likely way for the world to be destroyed, most ex
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 023553895] feat: add 3-p17-t218 radial distribution function and updates to logs
+ 6 files changed, 2189 insertions(+), 146 deletions(-)
+ rewrite logs/rdf-3-p17-t224.log (77%)
+ rewrite logs/sim-3-p17-t230.log (75%)
+ create mode 100644 results/rdf-3-p17-t218.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   1343d9097..023553895  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
