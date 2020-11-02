@@ -119,3 +119,7 @@ GROMACS reminds you: "And I Will Strike Down Upon Thee With Great Vengeance and 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md e1c4c6d] feat: add 3-p14-t380 radial distribution function
+ 3 files changed, 2147 insertions(+), 110 deletions(-)
+ rewrite logs/rdf-3-p14-t380.log (70%)
+ create mode 100644 results/rdf-3-p14-t380.xvg
