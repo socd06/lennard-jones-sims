@@ -119,3 +119,7 @@ GROMACS reminds you: "Shoot them in the back now" (The Ramones)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 16a9b9a] feat: add 3-p14-t494 radial distribution function
+ 3 files changed, 2147 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p14-t494.log (75%)
+ create mode 100644 results/rdf-3-p14-t494.xvg
