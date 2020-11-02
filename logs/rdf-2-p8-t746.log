@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#429: "There is no such thing as free energy. Anyone who advocates it does not know what he is talking about." (Alireza Haghighat)
 
 Working in dev branch
+[dev 68f1e637e] feat: add 2-p8-t746 radial distribution function and updates to logs
+ 7 files changed, 2194 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p8-t752.log
+ create mode 100644 logs/sim-2-p8-t758.log
+ create mode 100644 results/rdf-2-p8-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ca72ebf7f..68f1e637e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
