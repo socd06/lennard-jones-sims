@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We Look Pretty Sharp In These Clothes" (F. Zappa)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 bbac12b4e] feat: add 3-p13-t746 radial distribution function and updates to logs
+ 6 files changed, 2300 insertions(+), 246 deletions(-)
+ rewrite logs/rdf-3-p13-t746.log (75%)
+ rewrite logs/rdf-3-p13-t752.log (69%)
+ create mode 100644 results/rdf-3-p13-t746.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f281b95d6..bbac12b4e  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
