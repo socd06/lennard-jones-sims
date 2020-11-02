@@ -119,3 +119,7 @@ GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md c4531cb] feat: add 3-p14-t296 radial distribution function
+ 3 files changed, 2147 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p14-t296.log (75%)
+ create mode 100644 results/rdf-3-p14-t296.xvg
