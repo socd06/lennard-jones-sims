@@ -119,3 +119,7 @@ GROMACS reminds you: "As we all know, blinking lights means science." (Joss Whed
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 5f369dd] feat: add 3-p12-t542 radial distribution function
+ 3 files changed, 2157 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p12-t542.log (70%)
+ create mode 100644 results/rdf-3-p12-t542.xvg
