@@ -119,3 +119,7 @@ GROMACS reminds you: "In physics, you don't have to go around making trouble for
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 0a1476f] feat: add 3-p12-t464 radial distribution function
+ 3 files changed, 2147 insertions(+), 130 deletions(-)
+ rewrite logs/rdf-3-p12-t464.log (74%)
+ create mode 100644 results/rdf-3-p12-t464.xvg
