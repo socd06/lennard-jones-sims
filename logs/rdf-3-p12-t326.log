@@ -119,3 +119,7 @@ GROMACS reminds you: "A cop pulls Heisenberg over and asks him 'Do you know how 
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md cabaefd] feat: add 3-p12-t326 radial distribution function
+ 3 files changed, 2147 insertions(+), 130 deletions(-)
+ rewrite logs/rdf-3-p12-t326.log (74%)
+ create mode 100644 results/rdf-3-p12-t326.xvg
