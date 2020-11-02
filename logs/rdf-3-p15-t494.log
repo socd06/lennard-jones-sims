@@ -119,3 +119,10 @@ GROMACS reminds you: "It'll Cure Your Asthma Too !" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 0a47fcfac] feat: add 3-p15-t494 radial distribution function and updates to logs
+ 5 files changed, 2185 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p15-t500.log (70%)
+ create mode 100644 results/rdf-3-p15-t494.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f923be387..0a47fcfac  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
