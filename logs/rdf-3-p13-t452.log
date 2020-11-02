@@ -119,3 +119,7 @@ GROMACS reminds you: "The Universe is Somewhere In Here" (J.G.E.M. Fraaije)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1dd609d] feat: add 3-p13-t452 radial distribution function
+ 3 files changed, 2147 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p13-t452.log (70%)
+ create mode 100644 results/rdf-3-p13-t452.xvg
