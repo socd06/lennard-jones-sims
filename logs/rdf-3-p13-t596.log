@@ -122,3 +122,10 @@ GROMACS reminds you: "Youth is wasted on the young" (The Smashing Pumpkins)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 4186a6fcf] feat: add 3-p13-t596 radial distribution function and updates to logs
+ 5 files changed, 2188 insertions(+), 131 deletions(-)
+ rewrite logs/rdf-3-p13-t602.log (75%)
+ create mode 100644 results/rdf-3-p13-t596.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   e69276def..4186a6fcf  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
