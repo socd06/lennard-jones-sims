@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#11: "She's Not Bad, She's Just Genetically Mean" (Captain Beefheart)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev ba6a321dc] feat: add 2-p6-t644 radial distribution function and updates to logs
+ 5 files changed, 2180 insertions(+)
+ create mode 100644 logs/rdf-2-p6-t650.log
+ create mode 100644 logs/sim-2-p6-t650.log
+ create mode 100644 results/rdf-2-p6-t644.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
