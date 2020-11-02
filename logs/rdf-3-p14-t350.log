@@ -119,3 +119,7 @@ GROMACS reminds you: "The Lord of the Rings can be confusing to follow because m
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 93133ed] feat: add 3-p14-t350 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p14-t350.log (69%)
+ create mode 100644 results/rdf-3-p14-t350.xvg
