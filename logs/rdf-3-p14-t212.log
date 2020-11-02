@@ -119,3 +119,10 @@ GROMACS reminds you: "The Poodle Bites" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 c8faffd35] feat: add 3-p14-t212 radial distribution function and updates to logs
+ 6 files changed, 2207 insertions(+), 109 deletions(-)
+ rewrite logs/rdf-3-p14-t218.log (70%)
+ create mode 100644 results/rdf-3-p14-t212.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   912980fd0..c8faffd35  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
