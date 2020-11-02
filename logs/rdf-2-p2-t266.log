@@ -112,3 +112,12 @@ Analyzed 1501 frames, last time 3000.000
 gcq#131: "Push It Real Good" (Salt 'n' Pepa)
 
 Working in dev branch
+[dev 00d47fd2c] feat: add 2-p2-t266 radial distribution function and updates to logs
+ 6 files changed, 2175 insertions(+), 41 deletions(-)
+ create mode 100644 iters-dev.txt
+ create mode 100644 logs/rdf-2-p8-t686.log
+ create mode 100644 logs/sim-2-p8-t692.log
+ create mode 100644 results/rdf-2-p2-t266.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   05f9f9e3c..00d47fd2c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
