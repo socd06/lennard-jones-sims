@@ -119,3 +119,7 @@ GROMACS reminds you: "We Don't Bother Anyone" (LIVE)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 8c5dbca] feat: add 3-p12-t506 radial distribution function
+ 3 files changed, 2147 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p12-t506.log (74%)
+ create mode 100644 results/rdf-3-p12-t506.xvg
