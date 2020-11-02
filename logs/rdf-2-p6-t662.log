@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#120: "You Dirty Switch, You're On Again" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev ff1232f00] feat: add 2-p6-t662 radial distribution function and updates to logs
+ 6 files changed, 2177 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p6-t668.log
+ create mode 100644 logs/sim-2-p6-t674.log
+ create mode 100644 results/rdf-2-p6-t662.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
