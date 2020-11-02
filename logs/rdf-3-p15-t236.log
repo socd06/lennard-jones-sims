@@ -119,3 +119,7 @@ GROMACS reminds you: "I believe the big bang of self-driving cars is about to co
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md f9fb206] feat: add 3-p15-t236 radial distribution function
+ 3 files changed, 2147 insertions(+), 150 deletions(-)
+ rewrite logs/rdf-3-p15-t236.log (76%)
+ create mode 100644 results/rdf-3-p15-t236.xvg
