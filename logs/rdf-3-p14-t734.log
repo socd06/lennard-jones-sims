@@ -119,3 +119,7 @@ GROMACS reminds you: "Harvard makes mistakes too, you know. Kissinger taught the
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d31e80d] feat: add 3-p14-t734 radial distribution function
+ 3 files changed, 2147 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p14-t734.log (69%)
+ create mode 100644 results/rdf-3-p14-t734.xvg
