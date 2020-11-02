@@ -114,3 +114,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Energy is a very subtle concept. It is very, very difficult to get right." (Richard Feynman)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 787b95e] feat: add 1-p2-t488 radial distribution function and updates to logs
+ 6 files changed, 2113 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p2-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   14f4ffc..787b95e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
