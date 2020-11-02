@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Science progresses best when observations force us to alter our preconceptions." (Vera Rubin)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 e90d600bd] feat: add 3-p16-t692 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 254 deletions(-)
+ rewrite logs/rdf-3-p16-t692.log (75%)
+ rewrite logs/rdf-3-p16-t698.log (71%)
+ rewrite logs/sim-3-p16-t704.log (75%)
+ create mode 100644 results/rdf-3-p16-t692.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   28848bfb5..e90d600bd  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
