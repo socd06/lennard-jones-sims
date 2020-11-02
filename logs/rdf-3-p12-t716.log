@@ -119,3 +119,7 @@ GROMACS reminds you: "It doesn't pay to make predictions" (Crowded House)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 1cd870e] feat: add 3-p12-t716 radial distribution function
+ 3 files changed, 2147 insertions(+), 152 deletions(-)
+ rewrite logs/rdf-3-p12-t716.log (77%)
+ create mode 100644 results/rdf-3-p12-t716.xvg
