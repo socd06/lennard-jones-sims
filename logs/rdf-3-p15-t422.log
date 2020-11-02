@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's a limit to how many times you can read how great you are and what an inspiration you are, but I'm not there yet." (Randy Pausch)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 191f7a8de] feat: add 3-p15-t422 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 264 deletions(-)
+ rewrite logs/rdf-3-p15-t422.log (70%)
+ rewrite logs/rdf-3-p15-t428.log (77%)
+ rewrite logs/sim-3-p15-t434.log (75%)
+ create mode 100644 results/rdf-3-p15-t422.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   c6858d82f..191f7a8de  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
