@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "UNIX is basically a simple operating system. It just takes a genius to understand its simplicity." (Dennis Ritchie)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d035fc8] feat: add 1-p2-t740 radial distribution function and updates to logs
+ 6 files changed, 2159 insertions(+), 156 deletions(-)
+ create mode 100644 results/rdf-1-p2-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   22328b4..d035fc8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
