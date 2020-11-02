@@ -119,3 +119,7 @@ GROMACS reminds you: "All Beauty Must Die" (Nick Cave)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 4d4ae4d] feat: add 3-p14-t416 radial distribution function
+ 3 files changed, 2157 insertions(+), 107 deletions(-)
+ rewrite logs/rdf-3-p14-t416.log (69%)
+ create mode 100644 results/rdf-3-p14-t416.xvg
