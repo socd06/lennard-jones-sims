@@ -110,3 +110,9 @@ Analyzed 1501 frames, last time 3000.000
 gcq#457: "Beware of bugs in the above code; I have only proved it correct, not tried it." (Donald Knuth)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev c0a9bdd9a] feat: add 2-p6-t632 radial distribution function and updates to logs
+ 5 files changed, 2175 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p6-t638.log
+ create mode 100644 results/rdf-2-p6-t632.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
