@@ -119,3 +119,7 @@ GROMACS reminds you: "Let's Unzip And Let's Unfold" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 4de2e00] feat: add 3-p12-t800 radial distribution function
+ 3 files changed, 2157 insertions(+), 119 deletions(-)
+ rewrite logs/rdf-3-p12-t800.log (72%)
+ create mode 100644 results/rdf-3-p12-t800.xvg
