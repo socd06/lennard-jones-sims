@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'm Looking for a New Simulation" (Stone Temple Pilots)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo c83d966] feat: add 1-p2-t632 radial distribution function and updates to logs
+ 5 files changed, 2114 insertions(+), 80 deletions(-)
+ create mode 100644 results/rdf-1-p2-t632.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   77285c0..c83d966  beo -> beo
+Branch beo set up to track remote branch beo from origin.
