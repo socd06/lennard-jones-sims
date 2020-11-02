@@ -122,3 +122,10 @@ GROMACS reminds you: "XML is not a language in the sense of a programming langua
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 6d85b60fe] feat: add 3-p15-t278 radial distribution function and updates to logs
+ 6 files changed, 2191 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p15-t284.log (70%)
+ create mode 100644 results/rdf-3-p15-t278.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   866ae0d75..6d85b60fe  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
