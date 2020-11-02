@@ -119,3 +119,11 @@ GROMACS reminds you: "Marie, you're looking more radiant every day!" (Pierre Cur
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 fac2533cd] feat: add 3-p15-t722 radial distribution function and updates to logs
+ 6 files changed, 2228 insertions(+), 246 deletions(-)
+ rewrite logs/rdf-3-p15-t722.log (75%)
+ rewrite logs/rdf-3-p15-t728.log (85%)
+ create mode 100644 results/rdf-3-p15-t722.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   2e6430d3e..fac2533cd  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
