@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "What If None Of Your Dreams Come True ?" (E. Costello)
 
+[beo 9a2a76d] feat: add 1-p2-t584 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p2-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e88fd0d..9a2a76d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
