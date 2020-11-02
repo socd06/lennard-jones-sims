@@ -119,3 +119,7 @@ GROMACS reminds you: "Teaching quantum computing is like teaching computer scien
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md 4cfa565] feat: add 3-p13-t272 radial distribution function
+ 3 files changed, 2147 insertions(+), 153 deletions(-)
+ rewrite logs/rdf-3-p13-t272.log (77%)
+ create mode 100644 results/rdf-3-p13-t272.xvg
