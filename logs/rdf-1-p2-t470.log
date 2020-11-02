@@ -114,3 +114,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Physics is a few rules, and with some handwaving you can make up the rest" (Michael Levitt)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 464fb71] feat: add 1-p2-t470 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 63 deletions(-)
+ create mode 100644 results/rdf-1-p2-t470.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fca9d04..464fb71  beo -> beo
+Branch beo set up to track remote branch beo from origin.
