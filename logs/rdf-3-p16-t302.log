@@ -120,3 +120,9 @@ GROMACS reminds you: "I Have a Bad Case Of Purple Diarrhea" (Urban Dance Squad)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 370d5b027] feat: add 3-p16-t302 radial distribution function and updates to logs
+ 4 files changed, 2072 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-3-p16-t302.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   7b573a42a..370d5b027  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
