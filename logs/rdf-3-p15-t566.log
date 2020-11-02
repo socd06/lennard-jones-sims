@@ -118,3 +118,11 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Two guys can move very fast when they're motivated enough and unemployed" (Eric Betzig)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 f50ffe8a5] feat: add 3-p15-t566 radial distribution function and updates to logs
+ 7 files changed, 2304 insertions(+), 249 deletions(-)
+ rewrite logs/rdf-3-p15-t566.log (75%)
+ rewrite logs/rdf-3-p15-t572.log (69%)
+ create mode 100644 results/rdf-3-p15-t566.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   08315f280..f50ffe8a5  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
