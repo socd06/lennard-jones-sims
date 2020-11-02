@@ -119,3 +119,7 @@ GROMACS reminds you: "A computer would deserve to be called intelligent if it co
 
 rm: cannot remove '*.ndx*': No such file or directory
 rm: cannot remove '*.mdout.*': No such file or directory
+[md d3a574e] feat: add 3-p14-t782 radial distribution function
+ 3 files changed, 2147 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p14-t782.log (74%)
+ create mode 100644 results/rdf-3-p14-t782.xvg
