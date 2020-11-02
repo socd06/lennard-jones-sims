@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#496: "Louis Pasteur's theory of germs is ridicolous fiction." (Pierre Pachet, Professor of Physiology at Toulouse, 1872)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev 7badf62e0] feat: add 2-p8-t470 radial distribution function and updates to logs
+ 6 files changed, 2189 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p8-t476.log
+ create mode 100644 logs/sim-2-p8-t482.log
+ create mode 100644 results/rdf-2-p8-t470.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
