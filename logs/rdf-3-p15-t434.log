@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If everything seems under control, you're just not going fast enough." (Mario Andretti)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 e41fac764] feat: add 3-p15-t434 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 218 deletions(-)
+ rewrite logs/rdf-3-p15-t434.log (70%)
+ rewrite logs/rdf-3-p15-t440.log (70%)
+ rewrite logs/sim-3-p15-t446.log (75%)
+ create mode 100644 results/rdf-3-p15-t434.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   2de4190b3..e41fac764  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
