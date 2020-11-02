@@ -118,3 +118,12 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Should Be the Pimp Of the Year" (Urban Dance Squad)
 
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 84b080963] feat: add 3-p14-t608 radial distribution function and updates to logs
+ 6 files changed, 2313 insertions(+), 238 deletions(-)
+ rewrite logs/rdf-3-p14-t608.log (75%)
+ rewrite logs/rdf-3-p14-t614.log (70%)
+ rewrite logs/sim-3-p14-t620.log (75%)
+ create mode 100644 results/rdf-3-p14-t608.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   ea4d32cb4..84b080963  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
