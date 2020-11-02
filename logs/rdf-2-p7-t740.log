@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#188: "How Do You Like Your Vacation So Far ?" (Speed 2 - Cruise Control)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev b1461da02] feat: add 2-p7-t740 radial distribution function and updates to logs
+ 5 files changed, 2283 insertions(+)
+ create mode 100644 logs/rdf-2-p7-t740.log
+ create mode 100644 logs/rdf-2-p7-t746.log
+ create mode 100644 logs/sim-2-p7-t746.log
+ create mode 100644 results/rdf-2-p7-t740.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
