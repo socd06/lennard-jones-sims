@@ -119,3 +119,11 @@ GROMACS reminds you: "There are two major products that come out of Berkeley: LS
 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
+[u1 a995e72f3] feat: add 3-p16-t242 radial distribution function and updates to logs
+ 6 files changed, 2199 insertions(+), 156 deletions(-)
+ rewrite logs/rdf-3-p16-t248.log (77%)
+ rewrite logs/sim-3-p16-t254.log (75%)
+ create mode 100644 results/rdf-3-p16-t242.xvg
+To https://github.com/adreyesf/lennard-jones-sims.git
+   f7fb42f27..a995e72f3  u1 -> u1
+Branch 'u1' set up to track remote branch 'u1' from 'origin'.
