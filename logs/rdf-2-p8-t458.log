@@ -110,3 +110,10 @@ Analyzed 1501 frames, last time 3000.000
 gcq#211: "Throwing the Baby Away With the SPC" (S. Hayward)
 
 rm: cannot remove '*.ndx.*': No such file or directory
+[dev f46f7e54c] feat: add 2-p8-t458 radial distribution function and updates to logs
+ 6 files changed, 2169 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p8-t464.log
+ create mode 100644 logs/sim-2-p8-t470.log
+ create mode 100644 results/rdf-2-p8-t458.xvg
+error: src refspec beo does not match any.
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
