@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "What Kind Of Guru are You, Anyway ?" (F. Zappa)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 04a8abb] feat: add 1-p5-t302 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p5-t302.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   96a8845..04a8abb  beo -> beo
+Branch beo set up to track remote branch beo from origin.
