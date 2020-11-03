@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's a limit to how many times you can read how great you are and what an inspiration you are, but I'm not there yet." (Randy Pausch)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 4ddbb48] feat: add 1-p6-t212 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p6-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0c6fd87..4ddbb48  beo -> beo
+Branch beo set up to track remote branch beo from origin.
