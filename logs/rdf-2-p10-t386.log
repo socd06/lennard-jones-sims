@@ -111,3 +111,11 @@ gcq#538: "I am at two with nature." (Woody Allen)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a59ee3fa4] feat: add 2-p10-t386 radial distribution function and updates to logs
+ 7 files changed, 2172 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p10-t392.log
+ create mode 100644 logs/sim-2-p10-t398.log
+ create mode 100644 results/rdf-2-p10-t386.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0d99bbd6d..a59ee3fa4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
