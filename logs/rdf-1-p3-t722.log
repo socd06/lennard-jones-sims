@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Read me your scripture and I will twist it" (Red Hot Chili Peppers)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo b530c77] feat: add 1-p3-t722 radial distribution function and updates to logs
+ 4 files changed, 2140 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p3-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fa52582..b530c77  beo -> beo
+Branch beo set up to track remote branch beo from origin.
