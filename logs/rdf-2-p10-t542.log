@@ -111,3 +111,11 @@ gcq#68: "What's Your Definition Of Dirty ?" (G. Michael)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8bcf4801f] feat: add 2-p10-t542 radial distribution function and updates to logs
+ 7 files changed, 2192 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p10-t548.log
+ create mode 100644 logs/sim-2-p10-t554.log
+ create mode 100644 results/rdf-2-p10-t542.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   be4e8b92f..8bcf4801f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
