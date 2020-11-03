@@ -113,3 +113,9 @@ GROMACS reminds you: "The World is a Friendly Place" (Magnapop)
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 0f4dc83] feat: add 1-p5-t758 radial distribution function and updates to logs
+ 4 files changed, 2058 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p5-t758.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1576527..0f4dc83  beo -> beo
+Branch beo set up to track remote branch beo from origin.
