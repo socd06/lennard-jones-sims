@@ -112,3 +112,9 @@ Analyzed 97 frames, last time 192.000
 GROMACS reminds you: "Garbage Collecting..." (GNU Emacs)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1576527] feat: add 1-p5-t764 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p5-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0b8cf4e..1576527  beo -> beo
+Branch beo set up to track remote branch beo from origin.
