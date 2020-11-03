@@ -120,3 +120,11 @@ GROMACS reminds you: "Beat On the Brat With a Baseball Bat" (The Ramones)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 1ae7a15] feat: add 4-p9-t770 radial distribution function and updates to logs
+ 6 files changed, 2181 insertions(+)
+ create mode 100644 logs/rdf-4-p9-t770.log
+ create mode 100644 logs/sim-4-p9-t776.log
+ create mode 100644 results/rdf-4-p9-t770.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c3454de..1ae7a15  md -> md
+Branch md set up to track remote branch md from origin.
