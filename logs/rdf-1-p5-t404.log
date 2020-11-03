@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Baby, It Aint Over Till It's Over" (Lenny Kravitz)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo e2438e1] feat: add 1-p5-t404 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p5-t416.log (75%)
+ create mode 100644 results/rdf-1-p5-t404.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   32d2b49..e2438e1  beo -> beo
+Branch beo set up to track remote branch beo from origin.
