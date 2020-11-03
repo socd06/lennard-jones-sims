@@ -113,3 +113,11 @@ gcq#411: "... and that dream of dreams, a computational model that predicts ever
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 09c8fe7f9] feat: add 2-p11-t536 radial distribution function and updates to logs
+ 7 files changed, 2174 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p11-t542.log
+ create mode 100644 logs/sim-2-p11-t548.log
+ create mode 100644 results/rdf-2-p11-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1a615658e..09c8fe7f9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
