@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "She Needs Cash to Buy Aspirine For Her Pain" (LIVE)
 
+[beo c8c69b0] feat: add 1-p5-t734 radial distribution function and updates to logs
+ 8 files changed, 2202 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p5-t746.log (75%)
+ create mode 100644 results/rdf-1-p5-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5b291c8..c8c69b0  beo -> beo
+Branch beo set up to track remote branch beo from origin.
