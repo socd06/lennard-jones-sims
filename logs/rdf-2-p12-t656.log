@@ -111,3 +111,11 @@ gcq#37: "Never Get a Chance to Kick Ass" (The Amps)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f6e1a7232] feat: add 2-p12-t656 radial distribution function and updates to logs
+ 7 files changed, 2192 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p12-t662.log
+ create mode 100644 logs/sim-2-p12-t668.log
+ create mode 100644 results/rdf-2-p12-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a662609dd..f6e1a7232  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
