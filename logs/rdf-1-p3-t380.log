@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Come and play on the hospital roof, I got something that's yours" (Sherlock)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a7dd0b2] feat: add 1-p3-t380 radial distribution function and updates to logs
+ 6 files changed, 2134 insertions(+), 63 deletions(-)
+ rewrite logs/sim-1-p3-t392.log (75%)
+ create mode 100644 results/rdf-1-p3-t380.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   64a5076..a7dd0b2  beo -> beo
+Branch beo set up to track remote branch beo from origin.
