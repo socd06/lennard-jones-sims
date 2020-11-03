@@ -111,3 +111,11 @@ gcq#583: "In science, truth always wins." (Max Perutz)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c433f3ba3] feat: add 2-p10-t326 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p10-t332.log
+ create mode 100644 logs/sim-2-p10-t338.log
+ create mode 100644 results/rdf-2-p10-t326.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   be9011fb9..c433f3ba3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
