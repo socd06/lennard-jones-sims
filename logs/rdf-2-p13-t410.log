@@ -111,3 +111,11 @@ gcq#269: "I Used To Care, But Things Have Changed" (Bob Dylan)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 28de7d34c] feat: add 2-p13-t410 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p13-t416.log
+ create mode 100644 logs/sim-2-p13-t422.log
+ create mode 100644 results/rdf-2-p13-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   554294eee..28de7d34c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
