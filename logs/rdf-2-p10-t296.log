@@ -111,3 +111,11 @@ gcq#49: "I'll Master Your Language, and In the Meantime I'll Create My Own" (Tri
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e03a427b5] feat: add 2-p10-t296 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p10-t302.log
+ create mode 100644 logs/sim-2-p10-t308.log
+ create mode 100644 results/rdf-2-p10-t296.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6f188630c..e03a427b5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
