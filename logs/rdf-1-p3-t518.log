@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "set: No match." (tcsh)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 21d7daf] feat: add 1-p3-t518 radial distribution function and updates to logs
+ 4 files changed, 2072 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p3-t518.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1e2b271..21d7daf  beo -> beo
+Branch beo set up to track remote branch beo from origin.
