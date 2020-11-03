@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You could give Aristotle a tutorial. And you could thrill him to the core of his being. Such is the privilege of living after Newton, Darwin, Einstein, Planck, Watson, Crick and their colleagues." (Richard Dawkins)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo ad0c7ba] feat: add 1-p5-t272 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p5-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fc15eeb..ad0c7ba  beo -> beo
+Branch beo set up to track remote branch beo from origin.
