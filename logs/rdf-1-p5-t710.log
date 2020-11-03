@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Microsecond Here I Come" (P.J. Van Maaren)
 
+[beo 93382bd] feat: add 1-p5-t710 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 160 deletions(-)
+ rewrite logs/sim-1-p5-t722.log (75%)
+ create mode 100644 results/rdf-1-p5-t710.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   867f5a9..93382bd  beo -> beo
+Branch beo set up to track remote branch beo from origin.
