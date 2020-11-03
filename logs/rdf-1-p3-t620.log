@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Science, my lad, is made up of mistakes, but they are mistakes which it is useful to make, because they lead little by little to the truth." (Jules Verne)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo aaee7a6] feat: add 1-p3-t620 radial distribution function and updates to logs
+ 6 files changed, 2153 insertions(+), 160 deletions(-)
+ create mode 100644 results/rdf-1-p3-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   564d692..aaee7a6  beo -> beo
+Branch beo set up to track remote branch beo from origin.
