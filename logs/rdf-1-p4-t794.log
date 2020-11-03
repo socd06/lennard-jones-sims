@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Oh My God ! It's the Funky Shit" (Beastie Boys)
 
+[beo b25be03] feat: add 1-p4-t794 radial distribution function and updates to logs
+ 6 files changed, 2175 insertions(+), 139 deletions(-)
+ rewrite logs/sim-1-p5-t200.log (75%)
+ create mode 100644 results/rdf-1-p4-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   426ce4a..b25be03  beo -> beo
+Branch beo set up to track remote branch beo from origin.
