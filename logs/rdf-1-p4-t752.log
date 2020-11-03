@@ -124,3 +124,8 @@ rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
 rm: cannot remove `*.mdp.*': No such file or directory
 fatal: pathspec 'results/rdf-1-p4-t752.xvg' did not match any files
+[beo 9e1e855] feat: add 1-p4-t752 radial distribution function and updates to logs
+ 5 files changed, 90 insertions(+), 62 deletions(-)
+To https://github.com/socd06/lennard-jones-sims.git
+   c671a76..9e1e855  beo -> beo
+Branch beo set up to track remote branch beo from origin.
