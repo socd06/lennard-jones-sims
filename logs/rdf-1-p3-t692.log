@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If Life Seems Jolly Rotten, There's Something You've Forgotten !" (Monty Python)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7b78f0c] feat: add 1-p3-t692 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 147 deletions(-)
+ rewrite logs/rdf-1-p3-t698.log (76%)
+ create mode 100644 results/rdf-1-p3-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   afd940b..7b78f0c  beo -> beo
+Branch beo set up to track remote branch beo from origin.
