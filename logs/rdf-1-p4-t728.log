@@ -113,3 +113,9 @@ GROMACS reminds you: "You Try to Run the Universe" (Tricky)
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 848b7fe] feat: add 1-p4-t728 radial distribution function and updates to logs
+ 4 files changed, 2058 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p4-t728.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   dd32c34..848b7fe  beo -> beo
+Branch beo set up to track remote branch beo from origin.
