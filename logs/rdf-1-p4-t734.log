@@ -112,3 +112,9 @@ Analyzed 102 frames, last time 202.000
 GROMACS reminds you: "It Was My Pleasure" (Pulp Fiction)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo dd32c34] feat: add 1-p4-t734 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p4-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3e3ef9a..dd32c34  beo -> beo
+Branch beo set up to track remote branch beo from origin.
