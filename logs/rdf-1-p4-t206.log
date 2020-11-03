@@ -114,3 +114,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Does All This Money Really Have To Go To Charity ?" (Rick)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9d0e60b] feat: add 1-p4-t206 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p4-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d34b597..9d0e60b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
