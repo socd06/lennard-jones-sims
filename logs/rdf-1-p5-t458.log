@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It arises spontaneously from individual talent. Well-run laboratories can foster it, but hierarchical organizations, inflexible bureaucratic rules, and mountains of futile paperwork can kill it." (Max Perutz)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 91fb2a8] feat: add 1-p5-t458 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p5-t458.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b3c933e..91fb2a8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
