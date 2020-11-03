@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's 2040 now. Our President is a plant." (Ghostbusters 2016)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7863c4a] feat: add 1-p4-t338 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t350.log (75%)
+ create mode 100644 results/rdf-1-p4-t338.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   555bb1f..7863c4a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
