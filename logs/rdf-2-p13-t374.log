@@ -111,3 +111,11 @@ gcq#501: "If you're doing I/O, you're doing it wrong!" (Cannada "Drew" Lewis)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f6ef5e7e3] feat: add 2-p13-t374 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p13-t380.log
+ create mode 100644 logs/sim-2-p13-t386.log
+ create mode 100644 results/rdf-2-p13-t374.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e9fdca045..f6ef5e7e3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
