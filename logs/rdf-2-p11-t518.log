@@ -111,3 +111,13 @@ gcq#11: "She's Not Bad, She's Just Genetically Mean" (Captain Beefheart)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 3bbed0ccd] feat: add 2-p11-t518 radial distribution function and updates to logs
+ 7 files changed, 2184 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p11-t524.log
+ create mode 100644 logs/sim-2-p11-t530.log
+ create mode 100644 results/rdf-2-p11-t518.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cb9c0075a..3bbed0ccd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
