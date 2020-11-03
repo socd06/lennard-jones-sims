@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "This Puke Stinks Like Beer" (LIVE)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7cb736b] feat: add 1-p4-t446 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t458.log (75%)
+ create mode 100644 results/rdf-1-p4-t446.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   524de55..7cb736b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
