@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "We'll celebrate a woman for anything, as long as it's not her talent." (Colleen McCullough)
 
+[beo fd2195f] feat: add 1-p4-t644 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t656.log (75%)
+ create mode 100644 results/rdf-1-p4-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9bc979d..fd2195f  beo -> beo
+Branch beo set up to track remote branch beo from origin.
