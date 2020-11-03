@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Feel a Great Disturbance in the Force" (The Emperor Strikes Back)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 6e8c52b] feat: add 1-p3-t590 radial distribution function and updates to logs
+ 4 files changed, 2105 insertions(+)
+ create mode 100644 results/rdf-1-p3-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9cd9e85..6e8c52b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
