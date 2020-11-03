@@ -111,3 +111,11 @@ gcq#209: "Your Bones Got a Little Machine" (Pixies)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2f449ab23] feat: add 2-p13-t452 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p13-t458.log
+ create mode 100644 logs/sim-2-p13-t464.log
+ create mode 100644 results/rdf-2-p13-t452.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fd4a9060f..2f449ab23  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
