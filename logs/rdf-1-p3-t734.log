@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It always takes longer than you think even when you take Hofstadter's Law into account." (Hofstadter's Law)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7e7f391] feat: add 1-p3-t734 radial distribution function and updates to logs
+ 4 files changed, 2107 insertions(+), 78 deletions(-)
+ create mode 100644 results/rdf-1-p3-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3e7e9b4..7e7f391  beo -> beo
+Branch beo set up to track remote branch beo from origin.
