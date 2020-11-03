@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You always pass failure on the way to success." (Mickey Rooney)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 6464e03] feat: add 1-p3-t560 radial distribution function and updates to logs
+ 6 files changed, 2114 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p3-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   36e4fce..6464e03  beo -> beo
+Branch beo set up to track remote branch beo from origin.
