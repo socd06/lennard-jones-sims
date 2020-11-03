@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Does All This Money Really Have To Go To Charity ?" (Rick)
 
+[beo 8b1839e] feat: add 1-p3-t548 radial distribution function and updates to logs
+ 8 files changed, 2198 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p3-t560.log (75%)
+ create mode 100644 results/rdf-1-p3-t548.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7822140..8b1839e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
