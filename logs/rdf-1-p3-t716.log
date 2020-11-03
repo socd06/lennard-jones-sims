@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Could Take You Home and Abuse You" (Magnapop)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fa52582] feat: add 1-p3-t716 radial distribution function and updates to logs
+ 6 files changed, 2145 insertions(+), 222 deletions(-)
+ rewrite logs/rdf-1-p3-t722.log (76%)
+ create mode 100644 results/rdf-1-p3-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   18f34a7..fa52582  beo -> beo
+Branch beo set up to track remote branch beo from origin.
