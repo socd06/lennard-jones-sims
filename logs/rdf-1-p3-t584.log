@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Big Data is like teenage sex: everyone talks about it, nobody really knows how to do it, everyone thinks everyone else is doing it, so everyone claims they are doing it..." (Dan Ariely)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9cd9e85] feat: add 1-p3-t584 radial distribution function and updates to logs
+ 5 files changed, 2179 insertions(+), 223 deletions(-)
+ rewrite logs/rdf-1-p3-t590.log (75%)
+ create mode 100644 results/rdf-1-p3-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ad1bb61..9cd9e85  beo -> beo
+Branch beo set up to track remote branch beo from origin.
