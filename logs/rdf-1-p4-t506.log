@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Art For Arts Sake, Money For Gods Sake" (10 CC)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 5785040] feat: add 1-p4-t506 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p4-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b6a5824..5785040  beo -> beo
+Branch beo set up to track remote branch beo from origin.
