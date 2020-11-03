@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Hey Man You Know, I'm Really OK" (Offspring)
 
+[beo 61c7297] feat: add 1-p4-t530 radial distribution function and updates to logs
+ 8 files changed, 2189 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t542.log (75%)
+ create mode 100644 results/rdf-1-p4-t530.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   37fb714..61c7297  beo -> beo
+Branch beo set up to track remote branch beo from origin.
