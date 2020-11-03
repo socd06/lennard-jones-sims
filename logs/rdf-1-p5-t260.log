@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You should never bet against anything in science at odds of more than about 10^12 to 1." (Ernest Rutherford)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 3fe3869] feat: add 1-p5-t260 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p5-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1446924..3fe3869  beo -> beo
+Branch beo set up to track remote branch beo from origin.
