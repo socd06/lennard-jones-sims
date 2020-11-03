@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I always think there is something foreign about jolly phrases at breakfast." (Mr. Carson in Downtown Abbey)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2bb26b1] feat: add 1-p3-t602 radial distribution function and updates to logs
+ 4 files changed, 2068 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p3-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   169da96..2bb26b1  beo -> beo
+Branch beo set up to track remote branch beo from origin.
