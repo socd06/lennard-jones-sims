@@ -111,3 +111,11 @@ gcq#523: "A protein is a chain of letters." (Julie Bernauer)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d8476a670] feat: add 2-p12-t506 radial distribution function and updates to logs
+ 7 files changed, 2172 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p12-t512.log
+ create mode 100644 logs/sim-2-p12-t518.log
+ create mode 100644 results/rdf-2-p12-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f085e95ef..d8476a670  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
