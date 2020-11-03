@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "You're like them scientists on TV explaining black holes. More you talk, less I get" (Jess Walter)
 
+[beo d2c9b00] feat: add 1-p3-t434 radial distribution function and updates to logs
+ 6 files changed, 2155 insertions(+), 160 deletions(-)
+ create mode 100644 results/rdf-1-p3-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0af4479..d2c9b00  beo -> beo
+Branch beo set up to track remote branch beo from origin.
