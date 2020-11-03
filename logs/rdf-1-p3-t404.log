@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Our struggle today is not to have a female Einstein get appointed as an assistant professor. It is for a woman schlemiel to get as quickly promoted as a male schlemiel." (Bella Abzug)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fbdc9a4] feat: add 1-p3-t404 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p3-t404.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ed8347a..fbdc9a4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
