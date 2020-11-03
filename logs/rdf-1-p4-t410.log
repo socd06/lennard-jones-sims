@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It is now quite lawful for a Catholic woman to avoid pregnancy by a resort to mathematics, though she is still forbidden to resort to physics and chemistry." (Henry Louis Mencken)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 698906a] feat: add 1-p4-t410 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t422.log (75%)
+ create mode 100644 results/rdf-1-p4-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   72de2fc..698906a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
