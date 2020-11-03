@@ -114,3 +114,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Consistently separating words by spaces became a general custom about the tenth century A.D., and lasted until about 1957, when FORTRAN abandoned the practice." (Sun FORTRAN Reference Manual)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 6629b65] feat: add 1-p4-t704 radial distribution function and updates to logs
+ 5 files changed, 2111 insertions(+), 59 deletions(-)
+ create mode 100644 results/rdf-1-p4-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4b2bdd2..6629b65  beo -> beo
+Branch beo set up to track remote branch beo from origin.
