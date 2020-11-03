@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Ubiquitin's just a rock" (Berk Hess)
 
+[beo a077430] feat: add 1-p4-t758 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t770.log (75%)
+ create mode 100644 results/rdf-1-p4-t758.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9e1e855..a077430  beo -> beo
+Branch beo set up to track remote branch beo from origin.
