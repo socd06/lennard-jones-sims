@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Wonder, Should I Get Up..." (J. Lennon)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 6abef1b] feat: add 1-p3-t698 radial distribution function and updates to logs
+ 4 files changed, 2137 insertions(+)
+ create mode 100644 results/rdf-1-p3-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7b78f0c..6abef1b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
