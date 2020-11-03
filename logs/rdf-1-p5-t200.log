@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Only entropy comes easy." (Anton Chekov)
 
+[beo 9efa542] feat: add 1-p5-t200 radial distribution function and updates to logs
+ 8 files changed, 2206 insertions(+), 158 deletions(-)
+ create mode 100644 results/rdf-1-p5-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b25be03..9efa542  beo -> beo
+Branch beo set up to track remote branch beo from origin.
