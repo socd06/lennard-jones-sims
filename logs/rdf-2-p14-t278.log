@@ -111,3 +111,11 @@ gcq#513: "You're like them scientists on TV explaining black holes. More you tal
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cbaeef983] feat: add 2-p14-t278 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p14-t284.log
+ create mode 100644 logs/sim-2-p14-t290.log
+ create mode 100644 results/rdf-2-p14-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   79624997a..cbaeef983  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
