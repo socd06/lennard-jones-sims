@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I used to be blond and stupid, but now I dyed it black" (Miss Li)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 45c2e63] feat: add 1-p3-t776 radial distribution function and updates to logs
+ 4 files changed, 2107 insertions(+), 77 deletions(-)
+ create mode 100644 results/rdf-1-p3-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fc99967..45c2e63  beo -> beo
+Branch beo set up to track remote branch beo from origin.
