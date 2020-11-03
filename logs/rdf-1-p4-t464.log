@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Even the *healthy* people move in clouds of cigarette smoke, women straining polyester, men in raggedly cutoffs slathering mayonnaise on foot-long hot dogs. It's as if the hotel were hosting a conference on adult onset diabetes" (Jess Walter)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 456da2b] feat: add 1-p4-t464 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t476.log (75%)
+ create mode 100644 results/rdf-1-p4-t464.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f14f7f9..456da2b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
