@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There is just one thing I can promise you about the outer-space program: your tax dollar will go farther." (Wernher von Braun)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo bc5d765] feat: add 1-p3-t566 radial distribution function and updates to logs
+ 5 files changed, 2114 insertions(+), 79 deletions(-)
+ create mode 100644 results/rdf-1-p3-t566.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6464e03..bc5d765  beo -> beo
+Branch beo set up to track remote branch beo from origin.
