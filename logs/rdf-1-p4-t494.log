@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Nobody Never Learnt No-Nothing from No History" (Gogol Bordello)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 4b3efae] feat: add 1-p4-t494 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t506.log (75%)
+ create mode 100644 results/rdf-1-p4-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   68e96ea..4b3efae  beo -> beo
+Branch beo set up to track remote branch beo from origin.
