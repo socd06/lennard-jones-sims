@@ -111,3 +111,11 @@ gcq#389: "Unfortunately, "simulation" has become increasingly misused to mean no
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 41fa82f51] feat: add 2-p14-t302 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p14-t308.log
+ create mode 100644 logs/sim-2-p14-t314.log
+ create mode 100644 results/rdf-2-p14-t302.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d27411c3f..41fa82f51  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
