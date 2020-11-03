@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Whatever Happened to Pong ?" (F. Black)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 379f013] feat: add 1-p4-t626 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t638.log (75%)
+ create mode 100644 results/rdf-1-p4-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fe14b6e..379f013  beo -> beo
+Branch beo set up to track remote branch beo from origin.
