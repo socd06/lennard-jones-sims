@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Your Bones Got a Little Machine" (Pixies)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo ff36af0] feat: add 1-p4-t470 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p4-t482.log (75%)
+ create mode 100644 results/rdf-1-p4-t470.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   456da2b..ff36af0  beo -> beo
+Branch beo set up to track remote branch beo from origin.
