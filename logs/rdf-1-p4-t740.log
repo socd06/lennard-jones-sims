@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "No matter how important you are, you are not as important as lunch." (Randy Pausch)
 
+[beo c671a76] feat: add 1-p4-t740 radial distribution function and updates to logs
+ 7 files changed, 2176 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t752.log (75%)
+ create mode 100644 results/rdf-1-p4-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   848b7fe..c671a76  beo -> beo
+Branch beo set up to track remote branch beo from origin.
