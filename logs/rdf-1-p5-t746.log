@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "No great discovery was ever made without a bold guess." (Marie Curie)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo c129ea4] feat: add 1-p5-t746 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p5-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   56c2fcb..c129ea4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
