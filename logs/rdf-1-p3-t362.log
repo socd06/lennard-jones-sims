@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "In science it often happens that scientists say, 'You know that's a really good argument; my position is mistaken,' and then they would actually change their minds and you never hear that old view from them again. They really do it. It doesn't happen as often as it should, because scientists are human and change is sometimes painful. But it happens every day. I cannot recall the last time something like that happened in politics or religion." (Carl Sagan)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7dd2611] feat: add 1-p3-t362 radial distribution function and updates to logs
+ 6 files changed, 2114 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p3-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c5b15ed..7dd2611  beo -> beo
+Branch beo set up to track remote branch beo from origin.
