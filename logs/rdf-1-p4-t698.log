@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Your Country Needs YOU" (U.S. Army)
 
+[beo 4b2bdd2] feat: add 1-p4-t698 radial distribution function and updates to logs
+ 8 files changed, 2202 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t710.log (75%)
+ create mode 100644 results/rdf-1-p4-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   151f917..4b2bdd2  beo -> beo
+Branch beo set up to track remote branch beo from origin.
