@@ -111,3 +111,11 @@ gcq#514: "Wedged as we are between two eternities of idleness, there is no excus
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b29d299db] feat: add 2-p13-t242 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p13-t248.log
+ create mode 100644 logs/sim-2-p13-t254.log
+ create mode 100644 results/rdf-2-p13-t242.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f513a896b..b29d299db  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
