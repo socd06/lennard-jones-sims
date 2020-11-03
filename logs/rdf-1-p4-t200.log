@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Take Your Medications and Preparations and Ram It Up Your Snout" (F. Zappa)
 
+[beo d34b597] feat: add 1-p4-t200 radial distribution function and updates to logs
+ 6 files changed, 2165 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t212.log (75%)
+ create mode 100644 results/rdf-1-p4-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   664687c..d34b597  beo -> beo
+Branch beo set up to track remote branch beo from origin.
