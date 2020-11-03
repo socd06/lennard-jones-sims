@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Put Me Inside SSC, Let's Test Superstring Theory, Oh Yoi Yoi Accelerate the Protons" (Gogol Bordello)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1085eaf] feat: add 1-p3-t788 radial distribution function and updates to logs
+ 6 files changed, 2145 insertions(+), 223 deletions(-)
+ rewrite logs/rdf-1-p3-t794.log (76%)
+ create mode 100644 results/rdf-1-p3-t788.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   51c390c..1085eaf  beo -> beo
+Branch beo set up to track remote branch beo from origin.
