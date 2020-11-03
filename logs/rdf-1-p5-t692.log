@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It seems likely that significant software contributions to existing scientific software projects are not likely to be rewarded through the traditional reputation economy of science. Together these factors provide a reason to expect the over-production of independent scientific software packages, and the underproduction of collaborative projects in which later academics build on the work of earlier ones." (Howison & Herbsleb)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 816a337] feat: add 1-p5-t692 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p5-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0147d98..816a337  beo -> beo
+Branch beo set up to track remote branch beo from origin.
