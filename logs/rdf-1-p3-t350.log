@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Cut It Deep and Cut It Wide" (The Walkabouts)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 180ddfe] feat: add 1-p3-t350 radial distribution function and updates to logs
+ 6 files changed, 2124 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p3-t362.log (75%)
+ create mode 100644 results/rdf-1-p3-t350.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a64280c..180ddfe  beo -> beo
+Branch beo set up to track remote branch beo from origin.
