@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Never measure the height of a mountain until you have reached the top. Then you will see how low it was." (Dag Hammarskjold)
 
+[beo 4e19f77] feat: add 1-p4-t716 radial distribution function and updates to logs
+ 8 files changed, 2198 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t728.log (75%)
+ create mode 100644 results/rdf-1-p4-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6629b65..4e19f77  beo -> beo
+Branch beo set up to track remote branch beo from origin.
