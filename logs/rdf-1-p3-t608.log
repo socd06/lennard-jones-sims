@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Need a Little Poison" (Throwing Muses)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9b69858] feat: add 1-p3-t608 radial distribution function and updates to logs
+ 4 files changed, 2107 insertions(+), 77 deletions(-)
+ create mode 100644 results/rdf-1-p3-t608.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2bb26b1..9b69858  beo -> beo
+Branch beo set up to track remote branch beo from origin.
