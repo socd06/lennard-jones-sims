@@ -111,3 +111,11 @@ gcq#553: "Should we force science down the throats of those that have no taste f
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev dc4148f3e] feat: add 2-p11-t686 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p11-t692.log
+ create mode 100644 logs/sim-2-p11-t698.log
+ create mode 100644 results/rdf-2-p11-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bc4c40f9d..dc4148f3e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
