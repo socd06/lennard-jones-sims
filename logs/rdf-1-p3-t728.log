@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I never thought of stopping, and I just hated sleeping. I can't imagine having a better life." (Barbara McClintock)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 3e7e9b4] feat: add 1-p3-t728 radial distribution function and updates to logs
+ 5 files changed, 2108 insertions(+), 77 deletions(-)
+ create mode 100644 results/rdf-1-p3-t728.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b530c77..3e7e9b4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
