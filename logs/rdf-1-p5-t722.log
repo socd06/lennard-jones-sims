@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You Hear Footsteps Coming From Behind" (Colossal Cave)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 5b291c8] feat: add 1-p5-t722 radial distribution function and updates to logs
+ 6 files changed, 2124 insertions(+), 63 deletions(-)
+ create mode 100644 results/rdf-1-p5-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   47cd3ee..5b291c8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
