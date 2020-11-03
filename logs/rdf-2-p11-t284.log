@@ -111,3 +111,11 @@ gcq#118: "Step On the Brakes" (2 Unlimited)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev aeafc27c4] feat: add 2-p11-t284 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p11-t290.log
+ create mode 100644 logs/sim-2-p11-t296.log
+ create mode 100644 results/rdf-2-p11-t284.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5ea6574dd..aeafc27c4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
