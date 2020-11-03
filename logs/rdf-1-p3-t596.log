@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It Just Tastes Better" (Burger King)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 169da96] feat: add 1-p3-t596 radial distribution function and updates to logs
+ 5 files changed, 2149 insertions(+), 156 deletions(-)
+ create mode 100644 results/rdf-1-p3-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6e8c52b..169da96  beo -> beo
+Branch beo set up to track remote branch beo from origin.
