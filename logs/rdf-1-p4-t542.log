@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Ripped the Cord Right Out Of the Phone" (Capt. Beefheart)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2f5429a] feat: add 1-p4-t542 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p4-t542.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a32bfe1..2f5429a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
