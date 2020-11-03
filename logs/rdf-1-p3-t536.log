@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's no kill like overkill, right?" (Erik Lindahl)
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
+[beo 7822140] feat: add 1-p3-t536 radial distribution function and updates to logs
+ 6 files changed, 2165 insertions(+), 139 deletions(-)
+ create mode 100644 results/rdf-1-p3-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b57d6d2..7822140  beo -> beo
+Branch beo set up to track remote branch beo from origin.
