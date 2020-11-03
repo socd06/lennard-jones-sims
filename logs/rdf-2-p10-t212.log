@@ -111,3 +111,11 @@ gcq#580: "Always code as if the person who ends up maintaining your code is a vi
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 083807a12] feat: add 2-p10-t212 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p10-t218.log
+ create mode 100644 logs/sim-2-p10-t224.log
+ create mode 100644 results/rdf-2-p10-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1595b4fd1..083807a12  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
