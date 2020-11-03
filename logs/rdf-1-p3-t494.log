@@ -111,3 +111,9 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "Everybody is Smashing Things Down" (Offspring)
 
+[beo fbf40fc] feat: add 1-p3-t494 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 140 deletions(-)
+ create mode 100644 results/rdf-1-p3-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+ ! [remote rejected] beo -> beo (cannot lock ref 'refs/heads/beo': is at fbf40fcf22ad2e473e1c35684e21bafbc52c120a but expected bd5520ea92b81eafb7dbcb84ebcc393a42989e7e)
+error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
