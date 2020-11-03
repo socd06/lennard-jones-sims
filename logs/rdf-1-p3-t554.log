@@ -115,3 +115,9 @@ GROMACS reminds you: "Safety lights are for dudes" (Ghostbusters 2016)
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 36e4fce] feat: add 1-p3-t554 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p3-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8b1839e..36e4fce  beo -> beo
+Branch beo set up to track remote branch beo from origin.
