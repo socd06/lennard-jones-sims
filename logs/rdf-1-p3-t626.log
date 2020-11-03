@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Do It All the Time" (Magnapop)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2341ce0] feat: add 1-p3-t626 radial distribution function and updates to logs
+ 6 files changed, 2110 insertions(+), 84 deletions(-)
+ create mode 100644 results/rdf-1-p3-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   aaee7a6..2341ce0  beo -> beo
+Branch beo set up to track remote branch beo from origin.
