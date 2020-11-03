@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Yeah, uh uh, Neil's Head !" (Neil)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7dc7b6e] feat: add 1-p4-t656 radial distribution function and updates to logs
+ 6 files changed, 2125 insertions(+), 63 deletions(-)
+ rewrite logs/sim-1-p4-t668.log (75%)
+ create mode 100644 results/rdf-1-p4-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   aceeaeb..7dc7b6e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
