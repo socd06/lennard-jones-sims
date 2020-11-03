@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "People disagree with me. I just ignore them." (Linus Torvalds on the use of C++ in the kernel)
 
+[beo fe890af] feat: add 1-p4-t668 radial distribution function and updates to logs
+ 8 files changed, 2189 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p4-t680.log (75%)
+ create mode 100644 results/rdf-1-p4-t668.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7dc7b6e..fe890af  beo -> beo
+Branch beo set up to track remote branch beo from origin.
