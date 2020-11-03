@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If humanity has fled shivering from the starry spaces, it has become minutely at home in the interstices of the speck that it inhabits for an instant" (George H. Mead)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1db78d3] feat: add 1-p6-t272 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p6-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0d4220b..1db78d3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
