@@ -1,7 +1,7 @@
 name: pull-request
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '10 * * * *'
 jobs:
   create-pull-request:
     runs-on: ubuntu-latest
@@ -13,4 +13,5 @@ jobs:
         source_branch: "beo"
         destination_branch: "master"
         #token: ${{ secrets.PAT }} 
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        #github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PAT }}
