@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Louis Pasteur's theory of germs is ridicolous fiction." (Pierre Pachet, Professor of Physiology at Toulouse, 1872)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7491410] feat: add 1-p9-t428 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p9-t428.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8795289..7491410  beo -> beo
+Branch beo set up to track remote branch beo from origin.
