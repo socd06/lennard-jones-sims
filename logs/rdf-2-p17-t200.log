@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#322: "I was elected to lead, not to read" (President A. Schwarzenegger)
 
 Working in dev branch
+[dev 32e6cb8b6] feat: add 2-p17-t200 radial distribution function and updates to logs
+ 9 files changed, 2315 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p17-t206.log
+ create mode 100644 logs/rdf-2-p17-t212.log
+ create mode 100644 logs/sim-2-p17-t212.log
+ create mode 100644 logs/sim-2-p17-t218.log
+ create mode 100644 results/rdf-2-p17-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   906c2a83a..32e6cb8b6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
