@@ -103,6 +103,8 @@ run-folders() {
 		git add ../logs/rdf-$preffix-p$p-t$t.log
 		git add ../logs/sim-$preffix-p$p-t$t.log		
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function and updates to logs"
+		# update branch to master
+		git pull upstream master
 		git push -u origin $branch
 	}
 
