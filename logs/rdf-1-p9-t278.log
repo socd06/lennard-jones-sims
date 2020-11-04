@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There is no reason for any individual to have a computer in his home." (Ken Olsen, head of Digital Equipment Corp.)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 69282a5] feat: add 1-p9-t278 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p9-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   44944b9..69282a5  beo -> beo
+Branch beo set up to track remote branch beo from origin.
