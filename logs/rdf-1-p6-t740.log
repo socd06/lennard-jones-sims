@@ -115,3 +115,9 @@ GROMACS reminds you: "A computer would deserve to be called intelligent if it co
 
 rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d72ff70] feat: add 1-p6-t740 radial distribution function and updates to logs
+ 4 files changed, 2059 insertions(+), 1 deletion(-)
+ create mode 100644 results/rdf-1-p6-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   aea38e9..d72ff70  beo -> beo
+Branch beo set up to track remote branch beo from origin.
