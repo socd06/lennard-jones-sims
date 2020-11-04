@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The World is a Friendly Place" (Magnapop)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 69d22a3] feat: add 1-p8-t734 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t746.log (75%)
+ create mode 100644 results/rdf-1-p8-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5e1d5bc..69d22a3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
