@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Research ! A mere excuse for idleness; it has never achieved, and will never achieve any results of the slightest value." (Benjamin Jowett, British theologian, 1817-93)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9297e2a] feat: add 1-p8-t338 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p8-t338.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5c31d70..9297e2a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
