@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "My Brothers are Protons (Protons!), My Sisters are Neurons (Neurons)" (Gogol Bordello)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 51b5b04] feat: add 1-p9-t260 radial distribution function and updates to logs
+ 6 files changed, 2120 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p9-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f58679b..51b5b04  beo -> beo
+Branch beo set up to track remote branch beo from origin.
