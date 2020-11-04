@@ -111,3 +111,11 @@ gcq#431: "There is nothing new to be discovered in physics now. All that remains
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b19affaae] feat: add 2-p18-t284 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t290.log
+ create mode 100644 logs/sim-2-p18-t296.log
+ create mode 100644 results/rdf-2-p18-t284.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2dcbd8822..b19affaae  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
