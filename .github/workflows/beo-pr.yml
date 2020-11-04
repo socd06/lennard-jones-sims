@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '*/20 * * * *'
 jobs:
-  create-pull-request:
+  beo-pull-request:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -11,12 +11,24 @@ jobs:
       uses: repo-sync/pull-request@v2
       with:
         source_branch: "beo"
-        destination_branch: "master"    
-        #github_token: ${{ secrets.GITHUB_TOKEN }}
+        destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Pulling ${{ source_branch }} into master"   # Title of pull request
-        pr_body: ":bell: *Scheduled automated PR* <br>  :robot: adds latest computation :computer: results" # Full markdown support, requires pr_title to be set
-        #pr_template: ".github/PULL_REQUEST_TEMPLATE.md"       # Path to pull request template, requires pr_title to be set, excludes pr_body
-        #pr_reviewer: "wei,worker"                             # Comma-separated list (no spaces)
-        #pr_assignee: "wei,worker"                             # Comma-separated list (no spaces)
+        pr_title: "Pulling beo branch into master"   # Title of pull request
+        pr_body: ":bell: *Scheduled automated PR* <br> :robot: adds latest computation :computer: results." # Full markdown support, requires pr_title to be set        
         pr_label: "auto-pr"                                    # Comma-separated list (no spaces)
+    
+  dev-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: pull-request
+      uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "dev"
+        destination_branch: "master"            
+        github_token: ${{ secrets.PAT }}
+        pr_title: "Pulling beo branch into master"   # Title of pull request
+        pr_body: ":bell: *Scheduled automated PR* <br> :robot: adds latest computation :computer: results." # Full markdown support, requires pr_title to be set        
+        pr_label: "auto-pr"         
+# reference: https://github.com/marketplace/actions/github-pull-request-action
+# github actions bot: #github_token: ${{ secrets.GITHUB_TOKEN }}
