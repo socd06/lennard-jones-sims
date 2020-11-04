@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "My Ass May Be Dumb, But I Ain't No Dumbass." (Jackie Brown)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a796714] feat: add 1-p8-t362 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p8-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bb4df37..a796714  beo -> beo
+Branch beo set up to track remote branch beo from origin.
