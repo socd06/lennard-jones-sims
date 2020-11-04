@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Aber wenn der Quarterback kommt, um dir die Brille abzunehmen, sag ihm: Danke, die bleibt wo sie ist" (Wir sind Helden)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo ffac356] feat: add 1-p8-t434 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p8-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   129bcbd..ffac356  beo -> beo
+Branch beo set up to track remote branch beo from origin.
