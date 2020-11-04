@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Bad As This Shit Is, This Shit Ain't As Bad As You Think It Is." (Jackie Brown)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7176492] feat: add 1-p8-t326 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p8-t326.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   390c3f9..7176492  beo -> beo
+Branch beo set up to track remote branch beo from origin.
