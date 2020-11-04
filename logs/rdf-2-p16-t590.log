@@ -111,3 +111,11 @@ gcq#210: "Oh My God ! It's the Funky Shit" (Beastie Boys)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cdc0c1daf] feat: add 2-p16-t590 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p16-t596.log
+ create mode 100644 logs/sim-2-p16-t602.log
+ create mode 100644 results/rdf-2-p16-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1246a27d1..cdc0c1daf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
