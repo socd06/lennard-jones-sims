@@ -105,7 +105,7 @@ run-folders() {
 		# Always use branch computer alias
 		# make sure to have a branch for each
 		git push -u origin $branch
-		}
+	}
 
 	gas-gas(){
 		echo "del 0-1" > input
