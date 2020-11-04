@@ -111,3 +111,11 @@ gcq#506: "Big Data is like teenage sex: everyone talks about it, nobody really k
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ddde38928] feat: add 2-p17-t722 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p17-t728.log
+ create mode 100644 logs/sim-2-p17-t734.log
+ create mode 100644 results/rdf-2-p17-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   993adb9bb..ddde38928  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
