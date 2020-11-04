@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Either you will be dashed to atoms on crag points, or lifted up and borne by some master-wave into a calmer current" (Charlotte Bronte)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 74fe34f] feat: add 1-p7-t776 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p7-t788.log (75%)
+ create mode 100644 results/rdf-1-p7-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3fa4140..74fe34f  beo -> beo
+Branch beo set up to track remote branch beo from origin.
