@@ -111,3 +111,11 @@ gcq#542: "Science is the record of dead religions." (Oscar Wilde)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5fc73e3e5] feat: add 2-p17-t662 radial distribution function and updates to logs
+ 7 files changed, 2192 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p17-t668.log
+ create mode 100644 logs/sim-2-p17-t674.log
+ create mode 100644 results/rdf-2-p17-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cc6a4d73d..5fc73e3e5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
