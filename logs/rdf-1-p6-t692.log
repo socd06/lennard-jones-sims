@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It doesn't pay to make predictions" (Crowded House)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 0c7617d] feat: add 1-p6-t692 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p6-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   df8d71e..0c7617d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
