@@ -120,3 +120,11 @@ GROMACS reminds you: "I Wrapped a Newspaper Round My Head" (F. Zappa)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md dd17a6c] feat: add 4-p11-t722 radial distribution function and updates to logs
+ 6 files changed, 2191 insertions(+)
+ create mode 100644 logs/rdf-4-p11-t722.log
+ create mode 100644 logs/sim-4-p11-t728.log
+ create mode 100644 results/rdf-4-p11-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   269af71..dd17a6c  md -> md
+Branch md set up to track remote branch md from origin.
