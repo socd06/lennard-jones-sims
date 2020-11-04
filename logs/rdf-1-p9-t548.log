@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Royale With Cheese" (Pulp Fiction)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 2ffc1dc] feat: add 1-p9-t548 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p9-t548.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3a9684a..2ffc1dc  beo -> beo
+Branch beo set up to track remote branch beo from origin.
