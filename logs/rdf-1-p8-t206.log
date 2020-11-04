@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Today we're not going to optimize our CUDA code, cause that's just a rabbit hole of misery!" (Tim Warburton)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a16006f] feat: add 1-p8-t206 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p8-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ee35fc3..a16006f  beo -> beo
+Branch beo set up to track remote branch beo from origin.
