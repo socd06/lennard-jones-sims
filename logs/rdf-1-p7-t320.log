@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If it weren't for bad luck, we'd have no luck at all" (The Unthanks)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9564cdd] feat: add 1-p7-t320 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p7-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f82c188..9564cdd  beo -> beo
+Branch beo set up to track remote branch beo from origin.
