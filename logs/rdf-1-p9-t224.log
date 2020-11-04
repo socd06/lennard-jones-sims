@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You Can Be Too Early, You Can Be Too Late and You Can Be On Time" (J. Cruijff)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 5c79040] feat: add 1-p9-t224 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p9-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7f69d3b..5c79040  beo -> beo
+Branch beo set up to track remote branch beo from origin.
