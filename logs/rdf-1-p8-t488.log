@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Step On the Brakes" (2 Unlimited)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 8b84a26] feat: add 1-p8-t488 radial distribution function and updates to logs
+ 6 files changed, 2104 insertions(+), 85 deletions(-)
+ rewrite logs/sim-1-p8-t500.log (75%)
+ create mode 100644 results/rdf-1-p8-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c0602ca..8b84a26  beo -> beo
+Branch beo set up to track remote branch beo from origin.
