@@ -111,3 +111,11 @@ gcq#307: "California, R.I.P." (Red Hot Chili Peppars)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev abdffe9b5] feat: add 2-p15-t338 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p15-t344.log
+ create mode 100644 logs/sim-2-p15-t350.log
+ create mode 100644 results/rdf-2-p15-t338.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6775db394..abdffe9b5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
