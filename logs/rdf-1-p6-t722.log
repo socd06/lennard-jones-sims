@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's no kill like overkill, right?" (Erik Lindahl)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 080ad75] feat: add 1-p6-t722 radial distribution function and updates to logs
+ 6 files changed, 2125 insertions(+), 63 deletions(-)
+ rewrite logs/sim-1-p6-t734.log (75%)
+ create mode 100644 results/rdf-1-p6-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1c4208f..080ad75  beo -> beo
+Branch beo set up to track remote branch beo from origin.
