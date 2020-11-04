@@ -111,3 +111,11 @@ gcq#338: "Come on boys, Let's push it hard" (P.J. Harvey)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e8086e893] feat: add 2-p18-t314 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t320.log
+ create mode 100644 logs/sim-2-p18-t326.log
+ create mode 100644 results/rdf-2-p18-t314.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   de99a71b9..e8086e893  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
