@@ -111,3 +111,11 @@ gcq#550: "Protons give an atom its identity, electrons its personality." (Bill B
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5f34adae2] feat: add 2-p15-t374 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p15-t380.log
+ create mode 100644 logs/sim-2-p15-t386.log
+ create mode 100644 results/rdf-2-p15-t374.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6e26c9f6d..5f34adae2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
