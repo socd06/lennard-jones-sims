@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You fight, work, sweat, nearly kill yourself, sometimes you do kill yourself, trying to accomplish something - and you can't." (Joseph Conrad)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo af3fef3] feat: add 1-p7-t326 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p7-t326.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9564cdd..af3fef3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
