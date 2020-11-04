@@ -113,3 +113,11 @@ gcq#81: "All Beauty Must Die" (Nick Cave)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev aa1e86a34] feat: add 2-p17-t212 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p17-t218.log
+ create mode 100644 logs/sim-2-p17-t224.log
+ create mode 100644 results/rdf-2-p17-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   693a4b0d6..aa1e86a34  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
