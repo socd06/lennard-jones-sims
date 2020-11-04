@@ -100,10 +100,9 @@ run-folders() {
 		echo "Working in $branch branch"
 		git add ../iters-$branch.txt
 		git add ../results/rdf-$preffix-p$p-t$t.xvg
-		git add ../logs
+		git add ../logs/rdf-$preffix-p$p-t$t.log
+		git add ../logs/sim-$preffix-p$p-t$t.log		
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function and updates to logs"
-		# Always use branch computer alias
-		# make sure to have a branch for each
 		git push -u origin $branch
 	}
 
