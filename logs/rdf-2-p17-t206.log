@@ -112,3 +112,9 @@ gcq#537: "I always seem to get inspiration and renewed vitality by contact with 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 693a4b0d6] feat: add 2-p17-t206 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p17-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   32e6cb8b6..693a4b0d6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
