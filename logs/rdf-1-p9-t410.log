@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "In the Meantime, Take Care of Yourself aaand Eachother" (J. Springer)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fbf783d] feat: add 1-p9-t410 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p9-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9e7aa68..fbf783d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
