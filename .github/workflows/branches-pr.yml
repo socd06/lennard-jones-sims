@@ -1,7 +1,7 @@
 name: pull-request
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 */4 * * *'
 jobs:
   beo-pull-request:
     runs-on: ubuntu-latest
