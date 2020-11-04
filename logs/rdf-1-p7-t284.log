@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Sincerity is the key to success. Once you can fake that you’ve got it made." (Groucho Marx)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1a183d8] feat: add 1-p7-t284 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p7-t284.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   dc6888b..1a183d8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
