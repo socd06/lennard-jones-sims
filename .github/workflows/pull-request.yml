@@ -1,7 +1,11 @@
 name: pull-request
 on:
   push:
-    branches: [ md ]
+    branches: 
+    - "beo"
+    - "dev"
+    - "md"
+    - "cd"
 jobs:
   pull-request:
     runs-on: ubuntu-latest
