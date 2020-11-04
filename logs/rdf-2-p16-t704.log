@@ -111,3 +111,13 @@ gcq#112: "You Could Be a Shadow" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev e04b7b1bb] feat: add 2-p16-t704 radial distribution function and updates to logs
+ 7 files changed, 2174 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p16-t710.log
+ create mode 100644 logs/sim-2-p16-t716.log
+ create mode 100644 results/rdf-2-p16-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7b19177bc..e04b7b1bb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
