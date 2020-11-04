@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You got one part of that wrong. This is not meth." (Breaking Bad)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo ee35fc3] feat: add 1-p8-t200 radial distribution function and updates to logs
+ 6 files changed, 2132 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p8-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f8dd129..ee35fc3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
