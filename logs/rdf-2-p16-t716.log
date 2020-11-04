@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#514: "Wedged as we are between two eternities of idleness, there is no excuse for being idle now" (Anthony Burgess)
 
 Working in dev branch
+[dev a9a894afd] feat: add 2-p16-t716 radial distribution function and updates to logs
+ 8 files changed, 2322 insertions(+)
+ create mode 100644 logs/rdf-2-p16-t716.log
+ create mode 100644 logs/rdf-2-p16-t722.log
+ create mode 100644 logs/sim-2-p16-t722.log
+ create mode 100644 logs/sim-2-p16-t728.log
+ create mode 100644 results/rdf-2-p16-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5e6c7fb16..a9a894afd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
