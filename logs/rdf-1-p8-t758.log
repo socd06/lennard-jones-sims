@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Fly to the Court of England and Unfold" (Macbeth, Act 3, Scene 6, William Shakespeare)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1ba0a4c] feat: add 1-p8-t758 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t770.log (75%)
+ create mode 100644 results/rdf-1-p8-t758.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3cad9f5..1ba0a4c  beo -> beo
+Branch beo set up to track remote branch beo from origin.
