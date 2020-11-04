@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "During my undergraduate work I concluded that electrostatics is unlikely to be important [for enzymes]" (Arieh Warshel, Nobel lecture 2013)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo c259aec] feat: add 1-p8-t746 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t758.log (75%)
+ create mode 100644 results/rdf-1-p8-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   de9b087..c259aec  beo -> beo
+Branch beo set up to track remote branch beo from origin.
