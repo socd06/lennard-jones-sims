@@ -111,3 +111,10 @@ Analyzed 1501 frames, last time 3000.000
 
 GROMACS reminds you: "All Beauty Must Die" (Nick Cave)
 
+[beo 82fff0f] feat: add 1-p6-t746 radial distribution function and updates to logs
+ 7 files changed, 2166 insertions(+), 161 deletions(-)
+ rewrite logs/sim-1-p6-t758.log (75%)
+ create mode 100644 results/rdf-1-p6-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d72ff70..82fff0f  beo -> beo
+Branch beo set up to track remote branch beo from origin.
