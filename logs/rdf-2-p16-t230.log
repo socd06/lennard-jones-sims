@@ -111,3 +111,11 @@ gcq#14: "Your Proposal is Accepted" (Men In Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7470357d0] feat: add 2-p16-t230 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p16-t236.log
+ create mode 100644 logs/sim-2-p16-t242.log
+ create mode 100644 results/rdf-2-p16-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   50416f4be..7470357d0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
