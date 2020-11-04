@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If all else fails, immortality can always be assured by spectacular error." (John Kenneth Galbraith)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 321f5f6] feat: add 1-p8-t602 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t614.log (75%)
+ create mode 100644 results/rdf-1-p8-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5520b5a..321f5f6  beo -> beo
+Branch beo set up to track remote branch beo from origin.
