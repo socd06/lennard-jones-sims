@@ -12,5 +12,5 @@ jobs:
       with:
         source_branch: "beo"
         destination_branch: "master"
-        token: ${{ secrets.PAT }} 
-        #github_token: ${{ secrets.GITHUB_TOKEN }}
+        #token: ${{ secrets.PAT }} 
+        github_token: ${{ secrets.GITHUB_TOKEN }}
