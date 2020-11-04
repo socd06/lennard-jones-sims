@@ -1,4 +1,4 @@
-# File: .github/workflows/pull-request.yml
+name: pull-request
 
 on:
   push:
