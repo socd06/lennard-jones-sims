@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I ought to warn you, I have no faith" (Jane Eyre in Jane Eyre by Charlotte Bronte)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo cf11382] feat: add 1-p9-t212 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p9-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cd420cc..cf11382  beo -> beo
+Branch beo set up to track remote branch beo from origin.
