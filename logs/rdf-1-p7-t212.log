@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The Carpenter Goes Bang Bang" (The Breeders)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7f4d1f4] feat: add 1-p7-t212 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p7-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a27a047..7f4d1f4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
