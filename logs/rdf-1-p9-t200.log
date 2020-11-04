@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The Candlelight Was Just Right" (Beastie Boys)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 719dc08] feat: add 1-p9-t200 radial distribution function and updates to logs
+ 6 files changed, 2132 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p9-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b51ee25..719dc08  beo -> beo
+Branch beo set up to track remote branch beo from origin.
