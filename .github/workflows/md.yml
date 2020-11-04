@@ -1,0 +1,15 @@
+name: md-pr
+on:
+  schedule:
+    - cron: '/15 * * * *'
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: pull-request
+      uses: repo-sync/pull-request@v2
+      with:
+        source_branch: "md"
+        destination_branch: "master"        
+        github_token: ${{ secrets.GITHUB_TOKEN }}
