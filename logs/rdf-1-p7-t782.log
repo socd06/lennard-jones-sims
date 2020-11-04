@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Hmm, It *Does* Go Well With the Chicken" (Beastie Boys)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 4f71110] feat: add 1-p7-t782 radial distribution function and updates to logs
+ 6 files changed, 2105 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p7-t782.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   74fe34f..4f71110  beo -> beo
+Branch beo set up to track remote branch beo from origin.
