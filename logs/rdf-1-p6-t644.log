@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "History has expired" (PubMed Central)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9c29f60] feat: add 1-p6-t644 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p6-t656.log (75%)
+ create mode 100644 results/rdf-1-p6-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f96e4c9..9c29f60  beo -> beo
+Branch beo set up to track remote branch beo from origin.
