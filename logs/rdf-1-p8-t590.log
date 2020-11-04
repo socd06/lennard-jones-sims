@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Uh-oh" (Tinky Winky)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo e0cb702] feat: add 1-p8-t590 radial distribution function and updates to logs
+ 6 files changed, 2104 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t602.log (75%)
+ create mode 100644 results/rdf-1-p8-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6d8a2c2..e0cb702  beo -> beo
+Branch beo set up to track remote branch beo from origin.
