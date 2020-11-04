@@ -111,3 +111,11 @@ gcq#22: "I Had So Many Problem, and Then I Got Me a Walkman" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 02b6dfd97] feat: add 2-p16-t734 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p16-t740.log
+ create mode 100644 logs/sim-2-p16-t746.log
+ create mode 100644 results/rdf-2-p16-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1eac6db97..02b6dfd97  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
