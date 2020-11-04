@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "According to my computations we're overdue for a transformation." (Jackson Browne)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fc94376] feat: add 1-p8-t530 radial distribution function and updates to logs
+ 6 files changed, 2104 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p8-t542.log (75%)
+ create mode 100644 results/rdf-1-p8-t530.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c1ec3a3..fc94376  beo -> beo
+Branch beo set up to track remote branch beo from origin.
