@@ -111,3 +111,11 @@ gcq#445: "I try to identify myself with the atoms... I ask what I would do If I 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 26e4da4cf] feat: add 2-p18-t320 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t326.log
+ create mode 100644 logs/sim-2-p18-t332.log
+ create mode 100644 results/rdf-2-p18-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e8086e893..26e4da4cf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
