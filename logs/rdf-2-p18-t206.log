@@ -112,3 +112,9 @@ gcq#521: "Misslycka kan man med all kod" (Mats Nylen)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 14a77e636] feat: add 2-p18-t206 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p18-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   28764333d..14a77e636  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
