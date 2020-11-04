@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Caught It In the Face" (P.J. Harvey)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d0af906] feat: add 1-p7-t422 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p7-t434.log (75%)
+ create mode 100644 results/rdf-1-p7-t422.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   63e24c7..d0af906  beo -> beo
+Branch beo set up to track remote branch beo from origin.
