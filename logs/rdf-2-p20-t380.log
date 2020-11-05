@@ -111,3 +111,11 @@ gcq#393: "On the East coast, a purple patch, to show where the jolly pioneers of
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 89b5e6344] feat: add 2-p20-t380 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p20-t386.log
+ create mode 100644 logs/sim-2-p20-t392.log
+ create mode 100644 results/rdf-2-p20-t380.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3d2b71fbc..89b5e6344  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
