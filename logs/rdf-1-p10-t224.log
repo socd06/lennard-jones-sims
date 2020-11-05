@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Right Between the Eyes" (F. Zappa)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 5be4999] feat: add 1-p10-t224 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p10-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   eb25b1c..5be4999  beo -> beo
+Branch beo set up to track remote branch beo from origin.
