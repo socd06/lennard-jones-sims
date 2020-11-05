@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Everything He Lacks, He Makes Up In Denial" (Offspring)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 92cea74] feat: add 1-p10-t620 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p10-t632.log (75%)
+ create mode 100644 results/rdf-1-p10-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   600c8ce..92cea74  beo -> beo
+Branch beo set up to track remote branch beo from origin.
