@@ -111,3 +111,11 @@ gcq#508: "On average, it takes twenty years for the world's largest super comput
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a616a24d6] feat: add 2-p19-t308 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t314.log
+ create mode 100644 logs/sim-2-p19-t320.log
+ create mode 100644 results/rdf-2-p19-t308.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7da38a4ef..a616a24d6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
