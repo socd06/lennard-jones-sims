@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If There Is No Guitar In The House, You Know It's Owner Can Not Be Trusted" (Gogol Bordello)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 92eec1a] feat: add 1-p12-t680 radial distribution function and updates to logs
+ 6 files changed, 2104 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p12-t692.log (75%)
+ create mode 100644 results/rdf-1-p12-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   34aaa72..92eec1a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
