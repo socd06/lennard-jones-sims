@@ -111,3 +111,11 @@ gcq#1: "I Live the Life They Wish They Did" (Tricky)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f566a8b14] feat: add 2-p19-t344 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t350.log
+ create mode 100644 logs/sim-2-p19-t356.log
+ create mode 100644 results/rdf-2-p19-t344.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8e8c28c25..f566a8b14  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
