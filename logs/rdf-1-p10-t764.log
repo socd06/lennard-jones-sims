@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Once Again Let Me Do This" (Urban Dance Squad)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1536c4d] feat: add 1-p10-t764 radial distribution function and updates to logs
+ 6 files changed, 2104 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p10-t776.log (75%)
+ create mode 100644 results/rdf-1-p10-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2e99027..1536c4d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
