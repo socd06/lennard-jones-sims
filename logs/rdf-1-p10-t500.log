@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Let's Unzip And Let's Unfold" (Red Hot Chili Peppers)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a9534b8] feat: add 1-p10-t500 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p10-t500.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5108ff1..a9534b8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
