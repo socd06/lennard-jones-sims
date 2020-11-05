@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Wait a Minute, aren't You.... ? (gunshots) Yeah." (Bodycount)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fa306af] feat: add 1-p10-t800 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p11-t206.log (75%)
+ create mode 100644 results/rdf-1-p10-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   876b4a6..fa306af  beo -> beo
+Branch beo set up to track remote branch beo from origin.
