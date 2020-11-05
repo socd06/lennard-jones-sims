@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "If You Want Something Done You Have to Do It Yourself" (Highlander II)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d379d06] feat: add 1-p12-t434 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p12-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   464dece..d379d06  beo -> beo
+Branch beo set up to track remote branch beo from origin.
