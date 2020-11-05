@@ -111,3 +111,11 @@ gcq#12: "Being Great is Not So Good" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f0863c220] feat: add 2-p19-t554 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t560.log
+ create mode 100644 logs/sim-2-p19-t566.log
+ create mode 100644 results/rdf-2-p19-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f61340e1e..f0863c220  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
