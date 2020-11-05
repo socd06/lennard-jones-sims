@@ -111,3 +111,11 @@ gcq#548: "Take away paradox from the thinker and you have a professor." (Soren K
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 803b2f474] feat: add 2-p18-t464 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t470.log
+ create mode 100644 logs/sim-2-p18-t476.log
+ create mode 100644 results/rdf-2-p18-t464.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3278ef3e6..803b2f474  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
