@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Sometimes Life is Obscene" (Black Crowes)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 837a74e] feat: add 1-p9-t698 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p9-t710.log (75%)
+ create mode 100644 results/rdf-1-p9-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   60bb22f..837a74e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
