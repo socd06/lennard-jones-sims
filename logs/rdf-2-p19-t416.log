@@ -111,3 +111,11 @@ gcq#121: "She's a Good Sheila Bruce" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 954bb2b47] feat: add 2-p19-t416 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t422.log
+ create mode 100644 logs/sim-2-p19-t428.log
+ create mode 100644 results/rdf-2-p19-t416.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   598fe19d1..954bb2b47  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
