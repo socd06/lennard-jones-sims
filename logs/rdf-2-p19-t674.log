@@ -111,3 +111,11 @@ gcq#560: "Never measure the height of a mountain until you have reached the top.
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 97a3c591b] feat: add 2-p19-t674 radial distribution function and updates to logs
+ 7 files changed, 2192 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t680.log
+ create mode 100644 logs/sim-2-p19-t686.log
+ create mode 100644 results/rdf-2-p19-t674.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   59b92eedb..97a3c591b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
