@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "We'll celebrate a woman for anything, as long as it's not her talent." (Colleen McCullough)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fe65e59] feat: add 1-p12-t584 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p12-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a97a633..fe65e59  beo -> beo
+Branch beo set up to track remote branch beo from origin.
