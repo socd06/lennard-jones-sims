@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Life in the streets is not easy" (Marky Mark)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1b1cf15] feat: add 1-p12-t530 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p12-t530.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4dac787..1b1cf15  beo -> beo
+Branch beo set up to track remote branch beo from origin.
