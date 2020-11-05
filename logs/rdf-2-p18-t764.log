@@ -111,3 +111,11 @@ gcq#290: "Rat-tat-tat Ka boom boom" (The Smashing Pumpkins)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8d6072a8f] feat: add 2-p18-t764 radial distribution function and updates to logs
+ 7 files changed, 2192 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t770.log
+ create mode 100644 logs/sim-2-p18-t776.log
+ create mode 100644 results/rdf-2-p18-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5bf3eca27..8d6072a8f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
