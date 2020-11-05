@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#443: "The great tragedy of science - the slaying of a beautiful hypothesis by an ugly fact." (Thomas Henry Huxley)
 
 Working in dev branch
+[dev 6756ce794] feat: add 2-p20-t200 radial distribution function and updates to logs
+ 9 files changed, 2315 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p20-t206.log
+ create mode 100644 logs/rdf-2-p20-t212.log
+ create mode 100644 logs/sim-2-p20-t212.log
+ create mode 100644 logs/sim-2-p20-t218.log
+ create mode 100644 results/rdf-2-p20-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   88e5fbc3c..6756ce794  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
