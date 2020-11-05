@@ -111,3 +111,11 @@ gcq#101: "The World is a Friendly Place" (Magnapop)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 501be7631] feat: add 2-p21-t332 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p21-t338.log
+ create mode 100644 logs/sim-2-p21-t344.log
+ create mode 100644 results/rdf-2-p21-t332.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c6eccd8f3..501be7631  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
