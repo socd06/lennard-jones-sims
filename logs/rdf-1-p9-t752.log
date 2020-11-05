@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Nada e organico, e tudo programado" (Pitty)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fb9778a] feat: add 1-p9-t752 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p9-t764.log (75%)
+ create mode 100644 results/rdf-1-p9-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   59ce84d..fb9778a  beo -> beo
+Branch beo set up to track remote branch beo from origin.
