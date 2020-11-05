@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I believe the big bang of self-driving cars is about to come." (Jen-Hsun Huang, CEO NVIDIA)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 761878d] feat: add 1-p11-t536 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p11-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e8ad1c9..761878d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
