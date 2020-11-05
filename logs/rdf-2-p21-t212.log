@@ -113,3 +113,12 @@ gcq#406: "Either you will be dashed to atoms on crag points, or lifted up and bo
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 78c191592] feat: add 2-p21-t212 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p21-t218.log
+ create mode 100644 logs/rdf-2-p21-t224.log
+ create mode 100644 logs/sim-2-p21-t224.log
+ create mode 100644 results/rdf-2-p21-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4efa6ae63..78c191592  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
