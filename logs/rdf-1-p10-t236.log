@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I'm Not Gonna Die Here !" (Sphere)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 276cba6] feat: add 1-p10-t236 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p10-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1027f32..276cba6  beo -> beo
+Branch beo set up to track remote branch beo from origin.
