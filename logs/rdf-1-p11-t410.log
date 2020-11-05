@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It takes money to make money, they say" (Lou Reed)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9634523] feat: add 1-p11-t410 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p11-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0eecc4e..9634523  beo -> beo
+Branch beo set up to track remote branch beo from origin.
