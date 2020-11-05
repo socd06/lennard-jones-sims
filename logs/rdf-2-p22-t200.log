@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#513: "You're like them scientists on TV explaining black holes. More you talk, less I get" (Jess Walter)
 
 Working in dev branch
+[dev e88ace1f4] feat: add 2-p22-t200 radial distribution function and updates to logs
+ 9 files changed, 2335 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p22-t206.log
+ create mode 100644 logs/rdf-2-p22-t212.log
+ create mode 100644 logs/sim-2-p22-t212.log
+ create mode 100644 logs/sim-2-p22-t218.log
+ create mode 100644 results/rdf-2-p22-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5dc128f7d..e88ace1f4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
