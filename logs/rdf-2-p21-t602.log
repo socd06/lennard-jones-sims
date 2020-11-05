@@ -111,3 +111,11 @@ gcq#348: "Carbohydrates is all they groove" (Frank Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d79e3ba36] feat: add 2-p21-t602 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p21-t608.log
+ create mode 100644 logs/sim-2-p21-t614.log
+ create mode 100644 results/rdf-2-p21-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   31c668ee7..d79e3ba36  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
