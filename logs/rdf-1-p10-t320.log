@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Parallel programming is not about elegance!" (Bill Gropp)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a004e6e] feat: add 1-p10-t320 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p10-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d5d28fe..a004e6e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
