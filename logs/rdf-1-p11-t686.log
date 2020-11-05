@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Sir, spare your threats: The bug which you would fright me with I seek." (Hermione, Act III, scene II of Shakespeare's Winter's Tale)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo e07a713] feat: add 1-p11-t686 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 100 deletions(-)
+ rewrite logs/sim-1-p11-t698.log (75%)
+ create mode 100644 results/rdf-1-p11-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1b4339b..e07a713  beo -> beo
+Branch beo set up to track remote branch beo from origin.
