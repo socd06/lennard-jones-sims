@@ -111,3 +111,11 @@ gcq#190: "Ich Bin Ein Berliner" (J.F. Kennedy)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f61340e1e] feat: add 2-p19-t548 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t554.log
+ create mode 100644 logs/sim-2-p19-t560.log
+ create mode 100644 results/rdf-2-p19-t548.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   aa60645ce..f61340e1e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
