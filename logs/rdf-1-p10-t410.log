@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "And after some more talk we agreed that the wisdom of rats had been grossly overrated, being in fact no greater than that of men" (Joseph Conrad)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 10a725d] feat: add 1-p10-t410 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p10-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3e13814..10a725d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
