@@ -112,3 +112,9 @@ gcq#205: "Watch Out Where the Huskies Go" (F. Zappa)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e669d4359] feat: add 2-p20-t206 radial distribution function and updates to logs
+ 6 files changed, 2054 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p20-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6756ce794..e669d4359  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
