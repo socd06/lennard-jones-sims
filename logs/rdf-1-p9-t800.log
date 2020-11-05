@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Clickety Clickety Click" (System Manager From Hell)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 4fa2726] feat: add 1-p9-t800 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p9-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0b73577..4fa2726  beo -> beo
+Branch beo set up to track remote branch beo from origin.
