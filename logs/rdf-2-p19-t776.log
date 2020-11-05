@@ -111,3 +111,11 @@ gcq#95: "The Universe is Somewhere In Here" (J.G.E.M. Fraaije)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e348ad9f4] feat: add 2-p19-t776 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p19-t782.log
+ create mode 100644 logs/sim-2-p19-t788.log
+ create mode 100644 results/rdf-2-p19-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   80d83a5cd..e348ad9f4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
