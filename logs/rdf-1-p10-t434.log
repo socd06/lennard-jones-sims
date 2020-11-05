@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Bum Stikkie Di Bum Stikkie Di Bum Stikkie Di Bum" (R. Slijngaard)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo e226086] feat: add 1-p10-t434 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p10-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   05ba0cb..e226086  beo -> beo
+Branch beo set up to track remote branch beo from origin.
