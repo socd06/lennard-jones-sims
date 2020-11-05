@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Wedged as we are between two eternities of idleness, there is no excuse for being idle now" (Anthony Burgess)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 3922817] feat: add 1-p12-t644 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p12-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f8c7d59..3922817  beo -> beo
+Branch beo set up to track remote branch beo from origin.
