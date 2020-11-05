@@ -111,3 +111,11 @@ gcq#363: "Some People Say Not to Worry About the Air" (The Talking Heads)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8468d2dbf] feat: add 2-p18-t434 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p18-t440.log
+ create mode 100644 logs/sim-2-p18-t446.log
+ create mode 100644 results/rdf-2-p18-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b27b8bbde..8468d2dbf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
