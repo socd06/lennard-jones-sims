@@ -15,7 +15,7 @@ jobs:
         source_branch: "beo"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled $pr-branch branch results PR "   # Title of pull request
+        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"                                    # Comma-separated list (no spaces)
     
@@ -30,7 +30,7 @@ jobs:
         source_branch: "dev"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled $pr-branch branch results PR "   # Title of pull request
+        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"         
 
@@ -45,7 +45,7 @@ jobs:
         source_branch: "md"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled $pr-branch branch results PR "   # Title of pull request
+        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"     
   
@@ -60,7 +60,7 @@ jobs:
         source_branch: "cd"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled $pr-branch branch results PR "   # Title of pull request
+        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"    
         
