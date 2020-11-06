@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's So Fast It's Slow" (F. Black)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo bb211ff] feat: add 1-p14-t542 radial distribution function and updates to logs
+ 6 files changed, 2101 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p14-t542.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
