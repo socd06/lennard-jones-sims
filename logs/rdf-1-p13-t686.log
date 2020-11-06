@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Science is a wonderful thing if one does not have to earn one's living at it." (Albert Einstein)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo aa80f6c] feat: add 1-p13-t686 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p13-t686.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
