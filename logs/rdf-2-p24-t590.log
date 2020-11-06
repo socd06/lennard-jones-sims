@@ -111,3 +111,11 @@ gcq#394: "Restraint! What possible restraint?" (Joseph Conrad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 53680c116] feat: add 2-p24-t590 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p24-t596.log
+ create mode 100644 logs/sim-2-p24-t602.log
+ create mode 100644 results/rdf-2-p24-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a0e0a804d..53680c116  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
