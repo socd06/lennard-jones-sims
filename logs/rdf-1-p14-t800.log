@@ -112,3 +112,10 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Here's Another Useful Quote" (S. Boot)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 0a6820c] feat: add 1-p14-t800 radial distribution function and updates to logs
+ 6 files changed, 2115 insertions(+), 84 deletions(-)
+ rewrite logs/sim-1-p15-t206.log (75%)
+ create mode 100644 results/rdf-1-p14-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   467bd59..0a6820c  beo -> beo
+Branch beo set up to track remote branch beo from origin.
