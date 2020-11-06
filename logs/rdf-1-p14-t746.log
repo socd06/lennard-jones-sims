@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Please implement proper hep writing" (GROMACS)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 53b6edd] feat: add 1-p14-t746 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p14-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b92ccc6..53b6edd  beo -> beo
+Branch beo set up to track remote branch beo from origin.
