@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Is it the invisible chemistry stuff?" (Frida Hyvonen)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 95ca48d] feat: add 1-p13-t602 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p13-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a4275ee..95ca48d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
