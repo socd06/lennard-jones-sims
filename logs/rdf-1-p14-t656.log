@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Space May Be the Final Frontier, But It's Made in a Hollywood Basement" (Red Hot Chili Peppers)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 94c7f8b] feat: add 1-p14-t656 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p14-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a2d8a19..94c7f8b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
