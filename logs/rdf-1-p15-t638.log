@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The Internet?  We are not interested in it." (Bill Gates, 1993)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 08bf1c5] feat: add 1-p15-t638 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p15-t638.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c521a98..08bf1c5  beo -> beo
+Branch beo set up to track remote branch beo from origin.
