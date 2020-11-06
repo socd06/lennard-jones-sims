@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You wouldn't walk into a chemistry lab and mix two clear liquids together just because they look pretty much the same, would you?" (Justin Lemkul)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 80b99c0] feat: add 1-p15-t656 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p15-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   09827cf..80b99c0  beo -> beo
+Branch beo set up to track remote branch beo from origin.
