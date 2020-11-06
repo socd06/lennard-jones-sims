@@ -111,3 +111,11 @@ gcq#577: "Only entropy comes easy." (Anton Chekov)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1a2b1948e] feat: add 2-p22-t722 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p22-t728.log
+ create mode 100644 logs/sim-2-p22-t734.log
+ create mode 100644 results/rdf-2-p22-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d2ddeab6b..1a2b1948e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
