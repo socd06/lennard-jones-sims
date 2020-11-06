@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It has been discovered that C++ provides a remarkable facility for concealing the trivial details of a program - such as where its bugs are." (David Keppel)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d21f83e] feat: add 1-p14-t728 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p14-t728.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   49e9451..d21f83e  beo -> beo
+Branch beo set up to track remote branch beo from origin.
