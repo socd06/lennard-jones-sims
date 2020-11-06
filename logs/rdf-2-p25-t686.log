@@ -111,3 +111,11 @@ gcq#368: "Take what you want, but just what you need for survival" (Joe Jackson)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 14bac81b7] feat: add 2-p25-t686 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p25-t692.log
+ create mode 100644 logs/sim-2-p25-t698.log
+ create mode 100644 results/rdf-2-p25-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   54ff97a64..14bac81b7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
