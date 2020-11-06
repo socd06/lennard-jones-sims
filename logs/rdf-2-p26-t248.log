@@ -111,3 +111,11 @@ gcq#268: "It's Not Dark Yet, But It's Getting There" (Bob Dylan)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev dec9b575b] feat: add 2-p26-t248 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p26-t254.log
+ create mode 100644 logs/sim-2-p26-t260.log
+ create mode 100644 results/rdf-2-p26-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ce077591a..dec9b575b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
