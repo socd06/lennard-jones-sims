@@ -26,7 +26,7 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        run: echo "pr-branch=beo" >> $GITHUB_ENV
+        run: echo "pr-branch=dev" >> $GITHUB_ENV
         source_branch: "dev"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
@@ -41,7 +41,7 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        run: echo "pr-branch=beo" >> $GITHUB_ENV
+        run: echo "pr-branch=md" >> $GITHUB_ENV
         source_branch: "md"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
@@ -56,7 +56,7 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        run: echo "pr-branch=beo" >> $GITHUB_ENV
+        run: echo "pr-branch=cd" >> $GITHUB_ENV
         source_branch: "cd"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
