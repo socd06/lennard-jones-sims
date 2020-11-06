@@ -1,13 +1,11 @@
 name: pull-request
 on:
   schedule:
-    - cron: '*/30 * * * *'
-    #- cron: '0 */8 * * *'
+    - cron: '0 */8 * * *'
 jobs:
   beo-pull-request:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "pr-branch=beo" >> $GITHUB_ENV
     - uses: actions/checkout@v2
     - name: pull-request
       uses: repo-sync/pull-request@v2
@@ -15,14 +13,13 @@ jobs:
         source_branch: "beo"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
+        pr_title: "Scheduled beo branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"                                    # Comma-separated list (no spaces)
     
   dev-pull-request:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "pr-branch=dev" >> $GITHUB_ENV
     - uses: actions/checkout@v2
     - name: pull-request
       uses: repo-sync/pull-request@v2
@@ -30,14 +27,13 @@ jobs:
         source_branch: "dev"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
+        pr_title: "Scheduled dev branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"         
 
   md-pull-request:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "pr-branch=md" >> $GITHUB_ENV
     - uses: actions/checkout@v2
     - name: pull-request
       uses: repo-sync/pull-request@v2
@@ -45,14 +41,13 @@ jobs:
         source_branch: "md"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
+        pr_title: "Scheduled md branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"     
   
   cd-pull-request:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "pr-branch=cd" >> $GITHUB_ENV
     - uses: actions/checkout@v2
     - name: pull-request
       uses: repo-sync/pull-request@v2
@@ -60,7 +55,7 @@ jobs:
         source_branch: "cd"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
-        pr_title: "Scheduled ${{ pr-branch }} branch results PR "   # Title of pull request
+        pr_title: "Scheduled cd branch results PR "   # Title of pull request
         pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"    
         
