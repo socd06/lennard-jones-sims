@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I admired Bohr very much. We had long talks together, long talks in which Bohr did practically all the talking." (Paul Dirac)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1049924] feat: add 1-p14-t548 radial distribution function and updates to logs
+ 6 files changed, 2120 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p14-t548.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
