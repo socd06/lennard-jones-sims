@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Move Over Hogey Bear" (Urban Dance Squad)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo f4b327b] feat: add 1-p14-t614 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p14-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9fc5ab0..f4b327b  beo -> beo
+Branch beo set up to track remote branch beo from origin.
