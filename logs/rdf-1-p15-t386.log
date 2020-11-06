@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "FORTRAN was the language of choice for the same reason that three-legged races are popular." (Ken Thompson)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo d0292f8] feat: add 1-p15-t386 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p15-t386.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6fa311e..d0292f8  beo -> beo
+Branch beo set up to track remote branch beo from origin.
