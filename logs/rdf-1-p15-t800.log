@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Good judgement is the result of experience; experience is the result of bad judgement." (Mark Twain)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9ab4390] feat: add 1-p15-t800 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p15-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c63c5fa..9ab4390  beo -> beo
+Branch beo set up to track remote branch beo from origin.
