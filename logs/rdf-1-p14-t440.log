@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Do You Have Sex Maniacs or Schizophrenics or Astrophysicists in Your Family?" (Gogol Bordello)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 82a4ea6] feat: add 1-p14-t440 radial distribution function and updates to logs
+ 6 files changed, 2110 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p14-t440.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
