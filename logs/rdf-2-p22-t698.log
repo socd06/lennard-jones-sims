@@ -111,3 +111,11 @@ gcq#20: "Check Your Output" (P. Ahlstrom)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5af0d2f0a] feat: add 2-p22-t698 radial distribution function and updates to logs
+ 7 files changed, 2173 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p22-t704.log
+ create mode 100644 logs/sim-2-p22-t710.log
+ create mode 100644 results/rdf-2-p22-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   41a348e63..5af0d2f0a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
