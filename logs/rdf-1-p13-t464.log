@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Count the Bubbles In Your Hair" (The Breeders)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 0354c53] feat: add 1-p13-t464 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 102 deletions(-)
+ create mode 100644 results/rdf-1-p13-t464.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   00323c1..0354c53  beo -> beo
+Branch beo set up to track remote branch beo from origin.
