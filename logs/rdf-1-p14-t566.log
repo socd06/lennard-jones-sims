@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "One Ripple At a Time" (Bianca's Smut Shack)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 7384a90] feat: add 1-p14-t566 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p14-t566.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   522a110..7384a90  beo -> beo
+Branch beo set up to track remote branch beo from origin.
