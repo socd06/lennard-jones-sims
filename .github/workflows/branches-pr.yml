@@ -14,7 +14,7 @@ jobs:
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
         pr_title: "Scheduled branch results PR "   # Title of pull request
-        pr_body: "🤖 **[Automated Workflow]** <br> 1.  🔔 Open scheduled 8-hour PR with branch results 2. :label: Label pull request size 3. :octocat: automerge if **size/XXL**"
+        pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"                                    # Comma-separated list (no spaces)
     
   dev-pull-request:
@@ -28,7 +28,7 @@ jobs:
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
         pr_title: "Scheduled branch results PR "   # Title of pull request
-        pr_body: "🤖 **[Automated Workflow]** <br> 1.  🔔 Open scheduled 8-hour PR with branch results 2. :label: Label pull request size 3. :octocat: automerge if **size/XXL**"
+        pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"         
 
   md-pull-request:
@@ -42,7 +42,7 @@ jobs:
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
         pr_title: "Scheduled branch results PR "   # Title of pull request
-        pr_body: "🤖 **[Automated Workflow]** <br> 1.  🔔 Open scheduled 8-hour PR with branch results 2. :label: Label pull request size 3. :octocat: automerge if **size/XXL**"
+        pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"     
   
   cd-pull-request:
@@ -52,11 +52,11 @@ jobs:
     - name: pull-request
       uses: repo-sync/pull-request@v2
       with:
-        source_branch: "md"
+        source_branch: "cd"
         destination_branch: "master"            
         github_token: ${{ secrets.PAT }}
         pr_title: "Pulling cd branch into master"   # Title of pull request
-        pr_body: ":bell: *Scheduled automated PR* :robot: <br> adds latest computation :computer: results." # Full markdown support, requires pr_title to be set        
+        pr_body: "🤖 **[Automated Workflow]** <br> 1. 🔔 Open scheduled 8-hour PR with branch results <br> 2. :label: Label pull request size <br> 3. :octocat: automerge if **size/XXL**"
         pr_label: "auto-pr"    
         
 # reference: https://github.com/marketplace/actions/github-pull-request-action
