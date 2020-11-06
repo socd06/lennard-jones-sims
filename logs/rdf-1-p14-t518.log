@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence." (Jeremy Anderson)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo b987e24] feat: add 1-p14-t518 radial distribution function and updates to logs
+ 6 files changed, 2120 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p14-t518.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
