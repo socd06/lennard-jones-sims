@@ -112,3 +112,11 @@ gcq#415: "In a talk you have a choice: You can make one point or no points." (Pa
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b370cf4d6] feat: add 2-p26-t230 radial distribution function and updates to logs
+ 8 files changed, 2186 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p26-t242.log
+ create mode 100644 logs/sim-2-p26-t248.log
+ create mode 100644 results/rdf-2-p26-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1a98c5a6e..b370cf4d6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
