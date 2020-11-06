@@ -112,3 +112,8 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You see it through a charmed medium: you can not discern that the gilding is slime and the silk draperies cobwebs; that the marble is sordid slate, and the polished woods mere refuse chips and scale bark." (Mr. Rochester in Jane Eyre by Charlotte Bronte)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 35a4edf] feat: add 1-p14-t524 radial distribution function and updates to logs
+ 6 files changed, 2101 insertions(+), 100 deletions(-)
+ create mode 100644 results/rdf-1-p14-t524.xvg
+error: Couldn't resolve host 'github.com' while accessing https://github.com/socd06/lennard-jones-sims.git/info/refs
+fatal: HTTP request failed
