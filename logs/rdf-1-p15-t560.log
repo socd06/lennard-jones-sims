@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There's Still Time to Change the Road You're On" (Led Zeppelin)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 86aff1d] feat: add 1-p15-t560 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p15-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   60520e4..86aff1d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
