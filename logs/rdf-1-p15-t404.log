@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It Wouldn't Hurt to Wipe Once In a While" (Beavis and Butthead)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo ce6d903] feat: add 1-p15-t404 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p15-t404.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ad1b483..ce6d903  beo -> beo
+Branch beo set up to track remote branch beo from origin.
