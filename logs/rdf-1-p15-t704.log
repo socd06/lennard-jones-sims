@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "You Don't Wanna Know" (Pulp Fiction)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo fe1ab08] feat: add 1-p15-t704 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p15-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   84517f3..fe1ab08  beo -> beo
+Branch beo set up to track remote branch beo from origin.
