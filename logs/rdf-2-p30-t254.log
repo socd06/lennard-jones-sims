@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#416: "Where all think alike, no one thinks very much." (Walter Lippmann)
 
 Working in dev branch
+[dev 4c4611aa1] feat: add 2-p30-t254 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t260.log
+ create mode 100644 logs/rdf-2-p30-t266.log
+ create mode 100644 logs/sim-2-p30-t266.log
+ create mode 100644 logs/sim-2-p30-t272.log
+ create mode 100644 results/rdf-2-p30-t254.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d1a3c53e7..4c4611aa1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
