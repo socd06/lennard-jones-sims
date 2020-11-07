@@ -32,6 +32,8 @@ jobs:
            python scripts/check_files.py
            git add iters.txt
            git commit -m "chore: Automated iterations update"
+           git config --global user.name "socd06"
+           git config --global user.password ${{ secrets.PAT }}
            git push origin master
       #    echo Add other actions to build,
       #    echo test, and deploy your project.
