@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Pretend That You're Hercule Poirot" (TeX)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 30f0fc1] feat: add 1-p16-t584 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p16-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3d8760b..30f0fc1  beo -> beo
+Branch beo set up to track remote branch beo from origin.
