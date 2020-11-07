@@ -114,3 +114,11 @@ gcq#300: "Shoot them in the back now" (The Ramones)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev 675c30544] feat: add 2-p30-t212 radial distribution function and updates to logs
+ 8 files changed, 2154 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p30-t224.log
+ create mode 100644 logs/sim-2-p30-t230.log
+ create mode 100644 results/rdf-2-p30-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3516916ea..675c30544  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
