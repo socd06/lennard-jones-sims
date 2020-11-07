@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "This work contains many things which are new and interesting. Unfortunately, everything that is new is not interesting, and everything which is interesting, is not new." (Lev Landau)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 691d7c4] feat: add 1-p16-t674 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p16-t674.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e199e29..691d7c4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
