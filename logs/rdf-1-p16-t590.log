@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Perl: The only language that looks the same before and after RSA encryption." (Keith Bostic)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 676770d] feat: add 1-p16-t590 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 85 deletions(-)
+ create mode 100644 results/rdf-1-p16-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   30f0fc1..676770d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
