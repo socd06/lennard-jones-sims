@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Proceed, With Fingers Crossed" (TeX)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 966d8e4] feat: add 1-p17-t794 radial distribution function and updates to logs
+ 6 files changed, 2123 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p17-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   28dad69..966d8e4  beo -> beo
+Branch beo set up to track remote branch beo from origin.
