@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Academe, n.: An ancient school where morality and philosophy were taught. Academy, n.: A modern school where football is taught." (Ambrose Bierce)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 9e7c3f3] feat: add 1-p18-t206 radial distribution function and updates to logs
+ 6 files changed, 2102 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p18-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   88ed1b2..9e7c3f3  beo -> beo
+Branch beo set up to track remote branch beo from origin.
