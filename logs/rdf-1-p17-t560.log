@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I Quit My Job Blowing Leaves" (Beck)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo cb9b243] feat: add 1-p17-t560 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p17-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0a2fb1c..cb9b243  beo -> beo
+Branch beo set up to track remote branch beo from origin.
