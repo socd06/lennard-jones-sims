@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I was told I'd never make it to VP rank because I was too outspoken. Maybe so, but I think men will always find an excuse for keeping women in their 'place.' So, let's make that place the executive suite and start more of our own companies." (Jean Bartik, ENIAC developer)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 469a1bd] feat: add 1-p17-t584 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 83 deletions(-)
+ create mode 100644 results/rdf-1-p17-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7fc5bbe..469a1bd  beo -> beo
+Branch beo set up to track remote branch beo from origin.
