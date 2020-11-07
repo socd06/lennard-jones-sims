@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: ""Everything organic and natural is good" - ignoring the fact that organic natural substances include arsenic and poo and crocodiles. And everything chemical is bad, ignoring the fact that... everything is chemicals." (Tim Minchin)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo a777f43] feat: add 1-p17-t278 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p17-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b7e5f97..a777f43  beo -> beo
+Branch beo set up to track remote branch beo from origin.
