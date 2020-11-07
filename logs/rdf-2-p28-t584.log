@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#338: "Come on boys, Let's push it hard" (P.J. Harvey)
 
 Working in dev branch
+[dev a09d50efd] feat: add 2-p28-t584 radial distribution function and updates to logs
+ 8 files changed, 2322 insertions(+)
+ create mode 100644 logs/rdf-2-p28-t584.log
+ create mode 100644 logs/rdf-2-p28-t590.log
+ create mode 100644 logs/sim-2-p28-t590.log
+ create mode 100644 logs/sim-2-p28-t596.log
+ create mode 100644 results/rdf-2-p28-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8ef1cecc0..a09d50efd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
