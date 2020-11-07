@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." (Tom Cargill)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 538debb] feat: add 1-p16-t482 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p16-t482.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   75bd092..538debb  beo -> beo
+Branch beo set up to track remote branch beo from origin.
