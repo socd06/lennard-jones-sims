@@ -111,3 +111,11 @@ gcq#27: "A Man Needs a Maid" (N. Young)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e012f10ea] feat: add 2-p27-t740 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p27-t746.log
+ create mode 100644 logs/sim-2-p27-t752.log
+ create mode 100644 results/rdf-2-p27-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d7940f343..e012f10ea  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
