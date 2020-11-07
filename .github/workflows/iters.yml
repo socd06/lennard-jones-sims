@@ -30,10 +30,10 @@ jobs:
           github_token: ${{ secrets.PAT }}
         run: |                   
            python scripts/check_files.py
-           git add iters.txt
-           git commit -m "chore: Automated iterations update"
+           git add iters.txt           
            git config --global user.name "socd06"
            git config --global user.password ${{ secrets.PAT }}
+           git commit -m "chore: Automated iterations update"
            git push origin master
       #    echo Add other actions to build,
       #    echo test, and deploy your project.
