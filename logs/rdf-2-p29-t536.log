@@ -111,3 +111,11 @@ gcq#253: "Why, how now, Claudio ! Whence Comes this Restraint ?" (Lucio in Measu
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 36fd7736a] feat: add 2-p29-t536 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p29-t542.log
+ create mode 100644 logs/sim-2-p29-t548.log
+ create mode 100644 results/rdf-2-p29-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3db89971e..36fd7736a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
