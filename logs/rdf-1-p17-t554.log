@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Is This the Right Room for an Argument ?" (Monty Python)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 0a2fb1c] feat: add 1-p17-t554 radial distribution function and updates to logs
+ 6 files changed, 2121 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p17-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a604979..0a2fb1c  beo -> beo
+Branch beo set up to track remote branch beo from origin.
