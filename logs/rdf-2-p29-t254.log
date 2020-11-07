@@ -112,3 +112,9 @@ gcq#157: "The Microsecond is Within Reach" (P.J. Van Maaren)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0d7b4b7cf] feat: add 2-p29-t254 radial distribution function and updates to logs
+ 6 files changed, 2074 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p29-t254.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cd1d8ade6..0d7b4b7cf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
