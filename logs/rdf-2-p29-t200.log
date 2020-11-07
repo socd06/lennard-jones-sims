@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#445: "I try to identify myself with the atoms... I ask what I would do If I were a carbon atom or a sodium atom." (Linus Pauling)
 
 Working in dev branch
+[dev 94c21e43e] feat: add 2-p29-t200 radial distribution function and updates to logs
+ 9 files changed, 2325 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p29-t206.log
+ create mode 100644 logs/rdf-2-p29-t212.log
+ create mode 100644 logs/sim-2-p29-t212.log
+ create mode 100644 logs/sim-2-p29-t218.log
+ create mode 100644 results/rdf-2-p29-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   65dac9d00..94c21e43e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
