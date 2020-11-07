@@ -111,3 +111,11 @@ gcq#180: "These Gromacs Guys Really Rock" (P.J. Meulenhoff)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 11f6f208f] feat: add 2-p27-t332 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p27-t338.log
+ create mode 100644 logs/sim-2-p27-t344.log
+ create mode 100644 results/rdf-2-p27-t332.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0f5713b98..11f6f208f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
