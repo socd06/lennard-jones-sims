@@ -111,3 +111,11 @@ gcq#429: "There is no such thing as free energy. Anyone who advocates it does no
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ddcf897c1] feat: add 2-p28-t608 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p28-t614.log
+ create mode 100644 logs/sim-2-p28-t620.log
+ create mode 100644 results/rdf-2-p28-t608.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   df10a3e9a..ddcf897c1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
