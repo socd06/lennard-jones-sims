@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence." (Jeremy Anderson)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 386e810] feat: add 1-p17-t692 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p17-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3ae1c30..386e810  beo -> beo
+Branch beo set up to track remote branch beo from origin.
