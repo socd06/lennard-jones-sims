@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Everybody Lie Down On the Floor and Keep Calm" (KLF)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo c124966] feat: add 1-p17-t680 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p17-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fc324d1..c124966  beo -> beo
+Branch beo set up to track remote branch beo from origin.
