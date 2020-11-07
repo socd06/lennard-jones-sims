@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "Science Won't Change You" (The Talking Heads)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 1e7e405] feat: add 1-p17-t644 radial distribution function and updates to logs
+ 6 files changed, 2112 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p17-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d3fea3c..1e7e405  beo -> beo
+Branch beo set up to track remote branch beo from origin.
