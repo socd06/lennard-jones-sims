@@ -111,3 +111,11 @@ gcq#63: "Keep Your Shoes and Socks On, People" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 07030e4b4] feat: add 2-p27-t260 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p27-t266.log
+ create mode 100644 logs/sim-2-p27-t272.log
+ create mode 100644 results/rdf-2-p27-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   272246989..07030e4b4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
