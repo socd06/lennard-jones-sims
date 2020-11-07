@@ -113,3 +113,9 @@ gcq#115: "Blessed is He Who In the Name Of Charity and Good Will Shepherds the W
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 087d77e55] feat: add 2-p27-t212 radial distribution function and updates to logs
+ 6 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p27-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   47939bbf9..087d77e55  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
