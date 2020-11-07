@@ -111,3 +111,11 @@ gcq#90: "Once Again Let Me Do This" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 65e2f2ef0] feat: add 2-p30-t296 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t302.log
+ create mode 100644 logs/sim-2-p30-t308.log
+ create mode 100644 results/rdf-2-p30-t296.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   edc15b007..65e2f2ef0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
