@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "I invented the term 'Object-Oriented', and I can tell you I did not have C++ in mind." (Alay Kay, author of Smalltalk)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 266240d] feat: add 1-p18-t290 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 82 deletions(-)
+ create mode 100644 results/rdf-1-p18-t290.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   05ed2cd..266240d  beo -> beo
+Branch beo set up to track remote branch beo from origin.
