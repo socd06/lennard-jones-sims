@@ -112,3 +112,9 @@ Analyzed 1501 frames, last time 3000.000
 GROMACS reminds you: "It's Coming Right For Us !" (South Park)
 
 rm: cannot remove `*.ndx*': No such file or directory
+[beo 91113aa] feat: add 1-p16-t440 radial distribution function and updates to logs
+ 6 files changed, 2111 insertions(+), 81 deletions(-)
+ create mode 100644 results/rdf-1-p16-t440.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   823abd4..91113aa  beo -> beo
+Branch beo set up to track remote branch beo from origin.
