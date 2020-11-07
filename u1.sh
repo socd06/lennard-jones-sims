@@ -99,7 +99,7 @@ run-folders() {
 		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
 		# update branch to master
 		git pull upstream master
-		git push -u origin u1
+		git push -u origin $branch
 	}
 
 	gas-gas(){
