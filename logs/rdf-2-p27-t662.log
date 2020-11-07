@@ -111,3 +111,11 @@ gcq#492: "A ship in port is safe, but that is not what ships are for. Sail out t
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a5b9c3862] feat: add 2-p27-t662 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p27-t668.log
+ create mode 100644 logs/sim-2-p27-t674.log
+ create mode 100644 results/rdf-2-p27-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d24f8d8a8..a5b9c3862  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
