@@ -111,3 +111,11 @@ gcq#249: "Disturb the Peace of a John Q Citizen" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c2782ec6f] feat: add 2-p30-t740 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t746.log
+ create mode 100644 logs/sim-2-p30-t752.log
+ create mode 100644 results/rdf-2-p30-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8881b12b3..c2782ec6f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
