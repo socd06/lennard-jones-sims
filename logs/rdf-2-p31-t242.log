@@ -111,3 +111,11 @@ gcq#414: "Parallel programming is not about elegance!" (Bill Gropp)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b5a112558] feat: add 2-p31-t242 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p31-t254.log
+ create mode 100644 logs/sim-2-p31-t260.log
+ create mode 100644 results/rdf-2-p31-t242.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d11818f7e..b5a112558  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
