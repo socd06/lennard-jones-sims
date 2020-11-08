@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#436: "It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material." (Watson & Crick)
 
 Working in dev branch
+[dev cce148f8e] feat: add 2-p33-t200 radial distribution function and updates to logs
+ 11 files changed, 2435 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p33-t206.log
+ create mode 100644 logs/rdf-2-p33-t212.log
+ create mode 100644 logs/rdf-2-p33-t218.log
+ create mode 100644 logs/sim-2-p33-t212.log
+ create mode 100644 logs/sim-2-p33-t218.log
+ create mode 100644 logs/sim-2-p33-t224.log
+ create mode 100644 results/rdf-2-p33-t200.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
