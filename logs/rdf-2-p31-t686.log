@@ -111,3 +111,9 @@ gcq#433: "If you want to save your child from polio, you can pray or you can ino
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8e89d8b46] feat: add 2-p31-t686 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p31-t692.log
+ create mode 100644 logs/sim-2-p31-t698.log
+ create mode 100644 results/rdf-2-p31-t686.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
