@@ -111,3 +111,9 @@ gcq#186: "Been There, Done It" (Beavis and Butthead)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8fd4a724a] feat: add 2-p33-t350 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p33-t356.log
+ create mode 100644 logs/sim-2-p33-t362.log
+ create mode 100644 results/rdf-2-p33-t350.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
