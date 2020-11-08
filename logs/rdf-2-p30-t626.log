@@ -111,3 +111,11 @@ gcq#418: "A curious aspect of the theory of evolution is that everybody thinks h
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a6140b065] feat: add 2-p30-t626 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t632.log
+ create mode 100644 logs/sim-2-p30-t638.log
+ create mode 100644 results/rdf-2-p30-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   db9b694db..a6140b065  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
