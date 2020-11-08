@@ -111,3 +111,11 @@ gcq#365: "There's no kill like overkill, right?" (Erik Lindahl)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f22319ba4] feat: add 2-p30-t590 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t596.log
+ create mode 100644 logs/sim-2-p30-t602.log
+ create mode 100644 results/rdf-2-p30-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   10bd0973b..f22319ba4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
