@@ -111,3 +111,9 @@ gcq#32: "I'm Only Faking When I Get It Right" (Soundgarden)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 69396e4aa] feat: add 2-p33-t446 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p33-t452.log
+ create mode 100644 logs/sim-2-p33-t458.log
+ create mode 100644 results/rdf-2-p33-t446.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
