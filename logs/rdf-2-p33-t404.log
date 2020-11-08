@@ -111,3 +111,9 @@ gcq#576: "Erwin with his psi can do / Calculations quite a few. / But one thing 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9abfd4a51] feat: add 2-p33-t404 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p33-t410.log
+ create mode 100644 logs/sim-2-p33-t416.log
+ create mode 100644 results/rdf-2-p33-t404.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
