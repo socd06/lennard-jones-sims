@@ -112,3 +112,9 @@ gcq#438: "What about my nose?" (Aneesur Rahman, responding to an Argonne manager
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4d1174c6a] feat: add 2-p31-t248 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p31-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b5a112558..4d1174c6a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
