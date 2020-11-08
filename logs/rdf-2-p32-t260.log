@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#557: "As an adolescent I aspired to lasting fame, I craved factual certainty, and I thirsted for a meaningful vision of human life -- so I became a scientist. This is like becoming an archbishop so you can meet girls." (Matt Cartmill)
 
 Working in dev branch
+[dev df5e6fe7a] feat: add 2-p32-t260 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p32-t266.log
+ create mode 100644 logs/rdf-2-p32-t272.log
+ create mode 100644 logs/sim-2-p32-t272.log
+ create mode 100644 logs/sim-2-p32-t278.log
+ create mode 100644 results/rdf-2-p32-t260.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
