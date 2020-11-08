@@ -111,3 +111,9 @@ gcq#188: "How Do You Like Your Vacation So Far ?" (Speed 2 - Cruise Control)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c86c06d4d] feat: add 2-p33-t578 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p33-t584.log
+ create mode 100644 logs/sim-2-p33-t590.log
+ create mode 100644 results/rdf-2-p33-t578.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
