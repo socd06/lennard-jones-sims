@@ -111,3 +111,11 @@ gcq#555: "Any one who considers arithmetical methods of producing random digits 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 54061046d] feat: add 2-p31-t554 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p31-t560.log
+ create mode 100644 logs/sim-2-p31-t566.log
+ create mode 100644 results/rdf-2-p31-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   40fef5657..54061046d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
