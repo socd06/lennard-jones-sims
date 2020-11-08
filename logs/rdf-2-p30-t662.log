@@ -111,3 +111,11 @@ gcq#375: "Der Ball ist rund, das Spiel dauert 90 minuten, alles andere ist Theor
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 505766f0d] feat: add 2-p30-t662 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p30-t668.log
+ create mode 100644 logs/sim-2-p30-t674.log
+ create mode 100644 results/rdf-2-p30-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c8fb303ba..505766f0d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
