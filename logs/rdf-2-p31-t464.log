@@ -111,3 +111,11 @@ gcq#510: "Try to calculate the numbers that have been" (The Smoke Fairies)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d7ba0a40a] feat: add 2-p31-t464 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p31-t470.log
+ create mode 100644 logs/sim-2-p31-t476.log
+ create mode 100644 results/rdf-2-p31-t464.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6d1a3d3e2..d7ba0a40a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
