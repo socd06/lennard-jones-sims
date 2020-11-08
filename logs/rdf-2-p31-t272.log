@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#187: "Load Up Your Rubber Bullets" (10 CC)
 
 Working in dev branch
+[dev 60014209c] feat: add 2-p31-t272 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p31-t278.log
+ create mode 100644 logs/rdf-2-p31-t284.log
+ create mode 100644 logs/sim-2-p31-t284.log
+ create mode 100644 logs/sim-2-p31-t290.log
+ create mode 100644 results/rdf-2-p31-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   573993a73..60014209c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
