@@ -112,3 +112,11 @@ gcq#389: "Unfortunately, "simulation" has become increasingly misused to mean no
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b9a4a14ea] feat: add 2-p31-t260 radial distribution function and updates to logs
+ 8 files changed, 2186 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p31-t272.log
+ create mode 100644 logs/sim-2-p31-t278.log
+ create mode 100644 results/rdf-2-p31-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   49c3ff453..b9a4a14ea  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
