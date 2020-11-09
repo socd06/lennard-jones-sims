@@ -111,3 +111,9 @@ gcq#3: "Nurture Another Mind, Before Yours Expires" (Arrested Development)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 98c0f6720] feat: add 2-p38-t248 radial distribution function and updates to logs
+ 8 files changed, 2171 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p38-t260.log
+ create mode 100644 logs/sim-2-p38-t266.log
+ create mode 100644 results/rdf-2-p38-t248.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
