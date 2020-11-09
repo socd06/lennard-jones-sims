@@ -111,3 +111,9 @@ gcq#557: "As an adolescent I aspired to lasting fame, I craved factual certainty
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev aed665754] feat: add 2-p34-t638 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p34-t644.log
+ create mode 100644 logs/sim-2-p34-t650.log
+ create mode 100644 results/rdf-2-p34-t638.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
