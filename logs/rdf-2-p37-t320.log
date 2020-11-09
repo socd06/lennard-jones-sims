@@ -111,3 +111,10 @@ gcq#149: "I Smell Smoke From a Gun Named Extinction" (Pixies)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c8f37153b] feat: add 2-p37-t320 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p37-t326.log
+ create mode 100644 logs/rdf-2-p37-t332.log
+ create mode 100644 logs/sim-2-p37-t332.log
+ create mode 100644 results/rdf-2-p37-t320.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
