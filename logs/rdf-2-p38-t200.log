@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#153: "Rub It Right Accross Your Eyes" (F. Zappa)
 
 Working in dev branch
+[dev 0de597dc0] feat: add 2-p38-t200 radial distribution function and updates to logs
+ 11 files changed, 2447 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t206.log
+ create mode 100644 logs/rdf-2-p38-t212.log
+ create mode 100644 logs/rdf-2-p38-t218.log
+ create mode 100644 logs/sim-2-p38-t212.log
+ create mode 100644 logs/sim-2-p38-t218.log
+ create mode 100644 logs/sim-2-p38-t224.log
+ create mode 100644 results/rdf-2-p38-t200.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
