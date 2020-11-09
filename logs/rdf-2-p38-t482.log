@@ -111,3 +111,11 @@ gcq#98: "Jesus Can't Save You, Though It's Nice to Think He Tried" (Black Crowes
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 51d85ce0d] feat: add 2-p38-t482 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t488.log
+ create mode 100644 logs/sim-2-p38-t494.log
+ create mode 100644 results/rdf-2-p38-t482.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d449e010f..51d85ce0d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
