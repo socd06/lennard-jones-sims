@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#148: "I Ripped the Cord Right Out Of the Phone" (Capt. Beefheart)
 
 Working in dev branch
+[dev d466d5b3f] feat: add 2-p34-t698 radial distribution function and updates to logs
+ 8 files changed, 2320 insertions(+)
+ create mode 100644 logs/rdf-2-p34-t698.log
+ create mode 100644 logs/rdf-2-p34-t704.log
+ create mode 100644 logs/sim-2-p34-t704.log
+ create mode 100644 logs/sim-2-p34-t710.log
+ create mode 100644 results/rdf-2-p34-t698.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
