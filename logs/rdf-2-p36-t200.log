@@ -110,3 +110,12 @@ Analyzed 1501 frames, last time 3000.000
 gcq#305: "Good Music Saves your Soul" (Lemmy)
 
 Working in dev branch
+[dev b0151788a] feat: add 2-p36-t200 radial distribution function and updates to logs
+ 10 files changed, 2431 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p36-t206.log
+ create mode 100644 logs/rdf-2-p36-t212.log
+ create mode 100644 logs/rdf-2-p36-t218.log
+ create mode 100644 logs/sim-2-p36-t212.log
+ create mode 100644 logs/sim-2-p36-t218.log
+ create mode 100644 results/rdf-2-p36-t200.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
