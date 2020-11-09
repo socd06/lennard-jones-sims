@@ -111,3 +111,9 @@ gcq#429: "There is no such thing as free energy. Anyone who advocates it does no
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d7a7d0c7b] feat: add 2-p34-t674 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p34-t680.log
+ create mode 100644 logs/sim-2-p34-t686.log
+ create mode 100644 results/rdf-2-p34-t674.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
