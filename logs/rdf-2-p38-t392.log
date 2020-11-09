@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#161: "When It Starts to Start It'll Never Stop" (Magnapop)
 
 Working in dev branch
+[dev 8e253776b] feat: add 2-p38-t392 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t398.log
+ create mode 100644 logs/rdf-2-p38-t404.log
+ create mode 100644 logs/sim-2-p38-t404.log
+ create mode 100644 logs/sim-2-p38-t410.log
+ create mode 100644 results/rdf-2-p38-t392.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e15a6775f..8e253776b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
