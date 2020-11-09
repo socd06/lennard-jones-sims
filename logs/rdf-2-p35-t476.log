@@ -111,3 +111,9 @@ gcq#423: "A computer without COBOL and FORTRAN is like a piece of chocolate cake
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7f10b386f] feat: add 2-p35-t476 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p35-t482.log
+ create mode 100644 logs/sim-2-p35-t488.log
+ create mode 100644 results/rdf-2-p35-t476.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
