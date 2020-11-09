@@ -112,3 +112,7 @@ gcq#68: "What's Your Definition Of Dirty ?" (G. Michael)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7923610d8] feat: add 2-p38-t332 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p38-t332.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
