@@ -111,3 +111,9 @@ gcq#368: "Take what you want, but just what you need for survival" (Joe Jackson)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cb6193899] feat: add 2-p37-t680 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p37-t686.log
+ create mode 100644 logs/sim-2-p37-t692.log
+ create mode 100644 results/rdf-2-p37-t680.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
