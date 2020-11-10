@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#371: "England's dancing days are done" (P. J. Harvey)
 
 Working in dev branch
+[dev 536f2d9c6] feat: add 2-p41-t332 radial distribution function and updates to logs
+ 8 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p41-t338.log
+ create mode 100644 logs/rdf-2-p41-t344.log
+ create mode 100644 logs/sim-2-p41-t344.log
+ create mode 100644 logs/sim-2-p41-t350.log
+ create mode 100644 results/rdf-2-p41-t332.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   44fd03c5f..536f2d9c6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
