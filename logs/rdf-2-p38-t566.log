@@ -111,3 +111,11 @@ gcq#381: "Do not go where the path may lead, go instead where there is no path a
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0754673f7] feat: add 2-p38-t566 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t572.log
+ create mode 100644 logs/sim-2-p38-t578.log
+ create mode 100644 results/rdf-2-p38-t566.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   65d9a41c4..0754673f7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
