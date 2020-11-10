@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#321: "The Feeling of Power was Intoxicating, Magic" (Frida Hyvonen)
 
 Working in dev branch
+[dev 11337111c] feat: add 2-p42-t392 radial distribution function and updates to logs
+ 9 files changed, 2296 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p42-t398.log
+ create mode 100644 logs/rdf-2-p42-t404.log
+ create mode 100644 logs/sim-2-p42-t404.log
+ create mode 100644 logs/sim-2-p42-t410.log
+ create mode 100644 results/rdf-2-p42-t392.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   38d679407..11337111c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
