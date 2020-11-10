@@ -111,3 +111,11 @@ gcq#84: "Shake Barrels Of Whisky Down My Throat" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a7c726e7d] feat: add 2-p41-t572 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p41-t578.log
+ create mode 100644 logs/sim-2-p41-t584.log
+ create mode 100644 results/rdf-2-p41-t572.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f591cb69d..a7c726e7d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
