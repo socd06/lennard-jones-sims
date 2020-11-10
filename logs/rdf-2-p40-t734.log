@@ -111,3 +111,11 @@ gcq#534: "The only greatness for man is immortality." (James Dean)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3a0e4996c] feat: add 2-p40-t734 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p40-t740.log
+ create mode 100644 logs/sim-2-p40-t746.log
+ create mode 100644 results/rdf-2-p40-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   acb9e5a8e..3a0e4996c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
