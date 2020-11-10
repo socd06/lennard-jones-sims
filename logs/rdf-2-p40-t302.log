@@ -111,3 +111,11 @@ gcq#476: "First off, I'd suggest printing out a copy of the GNU coding standards
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1ca9be64f] feat: add 2-p40-t302 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p40-t314.log
+ create mode 100644 logs/sim-2-p40-t320.log
+ create mode 100644 results/rdf-2-p40-t302.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   96d58bcf9..1ca9be64f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
