@@ -111,3 +111,11 @@ gcq#240: "(That makes 100 errors; please try again.)" (TeX)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a01ce07d3] feat: add 2-p39-t656 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p39-t662.log
+ create mode 100644 logs/sim-2-p39-t668.log
+ create mode 100644 results/rdf-2-p39-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   eb94f4ff5..a01ce07d3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
