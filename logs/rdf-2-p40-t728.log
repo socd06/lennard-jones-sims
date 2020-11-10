@@ -111,3 +111,11 @@ gcq#477: "I invented the term 'Object-Oriented', and I can tell you I did not ha
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev acb9e5a8e] feat: add 2-p40-t728 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p40-t734.log
+ create mode 100644 logs/sim-2-p40-t740.log
+ create mode 100644 results/rdf-2-p40-t728.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5f3aedec0..acb9e5a8e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
