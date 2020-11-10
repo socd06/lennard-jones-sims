@@ -111,3 +111,11 @@ gcq#283: "Cowardly refusing to create an empty archive" (GNU tar)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ff0b8135f] feat: add 2-p38-t746 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t752.log
+ create mode 100644 logs/sim-2-p38-t758.log
+ create mode 100644 results/rdf-2-p38-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   39e707391..ff0b8135f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
