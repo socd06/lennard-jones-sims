@@ -111,3 +111,11 @@ gcq#344: "Everything's formed from particles" (Van der Graaf Generator)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 737630a81] feat: add 2-p39-t482 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p39-t488.log
+ create mode 100644 logs/sim-2-p39-t494.log
+ create mode 100644 results/rdf-2-p39-t482.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a59f0666d..737630a81  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
