@@ -111,3 +111,11 @@ gcq#160: "If You Don't Like Cool Quotes Check Your GMXRC File" (Your Sysadmin)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d494d4bde] feat: add 2-p40-t704 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p40-t710.log
+ create mode 100644 logs/sim-2-p40-t716.log
+ create mode 100644 results/rdf-2-p40-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3d90673c9..d494d4bde  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
