@@ -111,3 +111,12 @@ gcq#337: "What if you're wrong about the great Ju Ju at the bottom of the sea?" 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev effcda8d5] feat: add 2-p39-t362 radial distribution function and updates to logs
+ 8 files changed, 2290 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p39-t368.log
+ create mode 100644 logs/rdf-2-p39-t374.log
+ create mode 100644 logs/sim-2-p39-t374.log
+ create mode 100644 results/rdf-2-p39-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   dd40b0bff..effcda8d5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
