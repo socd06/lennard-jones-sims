@@ -111,3 +111,11 @@ gcq#191: "Take Dehydrated Water On Your Desert Trips" (Space Quest III)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 968b27361] feat: add 2-p38-t650 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p38-t656.log
+ create mode 100644 logs/sim-2-p38-t662.log
+ create mode 100644 results/rdf-2-p38-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b5f12785c..968b27361  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
