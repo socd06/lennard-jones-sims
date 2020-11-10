@@ -111,3 +111,11 @@ gcq#87: "This Doesn't Suck, It's a Black Hole !" (K.A. Feenstra)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 78af920bc] feat: add 2-p41-t662 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p41-t668.log
+ create mode 100644 logs/sim-2-p41-t674.log
+ create mode 100644 results/rdf-2-p41-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   53ef50d1a..78af920bc  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
