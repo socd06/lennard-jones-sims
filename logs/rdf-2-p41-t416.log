@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#448: "For those who want some proof that physicists are human, the proof is in the idiocy of all the different units which they use for measuring energy." (Richard Feynman)
 
 Working in dev branch
+[dev 45aab361f] feat: add 2-p41-t416 radial distribution function and updates to logs
+ 10 files changed, 2466 insertions(+)
+ create mode 100644 logs/rdf-2-p41-t416.log
+ create mode 100644 logs/rdf-2-p41-t422.log
+ create mode 100644 logs/rdf-2-p41-t428.log
+ create mode 100644 logs/sim-2-p41-t422.log
+ create mode 100644 logs/sim-2-p41-t428.log
+ create mode 100644 logs/sim-2-p41-t434.log
+ create mode 100644 results/rdf-2-p41-t416.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d0b4b8596..45aab361f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
