@@ -32,22 +32,44 @@ Command line:
   gmx make_ndx -f OUT/p20-t800/3-md.tpr -o indexrdf.ndx
 
 
--------------------------------------------------------
-Program:     gmx make_ndx, version 2016.3
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 235)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
+Reading structure file
+Reading file OUT/p20-t800/3-md.tpr, VERSION 2016.3 (single precision)
+Reading file OUT/p20-t800/3-md.tpr, VERSION 2016.3 (single precision)
 
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p20-t800/3-md.tpr' does not exist or is not accessible.
-    The file could not be opened.
-      Reason: No such file or directory
-      (call to fopen() returned error code 2)
+GROMACS reminds you: "Step On the Brakes" (2 Unlimited)
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Going to read 0 old index file(s)
+Analysing residue names:
+There are:  4000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              :  4000 atoms
+  1 Other               :  4000 atoms
+  2 NE                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Removed group 0 'System'
+Removed group 1 'Other'
+
+> 
+
+  0 NE                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
 calculating radial distribution function
                        :-) GROMACS - gmx rdf, 2016.3 (-:
 
@@ -81,66 +103,13 @@ Working dir:  /home/test/git/lennard-jones-sims/1-ne
 Command line:
   gmx rdf -f OUT/p20-t800/3-md.trr -s OUT/p20-t800/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-1-p20-t800.xvg
 
+Reading file OUT/p20-t800/3-md.tpr, VERSION 2016.3 (single precision)
+Reading file OUT/p20-t800/3-md.tpr, VERSION 2016.3 (single precision)
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    2.000   Reading frame       2 time    4.000   Reading frame       3 time    6.000   Reading frame       4 time    8.000   Reading frame       5 time   10.000   Reading frame       6 time   12.000   Reading frame       7 time   14.000   Reading frame       8 time   16.000   Reading frame       9 time   18.000   Reading frame      10 time   20.000   Reading frame      11 time   22.000   Reading frame      12 time   24.000   Reading frame      13 time   26.000   Reading frame      14 time   28.000   Reading frame      15 time   30.000   Reading frame      16 time   32.000   Reading frame      17 time   34.000   Reading frame      18 time   36.000   Reading frame      19 time   38.000   Reading frame      20 time   40.000   Reading frame      30 time   60.000   Reading frame      40 time   80.000   Reading frame      50 time  100.000   Reading frame      60 time  120.000   Reading frame      70 time  140.000   Reading frame      80 time  160.000   Reading frame      90 time  180.000   Reading frame     100 time  200.000   Reading frame     110 time  220.000   Reading frame     120 time  240.000   Reading frame     130 time  260.000   Reading frame     140 time  280.000   Reading frame     150 time  300.000   Reading frame     160 time  320.000   Reading frame     170 time  340.000   Reading frame     180 time  360.000   Reading frame     190 time  380.000   Reading frame     200 time  400.000   Reading frame     300 time  600.000   Reading frame     400 time  800.000   Reading frame     500 time 1000.000   Reading frame     600 time 1200.000   Reading frame     700 time 1400.000   Reading frame     800 time 1600.000   Reading frame     900 time 1800.000   Reading frame    1000 time 2000.000   Reading frame    1100 time 2200.000   Reading frame    1200 time 2400.000   Reading frame    1300 time 2600.000   Reading frame    1400 time 2800.000   Reading frame    1500 time 3000.000   Last frame       1500 time 3000.000   
+Analyzed 1501 frames, last time 3000.000
 
--------------------------------------------------------
-Program:     gmx rdf, version 2016.3
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 235)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
+GROMACS reminds you: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
 
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p20-t800/3-md.trr' does not exist or is not accessible.
-    The file could not be opened.
-      Reason: No such file or directory
-      (call to fopen() returned error code 2)
-  In command-line option -s
-    File 'OUT/p20-t800/3-md.tpr' does not exist or is not accessible.
-    The file could not be opened.
-      Reason: No such file or directory
-      (call to fopen() returned error code 2)
-  In command-line option -n
-    File 'indexrdf.ndx' does not exist or is not accessible.
-    The file could not be opened.
-      Reason: No such file or directory
-      (call to fopen() returned error code 2)
-
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
-rm: cannot remove `indexrdf.ndx': No such file or directory
 rm: cannot remove `*.ndx*': No such file or directory
-fatal: pathspec 'results/rdf-1-p20-t800.xvg' did not match any files
-[beo 4bf06c3] feat: add 1-p20-t800 radial distribution function
- Committer: root <root@localhost.localdomain>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
-
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 2 files changed, 115 insertions(+)
- create mode 100644 logs/rdf-1-p20-t800.log
-[beo 610b9e3] add commit head to log backlog
- Committer: root <root@localhost.localdomain>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
-
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 4 files changed, 36 insertions(+)
- create mode 100644 logs/sim-1-p21-t200.log
-To https://github.com/socd06/lennard-jones-sims.git
- ! [remote rejected] beo -> beo (cannot lock ref 'refs/heads/beo': is at 610b9e3f7330b1238e0a2a87a35ae804b723f317 but expected e5d118b09a32694e29b98798b14f785d86ffdf64)
-error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
+Working in beo branch
