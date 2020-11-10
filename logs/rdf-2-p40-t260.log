@@ -111,3 +111,11 @@ gcq#183: "You Crashed Into the Swamps" (Silicon Graphics)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 744cfaaf4] feat: add 2-p40-t260 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p40-t272.log
+ create mode 100644 logs/sim-2-p40-t278.log
+ create mode 100644 results/rdf-2-p40-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b74687ce9..744cfaaf4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
