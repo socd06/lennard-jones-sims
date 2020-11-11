@@ -111,3 +111,11 @@ gcq#469: "There are two major products that come out of Berkeley: LSD and UNIX. 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 24ea70a85] feat: add 2-p44-t434 radial distribution function and updates to logs
+ 7 files changed, 2183 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t440.log
+ create mode 100644 logs/sim-2-p44-t446.log
+ create mode 100644 results/rdf-2-p44-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   086156648..24ea70a85  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
