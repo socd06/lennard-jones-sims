@@ -111,3 +111,11 @@ gcq#277: "All I Ever Wanted Was Your Life" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 450f5d8b0] feat: add 2-p43-t266 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p43-t278.log
+ create mode 100644 logs/sim-2-p43-t284.log
+ create mode 100644 results/rdf-2-p43-t266.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   180e28b4b..450f5d8b0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
