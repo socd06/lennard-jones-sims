@@ -113,3 +113,7 @@ rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev 5a0ac4d69] feat: add 2-p46-t206 radial distribution function and updates to logs
+ 6 files changed, 2046 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p46-t206.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
