@@ -111,3 +111,11 @@ gcq#318: "Your Country Raised You, Your Country Fed You, and Just Like Any Other
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2e8986693] feat: add 2-p44-t422 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t428.log
+ create mode 100644 logs/sim-2-p44-t434.log
+ create mode 100644 results/rdf-2-p44-t422.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   55c9c56f2..2e8986693  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
