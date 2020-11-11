@@ -111,3 +111,9 @@ gcq#33: "Sisters Have Always Fascinated Me" (Speech)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 940d9cff6] feat: add 2-p44-t716 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t722.log
+ create mode 100644 logs/sim-2-p44-t728.log
+ create mode 100644 results/rdf-2-p44-t716.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
