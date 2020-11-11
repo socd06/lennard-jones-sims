@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#147: "I'm An Oakman" (Pulp Fiction)
 
 Working in dev branch
+[dev 5f4c1d564] feat: add 2-p45-t374 radial distribution function and updates to logs
+ 9 files changed, 2292 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p45-t380.log
+ create mode 100644 logs/rdf-2-p45-t386.log
+ create mode 100644 logs/sim-2-p45-t386.log
+ create mode 100644 logs/sim-2-p45-t392.log
+ create mode 100644 results/rdf-2-p45-t374.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
