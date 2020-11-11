@@ -114,3 +114,9 @@ gcq#151: "Right Between the Eyes" (F. Zappa)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e6e619f9a] feat: add 2-p43-t356 radial distribution function and updates to logs
+ 6 files changed, 2072 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p43-t356.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   28821ee3a..e6e619f9a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
