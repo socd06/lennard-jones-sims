@@ -111,3 +111,9 @@ gcq#298: "I believe in miracles cause I'm one" (The Ramones)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2cc7f0d3d] feat: add 2-p45-t656 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p45-t662.log
+ create mode 100644 logs/sim-2-p45-t668.log
+ create mode 100644 results/rdf-2-p45-t656.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
