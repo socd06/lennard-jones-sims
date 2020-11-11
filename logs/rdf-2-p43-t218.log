@@ -113,3 +113,11 @@ gcq#328: "Aber wenn der Quarterback kommt, um dir die Brille abzunehmen, sag ihm
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1b643ea14] feat: add 2-p43-t218 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p43-t230.log
+ create mode 100644 logs/sim-2-p43-t236.log
+ create mode 100644 results/rdf-2-p43-t218.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   67f758e83..1b643ea14  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
