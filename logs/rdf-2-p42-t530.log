@@ -111,3 +111,11 @@ gcq#198: "Beat On the Brat With a Baseball Bat" (The Ramones)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b66743d43] feat: add 2-p42-t530 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p42-t536.log
+ create mode 100644 logs/sim-2-p42-t542.log
+ create mode 100644 results/rdf-2-p42-t530.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5cd42cf9b..b66743d43  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
