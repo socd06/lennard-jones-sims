@@ -111,3 +111,9 @@ gcq#54: "Kissing You is Like Kissing Gravel" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8c18fcdfb] feat: add 2-p45-t596 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p45-t602.log
+ create mode 100644 logs/sim-2-p45-t608.log
+ create mode 100644 results/rdf-2-p45-t596.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
