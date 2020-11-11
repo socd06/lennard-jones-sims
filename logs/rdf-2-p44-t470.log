@@ -111,3 +111,11 @@ gcq#472: "Documentation is like sex: When it's good it's great, and when it's ba
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d14678aac] feat: add 2-p44-t470 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t476.log
+ create mode 100644 logs/sim-2-p44-t482.log
+ create mode 100644 results/rdf-2-p44-t470.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d429dce4f..d14678aac  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
