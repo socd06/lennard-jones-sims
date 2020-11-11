@@ -111,3 +111,10 @@ gcq#356: "He's using code that only you and I know" (Kate Bush)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4890f50bf] feat: add 2-p45-t350 radial distribution function and updates to logs
+ 8 files changed, 2286 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p45-t356.log
+ create mode 100644 logs/rdf-2-p45-t362.log
+ create mode 100644 logs/sim-2-p45-t362.log
+ create mode 100644 results/rdf-2-p45-t350.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
