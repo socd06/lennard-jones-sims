@@ -113,3 +113,11 @@ gcq#61: "Meet Me At the Coffee Shop" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2ecba1b7c] feat: add 2-p44-t212 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p44-t224.log
+ create mode 100644 logs/sim-2-p44-t230.log
+ create mode 100644 results/rdf-2-p44-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4d789e436..2ecba1b7c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
