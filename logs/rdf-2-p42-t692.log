@@ -111,3 +111,11 @@ gcq#213: "Everybody is Smashing Things Down" (Offspring)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4c9e6aa4a] feat: add 2-p42-t692 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p42-t698.log
+ create mode 100644 logs/sim-2-p42-t704.log
+ create mode 100644 results/rdf-2-p42-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   34c173437..4c9e6aa4a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
