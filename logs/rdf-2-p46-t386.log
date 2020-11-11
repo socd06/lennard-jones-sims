@@ -111,3 +111,7 @@ gcq#107: "Ease Myself Into the Body Bag" (P.J. Harvey)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 306df19e7] feat: add 2-p46-t386 radial distribution function and updates to logs
+ 6 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p46-t386.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
