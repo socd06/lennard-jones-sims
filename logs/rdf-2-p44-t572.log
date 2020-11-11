@@ -111,3 +111,11 @@ gcq#369: "When the universe has expanded, time will contract" (Franz Ferdinand)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b12969fa4] feat: add 2-p44-t572 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t578.log
+ create mode 100644 logs/sim-2-p44-t584.log
+ create mode 100644 results/rdf-2-p44-t572.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b2eadc6df..b12969fa4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
