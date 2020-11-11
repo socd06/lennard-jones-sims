@@ -111,3 +111,11 @@ gcq#133: "Catholic School Girls Rule" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ab4fbe213] feat: add 2-p44-t476 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t482.log
+ create mode 100644 logs/sim-2-p44-t488.log
+ create mode 100644 results/rdf-2-p44-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d14678aac..ab4fbe213  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
