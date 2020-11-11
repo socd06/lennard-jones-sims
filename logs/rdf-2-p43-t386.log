@@ -111,3 +111,13 @@ gcq#531: "Don't pay any attention to what they write about you. Just measure it 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 15d647582] feat: add 2-p43-t386 radial distribution function and updates to logs
+ 9 files changed, 2294 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p43-t392.log
+ create mode 100644 logs/rdf-2-p43-t398.log
+ create mode 100644 logs/sim-2-p43-t398.log
+ create mode 100644 logs/sim-2-p43-t404.log
+ create mode 100644 results/rdf-2-p43-t386.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   684e3bb58..15d647582  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
