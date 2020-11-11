@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#203: "I've Got Two Turntables and a Microphone" (B. Hansen)
 
 Working in dev branch
+[dev 6d800f547] feat: add 2-p46-t200 radial distribution function and updates to logs
+ 11 files changed, 2467 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p46-t206.log
+ create mode 100644 logs/rdf-2-p46-t212.log
+ create mode 100644 logs/rdf-2-p46-t218.log
+ create mode 100644 logs/sim-2-p46-t212.log
+ create mode 100644 logs/sim-2-p46-t218.log
+ create mode 100644 logs/sim-2-p46-t224.log
+ create mode 100644 results/rdf-2-p46-t200.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
