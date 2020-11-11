@@ -111,3 +111,11 @@ gcq#122: "I'm Gonna Get Medieval On Your Ass" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8ad81b1e1] feat: add 2-p43-t398 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p43-t404.log
+ create mode 100644 logs/sim-2-p43-t410.log
+ create mode 100644 results/rdf-2-p43-t398.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1942622a1..8ad81b1e1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
