@@ -111,3 +111,11 @@ gcq#29: "Stay Cool, This is a Robbery" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 64f7db6da] feat: add 2-p44-t458 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t464.log
+ create mode 100644 logs/sim-2-p44-t470.log
+ create mode 100644 results/rdf-2-p44-t458.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ce68cdc01..64f7db6da  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
