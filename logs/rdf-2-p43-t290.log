@@ -111,3 +111,11 @@ gcq#141: "Carry Me Away" (Motors)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b31328e08] feat: add 2-p43-t290 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p43-t302.log
+ create mode 100644 logs/sim-2-p43-t308.log
+ create mode 100644 results/rdf-2-p43-t290.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e4442e74c..b31328e08  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
