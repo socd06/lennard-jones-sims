@@ -111,3 +111,8 @@ gcq#332: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2f6e13b3c] feat: add 2-p45-t368 radial distribution function and updates to logs
+ 6 files changed, 2074 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p45-t380.log
+ create mode 100644 results/rdf-2-p45-t368.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
