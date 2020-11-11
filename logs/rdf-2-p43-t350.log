@@ -111,3 +111,11 @@ gcq#131: "Push It Real Good" (Salt 'n' Pepa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 28821ee3a] feat: add 2-p43-t350 radial distribution function and updates to logs
+ 8 files changed, 2185 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p43-t362.log
+ create mode 100644 logs/sim-2-p43-t368.log
+ create mode 100644 results/rdf-2-p43-t350.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e224889f0..28821ee3a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
