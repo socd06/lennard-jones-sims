@@ -111,3 +111,11 @@ gcq#104: "Count the Bubbles In Your Hair" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0a6f16392] feat: add 2-p43-t362 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p43-t368.log
+ create mode 100644 logs/sim-2-p43-t374.log
+ create mode 100644 results/rdf-2-p43-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e6e619f9a..0a6f16392  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
