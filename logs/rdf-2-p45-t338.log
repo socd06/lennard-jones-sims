@@ -111,3 +111,9 @@ gcq#223: "Jesus Not Only Saves, He Also Frequently Makes Backups." (Myron Bradsh
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 76b0d29fd] feat: add 2-p45-t338 radial distribution function and updates to logs
+ 8 files changed, 2191 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p45-t350.log
+ create mode 100644 logs/sim-2-p45-t356.log
+ create mode 100644 results/rdf-2-p45-t338.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
