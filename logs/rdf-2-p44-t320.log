@@ -111,3 +111,11 @@ gcq#126: "The Carpenter Goes Bang Bang" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c324f4d6d] feat: add 2-p44-t320 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p44-t332.log
+ create mode 100644 logs/sim-2-p44-t338.log
+ create mode 100644 results/rdf-2-p44-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   167e89759..c324f4d6d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
