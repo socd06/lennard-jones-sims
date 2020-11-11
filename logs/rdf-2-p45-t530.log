@@ -111,3 +111,9 @@ gcq#473: "C has the power of assembly language and the convenience of... assembl
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 079b5fc0c] feat: add 2-p45-t530 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p45-t536.log
+ create mode 100644 logs/sim-2-p45-t542.log
+ create mode 100644 results/rdf-2-p45-t530.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
