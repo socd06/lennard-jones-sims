@@ -111,3 +111,11 @@ gcq#270: "Working in the Burger Kings, Spitting on your Onion Rings" (Slim Shady
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1b2e3e1c4] feat: add 2-p44-t440 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t446.log
+ create mode 100644 logs/sim-2-p44-t452.log
+ create mode 100644 results/rdf-2-p44-t440.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   24ea70a85..1b2e3e1c4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
