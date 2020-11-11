@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#210: "Oh My God ! It's the Funky Shit" (Beastie Boys)
 
 Working in dev branch
+[dev 374be8f7e] feat: add 2-p46-t350 radial distribution function and updates to logs
+ 9 files changed, 2323 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p46-t356.log
+ create mode 100644 logs/rdf-2-p46-t362.log
+ create mode 100644 logs/sim-2-p46-t362.log
+ create mode 100644 logs/sim-2-p46-t368.log
+ create mode 100644 results/rdf-2-p46-t350.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
