@@ -111,3 +111,9 @@ gcq#369: "When the universe has expanded, time will contract" (Franz Ferdinand)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 66286a185] feat: add 2-p44-t680 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p44-t686.log
+ create mode 100644 logs/sim-2-p44-t692.log
+ create mode 100644 results/rdf-2-p44-t680.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
