@@ -111,3 +111,11 @@ gcq#533: "I spent a lot of money on booze, birds and fast cars. The rest I just 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 180e28b4b] feat: add 2-p43-t260 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p43-t272.log
+ create mode 100644 logs/sim-2-p43-t278.log
+ create mode 100644 results/rdf-2-p43-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c7c1abea3..180e28b4b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
