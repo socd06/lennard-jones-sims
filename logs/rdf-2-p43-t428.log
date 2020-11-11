@@ -111,3 +111,11 @@ gcq#91: "Pretend That You're Hercule Poirot" (TeX)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c12b96cba] feat: add 2-p43-t428 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p43-t434.log
+ create mode 100644 logs/sim-2-p43-t440.log
+ create mode 100644 results/rdf-2-p43-t428.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4f2c3cc19..c12b96cba  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
