@@ -111,3 +111,9 @@ gcq#115: "Blessed is He Who In the Name Of Charity and Good Will Shepherds the W
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 68e860286] feat: add 2-p48-t344 radial distribution function and updates to logs
+ 8 files changed, 2191 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p48-t356.log
+ create mode 100644 logs/sim-2-p48-t362.log
+ create mode 100644 results/rdf-2-p48-t344.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
