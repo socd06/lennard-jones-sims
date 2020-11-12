@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#19: "You're Insignificant" (Tricky)
 
 Working in dev branch
+[dev 866828570] feat: add 2-p49-t260 radial distribution function and updates to logs
+ 11 files changed, 2457 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t266.log
+ create mode 100644 logs/rdf-2-p49-t272.log
+ create mode 100644 logs/rdf-2-p49-t278.log
+ create mode 100644 logs/sim-2-p49-t272.log
+ create mode 100644 logs/sim-2-p49-t278.log
+ create mode 100644 logs/sim-2-p49-t284.log
+ create mode 100644 results/rdf-2-p49-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   56b990ec9..866828570  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
