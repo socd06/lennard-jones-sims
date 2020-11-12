@@ -111,3 +111,11 @@ gcq#152: "BioBeat is Not Available In Regular Shops" (P.J. Meulenhoff)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7b7ce6df4] feat: add 2-p48-t740 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p48-t746.log
+ create mode 100644 logs/sim-2-p48-t752.log
+ create mode 100644 results/rdf-2-p48-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4c5bb0283..7b7ce6df4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
