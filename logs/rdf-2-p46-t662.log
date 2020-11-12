@@ -111,3 +111,9 @@ gcq#178: "Make the Floor Burn" (2 Unlimited)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 57eda5937] feat: add 2-p46-t662 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p46-t668.log
+ create mode 100644 logs/sim-2-p46-t674.log
+ create mode 100644 results/rdf-2-p46-t662.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
