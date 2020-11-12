@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#357: "Chemical gases filling lungs of little ones" (Black Eyed Peas)
 
 Working in dev branch
+[dev d26e45322] feat: add 2-p47-t356 radial distribution function and updates to logs
+ 8 files changed, 2300 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p47-t362.log
+ create mode 100644 logs/rdf-2-p47-t368.log
+ create mode 100644 logs/sim-2-p47-t368.log
+ create mode 100644 logs/sim-2-p47-t374.log
+ create mode 100644 results/rdf-2-p47-t356.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
