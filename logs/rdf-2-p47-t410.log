@@ -111,3 +111,10 @@ gcq#349: "Never, I said never, compare with experiment" (Magnus Bergh)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ad47db41a] feat: add 2-p47-t410 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p47-t416.log
+ create mode 100644 logs/rdf-2-p47-t422.log
+ create mode 100644 logs/sim-2-p47-t422.log
+ create mode 100644 results/rdf-2-p47-t410.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
