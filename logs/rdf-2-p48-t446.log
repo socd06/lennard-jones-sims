@@ -111,3 +111,9 @@ gcq#121: "She's a Good Sheila Bruce" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f7349c4f9] feat: add 2-p48-t446 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p48-t452.log
+ create mode 100644 logs/sim-2-p48-t458.log
+ create mode 100644 results/rdf-2-p48-t446.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
