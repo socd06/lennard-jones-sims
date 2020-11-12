@@ -111,3 +111,9 @@ gcq#204: "I Am the Psychotherapist. Please, Describe Your Problems." (GNU Emacs)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev eec587cf0] feat: add 2-p46-t632 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p46-t638.log
+ create mode 100644 logs/sim-2-p46-t644.log
+ create mode 100644 results/rdf-2-p46-t632.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
