@@ -111,3 +111,9 @@ gcq#425: "Ludwig Boltzmann, who spent much of his life studying statistical mech
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4b806d4d8] feat: add 2-p47-t590 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p47-t596.log
+ create mode 100644 logs/sim-2-p47-t602.log
+ create mode 100644 results/rdf-2-p47-t590.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
