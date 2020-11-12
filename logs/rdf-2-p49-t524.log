@@ -111,3 +111,11 @@ gcq#224: "Player Sleeps With the Fishes" (Ein Bekanntes Spiel Von ID Software)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 05db9d354] feat: add 2-p49-t524 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t530.log
+ create mode 100644 logs/sim-2-p49-t536.log
+ create mode 100644 results/rdf-2-p49-t524.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   69d9903ae..05db9d354  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
