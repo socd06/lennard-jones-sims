@@ -111,3 +111,11 @@ gcq#93: "Sort Of" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 91edd2eca] feat: add 2-p49-t536 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t542.log
+ create mode 100644 logs/sim-2-p49-t548.log
+ create mode 100644 results/rdf-2-p49-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7e561089a..91edd2eca  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
