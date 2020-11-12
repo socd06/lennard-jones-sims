@@ -111,3 +111,11 @@ gcq#216: "I'd Like Monday Mornings Better If They Started Later" (Garfield)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b35bc9055] feat: add 2-p49-t710 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t716.log
+ create mode 100644 logs/sim-2-p49-t722.log
+ create mode 100644 results/rdf-2-p49-t710.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7d3d4d354..b35bc9055  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
