@@ -111,3 +111,9 @@ gcq#74: "I Snipe Like Wesley" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 47d400f56] feat: add 2-p48-t506 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p48-t512.log
+ create mode 100644 logs/sim-2-p48-t518.log
+ create mode 100644 results/rdf-2-p48-t506.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
