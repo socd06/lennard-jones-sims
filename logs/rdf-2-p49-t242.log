@@ -111,3 +111,13 @@ gcq#485: "Good judgement is the result of experience; experience is the result o
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev e938148eb] feat: add 2-p49-t242 radial distribution function and updates to logs
+ 8 files changed, 2185 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p49-t254.log
+ create mode 100644 logs/sim-2-p49-t260.log
+ create mode 100644 results/rdf-2-p49-t242.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2b30927f8..e938148eb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
