@@ -111,3 +111,11 @@ gcq#439: "Science, my lad, is made up of mistakes, but they are mistakes which i
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f4f9be113] feat: add 2-p49-t716 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t722.log
+ create mode 100644 logs/sim-2-p49-t728.log
+ create mode 100644 results/rdf-2-p49-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b35bc9055..f4f9be113  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
