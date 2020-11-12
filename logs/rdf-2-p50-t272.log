@@ -111,3 +111,11 @@ gcq#225: "Bailed Out Of Edge Synchronization After 10,000 Iterations" (X/Motif)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3c7eca680] feat: add 2-p50-t272 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p50-t284.log
+ create mode 100644 logs/sim-2-p50-t290.log
+ create mode 100644 results/rdf-2-p50-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   498810e4f..3c7eca680  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
