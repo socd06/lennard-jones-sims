@@ -111,3 +111,11 @@ gcq#82: "I Don't Want to Calm Down" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev af3875ea4] feat: add 2-p49-t620 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t626.log
+ create mode 100644 logs/sim-2-p49-t632.log
+ create mode 100644 results/rdf-2-p49-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a58ceeef9..af3875ea4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
