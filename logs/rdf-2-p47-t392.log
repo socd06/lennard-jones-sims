@@ -111,3 +111,7 @@ gcq#114: "The Path Of the Righteous Man is Beset On All Sides With the Iniquitie
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c3decb7e7] feat: add 2-p47-t392 radial distribution function and updates to logs
+ 6 files changed, 2061 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p47-t392.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
