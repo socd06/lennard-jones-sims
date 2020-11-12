@@ -113,3 +113,11 @@ gcq#259: "You Can Be Too Early, You Can Be Too Late and You Can Be On Time" (J. 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b09ba5461] feat: add 2-p50-t374 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p50-t386.log
+ create mode 100644 logs/sim-2-p50-t392.log
+ create mode 100644 results/rdf-2-p50-t374.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d73e9d9cc..b09ba5461  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
