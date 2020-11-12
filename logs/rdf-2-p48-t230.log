@@ -111,3 +111,9 @@ gcq#485: "Good judgement is the result of experience; experience is the result o
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d271adede] feat: add 2-p48-t230 radial distribution function and updates to logs
+ 8 files changed, 2181 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p48-t242.log
+ create mode 100644 logs/sim-2-p48-t248.log
+ create mode 100644 results/rdf-2-p48-t230.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
