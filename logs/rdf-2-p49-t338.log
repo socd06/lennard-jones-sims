@@ -111,3 +111,11 @@ gcq#258: "All You Need is Greed" (Aztec Camera)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4e267e08e] feat: add 2-p49-t338 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p49-t350.log
+ create mode 100644 logs/sim-2-p49-t356.log
+ create mode 100644 results/rdf-2-p49-t338.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e0d17ee15..4e267e08e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
