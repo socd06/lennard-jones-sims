@@ -111,3 +111,11 @@ gcq#358: "I've basically become a vegetarian since the only meat I'm eating is f
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ca25e55bb] feat: add 2-p48-t680 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p48-t686.log
+ create mode 100644 logs/sim-2-p48-t692.log
+ create mode 100644 results/rdf-2-p48-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   128ea519e..ca25e55bb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
