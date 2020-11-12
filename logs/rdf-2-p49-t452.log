@@ -111,3 +111,11 @@ gcq#234: "If I Wanted You to Understand This, I Would Explain it Better" (J. Cru
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 200a86698] feat: add 2-p49-t452 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p49-t458.log
+ create mode 100644 logs/sim-2-p49-t464.log
+ create mode 100644 results/rdf-2-p49-t452.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   29344b408..200a86698  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
