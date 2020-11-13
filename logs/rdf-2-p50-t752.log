@@ -111,3 +111,11 @@ gcq#527: "We'll celebrate a woman for anything, as long as it's not her talent."
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6a9efcf91] feat: add 2-p50-t752 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p50-t758.log
+ create mode 100644 logs/sim-2-p50-t764.log
+ create mode 100644 results/rdf-2-p50-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b9e95e618..6a9efcf91  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
