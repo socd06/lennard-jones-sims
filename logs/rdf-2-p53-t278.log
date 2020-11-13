@@ -111,3 +111,11 @@ gcq#324: "Go back to the rock from under which you came" (Fiona Apple)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4b11f7219] feat: add 2-p53-t278 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p53-t290.log
+ create mode 100644 logs/sim-2-p53-t296.log
+ create mode 100644 results/rdf-2-p53-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   664cde364..4b11f7219  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
