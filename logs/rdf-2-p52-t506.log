@@ -111,3 +111,11 @@ gcq#176: "Have a Nice Day" (R. McDonald)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 64fde9486] feat: add 2-p52-t506 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p52-t512.log
+ create mode 100644 logs/sim-2-p52-t518.log
+ create mode 100644 results/rdf-2-p52-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   23630e0fe..64fde9486  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
