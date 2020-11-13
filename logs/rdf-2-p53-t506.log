@@ -111,3 +111,9 @@ gcq#566: "There's a limit to how many times you can read how great you are and w
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e354ab7e7] feat: add 2-p53-t506 radial distribution function and updates to logs
+ 6 files changed, 2073 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p53-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c09b15d25..e354ab7e7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
