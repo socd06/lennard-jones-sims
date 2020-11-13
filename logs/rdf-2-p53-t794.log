@@ -111,3 +111,11 @@ gcq#559: "Naive you are if you believe life favours those who aren't naive." (Pi
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7382796bd] feat: add 2-p53-t794 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p53-t800.log
+ create mode 100644 logs/sim-2-p54-t200.log
+ create mode 100644 results/rdf-2-p53-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   50a291a90..7382796bd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
