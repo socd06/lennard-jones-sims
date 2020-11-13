@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#413: "I know poetry is not dead, nor genius lost; nor has Mammon gained power over either, to bind or slay; they will both assert their existence, their presence, their liberty and strength again one day." (Jane Eyre in Jane Eyre by Charlotte Bronte)
 
 Working in dev branch
+[dev 00a6ec512] feat: add 2-p51-t200 radial distribution function and updates to logs
+ 11 files changed, 2469 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p51-t206.log
+ create mode 100644 logs/rdf-2-p51-t212.log
+ create mode 100644 logs/rdf-2-p51-t218.log
+ create mode 100644 logs/sim-2-p51-t212.log
+ create mode 100644 logs/sim-2-p51-t218.log
+ create mode 100644 logs/sim-2-p51-t224.log
+ create mode 100644 results/rdf-2-p51-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5259a53e7..00a6ec512  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
