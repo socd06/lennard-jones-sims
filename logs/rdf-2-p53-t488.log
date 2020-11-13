@@ -114,3 +114,9 @@ gcq#250: "Wicky-wicky Wa-wild West" (Will Smith)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 87c6ecac7] feat: add 2-p53-t488 radial distribution function and updates to logs
+ 5 files changed, 2046 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p53-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4e34590aa..87c6ecac7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
