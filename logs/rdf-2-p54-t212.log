@@ -114,3 +114,11 @@ gcq#5: "We Can Dance Like Iggy Pop" (Red Hot Chili Peppers)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev 248b72c5e] feat: add 2-p54-t212 radial distribution function and updates to logs
+ 9 files changed, 2154 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p54-t230.log
+ create mode 100644 logs/sim-2-p54-t236.log
+ create mode 100644 results/rdf-2-p54-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   93f435553..248b72c5e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
