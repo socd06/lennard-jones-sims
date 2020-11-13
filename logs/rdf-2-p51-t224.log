@@ -111,3 +111,11 @@ gcq#117: "And You Will Know That My Name is the Lord When I Lay My Vengeance Upo
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5b3303bbf] feat: add 2-p51-t224 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p51-t236.log
+ create mode 100644 logs/sim-2-p51-t242.log
+ create mode 100644 results/rdf-2-p51-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fbeb47bbb..5b3303bbf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
