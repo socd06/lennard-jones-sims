@@ -111,3 +111,11 @@ gcq#474: "The last good thing written in C was Franz Schubert's Symphony Number 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b6de3938d] feat: add 2-p51-t206 radial distribution function and updates to logs
+ 9 files changed, 2168 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p51-t224.log
+ create mode 100644 logs/sim-2-p51-t230.log
+ create mode 100644 results/rdf-2-p51-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   00a6ec512..b6de3938d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
