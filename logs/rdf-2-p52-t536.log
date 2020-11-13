@@ -111,3 +111,11 @@ gcq#404: "Humbug! Most things free-born will submit to anything for a salary" (M
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 411aae2a6] feat: add 2-p52-t536 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p52-t542.log
+ create mode 100644 logs/sim-2-p52-t548.log
+ create mode 100644 results/rdf-2-p52-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   13daf0a71..411aae2a6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
