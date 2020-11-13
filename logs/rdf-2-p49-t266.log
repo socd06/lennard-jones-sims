@@ -111,3 +111,9 @@ gcq#385: "During my undergraduate work I concluded that electrostatics is unlike
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 89d761949] feat: add 2-p49-t266 radial distribution function and updates to logs
+ 7 files changed, 2076 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p49-t266.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   866828570..89d761949  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
