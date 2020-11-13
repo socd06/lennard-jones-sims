@@ -111,3 +111,11 @@ gcq#454: "I never see what has been done; I only see what remains to be done." (
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5b706af4b] feat: add 2-p51-t788 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p51-t794.log
+ create mode 100644 logs/sim-2-p51-t800.log
+ create mode 100644 results/rdf-2-p51-t788.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1f0b32d79..5b706af4b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
