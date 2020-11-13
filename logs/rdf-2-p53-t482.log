@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#475: "User-friendly, adj.: Programmer-hostile." (New Hacker's Dictionary)
 
 Working in dev branch
+[dev 4e34590aa] feat: add 2-p53-t482 radial distribution function and updates to logs
+ 10 files changed, 2466 insertions(+)
+ create mode 100644 logs/rdf-2-p53-t482.log
+ create mode 100644 logs/rdf-2-p53-t488.log
+ create mode 100644 logs/rdf-2-p53-t494.log
+ create mode 100644 logs/sim-2-p53-t488.log
+ create mode 100644 logs/sim-2-p53-t494.log
+ create mode 100644 logs/sim-2-p53-t500.log
+ create mode 100644 results/rdf-2-p53-t482.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a2a9b94e7..4e34590aa  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
