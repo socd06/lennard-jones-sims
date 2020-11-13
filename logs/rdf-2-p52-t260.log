@@ -111,3 +111,11 @@ gcq#74: "I Snipe Like Wesley" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d3b9952cb] feat: add 2-p52-t260 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p52-t272.log
+ create mode 100644 logs/sim-2-p52-t278.log
+ create mode 100644 results/rdf-2-p52-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a1fab5b6f..d3b9952cb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
