@@ -111,3 +111,11 @@ gcq#373: "If humanity has fled shivering from the starry spaces, it has become m
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 71a0aafc2] feat: add 2-p50-t776 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p50-t782.log
+ create mode 100644 logs/sim-2-p50-t788.log
+ create mode 100644 results/rdf-2-p50-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   558655732..71a0aafc2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
