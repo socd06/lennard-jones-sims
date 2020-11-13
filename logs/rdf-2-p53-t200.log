@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#444: "Dr Pauling, how do you have so many good ideas? Well David, I have a lot of ideas and throw away the bad ones." (Linus Pauling)
 
 Working in dev branch
+[dev 0977a8728] feat: add 2-p53-t200 radial distribution function and updates to logs
+ 13 files changed, 2593 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p53-t206.log
+ create mode 100644 logs/rdf-2-p53-t212.log
+ create mode 100644 logs/rdf-2-p53-t218.log
+ create mode 100644 logs/rdf-2-p53-t224.log
+ create mode 100644 logs/sim-2-p53-t212.log
+ create mode 100644 logs/sim-2-p53-t218.log
+ create mode 100644 logs/sim-2-p53-t224.log
+ create mode 100644 logs/sim-2-p53-t230.log
+ create mode 100644 results/rdf-2-p53-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4303f4c96..0977a8728  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
