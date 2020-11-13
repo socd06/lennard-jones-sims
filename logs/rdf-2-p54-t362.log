@@ -111,3 +111,11 @@ gcq#304: "Gabba Gabba Hey!" (The Ramones)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6881874bd] feat: add 2-p54-t362 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p54-t374.log
+ create mode 100644 logs/sim-2-p54-t380.log
+ create mode 100644 results/rdf-2-p54-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   29b0a934c..6881874bd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
