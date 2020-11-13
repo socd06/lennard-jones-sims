@@ -111,3 +111,11 @@ gcq#211: "Throwing the Baby Away With the SPC" (S. Hayward)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e0f4fb315] feat: add 2-p51-t602 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p51-t608.log
+ create mode 100644 logs/sim-2-p51-t614.log
+ create mode 100644 results/rdf-2-p51-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e74f83e70..e0f4fb315  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
