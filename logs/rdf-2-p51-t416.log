@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#126: "The Carpenter Goes Bang Bang" (The Breeders)
 
 Working in dev branch
+[dev 4559fd8e9] feat: add 2-p51-t416 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p51-t422.log
+ create mode 100644 logs/rdf-2-p51-t428.log
+ create mode 100644 logs/sim-2-p51-t428.log
+ create mode 100644 logs/sim-2-p51-t434.log
+ create mode 100644 results/rdf-2-p51-t416.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   22b284fe1..4559fd8e9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
