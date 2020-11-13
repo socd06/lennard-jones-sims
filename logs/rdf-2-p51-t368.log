@@ -112,3 +112,11 @@ gcq#476: "First off, I'd suggest printing out a copy of the GNU coding standards
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8f8934df8] feat: add 2-p51-t368 radial distribution function and updates to logs
+ 8 files changed, 2174 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p51-t380.log
+ create mode 100644 logs/sim-2-p51-t386.log
+ create mode 100644 results/rdf-2-p51-t368.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0eefb2222..8f8934df8  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
