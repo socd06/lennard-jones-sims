@@ -111,3 +111,11 @@ gcq#159: "Confirmed" (Star Trek)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b3341db90] feat: add 2-p53-t512 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p53-t518.log
+ create mode 100644 logs/sim-2-p53-t524.log
+ create mode 100644 results/rdf-2-p53-t512.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e354ab7e7..b3341db90  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
