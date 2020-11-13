@@ -111,3 +111,11 @@ gcq#498: "Problems worthy of attack prove their worth by hitting back." (Piet He
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 644d6da72] feat: add 2-p53-t392 radial distribution function and updates to logs
+ 6 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p53-t398.log
+ create mode 100644 logs/sim-2-p53-t404.log
+ create mode 100644 results/rdf-2-p53-t392.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1552c9dd6..644d6da72  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
