@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#118: "Step On the Brakes" (2 Unlimited)
 
 Working in dev branch
+[dev 2091dc1b7] feat: add 2-p54-t200 radial distribution function and updates to logs
+ 13 files changed, 2593 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t206.log
+ create mode 100644 logs/rdf-2-p54-t212.log
+ create mode 100644 logs/rdf-2-p54-t218.log
+ create mode 100644 logs/rdf-2-p54-t224.log
+ create mode 100644 logs/sim-2-p54-t212.log
+ create mode 100644 logs/sim-2-p54-t218.log
+ create mode 100644 logs/sim-2-p54-t224.log
+ create mode 100644 logs/sim-2-p54-t230.log
+ create mode 100644 results/rdf-2-p54-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0cbbde3ae..2091dc1b7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
