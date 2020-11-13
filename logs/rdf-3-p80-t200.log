@@ -120,3 +120,12 @@ GROMACS reminds you: "The Internet?  We are not interested in it." (Bill Gates, 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in cd branch
+[cd e00ffb0e2] feat: add 3-p80-t200 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 115 deletions(-)
+ rewrite logs/rdf-3-p80-t200.log (72%)
+ create mode 100644 results/rdf-3-p80-t200.xvg
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/socd06/lennard-jones-sims.git
+   d17b8facb..e00ffb0e2  cd -> cd
+Branch 'cd' set up to track remote branch 'cd' from 'origin'.

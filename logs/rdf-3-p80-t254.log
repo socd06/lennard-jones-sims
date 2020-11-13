@@ -120,3 +120,12 @@ GROMACS reminds you: "When doing HPC, don't communica" (Jim Demmel)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in cd branch
+[cd 457034a13] feat: add 3-p80-t254 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 155 deletions(-)
+ rewrite logs/rdf-3-p80-t254.log (78%)
+ create mode 100644 results/rdf-3-p80-t254.xvg
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/socd06/lennard-jones-sims.git
+   fe727e3bb..457034a13  cd -> cd
+Branch 'cd' set up to track remote branch 'cd' from 'origin'.
