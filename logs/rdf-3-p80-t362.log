@@ -120,3 +120,12 @@ GROMACS reminds you: "Two guys can move very fast when they're motivated enough 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in cd branch
+[cd 35a46f11f] feat: add 3-p80-t362 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 118 deletions(-)
+ rewrite logs/rdf-3-p80-t362.log (73%)
+ create mode 100644 results/rdf-3-p80-t362.xvg
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/socd06/lennard-jones-sims.git
+   eedd9a55a..35a46f11f  cd -> cd
+Branch 'cd' set up to track remote branch 'cd' from 'origin'.
