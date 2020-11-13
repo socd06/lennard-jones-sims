@@ -111,3 +111,11 @@ gcq#407: "I ought to warn you, I have no faith" (Jane Eyre in Jane Eyre by Charl
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c4806917d] feat: add 2-p54-t266 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p54-t278.log
+ create mode 100644 logs/sim-2-p54-t284.log
+ create mode 100644 results/rdf-2-p54-t266.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   25c177b64..c4806917d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
