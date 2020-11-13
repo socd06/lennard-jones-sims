@@ -111,3 +111,9 @@ gcq#172: "That Was Really Cool" (Butthead)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6ec64c558] feat: add 2-p53-t446 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p53-t446.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9d62b53f0..6ec64c558  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
