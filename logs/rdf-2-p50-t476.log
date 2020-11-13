@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#540: "Science is the great antidote to the poison of enthusiasm and superstition." (Adam Smith, Wealth of Nations, 1776)
 
 Working in dev branch
+[dev 4b714c6f3] feat: add 2-p50-t476 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p50-t482.log
+ create mode 100644 logs/rdf-2-p50-t488.log
+ create mode 100644 logs/sim-2-p50-t488.log
+ create mode 100644 logs/sim-2-p50-t494.log
+ create mode 100644 results/rdf-2-p50-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1b04c7f2d..4b714c6f3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
