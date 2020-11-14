@@ -112,3 +112,9 @@ gcq#473: "C has the power of assembly language and the convenience of... assembl
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8f483797a] feat: add 2-p57-t230 radial distribution function and updates to logs
+ 7 files changed, 2064 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p57-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   41e6c5593..8f483797a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
