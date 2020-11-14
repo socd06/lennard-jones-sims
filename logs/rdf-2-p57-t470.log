@@ -113,3 +113,9 @@ gcq#295: "A Pretty Village Burning Makes a Pretty Fire" (David Sandstrom)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev dd8e45259] feat: add 2-p57-t470 radial distribution function and updates to logs
+ 6 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p57-t470.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a7ae006f3..dd8e45259  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
