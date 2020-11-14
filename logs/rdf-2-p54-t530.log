@@ -111,3 +111,13 @@ gcq#525: "I think everybody should like everybody." (Andy Warhol)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 672c91710] feat: add 2-p54-t530 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t536.log
+ create mode 100644 logs/rdf-2-p54-t542.log
+ create mode 100644 logs/sim-2-p54-t542.log
+ create mode 100644 logs/sim-2-p54-t548.log
+ create mode 100644 results/rdf-2-p54-t530.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   49e95aa43..672c91710  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
