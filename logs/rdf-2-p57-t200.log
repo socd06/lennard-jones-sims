@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#37: "Never Get a Chance to Kick Ass" (The Amps)
 
 Working in dev branch
+[dev 37e9da0a9] feat: add 2-p57-t200 radial distribution function and updates to logs
+ 13 files changed, 2613 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p57-t206.log
+ create mode 100644 logs/rdf-2-p57-t212.log
+ create mode 100644 logs/rdf-2-p57-t218.log
+ create mode 100644 logs/rdf-2-p57-t224.log
+ create mode 100644 logs/sim-2-p57-t212.log
+ create mode 100644 logs/sim-2-p57-t218.log
+ create mode 100644 logs/sim-2-p57-t224.log
+ create mode 100644 logs/sim-2-p57-t230.log
+ create mode 100644 results/rdf-2-p57-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e75193b88..37e9da0a9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
