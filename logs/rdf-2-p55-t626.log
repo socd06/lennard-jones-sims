@@ -111,3 +111,11 @@ gcq#222: "My Ass May Be Dumb, But I Ain't No Dumbass." (Jackie Brown)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2eed4b116] feat: add 2-p55-t626 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p55-t632.log
+ create mode 100644 logs/sim-2-p55-t638.log
+ create mode 100644 results/rdf-2-p55-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b58ae9b92..2eed4b116  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
