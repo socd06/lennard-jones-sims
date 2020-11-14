@@ -111,3 +111,13 @@ gcq#579: "If all else fails, immortality can always be assured by spectacular er
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1444bb03c] feat: add 2-p55-t476 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p55-t482.log
+ create mode 100644 logs/rdf-2-p55-t488.log
+ create mode 100644 logs/sim-2-p55-t488.log
+ create mode 100644 logs/sim-2-p55-t494.log
+ create mode 100644 results/rdf-2-p55-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   779c15ea8..1444bb03c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
