@@ -111,3 +111,11 @@ gcq#408: "... yet the [economic] profession continued to churn out purely theore
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 05d84a195] feat: add 2-p54-t560 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t566.log
+ create mode 100644 logs/sim-2-p54-t572.log
+ create mode 100644 results/rdf-2-p54-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   aa64ce4f2..05d84a195  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
