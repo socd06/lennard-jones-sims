@@ -110,3 +110,12 @@ Analyzed 1501 frames, last time 3000.000
 gcq#383: "Theoretical chemistry has of course always been important and useful ... at least to theoretical chemists" (Sven Lidin)
 
 Working in dev branch
+[dev ecd99937d] feat: add 2-p54-t410 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p54-t422.log
+ create mode 100644 logs/sim-2-p54-t422.log
+ create mode 100644 logs/sim-2-p54-t428.log
+ create mode 100644 results/rdf-2-p54-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8d17ae95e..ecd99937d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
