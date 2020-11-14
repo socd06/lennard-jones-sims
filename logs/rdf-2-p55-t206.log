@@ -112,3 +112,9 @@ gcq#11: "She's Not Bad, She's Just Genetically Mean" (Captain Beefheart)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a666ebee6] feat: add 2-p55-t206 radial distribution function and updates to logs
+ 8 files changed, 2070 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p55-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c21177517..a666ebee6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
