@@ -113,3 +113,11 @@ gcq#505: "Today we're not going to optimize our CUDA code, cause that's just a r
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6672d4f4b] feat: add 2-p57-t218 radial distribution function and updates to logs
+ 9 files changed, 2174 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p57-t236.log
+ create mode 100644 logs/sim-2-p57-t242.log
+ create mode 100644 results/rdf-2-p57-t218.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   815cb4f35..6672d4f4b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
