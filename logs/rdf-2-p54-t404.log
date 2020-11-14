@@ -111,3 +111,10 @@ gcq#490: "I have a hunch that the unknown sequences of DNA will decode into copy
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8d17ae95e] feat: add 2-p54-t404 radial distribution function and updates to logs
+ 7 files changed, 2179 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p54-t416.log
+ create mode 100644 results/rdf-2-p54-t404.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6fbdad7bd..8d17ae95e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
