@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#546: "In my opinion, we don't devote nearly enough scientific research to finding a cure for jerks." (Bill Watterson)
 
 Working in dev branch
+[dev e6db08c54] feat: add 2-p55-t404 radial distribution function and updates to logs
+ 9 files changed, 2325 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p55-t410.log
+ create mode 100644 logs/rdf-2-p55-t416.log
+ create mode 100644 logs/sim-2-p55-t416.log
+ create mode 100644 logs/sim-2-p55-t422.log
+ create mode 100644 results/rdf-2-p55-t404.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   30972c48b..e6db08c54  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
