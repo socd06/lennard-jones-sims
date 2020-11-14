@@ -113,3 +113,13 @@ gcq#32: "I'm Only Faking When I Get It Right" (Soundgarden)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7d3792ded] feat: add 2-p54-t446 radial distribution function and updates to logs
+ 9 files changed, 2292 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t452.log
+ create mode 100644 logs/rdf-2-p54-t458.log
+ create mode 100644 logs/sim-2-p54-t458.log
+ create mode 100644 logs/sim-2-p54-t464.log
+ create mode 100644 results/rdf-2-p54-t446.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6b1c0e20e..7d3792ded  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
