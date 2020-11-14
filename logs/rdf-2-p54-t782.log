@@ -111,3 +111,11 @@ gcq#70: "Breaking the Law, Breaking the Law" (Judas Priest)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5f98fe356] feat: add 2-p54-t782 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t788.log
+ create mode 100644 logs/sim-2-p54-t794.log
+ create mode 100644 results/rdf-2-p54-t782.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6260f050b..5f98fe356  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
