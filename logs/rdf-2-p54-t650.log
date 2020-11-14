@@ -111,3 +111,11 @@ gcq#44: "This May Come As a Shock" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8eec13c3c] feat: add 2-p54-t650 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t656.log
+ create mode 100644 logs/sim-2-p54-t662.log
+ create mode 100644 results/rdf-2-p54-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b0b7e0cda..8eec13c3c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
