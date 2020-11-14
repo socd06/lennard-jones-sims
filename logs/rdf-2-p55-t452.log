@@ -111,3 +111,11 @@ gcq#15: "Don't Grumble, Give a Whistle !" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3f70691ec] feat: add 2-p55-t452 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p55-t458.log
+ create mode 100644 logs/sim-2-p55-t464.log
+ create mode 100644 results/rdf-2-p55-t452.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f46f18120..3f70691ec  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
