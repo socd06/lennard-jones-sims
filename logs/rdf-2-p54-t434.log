@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#206: "I Was Born to Have Adventure" (F. Zappa)
 
 Working in dev branch
+[dev 28ff2b284] feat: add 2-p54-t434 radial distribution function and updates to logs
+ 9 files changed, 2315 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p54-t440.log
+ create mode 100644 logs/rdf-2-p54-t446.log
+ create mode 100644 logs/sim-2-p54-t446.log
+ create mode 100644 logs/sim-2-p54-t452.log
+ create mode 100644 results/rdf-2-p54-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9f94d140f..28ff2b284  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
