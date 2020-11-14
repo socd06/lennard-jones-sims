@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#548: "Take away paradox from the thinker and you have a professor." (Soren Kirkegaard)
 
 Working in dev branch
+[dev ad3a7431e] feat: add 2-p57-t458 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p57-t464.log
+ create mode 100644 logs/rdf-2-p57-t470.log
+ create mode 100644 logs/sim-2-p57-t470.log
+ create mode 100644 logs/sim-2-p57-t476.log
+ create mode 100644 results/rdf-2-p57-t458.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   df93c1401..ad3a7431e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
