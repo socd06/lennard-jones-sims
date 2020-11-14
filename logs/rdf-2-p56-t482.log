@@ -111,3 +111,12 @@ gcq#347: "If There Is No Guitar In The House, You Know It's Owner Can Not Be Tru
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0a3f43996] feat: add 2-p56-t482 radial distribution function and updates to logs
+ 8 files changed, 2290 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p56-t488.log
+ create mode 100644 logs/rdf-2-p56-t494.log
+ create mode 100644 logs/sim-2-p56-t494.log
+ create mode 100644 results/rdf-2-p56-t482.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6235656b8..0a3f43996  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
