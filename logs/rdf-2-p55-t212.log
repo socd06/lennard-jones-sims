@@ -113,3 +113,11 @@ gcq#286: "Is This the Right Room for an Argument ?" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2839b07e7] feat: add 2-p55-t212 radial distribution function and updates to logs
+ 9 files changed, 2172 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p55-t230.log
+ create mode 100644 logs/sim-2-p55-t236.log
+ create mode 100644 results/rdf-2-p55-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a666ebee6..2839b07e7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
