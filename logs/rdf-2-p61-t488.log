@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#31: "In a Deep Deep Well" (Nick Cave)
 
 Working in dev branch
+[dev 70459a5a6] feat: add 2-p61-t488 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p61-t494.log
+ create mode 100644 logs/rdf-2-p61-t500.log
+ create mode 100644 logs/sim-2-p61-t500.log
+ create mode 100644 logs/sim-2-p61-t506.log
+ create mode 100644 results/rdf-2-p61-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   23416bb6f..70459a5a6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
