@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#111: "Bring Out the Gimp" (Pulp Fiction)
 
 Working in dev branch
+[dev c257b3756] feat: add 2-p59-t440 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p59-t446.log
+ create mode 100644 logs/rdf-2-p59-t452.log
+ create mode 100644 logs/sim-2-p59-t452.log
+ create mode 100644 logs/sim-2-p59-t458.log
+ create mode 100644 results/rdf-2-p59-t440.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1c0659c00..c257b3756  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
