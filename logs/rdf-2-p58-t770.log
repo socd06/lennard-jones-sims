@@ -111,3 +111,11 @@ gcq#478: "FORTRAN, the infantile disorder, by now nearly 20 years old, is hopele
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5cde178dd] feat: add 2-p58-t770 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p58-t776.log
+ create mode 100644 logs/sim-2-p58-t782.log
+ create mode 100644 results/rdf-2-p58-t770.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   62bb0ecd9..5cde178dd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
