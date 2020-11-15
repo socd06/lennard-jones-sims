@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#84: "Shake Barrels Of Whisky Down My Throat" (Throwing Muses)
 
 Working in dev branch
+[dev 71fdcba95] feat: add 2-p60-t476 radial distribution function and updates to logs
+ 9 files changed, 2295 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p60-t482.log
+ create mode 100644 logs/rdf-2-p60-t488.log
+ create mode 100644 logs/sim-2-p60-t488.log
+ create mode 100644 logs/sim-2-p60-t494.log
+ create mode 100644 results/rdf-2-p60-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7f09546ac..71fdcba95  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
