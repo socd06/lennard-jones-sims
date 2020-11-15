@@ -113,3 +113,11 @@ gcq#111: "Bring Out the Gimp" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 114488d56] feat: add 2-p60-t488 radial distribution function and updates to logs
+ 6 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p60-t494.log
+ create mode 100644 logs/sim-2-p60-t500.log
+ create mode 100644 results/rdf-2-p60-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5ee6ae3d1..114488d56  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
