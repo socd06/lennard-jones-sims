@@ -112,3 +112,9 @@ gcq#334: "There's only music to make new ringtones" (Arctic Monkeys)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev dd93d733e] feat: add 2-p59-t206 radial distribution function and updates to logs
+ 8 files changed, 2060 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p59-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   52ffd0ce4..dd93d733e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
