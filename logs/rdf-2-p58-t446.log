@@ -112,3 +112,9 @@ gcq#388: "Let us not get carried away with our ideas and take our models too ser
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d77cbf055] feat: add 2-p58-t446 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p58-t446.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bb8b06dd0..d77cbf055  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
