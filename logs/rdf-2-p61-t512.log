@@ -112,3 +112,9 @@ gcq#405: "Like other defaulters, I like to lay half the blame on ill-fortune and
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e1194645d] feat: add 2-p61-t512 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p61-t512.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c828f7ff1..e1194645d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
