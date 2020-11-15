@@ -111,3 +111,13 @@ gcq#144: "It Doesn't Have to Be Tip Top" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 46131d677] feat: add 2-p60-t500 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p60-t506.log
+ create mode 100644 logs/rdf-2-p60-t512.log
+ create mode 100644 logs/sim-2-p60-t512.log
+ create mode 100644 logs/sim-2-p60-t518.log
+ create mode 100644 results/rdf-2-p60-t500.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2caa3876f..46131d677  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
