@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#107: "Ease Myself Into the Body Bag" (P.J. Harvey)
 
 Working in dev branch
+[dev 52ffd0ce4] feat: add 2-p59-t200 radial distribution function and updates to logs
+ 13 files changed, 2603 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p59-t206.log
+ create mode 100644 logs/rdf-2-p59-t212.log
+ create mode 100644 logs/rdf-2-p59-t218.log
+ create mode 100644 logs/rdf-2-p59-t224.log
+ create mode 100644 logs/sim-2-p59-t212.log
+ create mode 100644 logs/sim-2-p59-t218.log
+ create mode 100644 logs/sim-2-p59-t224.log
+ create mode 100644 logs/sim-2-p59-t230.log
+ create mode 100644 results/rdf-2-p59-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5ecfb5885..52ffd0ce4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
