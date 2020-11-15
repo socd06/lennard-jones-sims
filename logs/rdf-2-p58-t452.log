@@ -111,3 +111,13 @@ gcq#73: "One Cross Each" (Monty Python)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7ebf0b427] feat: add 2-p58-t452 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p58-t458.log
+ create mode 100644 logs/rdf-2-p58-t464.log
+ create mode 100644 logs/sim-2-p58-t464.log
+ create mode 100644 logs/sim-2-p58-t470.log
+ create mode 100644 results/rdf-2-p58-t452.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d77cbf055..7ebf0b427  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
