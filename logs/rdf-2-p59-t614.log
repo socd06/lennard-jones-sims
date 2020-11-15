@@ -111,3 +111,11 @@ gcq#140: "We Have No Money" (E. Clementi)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4bdfd110c] feat: add 2-p59-t614 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p59-t620.log
+ create mode 100644 logs/sim-2-p59-t626.log
+ create mode 100644 results/rdf-2-p59-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f7144f9c0..4bdfd110c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
