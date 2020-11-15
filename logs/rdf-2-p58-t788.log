@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#69: "Here's the Way It Might End" (G. Michael)
 
 Working in dev branch
+[dev ba5a27ab7] feat: add 2-p58-t788 radial distribution function and updates to logs
+ 8 files changed, 2322 insertions(+)
+ create mode 100644 logs/rdf-2-p58-t788.log
+ create mode 100644 logs/rdf-2-p58-t794.log
+ create mode 100644 logs/sim-2-p58-t794.log
+ create mode 100644 logs/sim-2-p58-t800.log
+ create mode 100644 results/rdf-2-p58-t788.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   85fcc6512..ba5a27ab7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
