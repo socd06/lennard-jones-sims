@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#495: "This isn't right. This isn't even wrong." (Wolfgang Pauli)
 
 Working in dev branch
+[dev 899fddfd0] feat: add 2-p59-t488 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p59-t494.log
+ create mode 100644 logs/rdf-2-p59-t500.log
+ create mode 100644 logs/sim-2-p59-t500.log
+ create mode 100644 logs/sim-2-p59-t506.log
+ create mode 100644 results/rdf-2-p59-t488.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a5a536b36..899fddfd0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
