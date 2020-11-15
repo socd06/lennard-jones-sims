@@ -111,3 +111,10 @@ gcq#64: "What If None Of Your Dreams Come True ?" (E. Costello)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2cecc377b] feat: add 2-p61-t572 radial distribution function and updates to logs
+ 6 files changed, 2076 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p61-t584.log
+ create mode 100644 results/rdf-2-p61-t572.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4ff317c27..2cecc377b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
