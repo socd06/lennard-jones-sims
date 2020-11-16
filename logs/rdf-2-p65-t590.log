@@ -111,3 +111,12 @@ gcq#80: "Don't Follow Me Home" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 043dc21b2] feat: add 2-p65-t590 radial distribution function and updates to logs
+ 8 files changed, 2290 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p65-t596.log
+ create mode 100644 logs/rdf-2-p65-t602.log
+ create mode 100644 logs/sim-2-p65-t602.log
+ create mode 100644 results/rdf-2-p65-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3c4779bdb..043dc21b2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
