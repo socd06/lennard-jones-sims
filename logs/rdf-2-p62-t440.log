@@ -111,3 +111,10 @@ gcq#344: "Everything's formed from particles" (Van der Graaf Generator)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a46f06920] feat: add 2-p62-t440 radial distribution function and updates to logs
+ 7 files changed, 2285 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p62-t446.log
+ create mode 100644 logs/rdf-2-p62-t452.log
+ create mode 100644 logs/sim-2-p62-t452.log
+ create mode 100644 results/rdf-2-p62-t440.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
