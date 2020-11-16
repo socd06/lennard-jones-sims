@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#1: "I Live the Life They Wish They Did" (Tricky)
 
 Working in dev branch
+[dev 8ad2edc58] feat: add 2-p64-t506 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p64-t518.log
+ create mode 100644 logs/sim-2-p64-t524.log
+ create mode 100644 results/rdf-2-p64-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6fc884e8a..8ad2edc58  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
