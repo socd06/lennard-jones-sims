@@ -111,3 +111,11 @@ gcq#434: "Molecular biology is essentially the practice of biochemistry without 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4ae1bcd75] feat: add 2-p65-t380 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p65-t392.log
+ create mode 100644 logs/sim-2-p65-t398.log
+ create mode 100644 results/rdf-2-p65-t380.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5062f347d..4ae1bcd75  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
