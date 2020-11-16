@@ -111,3 +111,11 @@ gcq#68: "What's Your Definition Of Dirty ?" (G. Michael)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ba500cfc4] feat: add 2-p62-t632 radial distribution function and updates to logs
+ 9 files changed, 2293 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p62-t638.log
+ create mode 100644 logs/rdf-2-p62-t644.log
+ create mode 100644 logs/sim-2-p62-t644.log
+ create mode 100644 logs/sim-2-p62-t650.log
+ create mode 100644 results/rdf-2-p62-t632.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
