@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#272: "Yeah, uh uh, Neil's Head !" (Neil)
 
 Working in dev branch
+[dev ccc3397fd] feat: add 2-p63-t512 radial distribution function and updates to logs
+ 9 files changed, 2323 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p63-t518.log
+ create mode 100644 logs/rdf-2-p63-t524.log
+ create mode 100644 logs/sim-2-p63-t524.log
+ create mode 100644 logs/sim-2-p63-t530.log
+ create mode 100644 results/rdf-2-p63-t512.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
