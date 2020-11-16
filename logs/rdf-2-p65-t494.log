@@ -111,3 +111,11 @@ gcq#223: "Jesus Not Only Saves, He Also Frequently Makes Backups." (Myron Bradsh
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2a1cb8b6a] feat: add 2-p65-t494 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p65-t506.log
+ create mode 100644 logs/sim-2-p65-t512.log
+ create mode 100644 results/rdf-2-p65-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a2c57f5b1..2a1cb8b6a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
