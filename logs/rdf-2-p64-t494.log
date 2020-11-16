@@ -112,3 +112,11 @@ gcq#50: "The Stingrays Must Be Fat This Year" (Red Hot Chili Peppers)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f645b305e] feat: add 2-p64-t494 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p64-t506.log
+ create mode 100644 logs/sim-2-p64-t512.log
+ create mode 100644 results/rdf-2-p64-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3635e6c24..f645b305e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
