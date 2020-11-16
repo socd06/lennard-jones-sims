@@ -111,3 +111,10 @@ gcq#218: "Wild Pointers Couldn't Drag Me Away" (K.A. Feenstra)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2d8972b0e] feat: add 2-p63-t602 radial distribution function and updates to logs
+ 8 files changed, 2287 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p63-t608.log
+ create mode 100644 logs/rdf-2-p63-t614.log
+ create mode 100644 logs/sim-2-p63-t614.log
+ create mode 100644 results/rdf-2-p63-t602.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
