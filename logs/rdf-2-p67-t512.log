@@ -111,3 +111,10 @@ gcq#78: "Everybody Lie Down On the Floor and Keep Calm" (KLF)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 04be5ac40] feat: add 2-p67-t512 radial distribution function and updates to logs
+ 6 files changed, 2076 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p67-t524.log
+ create mode 100644 results/rdf-2-p67-t512.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6739fb7a6..04be5ac40  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
