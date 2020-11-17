@@ -110,3 +110,12 @@ Analyzed 1501 frames, last time 3000.000
 gcq#370: "This really is a pretty scene, could you ask your kid to smile please?" (Joe Jackson)
 
 Working in dev branch
+[dev 1a0ad9259] feat: add 2-p66-t476 radial distribution function and updates to logs
+ 8 files changed, 2197 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p66-t488.log
+ create mode 100644 logs/sim-2-p66-t488.log
+ create mode 100644 logs/sim-2-p66-t494.log
+ create mode 100644 results/rdf-2-p66-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9f8863e3d..1a0ad9259  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
