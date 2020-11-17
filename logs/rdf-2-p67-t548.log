@@ -111,3 +111,11 @@ gcq#541: "Science is a wonderful thing if one does not have to earn one's living
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a1a339595] feat: add 2-p67-t548 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p67-t554.log
+ create mode 100644 logs/sim-2-p67-t560.log
+ create mode 100644 results/rdf-2-p67-t548.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d90b55a9b..a1a339595  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
