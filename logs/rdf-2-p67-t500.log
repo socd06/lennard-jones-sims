@@ -111,3 +111,9 @@ gcq#94: "Proceed, With Fingers Crossed" (TeX)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b3bb6b801] feat: add 2-p67-t500 radial distribution function and updates to logs
+ 6 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p67-t500.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c341a1e58..b3bb6b801  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
