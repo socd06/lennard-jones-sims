@@ -110,3 +110,19 @@ Analyzed 1501 frames, last time 3000.000
 gcq#210: "Oh My God ! It's the Funky Shit" (Beastie Boys)
 
 Working in dev branch
+[dev 4c7a83875] feat: add 2-p68-t200 radial distribution function and updates to logs
+ 15 files changed, 2737 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p68-t206.log
+ create mode 100644 logs/rdf-2-p68-t212.log
+ create mode 100644 logs/rdf-2-p68-t218.log
+ create mode 100644 logs/rdf-2-p68-t224.log
+ create mode 100644 logs/rdf-2-p68-t230.log
+ create mode 100644 logs/sim-2-p68-t212.log
+ create mode 100644 logs/sim-2-p68-t218.log
+ create mode 100644 logs/sim-2-p68-t224.log
+ create mode 100644 logs/sim-2-p68-t230.log
+ create mode 100644 logs/sim-2-p68-t236.log
+ create mode 100644 results/rdf-2-p68-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   39a03d35e..4c7a83875  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
