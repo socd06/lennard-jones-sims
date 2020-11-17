@@ -113,3 +113,11 @@ gcq#195: "Just Give Me a Blip" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 40a4ec085] feat: add 2-p66-t218 radial distribution function and updates to logs
+ 9 files changed, 2182 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p66-t236.log
+ create mode 100644 logs/sim-2-p66-t242.log
+ create mode 100644 results/rdf-2-p66-t218.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6d47ce66b..40a4ec085  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
