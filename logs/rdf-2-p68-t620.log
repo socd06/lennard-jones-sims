@@ -111,3 +111,11 @@ gcq#503: "Heard a talk introducing a new language called Swift, from a guy named
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2fb9f32e0] feat: add 2-p68-t620 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p68-t626.log
+ create mode 100644 logs/sim-2-p68-t632.log
+ create mode 100644 results/rdf-2-p68-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7a50da1e6..2fb9f32e0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
