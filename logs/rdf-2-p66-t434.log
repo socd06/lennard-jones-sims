@@ -111,3 +111,11 @@ gcq#245: "Space May Be the Final Frontier, But It's Made in a Hollywood Basement
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6868cee02] feat: add 2-p66-t434 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p66-t446.log
+ create mode 100644 logs/sim-2-p66-t452.log
+ create mode 100644 results/rdf-2-p66-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7c71b06f0..6868cee02  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
