@@ -111,3 +111,9 @@ gcq#351: "Now it's filled with hundreds and hundreds of chemicals" (Midlake)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 08eb6d105] feat: add 2-p69-t284 radial distribution function and updates to logs
+ 7 files changed, 2062 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p69-t284.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   17419219b..08eb6d105  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
