@@ -111,3 +111,11 @@ gcq#127: "Everybody Wants to Be Naked and Famous" (Tricky)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e08ca2553] feat: add 2-p66-t578 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p66-t584.log
+ create mode 100644 logs/sim-2-p66-t590.log
+ create mode 100644 results/rdf-2-p66-t578.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9ac775f10..e08ca2553  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
