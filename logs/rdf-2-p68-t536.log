@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#292: "Miggida-Miggida-Miggida-Mac" (Kriss Kross)
 
 Working in dev branch
+[dev 2b4069d97] feat: add 2-p68-t536 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p68-t542.log
+ create mode 100644 logs/rdf-2-p68-t548.log
+ create mode 100644 logs/sim-2-p68-t548.log
+ create mode 100644 logs/sim-2-p68-t554.log
+ create mode 100644 results/rdf-2-p68-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a696baf61..2b4069d97  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
