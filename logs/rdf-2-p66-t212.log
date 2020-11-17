@@ -113,3 +113,9 @@ gcq#465: "There are only two things wrong with C++:  The initial concept and the
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6d47ce66b] feat: add 2-p66-t212 radial distribution function and updates to logs
+ 8 files changed, 2063 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p66-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9407a7ec5..6d47ce66b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
