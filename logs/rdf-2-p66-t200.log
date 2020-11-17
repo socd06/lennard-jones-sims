@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#36: "They Were So Quiet About It" (Pixies)
 
 Working in dev branch
+[dev c55adc9d2] feat: add 2-p66-t200 radial distribution function and updates to logs
+ 13 files changed, 2613 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p66-t206.log
+ create mode 100644 logs/rdf-2-p66-t212.log
+ create mode 100644 logs/rdf-2-p66-t218.log
+ create mode 100644 logs/rdf-2-p66-t224.log
+ create mode 100644 logs/sim-2-p66-t212.log
+ create mode 100644 logs/sim-2-p66-t218.log
+ create mode 100644 logs/sim-2-p66-t224.log
+ create mode 100644 logs/sim-2-p66-t230.log
+ create mode 100644 results/rdf-2-p66-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ea96b22e2..c55adc9d2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
