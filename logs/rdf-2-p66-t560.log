@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#60: "Would You Like to Be the Monster Tonight ?" (Captain Beefheart)
 
 Working in dev branch
+[dev 3e6780b3f] feat: add 2-p66-t560 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p66-t566.log
+ create mode 100644 logs/rdf-2-p66-t572.log
+ create mode 100644 logs/sim-2-p66-t572.log
+ create mode 100644 logs/sim-2-p66-t578.log
+ create mode 100644 results/rdf-2-p66-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   30b24fe57..3e6780b3f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
