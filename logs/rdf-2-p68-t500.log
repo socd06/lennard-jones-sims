@@ -113,3 +113,9 @@ gcq#178: "Make the Floor Burn" (2 Unlimited)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ac6b7e2b0] feat: add 2-p68-t500 radial distribution function and updates to logs
+ 6 files changed, 2061 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p68-t500.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5e74b1159..ac6b7e2b0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
