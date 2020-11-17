@@ -113,3 +113,9 @@ gcq#214: "Hey Man You Know, I'm Really OK" (Offspring)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b1c1a1af1] feat: add 2-p68-t218 radial distribution function and updates to logs
+ 8 files changed, 2073 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p68-t218.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a2f6d31bb..b1c1a1af1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
