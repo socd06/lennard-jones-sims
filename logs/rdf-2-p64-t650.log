@@ -111,3 +111,10 @@ gcq#154: "Shake Yourself" (YES)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d8f60c3f1] feat: add 2-p64-t650 radial distribution function and updates to logs
+ 6 files changed, 2076 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p64-t662.log
+ create mode 100644 results/rdf-2-p64-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4d273592d..d8f60c3f1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
