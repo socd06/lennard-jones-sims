@@ -111,3 +111,11 @@ gcq#26: "Art For Arts Sake, Money For Gods Sake" (10 CC)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a5eea76db] feat: add 2-p66-t266 radial distribution function and updates to logs
+ 8 files changed, 2181 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p66-t278.log
+ create mode 100644 logs/sim-2-p66-t284.log
+ create mode 100644 results/rdf-2-p66-t266.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6a0bbaa9f..a5eea76db  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
