@@ -111,3 +111,13 @@ gcq#292: "Miggida-Miggida-Miggida-Mac" (Kriss Kross)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 42bac7a6e] feat: add 2-p66-t392 radial distribution function and updates to logs
+ 8 files changed, 2185 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p66-t404.log
+ create mode 100644 logs/sim-2-p66-t410.log
+ create mode 100644 results/rdf-2-p66-t392.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   741ad9682..42bac7a6e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
