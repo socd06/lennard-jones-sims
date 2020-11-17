@@ -111,3 +111,11 @@ gcq#354: "I like to wait, then I feel like I do something" (Carl Caleman)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev efabe95bc] feat: add 2-p68-t710 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p68-t716.log
+ create mode 100644 logs/sim-2-p68-t722.log
+ create mode 100644 results/rdf-2-p68-t710.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4e203a8ab..efabe95bc  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
