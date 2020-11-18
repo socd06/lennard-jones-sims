@@ -111,3 +111,11 @@ gcq#561: "Praise those of your critics for whom nothing is up to standard." (Dag
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9181579f0] feat: add 2-p71-t566 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p71-t572.log
+ create mode 100644 logs/sim-2-p71-t578.log
+ create mode 100644 results/rdf-2-p71-t566.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   431a67720..9181579f0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
