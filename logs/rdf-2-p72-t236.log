@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#55: "You Look Better Upside Down" (Throwing Muses)
 
 Working in dev branch
+[dev 4f408d440] feat: add 2-p72-t236 radial distribution function and updates to logs
+ 12 files changed, 2450 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p72-t248.log
+ create mode 100644 logs/rdf-2-p72-t254.log
+ create mode 100644 logs/rdf-2-p72-t260.log
+ create mode 100644 logs/sim-2-p72-t254.log
+ create mode 100644 logs/sim-2-p72-t260.log
+ create mode 100644 logs/sim-2-p72-t266.log
+ create mode 100644 results/rdf-2-p72-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   818408baf..4f408d440  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
