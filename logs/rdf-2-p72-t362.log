@@ -111,3 +111,11 @@ gcq#310: "I'd be Safe and Warm if I was in L.A." (The Mamas and the Papas)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 41ede14f9] feat: add 2-p72-t362 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p72-t374.log
+ create mode 100644 logs/sim-2-p72-t380.log
+ create mode 100644 results/rdf-2-p72-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   534cf893c..41ede14f9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
