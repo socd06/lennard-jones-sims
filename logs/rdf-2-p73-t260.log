@@ -111,3 +111,11 @@ gcq#155: "I Am a Wonderful Thing" (Kid Creole)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7cac7dfc4] feat: add 2-p73-t260 radial distribution function and updates to logs
+ 9 files changed, 2174 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p73-t278.log
+ create mode 100644 logs/sim-2-p73-t284.log
+ create mode 100644 results/rdf-2-p73-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   be6007fb2..7cac7dfc4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
