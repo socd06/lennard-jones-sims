@@ -112,3 +112,10 @@ gcq#360: "error: too many template-parameter-lists" (g++)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev da03d55bf] feat: add 2-p73-t578 radial distribution function and updates to logs
+ 7 files changed, 2172 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p73-t590.log
+ create mode 100644 results/rdf-2-p73-t578.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   dc73b247d..da03d55bf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
