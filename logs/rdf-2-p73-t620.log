@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#259: "You Can Be Too Early, You Can Be Too Late and You Can Be On Time" (J. Cruijff)
 
 Working in dev branch
+[dev ce60c6871] feat: add 2-p73-t620 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p73-t626.log
+ create mode 100644 logs/rdf-2-p73-t632.log
+ create mode 100644 logs/sim-2-p73-t632.log
+ create mode 100644 logs/sim-2-p73-t638.log
+ create mode 100644 results/rdf-2-p73-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   073fff38a..ce60c6871  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
