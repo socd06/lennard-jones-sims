@@ -111,3 +111,13 @@ gcq#235: "Uh-oh" (Tinky Winky)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 27891dfa3] feat: add 2-p71-t554 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p71-t560.log
+ create mode 100644 logs/rdf-2-p71-t566.log
+ create mode 100644 logs/sim-2-p71-t566.log
+ create mode 100644 logs/sim-2-p71-t572.log
+ create mode 100644 results/rdf-2-p71-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d19042459..27891dfa3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
