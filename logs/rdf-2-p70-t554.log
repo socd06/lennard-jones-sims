@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#221: "Bad As This Shit Is, This Shit Ain't As Bad As You Think It Is." (Jackie Brown)
 
 Working in dev branch
+[dev 5e91e5f4a] feat: add 2-p70-t554 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p70-t560.log
+ create mode 100644 logs/rdf-2-p70-t566.log
+ create mode 100644 logs/sim-2-p70-t566.log
+ create mode 100644 logs/sim-2-p70-t572.log
+ create mode 100644 results/rdf-2-p70-t554.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   99aa62fe2..5e91e5f4a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
