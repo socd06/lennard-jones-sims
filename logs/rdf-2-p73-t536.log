@@ -111,3 +111,13 @@ gcq#102: "Sometimes Life is Obscene" (Black Crowes)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 10f0151a4] feat: add 2-p73-t536 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p73-t542.log
+ create mode 100644 logs/rdf-2-p73-t548.log
+ create mode 100644 logs/sim-2-p73-t548.log
+ create mode 100644 logs/sim-2-p73-t554.log
+ create mode 100644 results/rdf-2-p73-t536.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bd640b5a0..10f0151a4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
