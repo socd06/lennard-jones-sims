@@ -111,3 +111,9 @@ gcq#264: "As Always Your Logic Is Impeccable" (Tuvok)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 39edff66d] feat: add 2-p71-t656 radial distribution function and updates to logs
+ 6 files changed, 2073 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p71-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fc89cb6db..39edff66d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
