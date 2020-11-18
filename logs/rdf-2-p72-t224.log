@@ -113,3 +113,11 @@ gcq#294: "Everything He Lacks, He Makes Up In Denial" (Offspring)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b12d69da1] feat: add 2-p72-t224 radial distribution function and updates to logs
+ 8 files changed, 2161 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p72-t236.log
+ create mode 100644 logs/sim-2-p72-t242.log
+ create mode 100644 results/rdf-2-p72-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0b3f094b3..b12d69da1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
