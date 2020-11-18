@@ -111,3 +111,11 @@ gcq#184: "I Am a Poor Lonesome Cowboy" (Lucky Luke)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8f8d09bf1] feat: add 2-p73-t452 radial distribution function and updates to logs
+ 8 files changed, 2203 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p73-t464.log
+ create mode 100644 logs/sim-2-p73-t470.log
+ create mode 100644 results/rdf-2-p73-t452.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9df685824..8f8d09bf1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
