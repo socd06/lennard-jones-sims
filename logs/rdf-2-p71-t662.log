@@ -111,3 +111,11 @@ gcq#24: "If You Touch Me, You'll Get Shocked" (Beastie Boys)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6bedcbcaa] feat: add 2-p71-t662 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p71-t668.log
+ create mode 100644 logs/sim-2-p71-t674.log
+ create mode 100644 results/rdf-2-p71-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   39edff66d..6bedcbcaa  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
