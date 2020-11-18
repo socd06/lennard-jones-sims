@@ -111,3 +111,11 @@ gcq#36: "They Were So Quiet About It" (Pixies)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev bd78d9347] feat: add 2-p72-t656 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p72-t662.log
+ create mode 100644 logs/sim-2-p72-t668.log
+ create mode 100644 results/rdf-2-p72-t656.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1c09f20e1..bd78d9347  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
