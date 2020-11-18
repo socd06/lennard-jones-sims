@@ -111,3 +111,11 @@ gcq#528: "I believe the big bang of self-driving cars is about to come." (Jen-Hs
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 073fff38a] feat: add 2-p73-t614 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p73-t620.log
+ create mode 100644 logs/sim-2-p73-t626.log
+ create mode 100644 results/rdf-2-p73-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c00714e00..073fff38a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
