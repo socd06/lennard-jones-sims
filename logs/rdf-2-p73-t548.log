@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#351: "Now it's filled with hundreds and hundreds of chemicals" (Midlake)
 
 Working in dev branch
+[dev 877bf8ccd] feat: add 2-p73-t548 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p73-t554.log
+ create mode 100644 logs/rdf-2-p73-t560.log
+ create mode 100644 logs/sim-2-p73-t560.log
+ create mode 100644 logs/sim-2-p73-t566.log
+ create mode 100644 results/rdf-2-p73-t548.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1ce1ef74f..877bf8ccd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
