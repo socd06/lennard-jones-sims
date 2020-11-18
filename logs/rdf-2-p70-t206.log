@@ -112,3 +112,9 @@ gcq#167: "The Poodle Chews It" (F. Zappa)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 88e176abb] feat: add 2-p70-t206 radial distribution function and updates to logs
+ 9 files changed, 2073 insertions(+), 5 deletions(-)
+ create mode 100644 results/rdf-2-p70-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5b338fb2d..88e176abb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
