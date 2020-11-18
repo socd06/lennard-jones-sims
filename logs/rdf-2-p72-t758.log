@@ -111,3 +111,11 @@ gcq#520: "Njuta men inte frossa, springa men inte fly" (Paganus)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 93f19e63c] feat: add 2-p72-t758 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p72-t764.log
+ create mode 100644 logs/sim-2-p72-t770.log
+ create mode 100644 results/rdf-2-p72-t758.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   954b311e6..93f19e63c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
