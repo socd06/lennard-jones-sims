@@ -113,3 +113,10 @@ gcq#54: "Kissing You is Like Kissing Gravel" (Throwing Muses)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cf725bd6b] feat: add 2-p73-t584 radial distribution function and updates to logs
+ 6 files changed, 2074 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p73-t596.log
+ create mode 100644 results/rdf-2-p73-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   da03d55bf..cf725bd6b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
