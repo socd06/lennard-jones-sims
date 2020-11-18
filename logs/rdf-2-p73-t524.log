@@ -112,3 +112,11 @@ gcq#298: "I believe in miracles cause I'm one" (The Ramones)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 26810d7e2] feat: add 2-p73-t524 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p73-t536.log
+ create mode 100644 logs/sim-2-p73-t542.log
+ create mode 100644 results/rdf-2-p73-t524.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a5ed99ce6..26810d7e2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
