@@ -111,3 +111,11 @@ gcq#48: "You Could Make More Money As a Butcher" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3e271ddab] feat: add 2-p73-t434 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p73-t446.log
+ create mode 100644 logs/sim-2-p73-t452.log
+ create mode 100644 results/rdf-2-p73-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5372c0a1c..3e271ddab  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
