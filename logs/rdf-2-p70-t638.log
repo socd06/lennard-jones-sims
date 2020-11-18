@@ -111,3 +111,11 @@ gcq#547: "Scientists do not join hands every Sunday and sing "Yes gravity is rea
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev df92c0873] feat: add 2-p70-t638 radial distribution function and updates to logs
+ 6 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p70-t644.log
+ create mode 100644 logs/sim-2-p70-t650.log
+ create mode 100644 results/rdf-2-p70-t638.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1e1d1202b..df92c0873  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
