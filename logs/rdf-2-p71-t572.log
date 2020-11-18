@@ -111,3 +111,13 @@ gcq#570: "This work contains many things which are new and interesting. Unfortun
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e336e7c7f] feat: add 2-p71-t572 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p71-t578.log
+ create mode 100644 logs/rdf-2-p71-t584.log
+ create mode 100644 logs/sim-2-p71-t584.log
+ create mode 100644 logs/sim-2-p71-t590.log
+ create mode 100644 results/rdf-2-p71-t572.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9181579f0..e336e7c7f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
