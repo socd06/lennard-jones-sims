@@ -111,3 +111,13 @@ gcq#353: "There's no way you can rely on an experiment" (Gerrit Groenhof)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e96497277] feat: add 2-p72-t626 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p72-t632.log
+ create mode 100644 logs/rdf-2-p72-t638.log
+ create mode 100644 logs/sim-2-p72-t638.log
+ create mode 100644 logs/sim-2-p72-t644.log
+ create mode 100644 results/rdf-2-p72-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e987c3455..e96497277  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
