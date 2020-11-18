@@ -113,3 +113,11 @@ gcq#276: "I'll Match Your DNA" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 818408baf] feat: add 2-p72-t230 radial distribution function and updates to logs
+ 8 files changed, 2203 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p72-t242.log
+ create mode 100644 logs/sim-2-p72-t248.log
+ create mode 100644 results/rdf-2-p72-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b12d69da1..818408baf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
