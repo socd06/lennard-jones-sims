@@ -111,3 +111,12 @@ gcq#244: "I'd Be Water If I Could" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 96ac4f280] feat: add 2-p72-t596 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p72-t602.log
+ create mode 100644 logs/rdf-2-p72-t608.log
+ create mode 100644 logs/sim-2-p72-t608.log
+ create mode 100644 results/rdf-2-p72-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   06cd10800..96ac4f280  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
