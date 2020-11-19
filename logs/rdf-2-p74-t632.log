@@ -111,3 +111,11 @@ gcq#557: "As an adolescent I aspired to lasting fame, I craved factual certainty
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1ffd01140] feat: add 2-p74-t632 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p74-t638.log
+ create mode 100644 logs/sim-2-p74-t644.log
+ create mode 100644 results/rdf-2-p74-t632.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b37798f95..1ffd01140  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
