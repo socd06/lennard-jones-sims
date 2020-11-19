@@ -114,3 +114,12 @@ gcq#300: "Shoot them in the back now" (The Ramones)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a526a6797] feat: add 2-p74-t512 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t524.log
+ create mode 100644 logs/sim-2-p74-t524.log
+ create mode 100644 logs/sim-2-p74-t530.log
+ create mode 100644 results/rdf-2-p74-t512.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   93040d8c7..a526a6797  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
