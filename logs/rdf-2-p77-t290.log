@@ -111,3 +111,9 @@ gcq#495: "This isn't right. This isn't even wrong." (Wolfgang Pauli)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 706c8b7cb] feat: add 2-p77-t290 radial distribution function and updates to logs
+ 9 files changed, 2182 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p77-t308.log
+ create mode 100644 logs/sim-2-p77-t314.log
+ create mode 100644 results/rdf-2-p77-t290.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
