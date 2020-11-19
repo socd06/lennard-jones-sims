@@ -111,3 +111,10 @@ gcq#11: "She's Not Bad, She's Just Genetically Mean" (Captain Beefheart)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a1b1662f5] feat: add 2-p76-t644 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p76-t650.log
+ create mode 100644 logs/rdf-2-p76-t656.log
+ create mode 100644 logs/sim-2-p76-t656.log
+ create mode 100644 results/rdf-2-p76-t644.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
