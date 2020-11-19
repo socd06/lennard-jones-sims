@@ -111,3 +111,11 @@ gcq#442: "...sometimes a scream is better than a thesis." (Ralph Waldo Emerson)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 43317c50f] feat: add 2-p74-t428 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t440.log
+ create mode 100644 logs/sim-2-p74-t446.log
+ create mode 100644 results/rdf-2-p74-t428.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f9283f1a8..43317c50f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
