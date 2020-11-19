@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#3: "Nurture Another Mind, Before Yours Expires" (Arrested Development)
 
 Working in dev branch
+[dev f76f2c5d6] feat: add 2-p74-t596 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p74-t602.log
+ create mode 100644 logs/rdf-2-p74-t608.log
+ create mode 100644 logs/sim-2-p74-t608.log
+ create mode 100644 logs/sim-2-p74-t614.log
+ create mode 100644 results/rdf-2-p74-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f362e404c..f76f2c5d6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
