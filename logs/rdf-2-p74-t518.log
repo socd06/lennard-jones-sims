@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#95: "The Universe is Somewhere In Here" (J.G.E.M. Fraaije)
 
 Working in dev branch
+[dev 3bcb267f0] feat: add 2-p74-t518 radial distribution function and updates to logs
+ 8 files changed, 2199 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t530.log
+ create mode 100644 logs/sim-2-p74-t536.log
+ create mode 100644 results/rdf-2-p74-t518.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a526a6797..3bcb267f0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
