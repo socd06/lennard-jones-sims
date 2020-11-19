@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#337: "What if you're wrong about the great Ju Ju at the bottom of the sea?" (Richard Dawkins)
 
 Working in dev branch
+[dev 665e36c35] feat: add 2-p74-t650 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p74-t656.log
+ create mode 100644 logs/rdf-2-p74-t662.log
+ create mode 100644 logs/sim-2-p74-t662.log
+ create mode 100644 logs/sim-2-p74-t668.log
+ create mode 100644 results/rdf-2-p74-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3231d88ee..665e36c35  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
