@@ -113,3 +113,11 @@ gcq#197: "Cut It Deep and Cut It Wide" (The Walkabouts)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev caff146da] feat: add 2-p74-t212 radial distribution function and updates to logs
+ 10 files changed, 2183 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t236.log
+ create mode 100644 logs/sim-2-p74-t242.log
+ create mode 100644 results/rdf-2-p74-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   167a4aabf..caff146da  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
