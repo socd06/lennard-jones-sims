@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#343: "Though the path of the comet is sure, it's constitution is not" (Peter Hammill)
 
 Working in dev branch
+[dev 733f60e64] feat: add 2-p76-t584 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p76-t590.log
+ create mode 100644 logs/rdf-2-p76-t596.log
+ create mode 100644 logs/sim-2-p76-t596.log
+ create mode 100644 logs/sim-2-p76-t602.log
+ create mode 100644 results/rdf-2-p76-t584.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
