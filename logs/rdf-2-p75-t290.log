@@ -111,3 +111,9 @@ gcq#243: "Let's Unzip And Let's Unfold" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4bacb1ba7] feat: add 2-p75-t290 radial distribution function and updates to logs
+ 7 files changed, 2062 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p75-t290.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   742dee645..4bacb1ba7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
