@@ -110,3 +110,19 @@ Analyzed 1501 frames, last time 3000.000
 gcq#498: "Problems worthy of attack prove their worth by hitting back." (Piet Hein)
 
 Working in dev branch
+[dev 92920fd4c] feat: add 2-p75-t200 radial distribution function and updates to logs
+ 15 files changed, 2757 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p75-t206.log
+ create mode 100644 logs/rdf-2-p75-t212.log
+ create mode 100644 logs/rdf-2-p75-t218.log
+ create mode 100644 logs/rdf-2-p75-t224.log
+ create mode 100644 logs/rdf-2-p75-t230.log
+ create mode 100644 logs/sim-2-p75-t212.log
+ create mode 100644 logs/sim-2-p75-t218.log
+ create mode 100644 logs/sim-2-p75-t224.log
+ create mode 100644 logs/sim-2-p75-t230.log
+ create mode 100644 logs/sim-2-p75-t236.log
+ create mode 100644 results/rdf-2-p75-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   84f358c6d..92920fd4c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
