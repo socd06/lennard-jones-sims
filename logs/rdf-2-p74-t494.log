@@ -111,3 +111,9 @@ gcq#199: "My Head Goes Pop Pop Pop Pop Pop" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4c0ddda9f] feat: add 2-p74-t494 radial distribution function and updates to logs
+ 6 files changed, 2071 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p74-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e2de779c1..4c0ddda9f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
