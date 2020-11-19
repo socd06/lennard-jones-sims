@@ -111,3 +111,11 @@ gcq#300: "Shoot them in the back now" (The Ramones)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 2d467e9bb] feat: add 2-p75-t314 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p75-t326.log
+ create mode 100644 logs/sim-2-p75-t332.log
+ create mode 100644 results/rdf-2-p75-t314.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   07ce2f5b9..2d467e9bb  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
