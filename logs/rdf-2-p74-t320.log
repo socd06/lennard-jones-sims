@@ -111,3 +111,11 @@ gcq#39: "It's Time to Move On" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ca3780a5a] feat: add 2-p74-t320 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t332.log
+ create mode 100644 logs/sim-2-p74-t338.log
+ create mode 100644 results/rdf-2-p74-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ec0a860bf..ca3780a5a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
