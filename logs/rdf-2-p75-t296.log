@@ -111,3 +111,11 @@ gcq#311: "It's Unacceptable That Choclate Makes You Fat" (MI 3)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 805440a60] feat: add 2-p75-t296 radial distribution function and updates to logs
+ 8 files changed, 2181 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p75-t308.log
+ create mode 100644 logs/sim-2-p75-t314.log
+ create mode 100644 results/rdf-2-p75-t296.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4bacb1ba7..805440a60  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
