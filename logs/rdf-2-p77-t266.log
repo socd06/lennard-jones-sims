@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#401: "It's easy to remember: a half a kT is equal to five fourths of a kJ/mol." (Anders Gabrielsson)
 
 Working in dev branch
+[dev 8a43f2137] feat: add 2-p77-t266 radial distribution function and updates to logs
+ 11 files changed, 2467 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p77-t272.log
+ create mode 100644 logs/rdf-2-p77-t278.log
+ create mode 100644 logs/rdf-2-p77-t284.log
+ create mode 100644 logs/sim-2-p77-t278.log
+ create mode 100644 logs/sim-2-p77-t284.log
+ create mode 100644 logs/sim-2-p77-t290.log
+ create mode 100644 results/rdf-2-p77-t266.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
