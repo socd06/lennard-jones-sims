@@ -112,3 +112,7 @@ gcq#446: "I admired Bohr very much. We had long talks together, long talks in wh
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b70e582cb] feat: add 2-p77-t296 radial distribution function and updates to logs
+ 7 files changed, 2062 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p77-t296.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
