@@ -111,3 +111,11 @@ gcq#544: "It is now quite lawful for a Catholic woman to avoid pregnancy by a re
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 15acd76c3] feat: add 2-p73-t692 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p73-t698.log
+ create mode 100644 logs/sim-2-p73-t704.log
+ create mode 100644 results/rdf-2-p73-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5102ba941..15acd76c3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
