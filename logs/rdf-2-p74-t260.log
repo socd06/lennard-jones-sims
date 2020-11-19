@@ -111,3 +111,11 @@ gcq#456: "People disagree with me. I just ignore them." (Linus Torvalds on the u
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e45d4c47f] feat: add 2-p74-t260 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p74-t278.log
+ create mode 100644 logs/sim-2-p74-t284.log
+ create mode 100644 results/rdf-2-p74-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   adda57403..e45d4c47f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
