@@ -113,3 +113,9 @@ gcq#521: "Misslycka kan man med all kod" (Mats Nylen)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9f876d682] feat: add 2-p78-t218 radial distribution function and updates to logs
+ 10 files changed, 2183 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p78-t242.log
+ create mode 100644 logs/sim-2-p78-t248.log
+ create mode 100644 results/rdf-2-p78-t218.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
