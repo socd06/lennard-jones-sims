@@ -111,3 +111,11 @@ gcq#444: "Dr Pauling, how do you have so many good ideas? Well David, I have a l
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 30470ad10] feat: add 2-p80-t398 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t410.log
+ create mode 100644 logs/sim-2-p80-t416.log
+ create mode 100644 results/rdf-2-p80-t398.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ca075c8f7..30470ad10  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
