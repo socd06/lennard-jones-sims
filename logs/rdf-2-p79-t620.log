@@ -111,3 +111,9 @@ gcq#35: "All Work and No Play Makes Jack a Dull Boy" (The Shining)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 5f0a6a2a3] feat: add 2-p79-t620 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p79-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7ffb6c852..5f0a6a2a3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
