@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#254: "In the End Science Comes Down to Praying" (P. v.d. Berg)
 
 Working in dev branch
+[dev 444c30624] feat: add 2-p80-t614 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p80-t620.log
+ create mode 100644 logs/rdf-2-p80-t626.log
+ create mode 100644 logs/sim-2-p80-t626.log
+ create mode 100644 logs/sim-2-p80-t632.log
+ create mode 100644 results/rdf-2-p80-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e84f28ad5..444c30624  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
