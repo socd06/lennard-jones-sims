@@ -114,3 +114,7 @@ gcq#60: "Would You Like to Be the Monster Tonight ?" (Captain Beefheart)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f5a829d6b] feat: add 2-p79-t230 radial distribution function and updates to logs
+ 8 files changed, 2063 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p79-t230.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
