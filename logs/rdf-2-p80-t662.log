@@ -112,3 +112,11 @@ gcq#530: "Some of these pro-drug messages come from popular culture." (John Walt
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8567db694] feat: add 2-p80-t662 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t674.log
+ create mode 100644 logs/sim-2-p80-t680.log
+ create mode 100644 results/rdf-2-p80-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9d2ca0b1c..8567db694  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
