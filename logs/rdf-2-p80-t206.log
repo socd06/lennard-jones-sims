@@ -111,3 +111,11 @@ gcq#46: "I Am Testing Your Grey Matter" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e9d08d931] feat: add 2-p80-t206 radial distribution function and updates to logs
+ 11 files changed, 2175 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t236.log
+ create mode 100644 logs/sim-2-p80-t242.log
+ create mode 100644 results/rdf-2-p80-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e970bb6d0..e9d08d931  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
