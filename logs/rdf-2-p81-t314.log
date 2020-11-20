@@ -111,3 +111,13 @@ gcq#9: "Don't Push Me, Cause I'm Close to the Edge" (Grandmaster Flash)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 815b3d9e1] feat: add 2-p81-t314 radial distribution function and updates to logs
+ 10 files changed, 2305 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p81-t326.log
+ create mode 100644 logs/rdf-2-p81-t332.log
+ create mode 100644 logs/sim-2-p81-t332.log
+ create mode 100644 logs/sim-2-p81-t338.log
+ create mode 100644 results/rdf-2-p81-t314.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7d95e0372..815b3d9e1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
