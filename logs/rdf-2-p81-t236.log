@@ -112,3 +112,9 @@ gcq#188: "How Do You Like Your Vacation So Far ?" (Speed 2 - Cruise Control)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 61d829f0e] feat: add 2-p81-t236 radial distribution function and updates to logs
+ 8 files changed, 2054 insertions(+), 4 deletions(-)
+ create mode 100644 results/rdf-2-p81-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   806047da0..61d829f0e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
