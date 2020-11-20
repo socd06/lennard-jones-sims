@@ -111,3 +111,11 @@ gcq#79: "Love is Like Moby Dick, Get Chewed and Get Spat Out" (Urban Dance Squad
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 288c2a5e5] feat: add 2-p77-t644 radial distribution function and updates to logs
+ 9 files changed, 2301 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p77-t650.log
+ create mode 100644 logs/rdf-2-p77-t656.log
+ create mode 100644 logs/sim-2-p77-t656.log
+ create mode 100644 logs/sim-2-p77-t662.log
+ create mode 100644 results/rdf-2-p77-t644.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
