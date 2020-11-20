@@ -113,3 +113,11 @@ gcq#380: "The future always gets twisted and turned" (Lisa o Piu)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d3aa7a20f] feat: add 2-p80-t626 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t638.log
+ create mode 100644 logs/sim-2-p80-t644.log
+ create mode 100644 results/rdf-2-p80-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7c6c877a6..d3aa7a20f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
