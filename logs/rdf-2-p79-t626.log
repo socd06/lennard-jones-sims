@@ -111,3 +111,11 @@ gcq#427: "In this house, we OBEY the laws of thermodynamics!" (Homer Simpson)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 865f85134] feat: add 2-p79-t626 radial distribution function and updates to logs
+ 6 files changed, 2179 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p79-t632.log
+ create mode 100644 logs/sim-2-p79-t638.log
+ create mode 100644 results/rdf-2-p79-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5f0a6a2a3..865f85134  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
