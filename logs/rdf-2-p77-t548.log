@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#158: "Microsecond Here I Come" (P.J. Van Maaren)
 
 Working in dev branch
+[dev 0349908c1] feat: add 2-p77-t548 radial distribution function and updates to logs
+ 9 files changed, 2301 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p77-t554.log
+ create mode 100644 logs/rdf-2-p77-t560.log
+ create mode 100644 logs/sim-2-p77-t560.log
+ create mode 100644 logs/sim-2-p77-t566.log
+ create mode 100644 results/rdf-2-p77-t548.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
