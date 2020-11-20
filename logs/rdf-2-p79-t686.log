@@ -111,3 +111,13 @@ gcq#218: "Wild Pointers Couldn't Drag Me Away" (K.A. Feenstra)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev dd6baee14] feat: add 2-p79-t686 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p79-t692.log
+ create mode 100644 logs/rdf-2-p79-t698.log
+ create mode 100644 logs/sim-2-p79-t698.log
+ create mode 100644 logs/sim-2-p79-t704.log
+ create mode 100644 results/rdf-2-p79-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5a8c4cd56..dd6baee14  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
