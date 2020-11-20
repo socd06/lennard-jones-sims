@@ -111,3 +111,11 @@ gcq#426: "It all works because Avogadro's number is closer to infinity than to 1
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 13a839f2a] feat: add 2-p81-t272 radial distribution function and updates to logs
+ 9 files changed, 2174 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p81-t290.log
+ create mode 100644 logs/sim-2-p81-t296.log
+ create mode 100644 results/rdf-2-p81-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   966f74de0..13a839f2a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
