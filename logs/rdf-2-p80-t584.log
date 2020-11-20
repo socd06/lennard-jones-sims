@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#79: "Love is Like Moby Dick, Get Chewed and Get Spat Out" (Urban Dance Squad)
 
 Working in dev branch
+[dev 36d6e9688] feat: add 2-p80-t584 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t596.log
+ create mode 100644 logs/sim-2-p80-t602.log
+ create mode 100644 results/rdf-2-p80-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4810766c2..36d6e9688  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
