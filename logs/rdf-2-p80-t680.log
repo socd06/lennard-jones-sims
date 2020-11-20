@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#156: "Way to Go Dude" (Beavis and Butthead)
 
 Working in dev branch
+[dev d180cedd1] feat: add 2-p80-t680 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p80-t686.log
+ create mode 100644 logs/rdf-2-p80-t692.log
+ create mode 100644 logs/sim-2-p80-t692.log
+ create mode 100644 logs/sim-2-p80-t698.log
+ create mode 100644 results/rdf-2-p80-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7533c8da8..d180cedd1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
