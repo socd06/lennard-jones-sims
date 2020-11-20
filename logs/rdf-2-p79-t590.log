@@ -111,3 +111,13 @@ gcq#57: "I Could Take You Home and Abuse You" (Magnapop)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f003d47d4] feat: add 2-p79-t590 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p79-t596.log
+ create mode 100644 logs/rdf-2-p79-t602.log
+ create mode 100644 logs/sim-2-p79-t602.log
+ create mode 100644 logs/sim-2-p79-t608.log
+ create mode 100644 results/rdf-2-p79-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d5b887648..f003d47d4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
