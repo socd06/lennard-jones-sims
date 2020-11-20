@@ -111,3 +111,11 @@ gcq#158: "Microsecond Here I Come" (P.J. Van Maaren)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 31c716b2b] feat: add 2-p80-t248 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p80-t266.log
+ create mode 100644 logs/sim-2-p80-t272.log
+ create mode 100644 results/rdf-2-p80-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a4a6adc50..31c716b2b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
