@@ -111,3 +111,13 @@ gcq#350: "Suzy is a headbanger, her mother is a geek" (The Ramones)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 394297d7b] feat: add 2-p79-t608 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p79-t614.log
+ create mode 100644 logs/rdf-2-p79-t620.log
+ create mode 100644 logs/sim-2-p79-t620.log
+ create mode 100644 logs/sim-2-p79-t626.log
+ create mode 100644 results/rdf-2-p79-t608.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9a3c6bb15..394297d7b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
