@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#328: "Aber wenn der Quarterback kommt, um dir die Brille abzunehmen, sag ihm: Danke, die bleibt wo sie ist" (Wir sind Helden)
 
 Working in dev branch
+[dev 9a1b7236a] feat: add 2-p78-t632 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p78-t638.log
+ create mode 100644 logs/rdf-2-p78-t644.log
+ create mode 100644 logs/sim-2-p78-t644.log
+ create mode 100644 logs/sim-2-p78-t650.log
+ create mode 100644 results/rdf-2-p78-t632.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
