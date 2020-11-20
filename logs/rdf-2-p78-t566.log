@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#404: "Humbug! Most things free-born will submit to anything for a salary" (Mr. Rochester in Jane Eyre by Charlotte Bronte)
 
 Working in dev branch
+[dev 7331f1839] feat: add 2-p78-t566 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p78-t572.log
+ create mode 100644 logs/rdf-2-p78-t578.log
+ create mode 100644 logs/sim-2-p78-t578.log
+ create mode 100644 logs/sim-2-p78-t584.log
+ create mode 100644 results/rdf-2-p78-t566.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
