@@ -112,3 +112,8 @@ gcq#49: "I'll Master Your Language, and In the Meantime I'll Create My Own" (Tri
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev fda27c7f5] feat: add 2-p77-t578 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p77-t590.log
+ create mode 100644 results/rdf-2-p77-t578.xvg
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com
