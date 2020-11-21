@@ -112,3 +112,11 @@ gcq#243: "Let's Unzip And Let's Unfold" (Red Hot Chili Peppers)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[dev 3612f8083] feat: add 2-p84-t590 radial distribution function and updates to logs
+ 6 files changed, 2066 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p84-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4fa9043b6..3612f8083  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
