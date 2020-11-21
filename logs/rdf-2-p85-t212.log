@@ -113,3 +113,11 @@ gcq#56: "Lunatics On Pogo Sticks" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c60868824] feat: add 2-p85-t212 radial distribution function and updates to logs
+ 11 files changed, 2184 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p85-t242.log
+ create mode 100644 logs/sim-2-p85-t248.log
+ create mode 100644 results/rdf-2-p85-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a87c85d1d..c60868824  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
