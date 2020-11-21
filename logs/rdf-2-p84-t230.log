@@ -113,3 +113,11 @@ gcq#207: "Is That a Real Poncho ?" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3a9834e04] feat: add 2-p84-t230 radial distribution function and updates to logs
+ 10 files changed, 2175 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p84-t254.log
+ create mode 100644 logs/sim-2-p84-t260.log
+ create mode 100644 results/rdf-2-p84-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5425c1d15..3a9834e04  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
