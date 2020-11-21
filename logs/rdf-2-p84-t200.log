@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#559: "Naive you are if you believe life favours those who aren't naive." (Piet Hein)
 
 Working in dev branch
+[dev 19273331b] feat: add 2-p84-t200 radial distribution function and updates to logs
+ 16 files changed, 2872 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p84-t206.log
+ create mode 100644 logs/rdf-2-p84-t212.log
+ create mode 100644 logs/rdf-2-p84-t218.log
+ create mode 100644 logs/rdf-2-p84-t224.log
+ create mode 100644 logs/rdf-2-p84-t230.log
+ create mode 100644 logs/rdf-2-p84-t236.log
+ create mode 100644 logs/sim-2-p84-t212.log
+ create mode 100644 logs/sim-2-p84-t218.log
+ create mode 100644 logs/sim-2-p84-t224.log
+ create mode 100644 logs/sim-2-p84-t230.log
+ create mode 100644 logs/sim-2-p84-t236.log
+ create mode 100644 results/rdf-2-p84-t200.xvg
