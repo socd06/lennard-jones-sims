@@ -112,3 +112,9 @@ gcq#410: "In the processing of models we must be especially cautious of the huma
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d91fe75ac] feat: add 2-p83-t680 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p83-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0c06007d8..d91fe75ac  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
