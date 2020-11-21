@@ -112,3 +112,11 @@ gcq#290: "Rat-tat-tat Ka boom boom" (The Smashing Pumpkins)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d47d7079b] feat: add 2-p83-t308 radial distribution function and updates to logs
+ 9 files changed, 2175 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p83-t326.log
+ create mode 100644 logs/sim-2-p83-t332.log
+ create mode 100644 results/rdf-2-p83-t308.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ade486a6e..d47d7079b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
