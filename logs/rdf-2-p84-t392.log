@@ -111,3 +111,11 @@ gcq#147: "I'm An Oakman" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e3de0f81b] feat: add 2-p84-t392 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p84-t404.log
+ create mode 100644 logs/sim-2-p84-t410.log
+ create mode 100644 results/rdf-2-p84-t392.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3f5cc9c6a..e3de0f81b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
