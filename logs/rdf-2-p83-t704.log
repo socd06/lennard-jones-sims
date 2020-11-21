@@ -111,3 +111,13 @@ gcq#569: "Sincerity is the key to success. Once you can fake that you’ve got i
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev fffc93ea3] feat: add 2-p83-t704 radial distribution function and updates to logs
+ 9 files changed, 2294 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p83-t710.log
+ create mode 100644 logs/rdf-2-p83-t716.log
+ create mode 100644 logs/sim-2-p83-t716.log
+ create mode 100644 logs/sim-2-p83-t722.log
+ create mode 100644 results/rdf-2-p83-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   64729aed7..fffc93ea3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
