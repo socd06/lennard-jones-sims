@@ -113,3 +113,11 @@ gcq#92: "Exactly" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9e4a85d1e] feat: add 2-p85-t236 radial distribution function and updates to logs
+ 10 files changed, 2175 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p85-t260.log
+ create mode 100644 logs/sim-2-p85-t266.log
+ create mode 100644 results/rdf-2-p85-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4417a6b94..9e4a85d1e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
