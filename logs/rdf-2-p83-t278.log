@@ -111,3 +111,11 @@ gcq#463: "The Internet?  We are not interested in it." (Bill Gates, 1993)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 17fc6a56f] feat: add 2-p83-t278 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p83-t296.log
+ create mode 100644 logs/sim-2-p83-t302.log
+ create mode 100644 results/rdf-2-p83-t278.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e3135fcd9..17fc6a56f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
