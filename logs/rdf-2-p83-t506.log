@@ -111,3 +111,11 @@ gcq#453: "The farther the experiment is from theory, the closer it is to the Nob
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 65b7ffb2b] feat: add 2-p83-t506 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p83-t518.log
+ create mode 100644 logs/sim-2-p83-t524.log
+ create mode 100644 results/rdf-2-p83-t506.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0e25e6c11..65b7ffb2b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
