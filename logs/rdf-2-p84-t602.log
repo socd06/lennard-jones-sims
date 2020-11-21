@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#420: "Energy is a very subtle concept. It is very, very difficult to get right." (Richard Feynman)
 
 Working in dev branch
+[dev 2def73484] feat: add 2-p84-t602 radial distribution function and updates to logs
+ 10 files changed, 2466 insertions(+)
+ create mode 100644 logs/rdf-2-p84-t602.log
+ create mode 100644 logs/rdf-2-p84-t608.log
+ create mode 100644 logs/rdf-2-p84-t614.log
+ create mode 100644 logs/sim-2-p84-t608.log
+ create mode 100644 logs/sim-2-p84-t614.log
+ create mode 100644 logs/sim-2-p84-t620.log
+ create mode 100644 results/rdf-2-p84-t602.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c3fe6ddeb..2def73484  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
