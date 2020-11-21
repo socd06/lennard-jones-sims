@@ -110,3 +110,21 @@ Analyzed 1501 frames, last time 3000.000
 gcq#391: "It doesn't pay to make predictions" (Crowded House)
 
 Working in dev branch
+[dev ef72f5bee] feat: add 2-p85-t200 radial distribution function and updates to logs
+ 17 files changed, 2881 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p85-t206.log
+ create mode 100644 logs/rdf-2-p85-t212.log
+ create mode 100644 logs/rdf-2-p85-t218.log
+ create mode 100644 logs/rdf-2-p85-t224.log
+ create mode 100644 logs/rdf-2-p85-t230.log
+ create mode 100644 logs/rdf-2-p85-t236.log
+ create mode 100644 logs/sim-2-p85-t212.log
+ create mode 100644 logs/sim-2-p85-t218.log
+ create mode 100644 logs/sim-2-p85-t224.log
+ create mode 100644 logs/sim-2-p85-t230.log
+ create mode 100644 logs/sim-2-p85-t236.log
+ create mode 100644 logs/sim-2-p85-t242.log
+ create mode 100644 results/rdf-2-p85-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5e0f2c66a..ef72f5bee  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
