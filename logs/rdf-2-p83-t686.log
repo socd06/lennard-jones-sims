@@ -113,3 +113,11 @@ gcq#467: "It has been discovered that C++ provides a remarkable facility for con
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 06fed420f] feat: add 2-p83-t686 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p83-t692.log
+ create mode 100644 logs/sim-2-p83-t698.log
+ create mode 100644 results/rdf-2-p83-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d91fe75ac..06fed420f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
