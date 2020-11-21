@@ -114,3 +114,9 @@ gcq#138: "We All Get the Flu, We All Get Aids" (LIVE)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev bcc764635] feat: add 2-p83-t620 radial distribution function and updates to logs
+ 6 files changed, 2053 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p83-t620.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   59c19a62d..bcc764635  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
