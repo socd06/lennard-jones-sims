@@ -111,3 +111,12 @@ gcq#374: "The scientific method is an integral part of human intelligence, and w
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 788aff86b] feat: add 2-p82-t734 radial distribution function and updates to logs
+ 8 files changed, 2290 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p82-t740.log
+ create mode 100644 logs/rdf-2-p82-t746.log
+ create mode 100644 logs/sim-2-p82-t746.log
+ create mode 100644 results/rdf-2-p82-t734.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   99b0f6209..788aff86b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
