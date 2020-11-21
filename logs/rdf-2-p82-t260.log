@@ -111,3 +111,11 @@ gcq#7: "Do the Dog On the Ground" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0aa9460c8] feat: add 2-p82-t260 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p82-t278.log
+ create mode 100644 logs/sim-2-p82-t284.log
+ create mode 100644 results/rdf-2-p82-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bfe3420a6..0aa9460c8  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
