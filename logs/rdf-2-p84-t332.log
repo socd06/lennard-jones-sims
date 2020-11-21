@@ -111,3 +111,11 @@ gcq#412: "You see it through a charmed medium: you can not discern that the gild
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8d93e5f3d] feat: add 2-p84-t332 radial distribution function and updates to logs
+ 8 files changed, 2182 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p84-t344.log
+ create mode 100644 logs/sim-2-p84-t350.log
+ create mode 100644 results/rdf-2-p84-t332.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f4e11d8da..8d93e5f3d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
