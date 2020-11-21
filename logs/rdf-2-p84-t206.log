@@ -111,3 +111,10 @@ gcq#552: "Torture numbers, and they'll confess to anything." (Greg Easterbrook)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9a6b13025] feat: add 2-p84-t206 radial distribution function and updates to logs
+ 9 files changed, 2064 insertions(+), 5 deletions(-)
+ create mode 100644 logs/sim-2-p84-t242.log
+ create mode 100644 results/rdf-2-p84-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6a3a2b291..9a6b13025  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
