@@ -113,3 +113,11 @@ gcq#423: "A computer without COBOL and FORTRAN is like a piece of chocolate cake
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c2299cdc9] feat: add 2-p81-t584 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p81-t596.log
+ create mode 100644 logs/sim-2-p81-t602.log
+ create mode 100644 results/rdf-2-p81-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8500f7da2..c2299cdc9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
