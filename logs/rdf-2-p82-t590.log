@@ -111,3 +111,11 @@ gcq#330: "Ohne Arbeit waer das Leben oede" (Wir Sind Helden)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 63aefc106] feat: add 2-p82-t590 radial distribution function and updates to logs
+ 8 files changed, 2185 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p82-t602.log
+ create mode 100644 logs/sim-2-p82-t608.log
+ create mode 100644 results/rdf-2-p82-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   89ba6f02c..63aefc106  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
