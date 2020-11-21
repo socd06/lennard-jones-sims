@@ -113,3 +113,11 @@ gcq#451: "Our struggle today is not to have a female Einstein get appointed as a
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 3bead8980] feat: add 2-p83-t590 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p83-t602.log
+ create mode 100644 logs/sim-2-p83-t608.log
+ create mode 100644 results/rdf-2-p83-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   79d878a25..3bead8980  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
