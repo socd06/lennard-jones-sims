@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#120: "You Dirty Switch, You're On Again" (The Breeders)
 
 Working in dev branch
+[dev 024dd7a41] feat: add 2-p83-t314 radial distribution function and updates to logs
+ 9 files changed, 2176 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p83-t332.log
+ create mode 100644 logs/sim-2-p83-t338.log
+ create mode 100644 results/rdf-2-p83-t314.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d47d7079b..024dd7a41  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
