@@ -111,3 +111,12 @@ gcq#365: "There's no kill like overkill, right?" (Erik Lindahl)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 19d3a35bd] feat: add 2-p84-t320 radial distribution function and updates to logs
+ 9 files changed, 2289 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p84-t332.log
+ create mode 100644 logs/rdf-2-p84-t338.log
+ create mode 100644 logs/sim-2-p84-t338.log
+ create mode 100644 results/rdf-2-p84-t320.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f8957a7b9..19d3a35bd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
