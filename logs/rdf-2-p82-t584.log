@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#336: "Ich war schwanger, mir gings zum kotzen" (Nina Hagen)
 
 Working in dev branch
+[dev 89ba6f02c] feat: add 2-p82-t584 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p82-t590.log
+ create mode 100644 logs/rdf-2-p82-t596.log
+ create mode 100644 logs/sim-2-p82-t596.log
+ create mode 100644 logs/sim-2-p82-t602.log
+ create mode 100644 results/rdf-2-p82-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   504de9ae3..89ba6f02c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
