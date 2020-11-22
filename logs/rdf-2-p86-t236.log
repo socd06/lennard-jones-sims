@@ -114,3 +114,11 @@ gcq#475: "User-friendly, adj.: Programmer-hostile." (New Hacker's Dictionary)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev 59b3d24a3] feat: add 2-p86-t236 radial distribution function and updates to logs
+ 10 files changed, 2166 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p86-t260.log
+ create mode 100644 logs/sim-2-p86-t266.log
+ create mode 100644 results/rdf-2-p86-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   528fd99be..59b3d24a3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
