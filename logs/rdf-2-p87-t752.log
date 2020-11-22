@@ -111,3 +111,9 @@ gcq#554: "A computer would deserve to be called intelligent if it could deceive 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b52028f1b] feat: add 2-p87-t752 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p87-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e9014efc3..b52028f1b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
