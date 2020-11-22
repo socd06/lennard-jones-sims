@@ -111,3 +111,11 @@ gcq#321: "The Feeling of Power was Intoxicating, Magic" (Frida Hyvonen)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c340aca4c] feat: add 2-p85-t782 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p85-t788.log
+ create mode 100644 logs/sim-2-p85-t794.log
+ create mode 100644 results/rdf-2-p85-t782.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   84d8facca..c340aca4c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
