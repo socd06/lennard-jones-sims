@@ -111,3 +111,10 @@ gcq#143: "A Protein is a Set Of Coordinates" (A.P. Heiner)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0c432e711] feat: add 2-p86-t692 radial distribution function and updates to logs
+ 6 files changed, 2076 insertions(+), 2 deletions(-)
+ create mode 100644 logs/sim-2-p86-t704.log
+ create mode 100644 results/rdf-2-p86-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1c9572536..0c432e711  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
