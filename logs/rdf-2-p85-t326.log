@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#166: "The Poodle Bites" (F. Zappa)
 
 Working in dev branch
+[dev 4fdf0f106] feat: add 2-p85-t326 radial distribution function and updates to logs
+ 10 files changed, 2306 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p85-t338.log
+ create mode 100644 logs/rdf-2-p85-t344.log
+ create mode 100644 logs/sim-2-p85-t344.log
+ create mode 100644 logs/sim-2-p85-t350.log
+ create mode 100644 results/rdf-2-p85-t326.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8b491c8b3..4fdf0f106  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
