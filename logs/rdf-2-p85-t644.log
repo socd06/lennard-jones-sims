@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#44: "This May Come As a Shock" (F. Black)
 
 Working in dev branch
+[dev acce985e4] feat: add 2-p85-t644 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p85-t650.log
+ create mode 100644 logs/rdf-2-p85-t656.log
+ create mode 100644 logs/sim-2-p85-t656.log
+ create mode 100644 logs/sim-2-p85-t662.log
+ create mode 100644 results/rdf-2-p85-t644.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4123b2b19..acce985e4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
