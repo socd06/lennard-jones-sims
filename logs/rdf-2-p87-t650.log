@@ -114,3 +114,10 @@ gcq#305: "Good Music Saves your Soul" (Lemmy)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d7e852c63] feat: add 2-p87-t650 radial distribution function and updates to logs
+ 7 files changed, 2170 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p87-t662.log
+ create mode 100644 results/rdf-2-p87-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   63708412f..d7e852c63  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
