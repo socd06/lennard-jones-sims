@@ -111,3 +111,9 @@ gcq#231: "Boom Boom Boom Boom, I Want You in My Room" (Venga Boys)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 70528865d] feat: add 2-p87-t740 radial distribution function and updates to logs
+ 6 files changed, 2072 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p87-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   10214dd1b..70528865d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
