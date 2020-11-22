@@ -111,3 +111,11 @@ gcq#34: "There's No Room For the Weak" (Joy Division)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f01345ae8] feat: add 2-p86-t254 radial distribution function and updates to logs
+ 9 files changed, 2183 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p86-t272.log
+ create mode 100644 logs/sim-2-p86-t278.log
+ create mode 100644 results/rdf-2-p86-t254.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b65fa6574..f01345ae8  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
