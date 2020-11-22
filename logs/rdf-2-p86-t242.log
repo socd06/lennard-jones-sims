@@ -111,3 +111,10 @@ gcq#409: "Scientists think they are born with logic; God forbid they should stud
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 383349106] feat: add 2-p86-t242 radial distribution function and updates to logs
+ 9 files changed, 2171 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p86-t266.log
+ create mode 100644 results/rdf-2-p86-t242.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   59b3d24a3..383349106  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
