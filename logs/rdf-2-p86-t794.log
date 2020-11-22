@@ -111,3 +111,11 @@ gcq#52: "You Think That You're Bigger When You Fill the Void" (Urban Dance Squad
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev bf32c3397] feat: add 2-p86-t794 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p86-t800.log
+ create mode 100644 logs/sim-2-p87-t200.log
+ create mode 100644 results/rdf-2-p86-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   631453f6d..bf32c3397  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
