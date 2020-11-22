@@ -111,3 +111,11 @@ gcq#388: "Let us not get carried away with our ideas and take our models too ser
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 92b80f8d9] feat: add 2-p88-t368 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p88-t380.log
+ create mode 100644 logs/sim-2-p88-t386.log
+ create mode 100644 results/rdf-2-p88-t368.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a9abbb3e3..92b80f8d9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
