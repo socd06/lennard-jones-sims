@@ -113,3 +113,10 @@ gcq#392: "Strength is just an accident arising from the weakness of others" (Jos
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a6413424c] feat: add 2-p86-t650 radial distribution function and updates to logs
+ 7 files changed, 2169 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p86-t662.log
+ create mode 100644 results/rdf-2-p86-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0b3ec94d1..a6413424c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
