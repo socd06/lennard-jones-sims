@@ -112,3 +112,11 @@ gcq#286: "Is This the Right Room for an Argument ?" (Monty Python)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 162a7292b] feat: add 2-p86-t626 radial distribution function and updates to logs
+ 8 files changed, 2165 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p86-t638.log
+ create mode 100644 logs/sim-2-p86-t644.log
+ create mode 100644 results/rdf-2-p86-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   830d9402f..162a7292b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
