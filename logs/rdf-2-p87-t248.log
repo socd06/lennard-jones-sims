@@ -112,3 +112,10 @@ gcq#440: "Don't be afraid of hard work. Nothing worthwhile comes easily. Don't l
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f270ffd1b] feat: add 2-p87-t248 radial distribution function and updates to logs
+ 9 files changed, 2172 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p87-t272.log
+ create mode 100644 results/rdf-2-p87-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b136114dc..f270ffd1b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
