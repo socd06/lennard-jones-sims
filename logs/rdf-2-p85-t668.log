@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#450: "Above all, don't fear difficult moments. The best comes from them." (Rita Levi-Montalcini)
 
 Working in dev branch
+[dev 5422f1d9c] feat: add 2-p85-t668 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p85-t674.log
+ create mode 100644 logs/rdf-2-p85-t680.log
+ create mode 100644 logs/sim-2-p85-t680.log
+ create mode 100644 logs/sim-2-p85-t686.log
+ create mode 100644 results/rdf-2-p85-t668.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   94da8dca9..5422f1d9c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
