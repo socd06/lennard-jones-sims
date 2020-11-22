@@ -111,3 +111,11 @@ gcq#332: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev de2431f2e] feat: add 2-p87-t572 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p87-t584.log
+ create mode 100644 logs/sim-2-p87-t590.log
+ create mode 100644 results/rdf-2-p87-t572.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4c9ee9cdc..de2431f2e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
