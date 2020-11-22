@@ -113,3 +113,11 @@ gcq#206: "I Was Born to Have Adventure" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d00ab37da] feat: add 2-p87-t236 radial distribution function and updates to logs
+ 10 files changed, 2185 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p87-t260.log
+ create mode 100644 logs/sim-2-p87-t266.log
+ create mode 100644 results/rdf-2-p87-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c5b7fbc03..d00ab37da  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
