@@ -111,3 +111,11 @@ gcq#562: "Inventions have long since reached their limit, and I see no hope for 
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev db273931e] feat: add 2-p88-t584 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p88-t596.log
+ create mode 100644 logs/sim-2-p88-t602.log
+ create mode 100644 results/rdf-2-p88-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8f9bc41b8..db273931e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
