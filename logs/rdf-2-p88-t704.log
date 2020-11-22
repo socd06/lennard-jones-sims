@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#529: "This is where we have been working hard to push down performance." (Szilard Pall, GTC 2015 talk)
 
 Working in dev branch
+[dev 822005a18] feat: add 2-p88-t704 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p88-t710.log
+ create mode 100644 logs/rdf-2-p88-t716.log
+ create mode 100644 logs/sim-2-p88-t716.log
+ create mode 100644 logs/sim-2-p88-t722.log
+ create mode 100644 results/rdf-2-p88-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   03cadf967..822005a18  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
