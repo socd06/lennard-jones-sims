@@ -111,3 +111,12 @@ gcq#516: "In practice, throwing traditional norms and values overboard results n
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1c9572536] feat: add 2-p86-t686 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p86-t692.log
+ create mode 100644 logs/rdf-2-p86-t698.log
+ create mode 100644 logs/sim-2-p86-t698.log
+ create mode 100644 results/rdf-2-p86-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5a37927fc..1c9572536  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
