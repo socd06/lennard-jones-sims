@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#405: "Like other defaulters, I like to lay half the blame on ill-fortune and adverse circumstances" (Mr. Rochester in Jane Eyre by Charlotte Bronte)
 
 Working in dev branch
+[dev 91da529f2] feat: add 2-p85-t686 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p85-t692.log
+ create mode 100644 logs/rdf-2-p85-t698.log
+ create mode 100644 logs/sim-2-p85-t698.log
+ create mode 100644 logs/sim-2-p85-t704.log
+ create mode 100644 results/rdf-2-p85-t686.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   85bf2007b..91da529f2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
