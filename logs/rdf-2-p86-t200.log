@@ -110,3 +110,21 @@ Analyzed 1501 frames, last time 3000.000
 gcq#140: "We Have No Money" (E. Clementi)
 
 Working in dev branch
+[dev c7826f9ec] feat: add 2-p86-t200 radial distribution function and updates to logs
+ 17 files changed, 2881 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p86-t206.log
+ create mode 100644 logs/rdf-2-p86-t212.log
+ create mode 100644 logs/rdf-2-p86-t218.log
+ create mode 100644 logs/rdf-2-p86-t224.log
+ create mode 100644 logs/rdf-2-p86-t230.log
+ create mode 100644 logs/rdf-2-p86-t236.log
+ create mode 100644 logs/sim-2-p86-t212.log
+ create mode 100644 logs/sim-2-p86-t218.log
+ create mode 100644 logs/sim-2-p86-t224.log
+ create mode 100644 logs/sim-2-p86-t230.log
+ create mode 100644 logs/sim-2-p86-t236.log
+ create mode 100644 logs/sim-2-p86-t242.log
+ create mode 100644 results/rdf-2-p86-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   30d47470a..c7826f9ec  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
