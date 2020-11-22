@@ -111,3 +111,13 @@ gcq#536: "You always pass failure on the way to success." (Mickey Rooney)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e9014efc3] feat: add 2-p87-t746 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p87-t752.log
+ create mode 100644 logs/rdf-2-p87-t758.log
+ create mode 100644 logs/sim-2-p87-t758.log
+ create mode 100644 logs/sim-2-p87-t764.log
+ create mode 100644 results/rdf-2-p87-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   70528865d..e9014efc3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
