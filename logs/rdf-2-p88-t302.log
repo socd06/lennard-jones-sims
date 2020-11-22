@@ -111,3 +111,11 @@ gcq#399: "The soul? There's nothing but chemistry here" (Breaking Bad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6d0859f96] feat: add 2-p88-t302 radial distribution function and updates to logs
+ 9 files changed, 2174 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p88-t320.log
+ create mode 100644 logs/sim-2-p88-t326.log
+ create mode 100644 results/rdf-2-p88-t302.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d38164f9a..6d0859f96  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
