@@ -114,3 +114,9 @@ gcq#501: "If you're doing I/O, you're doing it wrong!" (Cannada "Drew" Lewis)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7f6e91b9b] feat: add 2-p91-t212 radial distribution function and updates to logs
+ 10 files changed, 2056 insertions(+), 6 deletions(-)
+ create mode 100644 results/rdf-2-p91-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6024642ac..7f6e91b9b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
