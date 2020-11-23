@@ -111,3 +111,11 @@ gcq#33: "Sisters Have Always Fascinated Me" (Speech)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 1dc63b7f8] feat: add 2-p92-t476 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p92-t488.log
+ create mode 100644 logs/sim-2-p92-t494.log
+ create mode 100644 results/rdf-2-p92-t476.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f1a1d0a9a..1dc63b7f8  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
