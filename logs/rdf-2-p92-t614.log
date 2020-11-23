@@ -111,3 +111,11 @@ gcq#40: "It'll Cure Your Asthma Too !" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 132c13010] feat: add 2-p92-t614 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p92-t626.log
+ create mode 100644 logs/sim-2-p92-t632.log
+ create mode 100644 results/rdf-2-p92-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2891e7f48..132c13010  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
