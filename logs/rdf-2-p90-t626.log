@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#531: "Don't pay any attention to what they write about you. Just measure it in inches." (Andy Warhol)
 
 Working in dev branch
+[dev b9c23d8a7] feat: add 2-p90-t626 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p90-t632.log
+ create mode 100644 logs/rdf-2-p90-t638.log
+ create mode 100644 logs/sim-2-p90-t638.log
+ create mode 100644 logs/sim-2-p90-t644.log
+ create mode 100644 results/rdf-2-p90-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5c3f81f29..b9c23d8a7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
