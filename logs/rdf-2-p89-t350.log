@@ -113,3 +113,11 @@ gcq#204: "I Am the Psychotherapist. Please, Describe Your Problems." (GNU Emacs)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ce1975743] feat: add 2-p89-t350 radial distribution function and updates to logs
+ 8 files changed, 2181 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p89-t362.log
+ create mode 100644 logs/sim-2-p89-t368.log
+ create mode 100644 results/rdf-2-p89-t350.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7db35d892..ce1975743  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
