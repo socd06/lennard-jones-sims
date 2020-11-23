@@ -111,3 +111,11 @@ gcq#164: "Welcome to the Power Age" (2 Unlimited)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 920d97d04] feat: add 2-p90-t578 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t590.log
+ create mode 100644 logs/sim-2-p90-t596.log
+ create mode 100644 results/rdf-2-p90-t578.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3adda7bb0..920d97d04  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
