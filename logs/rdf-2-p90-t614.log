@@ -112,3 +112,10 @@ gcq#474: "The last good thing written in C was Franz Schubert's Symphony Number 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev de17df78b] feat: add 2-p90-t614 radial distribution function and updates to logs
+ 7 files changed, 2170 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t626.log
+ create mode 100644 results/rdf-2-p90-t614.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   24a10968a..de17df78b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
