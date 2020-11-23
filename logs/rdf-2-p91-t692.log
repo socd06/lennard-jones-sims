@@ -112,3 +112,11 @@ gcq#477: "I invented the term 'Object-Oriented', and I can tell you I did not ha
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev aad29e14e] feat: add 2-p91-t692 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p91-t704.log
+ create mode 100644 logs/sim-2-p91-t710.log
+ create mode 100644 results/rdf-2-p91-t692.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9acae4351..aad29e14e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
