@@ -111,3 +111,11 @@ gcq#107: "Ease Myself Into the Body Bag" (P.J. Harvey)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a1e9c071b] feat: add 2-p89-t308 radial distribution function and updates to logs
+ 9 files changed, 2229 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p89-t326.log
+ create mode 100644 logs/sim-2-p89-t332.log
+ create mode 100644 results/rdf-2-p89-t308.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ff6ece392..a1e9c071b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
