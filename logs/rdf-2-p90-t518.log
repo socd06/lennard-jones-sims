@@ -110,3 +110,15 @@ Analyzed 1501 frames, last time 3000.000
 gcq#398: "It's an easy game, just don't let the ball past!" (Szilard Pall)
 
 Working in dev branch
+[dev 9178c4afd] feat: add 2-p90-t518 radial distribution function and updates to logs
+ 10 files changed, 2466 insertions(+)
+ create mode 100644 logs/rdf-2-p90-t518.log
+ create mode 100644 logs/rdf-2-p90-t524.log
+ create mode 100644 logs/rdf-2-p90-t530.log
+ create mode 100644 logs/sim-2-p90-t524.log
+ create mode 100644 logs/sim-2-p90-t530.log
+ create mode 100644 logs/sim-2-p90-t536.log
+ create mode 100644 results/rdf-2-p90-t518.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   60a62da59..9178c4afd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
