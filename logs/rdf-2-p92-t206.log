@@ -111,3 +111,11 @@ gcq#99: "My Heart is Just a Muscle In a Cavity" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8d1464ef6] feat: add 2-p92-t206 radial distribution function and updates to logs
+ 12 files changed, 2187 insertions(+), 6 deletions(-)
+ create mode 100644 logs/rdf-2-p92-t242.log
+ create mode 100644 logs/sim-2-p92-t248.log
+ create mode 100644 results/rdf-2-p92-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   45ffac6f1..8d1464ef6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
