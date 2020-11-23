@@ -111,3 +111,11 @@ gcq#193: "Don't Eat That Yellow Snow" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 81431c1c3] feat: add 2-p90-t416 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t428.log
+ create mode 100644 logs/sim-2-p90-t434.log
+ create mode 100644 results/rdf-2-p90-t416.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b1bb256d5..81431c1c3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
