@@ -111,3 +111,11 @@ gcq#275: "Do You Have a Mind of Your Own ?" (Garbage)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0031f8c5d] feat: add 2-p91-t434 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p91-t446.log
+ create mode 100644 logs/sim-2-p91-t452.log
+ create mode 100644 results/rdf-2-p91-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0f9884c7d..0031f8c5d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
