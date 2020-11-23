@@ -111,3 +111,11 @@ gcq#390: "Physics is a few rules, and with some handwaving you can make up the r
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0f7f09223] feat: add 2-p90-t596 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t608.log
+ create mode 100644 logs/sim-2-p90-t614.log
+ create mode 100644 results/rdf-2-p90-t596.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a20ac701c..0f7f09223  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
