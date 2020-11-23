@@ -114,3 +114,11 @@ gcq#550: "Protons give an atom its identity, electrons its personality." (Bill B
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev f7c2cb919] feat: add 2-p91-t230 radial distribution function and updates to logs
+ 11 files changed, 2167 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p91-t260.log
+ create mode 100644 logs/sim-2-p91-t266.log
+ create mode 100644 results/rdf-2-p91-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6e4329ff9..f7c2cb919  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
