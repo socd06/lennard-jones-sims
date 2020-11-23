@@ -111,3 +111,9 @@ gcq#497: "Research ! A mere excuse for idleness; it has never achieved, and will
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ca1463a2a] feat: add 2-p91-t776 radial distribution function and updates to logs
+ 6 files changed, 2077 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p91-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9a4e260e7..ca1463a2a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
