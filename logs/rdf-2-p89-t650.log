@@ -111,3 +111,13 @@ gcq#109: "Correctomundo" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b58a5374b] feat: add 2-p89-t650 radial distribution function and updates to logs
+ 9 files changed, 2302 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p89-t656.log
+ create mode 100644 logs/rdf-2-p89-t662.log
+ create mode 100644 logs/sim-2-p89-t662.log
+ create mode 100644 logs/sim-2-p89-t668.log
+ create mode 100644 results/rdf-2-p89-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3e9e5b7de..b58a5374b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
