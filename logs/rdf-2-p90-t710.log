@@ -113,3 +113,12 @@ gcq#25: "This Puke Stinks Like Beer" (LIVE)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ce59e87ec] feat: add 2-p90-t710 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p90-t716.log
+ create mode 100644 logs/rdf-2-p90-t722.log
+ create mode 100644 logs/sim-2-p90-t722.log
+ create mode 100644 results/rdf-2-p90-t710.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2b37888b0..ce59e87ec  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
