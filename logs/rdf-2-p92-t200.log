@@ -110,3 +110,21 @@ Analyzed 1501 frames, last time 3000.000
 gcq#547: "Scientists do not join hands every Sunday and sing "Yes gravity is real! I know gravity is real! I will have faith! I believe in my heart that what goes up, up, up must come down, down, down. Amen!" If they did, we would think they were pretty insecure about the concept." (Dan Barker)
 
 Working in dev branch
+[dev 45ffac6f1] feat: add 2-p92-t200 radial distribution function and updates to logs
+ 17 files changed, 2901 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p92-t206.log
+ create mode 100644 logs/rdf-2-p92-t212.log
+ create mode 100644 logs/rdf-2-p92-t218.log
+ create mode 100644 logs/rdf-2-p92-t224.log
+ create mode 100644 logs/rdf-2-p92-t230.log
+ create mode 100644 logs/rdf-2-p92-t236.log
+ create mode 100644 logs/sim-2-p92-t212.log
+ create mode 100644 logs/sim-2-p92-t218.log
+ create mode 100644 logs/sim-2-p92-t224.log
+ create mode 100644 logs/sim-2-p92-t230.log
+ create mode 100644 logs/sim-2-p92-t236.log
+ create mode 100644 logs/sim-2-p92-t242.log
+ create mode 100644 results/rdf-2-p92-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   414056328..45ffac6f1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
