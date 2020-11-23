@@ -111,3 +111,11 @@ gcq#201: "I Have a Bad Case Of Purple Diarrhea" (Urban Dance Squad)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev b73be980b] feat: add 2-p92-t368 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p92-t380.log
+ create mode 100644 logs/sim-2-p92-t386.log
+ create mode 100644 results/rdf-2-p92-t368.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a77aaef0b..b73be980b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
