@@ -111,3 +111,11 @@ gcq#208: "They're Red Hot" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 202e89ad2] feat: add 2-p91-t248 radial distribution function and updates to logs
+ 10 files changed, 2165 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p91-t272.log
+ create mode 100644 logs/sim-2-p91-t278.log
+ create mode 100644 results/rdf-2-p91-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   de773e046..202e89ad2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
