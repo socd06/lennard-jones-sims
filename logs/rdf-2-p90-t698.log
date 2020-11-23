@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#477: "I invented the term 'Object-Oriented', and I can tell you I did not have C++ in mind." (Alay Kay, author of Smalltalk)
 
 Working in dev branch
+[dev cc3910710] feat: add 2-p90-t698 radial distribution function and updates to logs
+ 9 files changed, 2325 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p90-t704.log
+ create mode 100644 logs/rdf-2-p90-t710.log
+ create mode 100644 logs/sim-2-p90-t710.log
+ create mode 100644 logs/sim-2-p90-t716.log
+ create mode 100644 results/rdf-2-p90-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ec335e421..cc3910710  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
