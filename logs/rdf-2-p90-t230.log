@@ -114,3 +114,11 @@ gcq#175: "Ramones For Ever" (P.J. Van Maaren)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a89ae2f2f] feat: add 2-p90-t230 radial distribution function and updates to logs
+ 11 files changed, 2177 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t260.log
+ create mode 100644 logs/sim-2-p90-t266.log
+ create mode 100644 results/rdf-2-p90-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c30583218..a89ae2f2f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
