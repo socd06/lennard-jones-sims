@@ -112,3 +112,9 @@ gcq#98: "Jesus Can't Save You, Though It's Nice to Think He Tried" (Black Crowes
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7db35d892] feat: add 2-p89-t344 radial distribution function and updates to logs
+ 7 files changed, 2063 insertions(+), 3 deletions(-)
+ create mode 100644 results/rdf-2-p89-t344.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   facf8aeb1..7db35d892  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
