@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#114: "The Path Of the Righteous Man is Beset On All Sides With the Iniquities Of the Selfish and the Tyranny Of Evil Men." (Pulp Fiction)
 
 Working in dev branch
+[dev 7240a773c] feat: add 2-p89-t668 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p89-t674.log
+ create mode 100644 logs/rdf-2-p89-t680.log
+ create mode 100644 logs/sim-2-p89-t680.log
+ create mode 100644 logs/sim-2-p89-t686.log
+ create mode 100644 results/rdf-2-p89-t668.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a03884318..7240a773c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
