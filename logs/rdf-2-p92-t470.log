@@ -111,3 +111,11 @@ gcq#129: "Shit Happens" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f1a1d0a9a] feat: add 2-p92-t470 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p92-t482.log
+ create mode 100644 logs/sim-2-p92-t488.log
+ create mode 100644 results/rdf-2-p92-t470.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1935ae77f..f1a1d0a9a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
