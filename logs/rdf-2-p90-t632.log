@@ -112,3 +112,11 @@ gcq#56: "Lunatics On Pogo Sticks" (Red Hot Chili Peppers)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e5d88aeb6] feat: add 2-p90-t632 radial distribution function and updates to logs
+ 8 files changed, 2176 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p90-t644.log
+ create mode 100644 logs/sim-2-p90-t650.log
+ create mode 100644 results/rdf-2-p90-t632.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b9c23d8a7..e5d88aeb6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
