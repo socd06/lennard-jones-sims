@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#308: "Don't You Wish You Never Met Her, Dirty Blue Gene?" (Captain Beefheart)
 
 Working in dev branch
+[dev c6bb204ab] feat: add 2-p93-t680 radial distribution function and updates to logs
+ 8 files changed, 2196 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t692.log
+ create mode 100644 logs/sim-2-p93-t698.log
+ create mode 100644 results/rdf-2-p93-t680.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d25bef930..c6bb204ab  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
