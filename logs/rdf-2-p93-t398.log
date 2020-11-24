@@ -111,3 +111,11 @@ gcq#67: "I Want to Know Right Now" (Meatloaf)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 630f2e8cc] feat: add 2-p93-t398 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t410.log
+ create mode 100644 logs/sim-2-p93-t416.log
+ create mode 100644 results/rdf-2-p93-t398.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2e0ab55db..630f2e8cc  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
