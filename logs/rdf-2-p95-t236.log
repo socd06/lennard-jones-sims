@@ -113,3 +113,9 @@ gcq#355: "Can I have everything louder than everything else?" (Deep Purple)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 14598bd0a] feat: add 2-p95-t236 radial distribution function and updates to logs
+ 9 files changed, 2073 insertions(+), 5 deletions(-)
+ create mode 100644 results/rdf-2-p95-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f5310c0c2..14598bd0a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
