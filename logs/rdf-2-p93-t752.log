@@ -113,3 +113,11 @@ gcq#212: "Engage" (J.L. Picard)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7429d0441] feat: add 2-p93-t752 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p93-t758.log
+ create mode 100644 logs/sim-2-p93-t764.log
+ create mode 100644 results/rdf-2-p93-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7f06d98d7..7429d0441  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
