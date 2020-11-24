@@ -111,3 +111,9 @@ gcq#100: "Step Aside, Butch" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a39cc2e8f] feat: add 2-p93-t662 radial distribution function and updates to logs
+ 6 files changed, 2061 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p93-t662.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   054b33ca8..a39cc2e8f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
