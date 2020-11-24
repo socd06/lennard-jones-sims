@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#382: "I went to Venice and looked at the paintings of Canaletto to understand how he presented perspective, and it turned out it was an exponential law. If I had published this, maybe there would be a Karplus law in art theory as well as the Karplus equation in NMR" (Martin Karplus, Nobel lecture 2013)
 
 Working in dev branch
+[dev 9b5c8cb5e] feat: add 2-p94-t722 radial distribution function and updates to logs
+ 8 files changed, 2184 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p94-t734.log
+ create mode 100644 logs/sim-2-p94-t740.log
+ create mode 100644 results/rdf-2-p94-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   44927fcee..9b5c8cb5e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
