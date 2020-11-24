@@ -111,3 +111,11 @@ gcq#114: "The Path Of the Righteous Man is Beset On All Sides With the Iniquitie
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4fe13bfa4] feat: add 2-p94-t272 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p94-t290.log
+ create mode 100644 logs/sim-2-p94-t296.log
+ create mode 100644 results/rdf-2-p94-t272.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   70fda82a8..4fe13bfa4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
