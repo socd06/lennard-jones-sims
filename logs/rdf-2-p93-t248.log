@@ -112,3 +112,11 @@ gcq#518: "Never mind, death professor, your structure's fine" (TV on the Radio)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev 879eb8ac2] feat: add 2-p93-t248 radial distribution function and updates to logs
+ 10 files changed, 2166 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t272.log
+ create mode 100644 logs/sim-2-p93-t278.log
+ create mode 100644 results/rdf-2-p93-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   5c00a0b45..879eb8ac2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
