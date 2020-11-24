@@ -111,3 +111,11 @@ gcq#30: "With a Little Penknife" (Nick Cave)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4b9ffaa2c] feat: add 2-p95-t374 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p95-t386.log
+ create mode 100644 logs/sim-2-p95-t392.log
+ create mode 100644 results/rdf-2-p95-t374.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1acbe2353..4b9ffaa2c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
