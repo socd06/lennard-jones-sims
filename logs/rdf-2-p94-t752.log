@@ -111,3 +111,13 @@ gcq#173: "Hang On to Your Ego" (F. Black)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e7936cc90] feat: add 2-p94-t752 radial distribution function and updates to logs
+ 9 files changed, 2304 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p94-t758.log
+ create mode 100644 logs/rdf-2-p94-t764.log
+ create mode 100644 logs/sim-2-p94-t764.log
+ create mode 100644 logs/sim-2-p94-t770.log
+ create mode 100644 results/rdf-2-p94-t752.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c9decf5cf..e7936cc90  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
