@@ -110,3 +110,21 @@ Analyzed 1501 frames, last time 3000.000
 gcq#373: "If humanity has fled shivering from the starry spaces, it has become minutely at home in the interstices of the speck that it inhabits for an instant" (George H. Mead)
 
 Working in dev branch
+[dev 7c33faef1] feat: add 2-p95-t200 radial distribution function and updates to logs
+ 17 files changed, 2901 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p95-t206.log
+ create mode 100644 logs/rdf-2-p95-t212.log
+ create mode 100644 logs/rdf-2-p95-t218.log
+ create mode 100644 logs/rdf-2-p95-t224.log
+ create mode 100644 logs/rdf-2-p95-t230.log
+ create mode 100644 logs/rdf-2-p95-t236.log
+ create mode 100644 logs/sim-2-p95-t212.log
+ create mode 100644 logs/sim-2-p95-t218.log
+ create mode 100644 logs/sim-2-p95-t224.log
+ create mode 100644 logs/sim-2-p95-t230.log
+ create mode 100644 logs/sim-2-p95-t236.log
+ create mode 100644 logs/sim-2-p95-t242.log
+ create mode 100644 results/rdf-2-p95-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d72760b3c..7c33faef1  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
