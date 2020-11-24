@@ -112,3 +112,11 @@ gcq#347: "If There Is No Guitar In The House, You Know It's Owner Can Not Be Tru
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 96a704ec2] feat: add 2-p95-t350 radial distribution function and updates to logs
+ 9 files changed, 2185 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p95-t368.log
+ create mode 100644 logs/sim-2-p95-t374.log
+ create mode 100644 results/rdf-2-p95-t350.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   23636e40d..96a704ec2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
