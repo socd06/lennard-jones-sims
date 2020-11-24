@@ -113,3 +113,9 @@ gcq#515: "Even the *healthy* people move in clouds of cigarette smoke, women str
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 49382e3ca] feat: add 2-p94-t794 radial distribution function and updates to logs
+ 6 files changed, 2061 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p94-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d2ff80639..49382e3ca  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
