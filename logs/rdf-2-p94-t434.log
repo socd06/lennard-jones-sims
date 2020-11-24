@@ -111,3 +111,11 @@ gcq#436: "It has not escaped our notice that the specific pairing we have postul
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8aaec8c3f] feat: add 2-p94-t434 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p94-t446.log
+ create mode 100644 logs/sim-2-p94-t452.log
+ create mode 100644 results/rdf-2-p94-t434.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   b8bf4a332..8aaec8c3f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
