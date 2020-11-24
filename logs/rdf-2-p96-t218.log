@@ -114,3 +114,9 @@ gcq#48: "You Could Make More Money As a Butcher" (F. Zappa)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9da44322f] feat: add 2-p96-t218 radial distribution function and updates to logs
+ 10 files changed, 2054 insertions(+), 6 deletions(-)
+ create mode 100644 results/rdf-2-p96-t218.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   0014141ee..9da44322f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
