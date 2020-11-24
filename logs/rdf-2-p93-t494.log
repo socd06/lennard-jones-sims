@@ -111,3 +111,11 @@ gcq#0: "If You Want Something Done You Have to Do It Yourself" (Highlander II)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a7d0a47e4] feat: add 2-p93-t494 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t506.log
+ create mode 100644 logs/sim-2-p93-t512.log
+ create mode 100644 results/rdf-2-p93-t494.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a1d551c96..a7d0a47e4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
