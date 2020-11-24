@@ -113,3 +113,9 @@ gcq#232: "Right Now My Job is Eating These Doughnuts" (Bodycount)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 0014141ee] feat: add 2-p96-t212 radial distribution function and updates to logs
+ 6 files changed, 2051 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p96-t212.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   25543b30b..0014141ee  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
