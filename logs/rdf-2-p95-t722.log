@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#557: "As an adolescent I aspired to lasting fame, I craved factual certainty, and I thirsted for a meaningful vision of human life -- so I became a scientist. This is like becoming an archbishop so you can meet girls." (Matt Cartmill)
 
 Working in dev branch
+[dev 856094ff5] feat: add 2-p95-t722 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p95-t728.log
+ create mode 100644 logs/rdf-2-p95-t734.log
+ create mode 100644 logs/sim-2-p95-t734.log
+ create mode 100644 logs/sim-2-p95-t740.log
+ create mode 100644 results/rdf-2-p95-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   d4f0eac9f..856094ff5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
