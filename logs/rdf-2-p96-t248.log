@@ -111,3 +111,11 @@ gcq#296: "They don't have any beavers in India, so they have to simulate them" (
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 6e0fd1a06] feat: add 2-p96-t248 radial distribution function and updates to logs
+ 10 files changed, 2183 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p96-t272.log
+ create mode 100644 logs/sim-2-p96-t278.log
+ create mode 100644 results/rdf-2-p96-t248.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e7c194eea..6e0fd1a06  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
