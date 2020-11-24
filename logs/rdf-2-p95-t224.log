@@ -113,3 +113,11 @@ gcq#415: "In a talk you have a choice: You can make one point or no points." (Pa
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f9e71bcc4] feat: add 2-p95-t224 radial distribution function and updates to logs
+ 11 files changed, 2186 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p95-t254.log
+ create mode 100644 logs/sim-2-p95-t260.log
+ create mode 100644 results/rdf-2-p95-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2f08e5684..f9e71bcc4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
