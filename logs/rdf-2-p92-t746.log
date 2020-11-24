@@ -111,3 +111,11 @@ gcq#134: "It Was My Pleasure" (Pulp Fiction)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 7f85e9cc2] feat: add 2-p92-t746 radial distribution function and updates to logs
+ 8 files changed, 2206 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p92-t758.log
+ create mode 100644 logs/sim-2-p92-t764.log
+ create mode 100644 results/rdf-2-p92-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f5a5ee7ca..7f85e9cc2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
