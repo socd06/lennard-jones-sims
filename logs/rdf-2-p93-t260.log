@@ -111,3 +111,11 @@ gcq#340: "Is it the invisible chemistry stuff?" (Frida Hyvonen)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cc417812c] feat: add 2-p93-t260 radial distribution function and updates to logs
+ 9 files changed, 2182 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t278.log
+ create mode 100644 logs/sim-2-p93-t284.log
+ create mode 100644 results/rdf-2-p93-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   07b27759b..cc417812c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
