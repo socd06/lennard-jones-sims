@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#118: "Step On the Brakes" (2 Unlimited)
 
 Working in dev branch
+[dev bd856f968] feat: add 2-p93-t740 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p93-t746.log
+ create mode 100644 logs/rdf-2-p93-t752.log
+ create mode 100644 logs/sim-2-p93-t752.log
+ create mode 100644 logs/sim-2-p93-t758.log
+ create mode 100644 results/rdf-2-p93-t740.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2d48871ff..bd856f968  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
