@@ -110,3 +110,11 @@ Analyzed 1501 frames, last time 3000.000
 gcq#468: "UNIX is basically a simple operating system. It just takes a genius to understand its simplicity." (Dennis Ritchie)
 
 Working in dev branch
+[dev c3b89b915] feat: add 2-p94-t782 radial distribution function and updates to logs
+ 8 files changed, 2186 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p94-t794.log
+ create mode 100644 logs/sim-2-p94-t800.log
+ create mode 100644 results/rdf-2-p94-t782.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   200fbaf89..c3b89b915  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
