@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#48: "You Could Make More Money As a Butcher" (F. Zappa)
 
 Working in dev branch
+[dev e445d2d33] feat: add 2-p93-t758 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p93-t764.log
+ create mode 100644 logs/rdf-2-p93-t770.log
+ create mode 100644 logs/sim-2-p93-t770.log
+ create mode 100644 logs/sim-2-p93-t776.log
+ create mode 100644 results/rdf-2-p93-t758.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7429d0441..e445d2d33  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
