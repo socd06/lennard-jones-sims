@@ -111,3 +111,13 @@ gcq#359: "Years of calculations and the stress, My science is waiting, nearly co
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 505f08fb4] feat: add 2-p93-t362 radial distribution function and updates to logs
+ 10 files changed, 2295 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p93-t374.log
+ create mode 100644 logs/rdf-2-p93-t380.log
+ create mode 100644 logs/sim-2-p93-t380.log
+ create mode 100644 logs/sim-2-p93-t386.log
+ create mode 100644 results/rdf-2-p93-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   435c5bf8a..505f08fb4  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
