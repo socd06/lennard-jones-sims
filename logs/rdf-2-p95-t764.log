@@ -111,3 +111,11 @@ gcq#165: "If You See Me Getting High, Knock Me Down" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4ad032604] feat: add 2-p95-t764 radial distribution function and updates to logs
+ 6 files changed, 2181 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p95-t770.log
+ create mode 100644 logs/sim-2-p95-t776.log
+ create mode 100644 results/rdf-2-p95-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   614a94878..4ad032604  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
