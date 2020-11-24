@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#172: "That Was Really Cool" (Butthead)
 
 Working in dev branch
+[dev a5849dff5] feat: add 2-p95-t788 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p95-t794.log
+ create mode 100644 logs/rdf-2-p95-t800.log
+ create mode 100644 logs/sim-2-p95-t800.log
+ create mode 100644 logs/sim-2-p96-t200.log
+ create mode 100644 results/rdf-2-p95-t788.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a7789bafe..a5849dff5  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
