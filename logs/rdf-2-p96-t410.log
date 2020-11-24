@@ -110,3 +110,17 @@ Analyzed 1501 frames, last time 3000.000
 gcq#117: "And You Will Know That My Name is the Lord When I Lay My Vengeance Upon Thee." (Pulp Fiction)
 
 Working in dev branch
+[dev 4e3c63a64f] feat: add 2-p96-t410 radial distribution function and updates to logs
+ 12 files changed, 2610 insertions(+)
+ create mode 100644 logs/rdf-2-p96-t410.log
+ create mode 100644 logs/rdf-2-p96-t416.log
+ create mode 100644 logs/rdf-2-p96-t422.log
+ create mode 100644 logs/rdf-2-p96-t428.log
+ create mode 100644 logs/sim-2-p96-t416.log
+ create mode 100644 logs/sim-2-p96-t422.log
+ create mode 100644 logs/sim-2-p96-t428.log
+ create mode 100644 logs/sim-2-p96-t434.log
+ create mode 100644 results/rdf-2-p96-t410.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   66aa564cbf..4e3c63a64f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
