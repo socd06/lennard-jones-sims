@@ -111,3 +111,12 @@ gcq#479: "Do you know what cations don't like? Dog-ions. Do you know what they l
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 883fd88b3] feat: add 2-p92-t728 radial distribution function and updates to logs
+ 8 files changed, 2290 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p92-t734.log
+ create mode 100644 logs/rdf-2-p92-t740.log
+ create mode 100644 logs/sim-2-p92-t740.log
+ create mode 100644 results/rdf-2-p92-t728.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   93b172cad..883fd88b3  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
