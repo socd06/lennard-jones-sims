@@ -110,3 +110,23 @@ Analyzed 1501 frames, last time 3000.000
 gcq#275: "Do You Have a Mind of Your Own ?" (Garbage)
 
 Working in dev branch
+[dev cc8c9637c] feat: add 2-p94-t200 radial distribution function and updates to logs
+ 19 files changed, 3025 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p94-t206.log
+ create mode 100644 logs/rdf-2-p94-t212.log
+ create mode 100644 logs/rdf-2-p94-t218.log
+ create mode 100644 logs/rdf-2-p94-t224.log
+ create mode 100644 logs/rdf-2-p94-t230.log
+ create mode 100644 logs/rdf-2-p94-t236.log
+ create mode 100644 logs/rdf-2-p94-t242.log
+ create mode 100644 logs/sim-2-p94-t212.log
+ create mode 100644 logs/sim-2-p94-t218.log
+ create mode 100644 logs/sim-2-p94-t224.log
+ create mode 100644 logs/sim-2-p94-t230.log
+ create mode 100644 logs/sim-2-p94-t236.log
+ create mode 100644 logs/sim-2-p94-t242.log
+ create mode 100644 logs/sim-2-p94-t248.log
+ create mode 100644 results/rdf-2-p94-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f15a38e72..cc8c9637c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
