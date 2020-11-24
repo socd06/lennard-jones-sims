@@ -111,3 +111,11 @@ gcq#371: "England's dancing days are done" (P. J. Harvey)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 4991f0ffd] feat: add 2-p95-t560 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p95-t572.log
+ create mode 100644 logs/sim-2-p95-t578.log
+ create mode 100644 results/rdf-2-p95-t560.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1667599d1..4991f0ffd  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
