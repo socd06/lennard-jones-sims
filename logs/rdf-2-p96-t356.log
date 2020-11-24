@@ -111,3 +111,10 @@ gcq#530: "Some of these pro-drug messages come from popular culture." (John Walt
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d80794cc6] feat: add 2-p96-t356 radial distribution function and updates to logs
+ 7 files changed, 2075 insertions(+), 3 deletions(-)
+ create mode 100644 logs/sim-2-p96-t374.log
+ create mode 100644 results/rdf-2-p96-t356.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c60ec3c67..d80794cc6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
