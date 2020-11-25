@@ -111,3 +111,11 @@ gcq#166: "The Poodle Bites" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cc3cb1a5c9] feat: add 2-p98-t584 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p98-t596.log
+ create mode 100644 logs/sim-2-p98-t602.log
+ create mode 100644 results/rdf-2-p98-t584.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   a69808ac28..cc3cb1a5c9  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
