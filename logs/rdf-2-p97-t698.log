@@ -111,3 +111,9 @@ gcq#447: "Predictions can be very difficult - especially about the future." (Nie
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev fcd78a05a7] feat: add 2-p97-t698 radial distribution function and updates to logs
+ 6 files changed, 2061 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p97-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e8d21fd02f..fcd78a05a7  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
