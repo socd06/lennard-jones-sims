@@ -111,3 +111,11 @@ gcq#416: "Where all think alike, no one thinks very much." (Walter Lippmann)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ca4b2095c6] feat: add 2-p96-t716 radial distribution function and updates to logs
+ 7 files changed, 2180 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p96-t722.log
+ create mode 100644 logs/sim-2-p96-t728.log
+ create mode 100644 results/rdf-2-p96-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   37047809d6..ca4b2095c6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
