@@ -110,3 +110,23 @@ Analyzed 1501 frames, last time 3000.000
 gcq#432: "I love fools' experiments. I am always making them." (Charles Darwin)
 
 Working in dev branch
+[dev 9146e1fc54] feat: add 2-p98-t200 radial distribution function and updates to logs
+ 19 files changed, 3045 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p98-t206.log
+ create mode 100644 logs/rdf-2-p98-t212.log
+ create mode 100644 logs/rdf-2-p98-t218.log
+ create mode 100644 logs/rdf-2-p98-t224.log
+ create mode 100644 logs/rdf-2-p98-t230.log
+ create mode 100644 logs/rdf-2-p98-t236.log
+ create mode 100644 logs/rdf-2-p98-t242.log
+ create mode 100644 logs/sim-2-p98-t212.log
+ create mode 100644 logs/sim-2-p98-t218.log
+ create mode 100644 logs/sim-2-p98-t224.log
+ create mode 100644 logs/sim-2-p98-t230.log
+ create mode 100644 logs/sim-2-p98-t236.log
+ create mode 100644 logs/sim-2-p98-t242.log
+ create mode 100644 logs/sim-2-p98-t248.log
+ create mode 100644 results/rdf-2-p98-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1b4910415b..9146e1fc54  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
