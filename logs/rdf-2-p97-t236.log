@@ -113,3 +113,11 @@ gcq#205: "Watch Out Where the Huskies Go" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c04895fc86] feat: add 2-p97-t236 radial distribution function and updates to logs
+ 11 files changed, 2184 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p97-t266.log
+ create mode 100644 logs/sim-2-p97-t272.log
+ create mode 100644 results/rdf-2-p97-t236.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   8734559159..c04895fc86  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
