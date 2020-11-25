@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#193: "Don't Eat That Yellow Snow" (F. Zappa)
 
 Working in dev branch
+[dev 610e4c1187] feat: add 2-p96-t746 radial distribution function and updates to logs
+ 9 files changed, 2303 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p96-t752.log
+ create mode 100644 logs/rdf-2-p96-t758.log
+ create mode 100644 logs/sim-2-p96-t758.log
+ create mode 100644 logs/sim-2-p96-t764.log
+ create mode 100644 results/rdf-2-p96-t746.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9a0241b5df..610e4c1187  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
