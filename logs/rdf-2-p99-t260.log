@@ -111,3 +111,11 @@ gcq#135: "We Don't Bother Anyone" (LIVE)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 15e13b79ce] feat: add 2-p99-t260 radial distribution function and updates to logs
+ 10 files changed, 2175 insertions(+), 4 deletions(-)
+ create mode 100644 logs/rdf-2-p99-t284.log
+ create mode 100644 logs/sim-2-p99-t290.log
+ create mode 100644 results/rdf-2-p99-t260.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   bcaadda19e..15e13b79ce  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
