@@ -110,3 +110,23 @@ Analyzed 1501 frames, last time 3000.000
 gcq#309: "Nobody Never Learnt No-Nothing from No History" (Gogol Bordello)
 
 Working in dev branch
+[dev 5161125b4c] feat: add 2-p97-t200 radial distribution function and updates to logs
+ 19 files changed, 3045 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p97-t206.log
+ create mode 100644 logs/rdf-2-p97-t212.log
+ create mode 100644 logs/rdf-2-p97-t218.log
+ create mode 100644 logs/rdf-2-p97-t224.log
+ create mode 100644 logs/rdf-2-p97-t230.log
+ create mode 100644 logs/rdf-2-p97-t236.log
+ create mode 100644 logs/rdf-2-p97-t242.log
+ create mode 100644 logs/sim-2-p97-t212.log
+ create mode 100644 logs/sim-2-p97-t218.log
+ create mode 100644 logs/sim-2-p97-t224.log
+ create mode 100644 logs/sim-2-p97-t230.log
+ create mode 100644 logs/sim-2-p97-t236.log
+ create mode 100644 logs/sim-2-p97-t242.log
+ create mode 100644 logs/sim-2-p97-t248.log
+ create mode 100644 results/rdf-2-p97-t200.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1b4184ebcb..5161125b4c  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
