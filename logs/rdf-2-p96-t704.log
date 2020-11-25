@@ -111,3 +111,12 @@ gcq#341: "Nada e organico, e tudo programado" (Pitty)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 98049cebff] feat: add 2-p96-t704 radial distribution function and updates to logs
+ 8 files changed, 2198 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p96-t716.log
+ create mode 100644 logs/sim-2-p96-t716.log
+ create mode 100644 logs/sim-2-p96-t722.log
+ create mode 100644 results/rdf-2-p96-t704.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   447972749d..98049cebff  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
