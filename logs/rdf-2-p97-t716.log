@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#519: "Come and play on the hospital roof, I got something that's yours" (Sherlock)
 
 Working in dev branch
+[dev fc80a48490] feat: add 2-p97-t716 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p97-t722.log
+ create mode 100644 logs/rdf-2-p97-t728.log
+ create mode 100644 logs/sim-2-p97-t728.log
+ create mode 100644 logs/sim-2-p97-t734.log
+ create mode 100644 results/rdf-2-p97-t716.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   4f7d8816bf..fc80a48490  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
