@@ -111,3 +111,11 @@ gcq#584: "Creativity in science, as in art, cannot be organized. It arises spont
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 44e7739d6b] feat: add 2-p97-t368 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p97-t380.log
+ create mode 100644 logs/sim-2-p97-t386.log
+ create mode 100644 results/rdf-2-p97-t368.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   f9f9aaa933..44e7739d6b  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
