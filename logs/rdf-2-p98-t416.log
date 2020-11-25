@@ -111,3 +111,11 @@ gcq#346: "What's the point, yo, what's the spread?" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev fa117b45e2] feat: add 2-p98-t416 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p98-t428.log
+ create mode 100644 logs/sim-2-p98-t434.log
+ create mode 100644 results/rdf-2-p98-t416.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cbae86bcb4..fa117b45e2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
