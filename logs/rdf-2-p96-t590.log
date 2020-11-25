@@ -111,3 +111,11 @@ gcq#305: "Good Music Saves your Soul" (Lemmy)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev c445201891] feat: add 2-p96-t590 radial distribution function and updates to logs
+ 8 files changed, 2173 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p96-t602.log
+ create mode 100644 logs/sim-2-p96-t608.log
+ create mode 100644 results/rdf-2-p96-t590.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   c6c0b171a6..c445201891  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
