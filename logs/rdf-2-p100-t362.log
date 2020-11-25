@@ -111,3 +111,13 @@ gcq#391: "It doesn't pay to make predictions" (Crowded House)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev d356f608db] feat: add 2-p100-t362 radial distribution function and updates to logs
+ 10 files changed, 2303 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p100-t374.log
+ create mode 100644 logs/rdf-2-p100-t380.log
+ create mode 100644 logs/sim-2-p100-t380.log
+ create mode 100644 logs/sim-2-p100-t386.log
+ create mode 100644 results/rdf-2-p100-t362.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   666be8802d..d356f608db  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
