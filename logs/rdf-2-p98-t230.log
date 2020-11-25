@@ -113,3 +113,11 @@ gcq#524: "The best way to obtain plausible negative examples is to run a docking
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 45d2c638f6] feat: add 2-p98-t230 radial distribution function and updates to logs
+ 11 files changed, 2184 insertions(+), 5 deletions(-)
+ create mode 100644 logs/rdf-2-p98-t260.log
+ create mode 100644 logs/sim-2-p98-t266.log
+ create mode 100644 results/rdf-2-p98-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e818debe47..45d2c638f6  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
