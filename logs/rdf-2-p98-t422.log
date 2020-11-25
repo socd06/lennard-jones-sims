@@ -111,3 +111,11 @@ gcq#266: "AH ....Satisfaction" (IRIX imapd)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev f297e48f0a] feat: add 2-p98-t422 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p98-t434.log
+ create mode 100644 logs/sim-2-p98-t440.log
+ create mode 100644 results/rdf-2-p98-t422.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   fa117b45e2..f297e48f0a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
