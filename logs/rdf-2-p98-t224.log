@@ -113,3 +113,9 @@ gcq#433: "If you want to save your child from polio, you can pray or you can ino
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev e818debe47] feat: add 2-p98-t224 radial distribution function and updates to logs
+ 10 files changed, 2065 insertions(+), 6 deletions(-)
+ create mode 100644 results/rdf-2-p98-t224.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   59a889d1c1..e818debe47  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
