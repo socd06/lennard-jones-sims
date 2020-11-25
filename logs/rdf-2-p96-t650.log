@@ -111,3 +111,11 @@ gcq#168: "I Got a Forty Dollar Bill" (F. Zappa)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 70c4235abf] feat: add 2-p96-t650 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p96-t662.log
+ create mode 100644 logs/sim-2-p96-t668.log
+ create mode 100644 results/rdf-2-p96-t650.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   2f27e5b082..70c4235abf  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
