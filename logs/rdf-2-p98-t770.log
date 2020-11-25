@@ -112,3 +112,9 @@ gcq#376: "Life in the streets is not easy" (Marky Mark)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 330a040e7e] feat: add 2-p98-t770 radial distribution function and updates to logs
+ 6 files changed, 2054 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p98-t770.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3c2bf0e267..330a040e7e  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
