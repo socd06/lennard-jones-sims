@@ -114,3 +114,9 @@ gcq#56: "Lunatics On Pogo Sticks" (Red Hot Chili Peppers)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev ee73a69ebc] feat: add 2-p100-t230 radial distribution function and updates to logs
+ 10 files changed, 2076 insertions(+), 6 deletions(-)
+ create mode 100644 results/rdf-2-p100-t230.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   92b0950755..ee73a69ebc  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
