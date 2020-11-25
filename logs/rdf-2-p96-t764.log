@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#462: "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." (Tom Cargill)
 
 Working in dev branch
+[dev 3881dea083] feat: add 2-p96-t764 radial distribution function and updates to logs
+ 9 files changed, 2305 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p96-t770.log
+ create mode 100644 logs/rdf-2-p96-t776.log
+ create mode 100644 logs/sim-2-p96-t776.log
+ create mode 100644 logs/sim-2-p96-t782.log
+ create mode 100644 results/rdf-2-p96-t764.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cfffb6ec47..3881dea083  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
