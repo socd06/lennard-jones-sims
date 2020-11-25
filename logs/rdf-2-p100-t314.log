@@ -111,3 +111,11 @@ gcq#568: "If everything seems under control, you're just not going fast enough."
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 456ecf88c0] feat: add 2-p100-t314 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p100-t332.log
+ create mode 100644 logs/sim-2-p100-t338.log
+ create mode 100644 results/rdf-2-p100-t314.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   7d7a641057..456ecf88c0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
