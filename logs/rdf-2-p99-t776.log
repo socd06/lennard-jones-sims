@@ -110,3 +110,13 @@ Analyzed 1501 frames, last time 3000.000
 gcq#350: "Suzy is a headbanger, her mother is a geek" (The Ramones)
 
 Working in dev branch
+[dev 7266c2c6a2] feat: add 2-p99-t776 radial distribution function and updates to logs
+ 9 files changed, 2325 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p99-t782.log
+ create mode 100644 logs/rdf-2-p99-t788.log
+ create mode 100644 logs/sim-2-p99-t788.log
+ create mode 100644 logs/sim-2-p99-t794.log
+ create mode 100644 results/rdf-2-p99-t776.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   6b13e45d59..7266c2c6a2  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
