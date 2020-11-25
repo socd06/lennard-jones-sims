@@ -111,3 +111,12 @@ gcq#10: "Bum Stikkie Di Bum Stikkie Di Bum Stikkie Di Bum" (R. Slijngaard)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev babbe47806] feat: add 2-p98-t722 radial distribution function and updates to logs
+ 8 files changed, 2288 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p98-t728.log
+ create mode 100644 logs/rdf-2-p98-t734.log
+ create mode 100644 logs/sim-2-p98-t734.log
+ create mode 100644 results/rdf-2-p98-t722.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3ef4bfce13..babbe47806  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
