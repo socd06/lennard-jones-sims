@@ -112,3 +112,9 @@ gcq#444: "Dr Pauling, how do you have so many good ideas? Well David, I have a l
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev caaaad68ef] feat: add 2-p96-t770 radial distribution function and updates to logs
+ 6 files changed, 2064 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p96-t770.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3881dea083..caaaad68ef  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
