@@ -113,3 +113,11 @@ rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev c81b3f7a3d] feat: add 2-p98-t206 radial distribution function and updates to logs
+ 13 files changed, 2207 insertions(+), 7 deletions(-)
+ create mode 100644 logs/rdf-2-p98-t248.log
+ create mode 100644 logs/sim-2-p98-t254.log
+ create mode 100644 results/rdf-2-p98-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   9146e1fc54..c81b3f7a3d  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
