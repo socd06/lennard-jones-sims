@@ -111,3 +111,11 @@ gcq#120: "You Dirty Switch, You're On Again" (The Breeders)
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev a5680f2db0] feat: add 2-p99-t332 radial distribution function and updates to logs
+ 9 files changed, 2184 insertions(+), 3 deletions(-)
+ create mode 100644 logs/rdf-2-p99-t350.log
+ create mode 100644 logs/sim-2-p99-t356.log
+ create mode 100644 results/rdf-2-p99-t332.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   384c4ae116..a5680f2db0  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
