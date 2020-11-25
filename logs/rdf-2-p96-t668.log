@@ -112,3 +112,9 @@ gcq#323: "I managed to get two hours of work done before work" (E. Lindahl)
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9a62ee3a2a] feat: add 2-p96-t668 radial distribution function and updates to logs
+ 6 files changed, 2062 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p96-t668.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3a1f0bd5b5..9a62ee3a2a  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
