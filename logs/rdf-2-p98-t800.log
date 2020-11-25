@@ -111,3 +111,11 @@ gcq#539: "I'm no model lady. A model's just an imitation of the real thing." (Ma
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev cabac55f24] feat: add 2-p98-t800 radial distribution function and updates to logs
+ 7 files changed, 2182 insertions(+), 1 deletion(-)
+ create mode 100644 logs/rdf-2-p99-t200.log
+ create mode 100644 logs/sim-2-p99-t206.log
+ create mode 100644 results/rdf-2-p98-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   1ca8e5afbe..cabac55f24  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
