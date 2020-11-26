@@ -111,3 +111,11 @@ gcq#252: "Fly to the Court of England and Unfold" (Macbeth, Act 3, Scene 6, Will
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 8e90eadf25] feat: add 2-p100-t626 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p100-t638.log
+ create mode 100644 logs/sim-2-p100-t644.log
+ create mode 100644 results/rdf-2-p100-t626.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   e64fc73946..8e90eadf25  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
