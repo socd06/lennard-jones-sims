@@ -111,3 +111,11 @@ gcq#457: "Beware of bugs in the above code; I have only proved it correct, not t
 
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 9678746947] feat: add 2-p100-t428 radial distribution function and updates to logs
+ 8 files changed, 2183 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p100-t440.log
+ create mode 100644 logs/sim-2-p100-t446.log
+ create mode 100644 results/rdf-2-p100-t428.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ac7daf990f..9678746947  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
