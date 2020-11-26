@@ -112,3 +112,11 @@ gcq#337: "What if you're wrong about the great Ju Ju at the bottom of the sea?" 
 rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 Working in dev branch
+[dev 66b7054a5f] feat: add 2-p100-t698 radial distribution function and updates to logs
+ 8 files changed, 2193 insertions(+), 2 deletions(-)
+ create mode 100644 logs/rdf-2-p100-t710.log
+ create mode 100644 logs/sim-2-p100-t716.log
+ create mode 100644 results/rdf-2-p100-t698.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3433625488..66b7054a5f  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
