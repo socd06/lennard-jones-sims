@@ -114,3 +114,9 @@ gcq#25: "This Puke Stinks Like Beer" (LIVE)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in dev branch
+[dev c3b758b995] feat: add 2-p100-t794 radial distribution function and updates to logs
+ 5 files changed, 2041 insertions(+), 2 deletions(-)
+ create mode 100644 results/rdf-2-p100-t794.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   3895964873..c3b758b995  dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
