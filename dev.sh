@@ -36,7 +36,7 @@ run-folders() {
 					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
 						then
 						    # code if found
-						    echo ""$preffix-p$p-t$t Simulation found. Skipping..."
+						    echo "$preffix-p$p-t$t Simulation found. Skipping..."
 							else
 							    # code if not found
 							    echo "Not found. Simulating..."
