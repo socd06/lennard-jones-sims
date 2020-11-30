@@ -28,7 +28,7 @@ run-folders() {
 	  cd $folder
 		echo "currently in"
 		pwd
-			for p in {1..100}
+			for p in {1..79}
 			do
 				for t in {200..800..6}
 				do
