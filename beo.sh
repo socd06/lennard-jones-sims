@@ -28,7 +28,7 @@ run-folders() {
 	  cd $folder
 		echo "currently in"
 		pwd
-			for p in {1..100}
+			for p in {1..95}
 			do
 				for t in {200..800..6}
 				do
@@ -36,7 +36,7 @@ run-folders() {
 					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
 						then
 						    # code if found
-						    echo "Simulation found in log. Skipping..."
+						    echo "$preffix-p$p-t$t simulation found. Skipping..."
 							else
 							    # code if not found
 							    echo "Not found. Simulating..."
