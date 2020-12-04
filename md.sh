@@ -21,14 +21,14 @@ main() {
 }
 
 run-folders() {
-	for preffix in {3..3}
+	for preffix in {1..1}
 	do
 	  folder=$preffix*
 	  echo "going into" $folder
 	  cd $folder
 		echo "currently in"
 		pwd
-			for p in {80..100}
+			for p in {95..100}
 			do
 				for t in {200..800..6}
 				do
