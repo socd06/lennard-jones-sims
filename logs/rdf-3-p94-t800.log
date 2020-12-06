@@ -120,3 +120,15 @@ GROMACS reminds you: "It's just B I O L O G Y, can't you see?" (Joe Jackson)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 273a7e9] feat: add 3-p94-t800 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 151 deletions(-)
+ rewrite logs/rdf-3-p94-t800.log (77%)
+ create mode 100644 results/rdf-3-p94-t800.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   7614384..f3d63bf  master     -> upstream/master
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+To https://github.com/socd06/lennard-jones-sims.git
+   f92fd85..c31339b  md -> md
+Branch md set up to track remote branch md from origin.

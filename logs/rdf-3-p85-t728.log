@@ -120,3 +120,13 @@ GROMACS reminds you: "In the processing of models we must be especially cautious
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 2ef666f] feat: add 3-p85-t728 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 135 deletions(-)
+ rewrite logs/rdf-3-p85-t728.log (76%)
+ create mode 100644 results/rdf-3-p85-t728.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   828342d..2ef666f  md -> md
+Branch md set up to track remote branch md from origin.

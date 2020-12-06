@@ -119,3 +119,13 @@ GROMACS reminds you: "Everything Must Go" (Red Hot Chili Peppers)
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md eb21b2f] feat: add 3-p89-t362 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 154 deletions(-)
+ rewrite logs/rdf-3-p89-t362.log (77%)
+ create mode 100644 results/rdf-3-p89-t362.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   dbfd2f8..eb21b2f  md -> md
+Branch md set up to track remote branch md from origin.

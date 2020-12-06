@@ -120,3 +120,13 @@ GROMACS reminds you: "What's the point, yo, what's the spread?" (Red Hot Chili P
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 400e81d] feat: add 3-p90-t686 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 150 deletions(-)
+ rewrite logs/rdf-3-p90-t686.log (76%)
+ create mode 100644 results/rdf-3-p90-t686.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   0d32eb6..400e81d  md -> md
+Branch md set up to track remote branch md from origin.

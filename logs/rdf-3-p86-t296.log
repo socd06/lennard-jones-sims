@@ -120,3 +120,13 @@ GROMACS reminds you: "Therefore, things must be learned only to be unlearned aga
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 8279f9d] feat: add 3-p86-t296 radial distribution function and updates to logs
+ 4 files changed, 2180 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p86-t296.log (72%)
+ create mode 100644 results/rdf-3-p86-t296.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   775f440..8279f9d  md -> md
+Branch md set up to track remote branch md from origin.

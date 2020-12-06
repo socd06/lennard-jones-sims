@@ -119,3 +119,13 @@ GROMACS reminds you: "Watch Out Where the Huskies Go" (F. Zappa)
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md e35da7e] feat: add 3-p98-t350 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p98-t350.log (77%)
+ create mode 100644 results/rdf-3-p98-t350.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   855c249..e35da7e  md -> md
+Branch md set up to track remote branch md from origin.

@@ -119,3 +119,13 @@ GROMACS reminds you: "The road to openness is paved with git commits" (Vedran Mi
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 1d5a6d4] feat: add 3-p86-t464 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 119 deletions(-)
+ rewrite logs/rdf-3-p86-t464.log (72%)
+ create mode 100644 results/rdf-3-p86-t464.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   4421b1d..1d5a6d4  md -> md
+Branch md set up to track remote branch md from origin.

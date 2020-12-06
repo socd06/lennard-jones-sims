@@ -119,3 +119,13 @@ GROMACS reminds you: "Two guys can move very fast when they're motivated enough 
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md d1195f3] feat: add 3-p90-t284 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 118 deletions(-)
+ rewrite logs/rdf-3-p90-t284.log (72%)
+ create mode 100644 results/rdf-3-p90-t284.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   ea02b28..d1195f3  md -> md
+Branch md set up to track remote branch md from origin.

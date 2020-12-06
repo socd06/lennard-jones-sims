@@ -120,3 +120,12 @@ GROMACS reminds you: "This type of advanced sampling techniques... which are not
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md bf41e12] feat: add 1-p95-t764 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+)
+ create mode 100644 logs/rdf-1-p95-t764.log
+ create mode 100644 logs/sim-1-p95-t764.log
+ create mode 100644 results/rdf-1-p95-t764.xvg
+fatal: unable to connect to github.com:
+github.com: No address associated with hostname
+
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com

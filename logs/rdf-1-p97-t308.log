@@ -119,3 +119,14 @@ GROMACS reminds you: "A C program is like a fast dance on a newly waxed dance fl
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 06d1850] feat: add 1-p97-t308 radial distribution function and updates to logs
+ 4 files changed, 2182 insertions(+)
+ create mode 100644 logs/rdf-1-p97-t308.log
+ create mode 100644 logs/sim-1-p97-t308.log
+ create mode 100644 results/rdf-1-p97-t308.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   3b748d7..06d1850  md -> md
+Branch md set up to track remote branch md from origin.

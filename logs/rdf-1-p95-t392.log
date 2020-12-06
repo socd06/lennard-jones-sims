@@ -120,3 +120,16 @@ GROMACS reminds you: "History has expired" (PubMed Central)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 3f2c4e6] feat: add 1-p95-t392 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+)
+ create mode 100644 logs/rdf-1-p95-t392.log
+ create mode 100644 logs/sim-1-p95-t392.log
+ create mode 100644 results/rdf-1-p95-t392.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   fac78bb..36c1663  master     -> upstream/master
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+To https://github.com/socd06/lennard-jones-sims.git
+   1906b73..73f7d01  md -> md
+Branch md set up to track remote branch md from origin.

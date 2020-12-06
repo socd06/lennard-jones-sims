@@ -120,3 +120,13 @@ GROMACS reminds you: "If you want to save your child from polio, you can pray or
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 3b983cc] feat: add 3-p96-t326 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 134 deletions(-)
+ rewrite logs/rdf-3-p96-t326.log (76%)
+ create mode 100644 results/rdf-3-p96-t326.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   b1f8cb7..3b983cc  md -> md
+Branch md set up to track remote branch md from origin.

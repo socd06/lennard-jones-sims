@@ -120,3 +120,13 @@ GROMACS reminds you: "Fly to the Court of England and Unfold" (Macbeth, Act 3, S
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 5409fbe] feat: add 3-p93-t686 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 129 deletions(-)
+ rewrite logs/rdf-3-p93-t686.log (73%)
+ create mode 100644 results/rdf-3-p93-t686.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   8505045..5409fbe  md -> md
+Branch md set up to track remote branch md from origin.

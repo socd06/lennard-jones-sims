@@ -119,3 +119,13 @@ GROMACS reminds you: "Molecular biology is essentially the practice of biochemis
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 52e18fd] feat: add 3-p100-t386 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p100-t386.log (77%)
+ create mode 100644 results/rdf-3-p100-t386.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   fffb28e..52e18fd  md -> md
+Branch md set up to track remote branch md from origin.

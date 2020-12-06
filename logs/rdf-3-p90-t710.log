@@ -120,3 +120,13 @@ GROMACS reminds you: "Perl: The only language that looks the same before and aft
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 0f7839f] feat: add 3-p90-t710 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 137 deletions(-)
+ rewrite logs/rdf-3-p90-t710.log (77%)
+ create mode 100644 results/rdf-3-p90-t710.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   2bfdb45..0f7839f  md -> md
+Branch md set up to track remote branch md from origin.

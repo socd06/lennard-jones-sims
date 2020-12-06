@@ -120,3 +120,13 @@ GROMACS reminds you: "I know poetry is not dead, nor genius lost; nor has Mammon
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md c7184dc] feat: add 3-p92-t404 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p92-t404.log (71%)
+ create mode 100644 results/rdf-3-p92-t404.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   4a6a8e0..c7184dc  md -> md
+Branch md set up to track remote branch md from origin.

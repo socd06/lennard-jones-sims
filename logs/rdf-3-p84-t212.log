@@ -119,3 +119,13 @@ GROMACS reminds you: "My Brothers are Protons (Protons!), My Sisters are Neurons
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 235258b] feat: add 3-p84-t212 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 143 deletions(-)
+ rewrite logs/rdf-3-p84-t212.log (78%)
+ create mode 100644 results/rdf-3-p84-t212.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   2a8f999..235258b  md -> md
+Branch md set up to track remote branch md from origin.

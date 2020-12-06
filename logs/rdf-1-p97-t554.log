@@ -120,3 +120,48 @@ GROMACS reminds you: "I don't know how many of you have ever met Dijkstra, but y
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 7a3d31c] feat: add 1-p97-t554 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+)
+ create mode 100644 logs/rdf-1-p97-t554.log
+ create mode 100644 logs/sim-1-p97-t554.log
+ create mode 100644 results/rdf-1-p97-t554.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	logs/rdf-1-p95-t716.log
+	logs/rdf-1-p95-t722.log
+	logs/rdf-1-p95-t728.log
+	logs/rdf-1-p95-t734.log
+	logs/rdf-1-p95-t740.log
+	logs/rdf-1-p95-t746.log
+	logs/rdf-1-p95-t752.log
+	logs/rdf-1-p95-t758.log
+	logs/rdf-1-p95-t764.log
+	logs/rdf-1-p95-t770.log
+	logs/rdf-1-p95-t776.log
+	logs/rdf-1-p95-t782.log
+	logs/rdf-1-p95-t788.log
+	logs/rdf-1-p95-t794.log
+	logs/rdf-1-p95-t800.log
+	logs/rdf-3-p100-t440.log
+	logs/rdf-3-p100-t446.log
+	logs/rdf-3-p86-t302.log
+	logs/rdf-3-p87-t290.log
+	logs/rdf-3-p87-t296.log
+	logs/rdf-3-p93-t272.log
+	logs/rdf-3-p93-t470.log
+	logs/sim-3-p100-t440.log
+	logs/sim-3-p86-t302.log
+	logs/sim-3-p87-t290.log
+	logs/sim-3-p87-t296.log
+	logs/sim-3-p93-t272.log
+	logs/sim-3-p93-t470.log
+Please, commit your changes or stash them before you can merge.
+error: The following untracked working tree files would be overwritten by merge:
+	results/rdf-3-p100-t440.xvg
+	results/rdf-3-p87-t290.xvg
+Please move or remove them before you can merge.
+Aborting
+To https://github.com/socd06/lennard-jones-sims.git
+   a193e26..7a3d31c  md -> md
+Branch md set up to track remote branch md from origin.

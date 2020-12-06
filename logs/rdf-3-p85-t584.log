@@ -120,3 +120,13 @@ GROMACS reminds you: "You always pass failure on the way to success." (Mickey Ro
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md bb03099] feat: add 3-p85-t584 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 126 deletions(-)
+ rewrite logs/rdf-3-p85-t584.log (74%)
+ create mode 100644 results/rdf-3-p85-t584.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   a7d3a02..bb03099  md -> md
+Branch md set up to track remote branch md from origin.

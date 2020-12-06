@@ -120,3 +120,15 @@ GROMACS reminds you: "Consistently separating words by spaces became a general c
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md c23695b] feat: add 3-p92-t626 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 118 deletions(-)
+ rewrite logs/rdf-3-p92-t626.log (72%)
+ create mode 100644 results/rdf-3-p92-t626.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   9b4e4aa..e2d7ed5  master     -> upstream/master
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+To https://github.com/socd06/lennard-jones-sims.git
+   acb963f..f9d48fb  md -> md
+Branch md set up to track remote branch md from origin.

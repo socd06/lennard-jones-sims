@@ -120,3 +120,13 @@ GROMACS reminds you: "Do you have mole problems? If so, call Avogadro at 602-102
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md ee7ba9d] feat: add 3-p85-t674 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 147 deletions(-)
+ rewrite logs/rdf-3-p85-t674.log (78%)
+ create mode 100644 results/rdf-3-p85-t674.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   2e8616b..ee7ba9d  md -> md
+Branch md set up to track remote branch md from origin.

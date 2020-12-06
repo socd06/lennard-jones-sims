@@ -121,3 +121,40 @@ rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 7636afa] feat: add 3-p99-t392 radial distribution function and updates to logs
+ 4 files changed, 2180 insertions(+), 140 deletions(-)
+ rewrite logs/rdf-3-p99-t392.log (76%)
+ create mode 100644 results/rdf-3-p99-t392.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   7ba6257..4f97100  master     -> upstream/master
+Merge made by the 'recursive' strategy.
+ iters-cd.txt               |    4 +
+ logs/rdf-1-p97-t272.log    |  122 +++
+ logs/rdf-1-p97-t278.log    |  122 +++
+ logs/rdf-1-p97-t284.log    |  122 +++
+ logs/rdf-1-p97-t290.log    |  122 +++
+ logs/sim-1-p97-t272.log    |   35 +
+ logs/sim-1-p97-t278.log    |   35 +
+ logs/sim-1-p97-t284.log    |   35 +
+ logs/sim-1-p97-t290.log    |   35 +
+ results/rdf-1-p97-t272.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p97-t278.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p97-t284.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p97-t290.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ 13 files changed, 8732 insertions(+)
+ create mode 100644 logs/rdf-1-p97-t272.log
+ create mode 100644 logs/rdf-1-p97-t278.log
+ create mode 100644 logs/rdf-1-p97-t284.log
+ create mode 100644 logs/rdf-1-p97-t290.log
+ create mode 100644 logs/sim-1-p97-t272.log
+ create mode 100644 logs/sim-1-p97-t278.log
+ create mode 100644 logs/sim-1-p97-t284.log
+ create mode 100644 logs/sim-1-p97-t290.log
+ create mode 100644 results/rdf-1-p97-t272.xvg
+ create mode 100644 results/rdf-1-p97-t278.xvg
+ create mode 100644 results/rdf-1-p97-t284.xvg
+ create mode 100644 results/rdf-1-p97-t290.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   ac14177..30be58d  md -> md
+Branch md set up to track remote branch md from origin.

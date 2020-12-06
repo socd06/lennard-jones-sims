@@ -119,3 +119,13 @@ GROMACS reminds you: "California, R.I.P." (Red Hot Chili Peppars)
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md b39805e] feat: add 3-p87-t314 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 123 deletions(-)
+ rewrite logs/rdf-3-p87-t314.log (74%)
+ create mode 100644 results/rdf-3-p87-t314.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   c4809f3..b39805e  md -> md
+Branch md set up to track remote branch md from origin.

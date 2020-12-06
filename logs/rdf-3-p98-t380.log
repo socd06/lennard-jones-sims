@@ -119,3 +119,13 @@ GROMACS reminds you: "There are two major products that come out of Berkeley: LS
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md b539ee4] feat: add 3-p98-t380 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p98-t380.log (77%)
+ create mode 100644 results/rdf-3-p98-t380.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   804d41c..b539ee4  md -> md
+Branch md set up to track remote branch md from origin.

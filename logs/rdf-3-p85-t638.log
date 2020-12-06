@@ -120,3 +120,13 @@ GROMACS reminds you: "I had trouble with physics in college. When I signed up I 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md f6b19fd] feat: add 3-p85-t638 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p85-t638.log (72%)
+ create mode 100644 results/rdf-3-p85-t638.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   0642191..f6b19fd  md -> md
+Branch md set up to track remote branch md from origin.

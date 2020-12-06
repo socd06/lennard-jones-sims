@@ -119,3 +119,13 @@ GROMACS reminds you: "The only greatness for man is immortality." (James Dean)
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md e9796ef] feat: add 3-p93-t302 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 111 deletions(-)
+ rewrite logs/rdf-3-p93-t302.log (71%)
+ create mode 100644 results/rdf-3-p93-t302.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   df038f8..e9796ef  md -> md
+Branch md set up to track remote branch md from origin.

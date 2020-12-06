@@ -119,3 +119,13 @@ GROMACS reminds you: "I've basically become a vegetarian since the only meat I'm
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 2145800] feat: add 3-p95-t248 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 151 deletions(-)
+ rewrite logs/rdf-3-p95-t248.log (77%)
+ create mode 100644 results/rdf-3-p95-t248.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   2f6f47b..2145800  md -> md
+Branch md set up to track remote branch md from origin.

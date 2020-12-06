@@ -119,3 +119,13 @@ GROMACS reminds you: "Isn't this enough? Just this world? Just this beautiful, c
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 98fb6da0] feat: add 3-p87-t260 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 153 deletions(-)
+ rewrite logs/rdf-3-p87-t260.log (77%)
+ create mode 100644 results/rdf-3-p87-t260.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   f9741c7..98fb6da0 md -> md
+Branch md set up to track remote branch md from origin.

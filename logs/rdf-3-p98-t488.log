@@ -119,3 +119,13 @@ GROMACS reminds you: "Any one who considers arithmetical methods of producing ra
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 786de7a] feat: add 3-p98-t488 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p98-t488.log (77%)
+ create mode 100644 results/rdf-3-p98-t488.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   ec4c713..786de7a  md -> md
+Branch md set up to track remote branch md from origin.

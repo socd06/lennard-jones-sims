@@ -120,3 +120,13 @@ GROMACS reminds you: "A weed scientist goes into a shop. He asks: 'Hey, you got 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md b496b7e] feat: add 3-p98-t674 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 127 deletions(-)
+ rewrite logs/rdf-3-p98-t674.log (75%)
+ create mode 100644 results/rdf-3-p98-t674.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   1c40825..b496b7e  md -> md
+Branch md set up to track remote branch md from origin.

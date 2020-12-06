@@ -1,20 +1,23 @@
 Generating index groups
-                 :-) GROMACS - gmx make_ndx, VERSION 5.1.5 (-:
+                     :-) GROMACS - gmx make_ndx, 2020.2 (-:
 
                             GROMACS is written by:
-     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
- Aldert van Buuren   Rudi van Drunen     Anton Feenstra   Sebastian Fritsch 
-  Gerrit Groenhof   Christoph Junghans   Anca Hamuraru    Vincent Hindriksen
- Dimitrios Karkoulis    Peter Kasson        Jiri Kraus      Carsten Kutzner  
-    Per Larsson      Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff 
-   Erik Marklund      Teemu Murtola       Szilard Pall       Sander Pronk   
-   Roland Schulz     Alexey Shvetsov     Michael Shirts     Alfons Sijbers  
-   Peter Tieleman    Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
                            and the project leaders:
         Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
 
 Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2015, The GROMACS development team at
+Copyright (c) 2001-2019, The GROMACS development team at
 Uppsala University, Stockholm University and
 the Royal Institute of Technology, Sweden.
 check out http://www.gromacs.org for more information.
@@ -24,43 +27,72 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
-GROMACS:      gmx make_ndx, VERSION 5.1.5
-Executable:   /usr/local/gromacs5-1-5/bin/gmx
-Data prefix:  /usr/local/gromacs5-1-5
+GROMACS:      gmx make_ndx, version 2020.2
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/test/lennard-jones-sims/3-kr
 Command line:
   gmx make_ndx -f OUT/p87-t296/3-md.tpr -o indexrdf.ndx
 
 
--------------------------------------------------------
-Program:     gmx make_ndx, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
+Reading structure file
+Reading file OUT/p87-t296/3-md.tpr, VERSION 2020.2 (single precision)
+Reading file OUT/p87-t296/3-md.tpr, VERSION 2020.2 (single precision)
 
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p87-t296/3-md.tpr' does not exist or is not accessible.
+GROMACS reminds you: "Heavier-than-air flying machines are impossible." (Lord Kelvin, President of Royal Society, 1895.)
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Going to read 0 old index file(s)
+Analysing residue names:
+There are:  4000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              :  4000 atoms
+  1 Other               :  4000 atoms
+  2 KR                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Removed group 0 'System'
+Removed group 1 'Other'
+
+> 
+
+  0 KR                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
 calculating radial distribution function
-                    :-) GROMACS - gmx rdf, VERSION 5.1.5 (-:
+                       :-) GROMACS - gmx rdf, 2020.2 (-:
 
                             GROMACS is written by:
-     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
- Aldert van Buuren   Rudi van Drunen     Anton Feenstra   Sebastian Fritsch 
-  Gerrit Groenhof   Christoph Junghans   Anca Hamuraru    Vincent Hindriksen
- Dimitrios Karkoulis    Peter Kasson        Jiri Kraus      Carsten Kutzner  
-    Per Larsson      Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff 
-   Erik Marklund      Teemu Murtola       Szilard Pall       Sander Pronk   
-   Roland Schulz     Alexey Shvetsov     Michael Shirts     Alfons Sijbers  
-   Peter Tieleman    Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
                            and the project leaders:
         Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
 
 Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2015, The GROMACS development team at
+Copyright (c) 2001-2019, The GROMACS development team at
 Uppsala University, Stockholm University and
 the Royal Institute of Technology, Sweden.
 check out http://www.gromacs.org for more information.
@@ -70,74 +102,427 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
-GROMACS:      gmx rdf, VERSION 5.1.5
-Executable:   /usr/local/gromacs5-1-5/bin/gmx
-Data prefix:  /usr/local/gromacs5-1-5
+GROMACS:      gmx rdf, version 2020.2
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/test/lennard-jones-sims/3-kr
 Command line:
   gmx rdf -f OUT/p87-t296/3-md.trr -s OUT/p87-t296/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p87-t296.xvg
 
 
 -------------------------------------------------------
-Program:     gmx rdf, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
+Program:     gmx rdf, version 2020.2
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 275)
 Function:    void gmx::CommandLineParser::parse(int*, char**)
 
 Error in user input:
 Invalid command-line options
-  In command-line option -f
-    File 'OUT/p87-t296/3-md.trr' does not exist or is not accessible.
-  In command-line option -s
-    File 'OUT/p87-t296/3-md.tpr' does not exist or is not accessible.
   In command-line option -n
     File 'indexrdf.ndx' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
 
 For more information and tips for troubleshooting, please check the GROMACS
 website at http://www.gromacs.org/Documentation/Errors
 -------------------------------------------------------
 rm: cannot remove 'indexrdf.ndx': No such file or directory
-rm: cannot remove '*.ndx*': No such file or directory
+rm: cannot remove '*.ndx.*': No such file or directory
+rm: cannot remove '*.mdp.*': No such file or directory
+Working in md branch
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
 fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+On branch md
+Your branch is up-to-date with 'origin/md'.
+Changes not staged for commit:
+	modified:   MDP/0_md.mdp
+	modified:   MDP/0_npt.mdp
+	modified:   mdout.mdp
+	modified:   ../iters-md.txt
+	modified:   ../iters.txt
+	modified:   ../logs/rdf-3-p83-t692.log
+	modified:   ../logs/rdf-3-p83-t698.log
+	modified:   ../logs/rdf-3-p83-t704.log
+	modified:   ../logs/rdf-3-p83-t710.log
+	modified:   ../logs/rdf-3-p83-t716.log
+	modified:   ../logs/rdf-3-p83-t722.log
+	modified:   ../logs/rdf-3-p83-t728.log
+	modified:   ../logs/rdf-3-p83-t734.log
+	modified:   ../logs/rdf-3-p83-t740.log
+	modified:   ../logs/rdf-3-p83-t746.log
+	modified:   ../logs/rdf-3-p83-t752.log
+	modified:   ../logs/rdf-3-p83-t758.log
+	modified:   ../logs/rdf-3-p83-t764.log
+	modified:   ../logs/rdf-3-p83-t770.log
+	modified:   ../logs/rdf-3-p83-t776.log
+	modified:   ../logs/rdf-3-p83-t782.log
+	modified:   ../logs/rdf-3-p83-t788.log
+	modified:   ../logs/rdf-3-p83-t794.log
+	modified:   ../logs/rdf-3-p83-t800.log
+	modified:   ../logs/rdf-3-p84-t200.log
+	modified:   ../logs/rdf-3-p84-t206.log
+	modified:   ../logs/rdf-3-p84-t212.log
+	modified:   ../logs/rdf-3-p84-t218.log
+	modified:   ../logs/rdf-3-p84-t224.log
+	modified:   ../logs/rdf-3-p84-t230.log
+	modified:   ../logs/rdf-3-p84-t236.log
+	modified:   ../logs/rdf-3-p84-t242.log
+	modified:   ../logs/rdf-3-p84-t248.log
+	modified:   ../logs/rdf-3-p84-t254.log
+	modified:   ../logs/rdf-3-p84-t260.log
+	modified:   ../logs/rdf-3-p84-t266.log
+	modified:   ../logs/rdf-3-p84-t272.log
+	modified:   ../logs/rdf-3-p84-t278.log
+	modified:   ../logs/rdf-3-p84-t284.log
+	modified:   ../logs/rdf-3-p84-t290.log
+	modified:   ../logs/rdf-3-p84-t296.log
+	modified:   ../logs/rdf-3-p84-t302.log
+	modified:   ../logs/rdf-3-p84-t308.log
+	modified:   ../logs/rdf-3-p84-t314.log
+	modified:   ../logs/rdf-3-p84-t320.log
+	modified:   ../logs/rdf-3-p84-t326.log
+	modified:   ../logs/rdf-3-p84-t332.log
+	modified:   ../logs/rdf-3-p84-t338.log
+	modified:   ../logs/rdf-3-p84-t344.log
+	modified:   ../logs/rdf-3-p84-t350.log
+	modified:   ../logs/rdf-3-p84-t356.log
+	modified:   ../logs/rdf-3-p84-t362.log
+	modified:   ../logs/rdf-3-p84-t368.log
+	modified:   ../logs/rdf-3-p84-t374.log
+	modified:   ../logs/rdf-3-p84-t380.log
+	modified:   ../logs/rdf-3-p84-t386.log
+	modified:   ../logs/rdf-3-p84-t392.log
+	modified:   ../logs/rdf-3-p84-t398.log
+	modified:   ../logs/rdf-3-p84-t404.log
+	modified:   ../logs/rdf-3-p84-t410.log
+	modified:   ../logs/rdf-3-p84-t416.log
+	modified:   ../logs/rdf-3-p84-t422.log
+	modified:   ../logs/rdf-3-p84-t428.log
+	modified:   ../logs/rdf-3-p84-t434.log
+	modified:   ../logs/rdf-3-p84-t440.log
+	modified:   ../logs/rdf-3-p84-t446.log
+	modified:   ../logs/rdf-3-p84-t452.log
+	modified:   ../logs/rdf-3-p84-t458.log
+	modified:   ../logs/rdf-3-p84-t464.log
+	modified:   ../logs/rdf-3-p84-t470.log
+	modified:   ../logs/rdf-3-p84-t476.log
+	modified:   ../logs/rdf-3-p84-t482.log
+	modified:   ../logs/rdf-3-p84-t488.log
+	modified:   ../logs/rdf-3-p84-t494.log
+	modified:   ../logs/rdf-3-p84-t500.log
+	modified:   ../logs/rdf-3-p84-t506.log
+	modified:   ../logs/rdf-3-p84-t512.log
+	modified:   ../logs/rdf-3-p84-t518.log
+	modified:   ../logs/rdf-3-p84-t524.log
+	modified:   ../logs/rdf-3-p84-t530.log
+	modified:   ../logs/rdf-3-p84-t536.log
+	modified:   ../logs/rdf-3-p84-t542.log
+	modified:   ../logs/rdf-3-p84-t548.log
+	modified:   ../logs/rdf-3-p84-t554.log
+	modified:   ../logs/rdf-3-p84-t560.log
+	modified:   ../logs/rdf-3-p84-t566.log
+	modified:   ../logs/rdf-3-p84-t572.log
+	modified:   ../logs/rdf-3-p84-t578.log
+	modified:   ../logs/rdf-3-p84-t584.log
+	modified:   ../logs/rdf-3-p84-t590.log
+	modified:   ../logs/rdf-3-p84-t596.log
+	modified:   ../logs/rdf-3-p84-t602.log
+	modified:   ../logs/rdf-3-p84-t608.log
+	modified:   ../logs/rdf-3-p84-t614.log
+	modified:   ../logs/rdf-3-p84-t620.log
+	modified:   ../logs/rdf-3-p84-t626.log
+	modified:   ../logs/rdf-3-p84-t632.log
+	modified:   ../logs/rdf-3-p84-t638.log
+	modified:   ../logs/rdf-3-p84-t644.log
+	modified:   ../logs/rdf-3-p84-t650.log
+	modified:   ../logs/rdf-3-p84-t656.log
+	modified:   ../logs/rdf-3-p84-t662.log
+	modified:   ../logs/rdf-3-p84-t668.log
+	modified:   ../logs/rdf-3-p84-t674.log
+	modified:   ../logs/rdf-3-p84-t680.log
+	modified:   ../logs/rdf-3-p84-t686.log
+	modified:   ../logs/rdf-3-p84-t692.log
+	modified:   ../logs/rdf-3-p84-t698.log
+	modified:   ../logs/rdf-3-p84-t704.log
+	modified:   ../logs/rdf-3-p84-t710.log
+	modified:   ../logs/rdf-3-p84-t716.log
+	modified:   ../logs/rdf-3-p84-t722.log
+	modified:   ../logs/rdf-3-p84-t728.log
+	modified:   ../logs/rdf-3-p84-t734.log
+	modified:   ../logs/rdf-3-p84-t740.log
+	modified:   ../logs/rdf-3-p84-t746.log
+	modified:   ../logs/rdf-3-p84-t752.log
+	modified:   ../logs/rdf-3-p84-t758.log
+	modified:   ../logs/rdf-3-p84-t764.log
+	modified:   ../logs/rdf-3-p84-t770.log
+	modified:   ../logs/rdf-3-p84-t776.log
+	modified:   ../logs/rdf-3-p84-t782.log
+	modified:   ../logs/rdf-3-p84-t788.log
+	modified:   ../logs/rdf-3-p84-t794.log
+	modified:   ../logs/rdf-3-p84-t800.log
+	modified:   ../logs/rdf-3-p85-t200.log
+	modified:   ../logs/rdf-3-p85-t206.log
+	modified:   ../logs/rdf-3-p85-t212.log
+	modified:   ../logs/rdf-3-p85-t218.log
+	modified:   ../logs/rdf-3-p85-t224.log
+	modified:   ../logs/rdf-3-p85-t230.log
+	modified:   ../logs/rdf-3-p85-t236.log
+	modified:   ../logs/rdf-3-p85-t242.log
+	modified:   ../logs/rdf-3-p85-t248.log
+	modified:   ../logs/rdf-3-p85-t254.log
+	modified:   ../logs/rdf-3-p85-t260.log
+	modified:   ../logs/rdf-3-p85-t266.log
+	modified:   ../logs/rdf-3-p85-t272.log
+	modified:   ../logs/rdf-3-p85-t278.log
+	modified:   ../logs/rdf-3-p85-t284.log
+	modified:   ../logs/rdf-3-p85-t290.log
+	modified:   ../logs/rdf-3-p85-t296.log
+	modified:   ../logs/rdf-3-p85-t302.log
+	modified:   ../logs/rdf-3-p85-t308.log
+	modified:   ../logs/rdf-3-p85-t314.log
+	modified:   ../logs/rdf-3-p85-t320.log
+	modified:   ../logs/rdf-3-p85-t326.log
+	modified:   ../logs/rdf-3-p85-t332.log
+	modified:   ../logs/rdf-3-p85-t338.log
+	modified:   ../logs/rdf-3-p85-t344.log
+	modified:   ../logs/rdf-3-p85-t350.log
+	modified:   ../logs/rdf-3-p85-t356.log
+	modified:   ../logs/rdf-3-p85-t362.log
+	modified:   ../logs/rdf-3-p85-t368.log
+	modified:   ../logs/rdf-3-p85-t374.log
+	modified:   ../logs/rdf-3-p85-t380.log
+	modified:   ../logs/rdf-3-p85-t386.log
+	modified:   ../logs/rdf-3-p85-t392.log
+	modified:   ../logs/rdf-3-p85-t398.log
+	modified:   ../logs/rdf-3-p85-t404.log
+	modified:   ../logs/rdf-3-p85-t410.log
+	modified:   ../logs/rdf-3-p85-t416.log
+	modified:   ../logs/rdf-3-p85-t422.log
+	modified:   ../logs/rdf-3-p85-t428.log
+	modified:   ../logs/rdf-3-p85-t434.log
+	modified:   ../logs/rdf-3-p85-t440.log
+	modified:   ../logs/rdf-3-p85-t446.log
+	modified:   ../logs/rdf-3-p85-t452.log
+	modified:   ../logs/rdf-3-p85-t458.log
+	modified:   ../logs/rdf-3-p85-t464.log
+	modified:   ../logs/rdf-3-p85-t470.log
+	modified:   ../logs/rdf-3-p85-t476.log
+	modified:   ../logs/rdf-3-p85-t482.log
+	modified:   ../logs/rdf-3-p85-t488.log
+	modified:   ../logs/rdf-3-p85-t494.log
+	modified:   ../logs/rdf-3-p85-t500.log
+	modified:   ../logs/rdf-3-p85-t506.log
+	modified:   ../logs/rdf-3-p85-t512.log
+	modified:   ../logs/rdf-3-p85-t518.log
+	modified:   ../logs/rdf-3-p85-t524.log
+	modified:   ../logs/rdf-3-p85-t530.log
+	modified:   ../logs/rdf-3-p85-t536.log
+	modified:   ../logs/rdf-3-p85-t542.log
+	modified:   ../logs/rdf-3-p85-t548.log
+	modified:   ../logs/rdf-3-p85-t554.log
+	modified:   ../logs/rdf-3-p85-t560.log
+	modified:   ../logs/rdf-3-p85-t566.log
+	modified:   ../logs/rdf-3-p85-t572.log
+	modified:   ../logs/rdf-3-p85-t578.log
+	modified:   ../logs/rdf-3-p85-t584.log
+	modified:   ../logs/rdf-3-p85-t590.log
+	modified:   ../logs/rdf-3-p85-t596.log
+	modified:   ../logs/rdf-3-p85-t602.log
+	modified:   ../logs/rdf-3-p85-t608.log
+	modified:   ../logs/rdf-3-p85-t614.log
+	modified:   ../logs/rdf-3-p85-t620.log
+	modified:   ../logs/rdf-3-p85-t626.log
+	modified:   ../logs/rdf-3-p85-t632.log
+	modified:   ../logs/rdf-3-p85-t638.log
+	modified:   ../logs/rdf-3-p85-t644.log
+	modified:   ../logs/rdf-3-p85-t650.log
+	modified:   ../logs/rdf-3-p85-t656.log
+	modified:   ../logs/rdf-3-p85-t662.log
+	modified:   ../logs/rdf-3-p85-t668.log
+	modified:   ../logs/rdf-3-p85-t674.log
+	modified:   ../logs/rdf-3-p85-t680.log
+	modified:   ../logs/rdf-3-p85-t686.log
+	modified:   ../logs/rdf-3-p85-t692.log
+	modified:   ../logs/rdf-3-p85-t698.log
+	modified:   ../logs/rdf-3-p85-t704.log
+	modified:   ../logs/rdf-3-p85-t710.log
+	modified:   ../logs/rdf-3-p85-t716.log
+	modified:   ../logs/rdf-3-p85-t722.log
+	modified:   ../logs/rdf-3-p85-t728.log
+	modified:   ../logs/rdf-3-p85-t734.log
+	modified:   ../logs/rdf-3-p85-t740.log
+	modified:   ../logs/rdf-3-p85-t746.log
+	modified:   ../logs/rdf-3-p85-t752.log
+	modified:   ../logs/rdf-3-p85-t758.log
+	modified:   ../logs/rdf-3-p85-t764.log
+	modified:   ../logs/rdf-3-p85-t770.log
+	modified:   ../logs/rdf-3-p85-t776.log
+	modified:   ../logs/rdf-3-p85-t782.log
+	modified:   ../logs/rdf-3-p85-t788.log
+	modified:   ../logs/rdf-3-p85-t794.log
+	modified:   ../logs/rdf-3-p85-t800.log
+	modified:   ../logs/rdf-3-p86-t200.log
+	modified:   ../logs/rdf-3-p86-t206.log
+	modified:   ../logs/rdf-3-p86-t212.log
+	modified:   ../logs/rdf-3-p86-t218.log
+	modified:   ../logs/rdf-3-p86-t224.log
+	modified:   ../logs/rdf-3-p86-t230.log
+	modified:   ../logs/rdf-3-p86-t236.log
+	modified:   ../logs/rdf-3-p86-t242.log
+	modified:   ../logs/rdf-3-p86-t248.log
+	modified:   ../logs/rdf-3-p86-t254.log
+	modified:   ../logs/rdf-3-p86-t260.log
+	modified:   ../logs/rdf-3-p86-t266.log
+	modified:   ../logs/rdf-3-p86-t272.log
+	modified:   ../logs/rdf-3-p86-t278.log
+	modified:   ../logs/rdf-3-p86-t284.log
+	modified:   ../logs/rdf-3-p86-t290.log
+	modified:   ../logs/rdf-3-p86-t296.log
+	modified:   ../logs/rdf-3-p86-t302.log
+	modified:   ../logs/rdf-3-p86-t308.log
+	modified:   ../logs/rdf-3-p86-t314.log
+	modified:   ../logs/rdf-3-p86-t320.log
+	modified:   ../logs/rdf-3-p86-t326.log
+	modified:   ../logs/rdf-3-p86-t332.log
+	modified:   ../logs/rdf-3-p86-t338.log
+	modified:   ../logs/rdf-3-p86-t344.log
+	modified:   ../logs/rdf-3-p86-t350.log
+	modified:   ../logs/rdf-3-p86-t356.log
+	modified:   ../logs/rdf-3-p86-t362.log
+	modified:   ../logs/rdf-3-p86-t368.log
+	modified:   ../logs/rdf-3-p86-t374.log
+	modified:   ../logs/rdf-3-p86-t380.log
+	modified:   ../logs/rdf-3-p86-t386.log
+	modified:   ../logs/rdf-3-p86-t392.log
+	modified:   ../logs/rdf-3-p86-t398.log
+	modified:   ../logs/rdf-3-p86-t404.log
+	modified:   ../logs/rdf-3-p86-t410.log
+	modified:   ../logs/rdf-3-p86-t416.log
+	modified:   ../logs/rdf-3-p86-t422.log
+	modified:   ../logs/rdf-3-p86-t428.log
+	modified:   ../logs/rdf-3-p86-t434.log
+	modified:   ../logs/rdf-3-p86-t440.log
+	modified:   ../logs/rdf-3-p86-t446.log
+	modified:   ../logs/rdf-3-p86-t452.log
+	modified:   ../logs/rdf-3-p86-t458.log
+	modified:   ../logs/rdf-3-p86-t464.log
+	modified:   ../logs/rdf-3-p86-t470.log
+	modified:   ../logs/rdf-3-p86-t476.log
+	modified:   ../logs/rdf-3-p86-t482.log
+	modified:   ../logs/rdf-3-p86-t488.log
+	modified:   ../logs/rdf-3-p86-t494.log
+	modified:   ../logs/rdf-3-p86-t500.log
+	modified:   ../logs/rdf-3-p86-t506.log
+	modified:   ../logs/rdf-3-p86-t512.log
+	modified:   ../logs/rdf-3-p86-t518.log
+	modified:   ../logs/rdf-3-p86-t524.log
+	modified:   ../logs/rdf-3-p86-t530.log
+	modified:   ../logs/rdf-3-p86-t536.log
+	modified:   ../logs/rdf-3-p86-t542.log
+	modified:   ../logs/rdf-3-p86-t548.log
+	modified:   ../logs/rdf-3-p86-t554.log
+	modified:   ../logs/rdf-3-p86-t560.log
+	modified:   ../logs/rdf-3-p86-t566.log
+	modified:   ../logs/rdf-3-p86-t572.log
+	modified:   ../logs/rdf-3-p86-t578.log
+	modified:   ../logs/rdf-3-p86-t584.log
+	modified:   ../logs/rdf-3-p86-t590.log
+	modified:   ../logs/rdf-3-p86-t596.log
+	modified:   ../logs/rdf-3-p86-t602.log
+	modified:   ../logs/rdf-3-p86-t608.log
+	modified:   ../logs/rdf-3-p86-t614.log
+	modified:   ../logs/rdf-3-p86-t620.log
+	modified:   ../logs/rdf-3-p86-t626.log
+	modified:   ../logs/rdf-3-p86-t632.log
+	modified:   ../logs/rdf-3-p86-t638.log
+	modified:   ../logs/rdf-3-p86-t644.log
+	modified:   ../logs/rdf-3-p86-t650.log
+	modified:   ../logs/rdf-3-p86-t656.log
+	modified:   ../logs/rdf-3-p86-t662.log
+	modified:   ../logs/rdf-3-p86-t668.log
+	modified:   ../logs/rdf-3-p86-t674.log
+	modified:   ../logs/rdf-3-p86-t680.log
+	modified:   ../logs/rdf-3-p86-t686.log
+	modified:   ../logs/rdf-3-p86-t692.log
+	modified:   ../logs/rdf-3-p86-t698.log
+	modified:   ../logs/rdf-3-p86-t704.log
+	modified:   ../logs/rdf-3-p86-t710.log
+	modified:   ../logs/rdf-3-p86-t716.log
+	modified:   ../logs/rdf-3-p86-t722.log
+	modified:   ../logs/rdf-3-p86-t728.log
+	modified:   ../logs/rdf-3-p86-t734.log
+	modified:   ../logs/rdf-3-p86-t740.log
+	modified:   ../logs/rdf-3-p86-t746.log
+	modified:   ../logs/rdf-3-p86-t752.log
+	modified:   ../logs/rdf-3-p86-t758.log
+	modified:   ../logs/rdf-3-p86-t764.log
+	modified:   ../logs/rdf-3-p86-t770.log
+	modified:   ../logs/rdf-3-p86-t776.log
+	modified:   ../logs/rdf-3-p86-t782.log
+	modified:   ../logs/rdf-3-p86-t788.log
+	modified:   ../logs/rdf-3-p86-t794.log
+	modified:   ../logs/rdf-3-p86-t800.log
+	modified:   ../logs/rdf-3-p87-t200.log
+	modified:   ../logs/rdf-3-p87-t206.log
+	modified:   ../logs/rdf-3-p87-t212.log
+	modified:   ../logs/rdf-3-p87-t218.log
+	modified:   ../logs/rdf-3-p87-t224.log
+	modified:   ../logs/rdf-3-p87-t230.log
+	modified:   ../logs/rdf-3-p87-t236.log
+	modified:   ../logs/rdf-3-p87-t242.log
+	modified:   ../logs/rdf-3-p87-t248.log
+	modified:   ../logs/rdf-3-p87-t254.log
+	modified:   ../logs/rdf-3-p87-t260.log
+	modified:   ../logs/rdf-3-p87-t266.log
+	modified:   ../logs/rdf-3-p87-t272.log
+	modified:   ../logs/rdf-3-p87-t278.log
+	modified:   ../logs/rdf-3-p87-t284.log
+	modified:   ../logs/rdf-3-p87-t290.log
+	modified:   ../logs/rdf-3-p87-t296.log
+	modified:   ../logs/sim-3-p86-t302.log
+	modified:   ../logs/sim-3-p87-t290.log
+	modified:   ../logs/sim-3-p87-t296.log
+	modified:   ../logs/sim-3-p87-t302.log
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
+Untracked files:
+	../logs/rdf-4-p28-t266.log
+	../logs/rdf-4-p41-t284.log
+	../logs/rdf-4-p41-t296.log
+	../logs/rdf-4-p46-t260.log
+	../logs/rdf-4-p61-t344.log
+	../logs/rdf-4-p77-t314.log
+	../logs/sim-4-p28-t266.log
+	../logs/sim-4-p41-t284.log
+	../logs/sim-4-p41-t296.log
+	../logs/sim-4-p46-t260.log
+	../logs/sim-4-p61-t344.log
+	../logs/sim-4-p77-t314.log
+	../results/rdf-3-p87-t290.xvg
+	../results/rdf-4-p28-t266.xvg
+	../results/rdf-4-p41-t284.xvg
+	../results/rdf-4-p77-t314.xvg
 
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-To https://github.com/socd06/lennard-jones-sims.git
- ! [remote rejected]     dev -> dev (cannot lock ref 'refs/heads/dev': is at ee57b322fb5bc427f48c559efb88f824d6648679 but expected d5ba525341170001d51f2cb2874b6195a55cadbf)
-error: failed to push some refs to 'https://github.com/socd06/lennard-jones-sims.git'
+no changes added to commit
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+Everything up-to-date
+Branch md set up to track remote branch md from origin.

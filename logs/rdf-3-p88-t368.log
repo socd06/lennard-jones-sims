@@ -119,3 +119,13 @@ GROMACS reminds you: "Why Weren't You at My Funeral ?" (G. Groenhof)
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md aa7248c] feat: add 3-p88-t368 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 116 deletions(-)
+ rewrite logs/rdf-3-p88-t368.log (72%)
+ create mode 100644 results/rdf-3-p88-t368.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   aecd19a..aa7248c  md -> md
+Branch md set up to track remote branch md from origin.

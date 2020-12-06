@@ -119,3 +119,13 @@ GROMACS reminds you: "I didn't want to just know names of things. I remember rea
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 01bbe7e] feat: add 3-p99-t590 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p99-t590.log (77%)
+ create mode 100644 results/rdf-3-p99-t590.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   8006539..01bbe7e  md -> md
+Branch md set up to track remote branch md from origin.

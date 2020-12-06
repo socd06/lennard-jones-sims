@@ -120,3 +120,13 @@ GROMACS reminds you: "As Always Your Logic Is Impeccable" (Tuvok)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 57f885f] feat: add 3-p96-t542 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 113 deletions(-)
+ rewrite logs/rdf-3-p96-t542.log (71%)
+ create mode 100644 results/rdf-3-p96-t542.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   e70d7b3..57f885f  md -> md
+Branch md set up to track remote branch md from origin.

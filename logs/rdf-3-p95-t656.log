@@ -120,3 +120,13 @@ GROMACS reminds you: "Stay Cool, This is a Robbery" (Pulp Fiction)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 76d8953] feat: add 3-p95-t656 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 158 deletions(-)
+ rewrite logs/rdf-3-p95-t656.log (78%)
+ create mode 100644 results/rdf-3-p95-t656.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   b6e576c..76d8953  md -> md
+Branch md set up to track remote branch md from origin.

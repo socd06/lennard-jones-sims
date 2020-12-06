@@ -123,3 +123,28 @@ rm: cannot remove 'indexrdf.ndx': No such file or directory
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 69a0daa] feat: add 3-p97-t278 radial distribution function and updates to logs
+ 4 files changed, 2182 insertions(+), 121 deletions(-)
+ rewrite logs/rdf-3-p97-t278.log (72%)
+ create mode 100644 results/rdf-3-p97-t278.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   efdfc59..b8189b5  master     -> upstream/master
+Merge made by the 'recursive' strategy.
+ iters-cd.txt               |    2 +
+ logs/rdf-1-p96-t200.log    |  122 +++
+ logs/rdf-1-p96-t206.log    |  122 +++
+ logs/sim-1-p96-t200.log    |   35 +
+ logs/sim-1-p96-t206.log    |   35 +
+ results/rdf-1-p96-t200.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p96-t206.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ 7 files changed, 4366 insertions(+)
+ create mode 100644 logs/rdf-1-p96-t200.log
+ create mode 100644 logs/rdf-1-p96-t206.log
+ create mode 100644 logs/sim-1-p96-t200.log
+ create mode 100644 logs/sim-1-p96-t206.log
+ create mode 100644 results/rdf-1-p96-t200.xvg
+ create mode 100644 results/rdf-1-p96-t206.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   945a43b..e78a541  md -> md
+Branch md set up to track remote branch md from origin.

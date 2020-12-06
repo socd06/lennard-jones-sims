@@ -120,3 +120,13 @@ GROMACS reminds you: "You're like them scientists on TV explaining black holes. 
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 950a5d0] feat: add 3-p99-t524 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 141 deletions(-)
+ rewrite logs/rdf-3-p99-t524.log (77%)
+ create mode 100644 results/rdf-3-p99-t524.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   eb227dc..950a5d0  md -> md
+Branch md set up to track remote branch md from origin.

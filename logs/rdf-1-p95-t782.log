@@ -120,3 +120,12 @@ GROMACS reminds you: "Load Up Your Rubber Bullets" (10 CC)
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md 14cf84c] feat: add 1-p95-t782 radial distribution function and updates to logs
+ 4 files changed, 2183 insertions(+)
+ create mode 100644 logs/rdf-1-p95-t782.log
+ create mode 100644 logs/sim-1-p95-t782.log
+ create mode 100644 results/rdf-1-p95-t782.xvg
+fatal: unable to connect to github.com:
+github.com: Temporary failure in name resolution
+
+fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Could not resolve host: github.com

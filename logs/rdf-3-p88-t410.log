@@ -119,3 +119,13 @@ GROMACS reminds you: "I ought to warn you, I have no faith" (Jane Eyre in Jane E
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md ac4185d] feat: add 3-p88-t410 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 123 deletions(-)
+ rewrite logs/rdf-3-p88-t410.log (74%)
+ create mode 100644 results/rdf-3-p88-t410.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   cba4eba..ac4185d  md -> md
+Branch md set up to track remote branch md from origin.

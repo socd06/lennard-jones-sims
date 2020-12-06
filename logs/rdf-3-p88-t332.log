@@ -119,3 +119,15 @@ GROMACS reminds you: "You wouldn't walk into a chemistry lab and mix two clear l
 
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md bbcb2be] feat: add 3-p88-t332 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 114 deletions(-)
+ rewrite logs/rdf-3-p88-t332.log (72%)
+ create mode 100644 results/rdf-3-p88-t332.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   821773b..5c47396  master     -> upstream/master
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+To https://github.com/socd06/lennard-jones-sims.git
+   ff2db6c..77f4c32  md -> md
+Branch md set up to track remote branch md from origin.

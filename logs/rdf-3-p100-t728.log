@@ -120,3 +120,13 @@ GROMACS reminds you: "The best way to obtain plausible negative examples is to r
 rm: cannot remove '*.ndx.*': No such file or directory
 rm: cannot remove '*.mdp.*': No such file or directory
 Working in md branch
+[md fe2e5fd] feat: add 3-p100-t728 radial distribution function and updates to logs
+ 4 files changed, 2179 insertions(+), 124 deletions(-)
+ rewrite logs/rdf-3-p100-t728.log (74%)
+ create mode 100644 results/rdf-3-p100-t728.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+To https://github.com/socd06/lennard-jones-sims.git
+   2b63d87..fe2e5fd  md -> md
+Branch md set up to track remote branch md from origin.
