@@ -28,18 +28,12 @@ run-folders() {
 	  cd $folder
 		echo "currently in"
 		pwd
-			for p in {1..50}
+			for p in {1..100}
 			do
 				for t in {200..800..6}
 				do
-					if python ../scripts/check_files.py
-					then
-						echo "Python3 File check succesfull"
-					else
-						echo "Python3 File check failed. Running Python2 version."
-						python ../scripts/check_p2.py
-					fi
-						if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
+					python ../scripts/check_files.py
+					if grep -Fxq "$preffix-p$p-t$t" ../iters.txt
 						then
 						    # code if found
 						    echo "Simulation found in log. Skipping..."
@@ -95,12 +89,17 @@ run-folders() {
 	}
 
 	submit(){
+		branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+		echo $preffix-p$p-t$t >>../iters-$branch.txt
+		echo "Working in $branch branch"
+		git add ../iters-$branch.txt
 		git add ../results/rdf-$preffix-p$p-t$t.xvg
-		git add ../logs
-		git commit -m "feat: add $preffix-p$p-t$t radial distribution function and updates to logs"
-		# Always use branch computer alias
-		# make sure to have a branch for each
-		git push -u origin u1
+		git add ../logs/rdf-$preffix-p$p-t$t.log
+		git add ../logs/sim-$preffix-p$p-t$t.log
+		git commit -m "feat: add $preffix-p$p-t$t radial distribution function"
+		# update branch to master
+		git pull upstream master
+		git push -u origin $branch
 	}
 
 	gas-gas(){

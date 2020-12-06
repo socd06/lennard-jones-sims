@@ -1,20 +1,23 @@
 Generating index groups
-                 :-) GROMACS - gmx make_ndx, VERSION 5.1.5 (-:
+                     :-) GROMACS - gmx make_ndx, 2020.2 (-:
 
                             GROMACS is written by:
-     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
- Aldert van Buuren   Rudi van Drunen     Anton Feenstra   Sebastian Fritsch 
-  Gerrit Groenhof   Christoph Junghans   Anca Hamuraru    Vincent Hindriksen
- Dimitrios Karkoulis    Peter Kasson        Jiri Kraus      Carsten Kutzner  
-    Per Larsson      Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff 
-   Erik Marklund      Teemu Murtola       Szilard Pall       Sander Pronk   
-   Roland Schulz     Alexey Shvetsov     Michael Shirts     Alfons Sijbers  
-   Peter Tieleman    Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
                            and the project leaders:
         Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
 
 Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2015, The GROMACS development team at
+Copyright (c) 2001-2019, The GROMACS development team at
 Uppsala University, Stockholm University and
 the Royal Institute of Technology, Sweden.
 check out http://www.gromacs.org for more information.
@@ -24,43 +27,72 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
-GROMACS:      gmx make_ndx, VERSION 5.1.5
-Executable:   /usr/local/gromacs5-1-5/bin/gmx
-Data prefix:  /usr/local/gromacs5-1-5
+GROMACS:      gmx make_ndx, version 2020.2
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/test/lennard-jones-sims/3-kr
 Command line:
   gmx make_ndx -f OUT/p100-t452/3-md.tpr -o indexrdf.ndx
 
 
--------------------------------------------------------
-Program:     gmx make_ndx, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
+Reading structure file
+Reading file OUT/p100-t452/3-md.tpr, VERSION 2020.2 (single precision)
+Reading file OUT/p100-t452/3-md.tpr, VERSION 2020.2 (single precision)
 
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p100-t452/3-md.tpr' does not exist or is not accessible.
+GROMACS reminds you: "Stop Drinking My Beer !" (The Amps)
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Going to read 0 old index file(s)
+Analysing residue names:
+There are:  4000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+  0 System              :  4000 atoms
+  1 Other               :  4000 atoms
+  2 KR                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Removed group 0 'System'
+Removed group 1 'Other'
+
+> 
+
+  0 KR                  :  4000 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
 calculating radial distribution function
-                    :-) GROMACS - gmx rdf, VERSION 5.1.5 (-:
+                       :-) GROMACS - gmx rdf, 2020.2 (-:
 
                             GROMACS is written by:
-     Emile Apol      Rossen Apostolov  Herman J.C. Berendsen    Par Bjelkmar   
- Aldert van Buuren   Rudi van Drunen     Anton Feenstra   Sebastian Fritsch 
-  Gerrit Groenhof   Christoph Junghans   Anca Hamuraru    Vincent Hindriksen
- Dimitrios Karkoulis    Peter Kasson        Jiri Kraus      Carsten Kutzner  
-    Per Larsson      Justin A. Lemkul   Magnus Lundborg   Pieter Meulenhoff 
-   Erik Marklund      Teemu Murtola       Szilard Pall       Sander Pronk   
-   Roland Schulz     Alexey Shvetsov     Michael Shirts     Alfons Sijbers  
-   Peter Tieleman    Teemu Virolainen  Christian Wennberg    Maarten Wolf   
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf      Artem Zhmurov   
                            and the project leaders:
         Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
 
 Copyright (c) 1991-2000, University of Groningen, The Netherlands.
-Copyright (c) 2001-2015, The GROMACS development team at
+Copyright (c) 2001-2019, The GROMACS development team at
 Uppsala University, Stockholm University and
 the Royal Institute of Technology, Sweden.
 check out http://www.gromacs.org for more information.
@@ -70,57 +102,1042 @@ under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
-GROMACS:      gmx rdf, VERSION 5.1.5
-Executable:   /usr/local/gromacs5-1-5/bin/gmx
-Data prefix:  /usr/local/gromacs5-1-5
+GROMACS:      gmx rdf, version 2020.2
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /home/test/lennard-jones-sims/3-kr
 Command line:
   gmx rdf -f OUT/p100-t452/3-md.trr -s OUT/p100-t452/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p100-t452.xvg
 
+Reading file OUT/p100-t452/3-md.tpr, VERSION 2020.2 (single precision)
+Reading file OUT/p100-t452/3-md.tpr, VERSION 2020.2 (single precision)
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    2.000   Reading frame       2 time    4.000   Reading frame       3 time    6.000   Reading frame       4 time    8.000   Reading frame       5 time   10.000   Reading frame       6 time   12.000   Reading frame       7 time   14.000   Reading frame       8 time   16.000   Reading frame       9 time   18.000   Reading frame      10 time   20.000   Reading frame      11 time   22.000   Reading frame      12 time   24.000   Reading frame      13 time   26.000   Reading frame      14 time   28.000   Reading frame      15 time   30.000   Reading frame      16 time   32.000   Reading frame      17 time   34.000   Reading frame      18 time   36.000   Reading frame      19 time   38.000   Reading frame      20 time   40.000   Reading frame      30 time   60.000   Reading frame      40 time   80.000   Reading frame      50 time  100.000   Reading frame      60 time  120.000   Reading frame      70 time  140.000   Reading frame      80 time  160.000   Reading frame      90 time  180.000   Reading frame     100 time  200.000   Reading frame     110 time  220.000   Reading frame     120 time  240.000   Reading frame     130 time  260.000   Reading frame     140 time  280.000   Reading frame     150 time  300.000   Reading frame     160 time  320.000   Reading frame     170 time  340.000   Reading frame     180 time  360.000   Reading frame     190 time  380.000   Reading frame     200 time  400.000   Reading frame     300 time  600.000   Reading frame     400 time  800.000   Reading frame     500 time 1000.000   Reading frame     600 time 1200.000   Reading frame     700 time 1400.000   Reading frame     800 time 1600.000   Reading frame     900 time 1800.000   Reading frame    1000 time 2000.000   Reading frame    1100 time 2200.000   Reading frame    1200 time 2400.000   Reading frame    1300 time 2600.000   Reading frame    1400 time 2800.000   Reading frame    1500 time 3000.000   Last frame       1500 time 3000.000   
+Analyzed 1501 frames, last time 3000.000
 
--------------------------------------------------------
-Program:     gmx rdf, VERSION 5.1.5
-Source file: src/gromacs/commandline/cmdlineparser.cpp (line 234)
-Function:    void gmx::CommandLineParser::parse(int*, char**)
+GROMACS reminds you: "I was detained, I was restrained" (The Smiths)
 
-Error in user input:
-Invalid command-line options
-  In command-line option -f
-    File 'OUT/p100-t452/3-md.trr' does not exist or is not accessible.
-  In command-line option -s
-    File 'OUT/p100-t452/3-md.tpr' does not exist or is not accessible.
-  In command-line option -n
-    File 'indexrdf.ndx' does not exist or is not accessible.
-
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
-rm: cannot remove 'indexrdf.ndx': No such file or directory
-rm: cannot remove '*.ndx*': No such file or directory
-fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: Unable to create '/home/test/lennard-jones-sims/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-fatal: cannot lock ref 'HEAD': is at 041df5f3a935521a6873ef79da6fcb969d090f95 but expected 2ad5cffc828d0841d642446c357bf24883f18d8b
-[dev f72ede0bb] add commit head to log backlog
- 4 files changed, 290 insertions(+)
- create mode 100644 logs/rdf-3-p100-t446.log
- create mode 100644 logs/rdf-3-p100-t452.log
- create mode 100644 logs/sim-3-p100-t452.log
-fatal: unable to access 'https://github.com/socd06/lennard-jones-sims.git/': Failed to connect to github.com port 443: Connection timed out
+rm: cannot remove '*.mdp.*': No such file or directory
+Working in md branch
+[md a6b45f9] feat: add 3-p100-t452 radial distribution function and updates to logs
+ 4 files changed, 2178 insertions(+), 126 deletions(-)
+ rewrite logs/rdf-3-p100-t452.log (75%)
+ create mode 100644 results/rdf-3-p100-t452.xvg
+From git://github.com/socd06/lennard-jones-sims
+ * branch            master     -> FETCH_HEAD
+   da02713..fac78bb  master     -> upstream/master
+Merge made by the 'recursive' strategy.
+ iters-beo.txt              |   90 ++
+ iters-dev.txt              |  120 +++
+ logs/rdf-1-p94-t782.log    |  115 +++
+ logs/rdf-1-p94-t788.log    |  115 +++
+ logs/rdf-1-p94-t794.log    |  115 +++
+ logs/rdf-1-p94-t800.log    |  115 +++
+ logs/rdf-1-p95-t200.log    |  114 +++
+ logs/rdf-1-p95-t206.log    |  117 +++
+ logs/rdf-1-p95-t212.log    |  117 +++
+ logs/rdf-1-p95-t218.log    |  117 +++
+ logs/rdf-1-p95-t224.log    |  117 +++
+ logs/rdf-1-p95-t230.log    |  115 +++
+ logs/rdf-1-p95-t236.log    |  115 +++
+ logs/rdf-1-p95-t242.log    |  116 +++
+ logs/rdf-1-p95-t248.log    |  115 +++
+ logs/rdf-1-p95-t254.log    |  115 +++
+ logs/rdf-1-p95-t260.log    |  115 +++
+ logs/rdf-1-p95-t266.log    |  115 +++
+ logs/rdf-1-p95-t272.log    |  115 +++
+ logs/rdf-1-p95-t278.log    |  115 +++
+ logs/rdf-1-p95-t284.log    |  115 +++
+ logs/rdf-1-p95-t290.log    |  115 +++
+ logs/rdf-1-p95-t296.log    |  115 +++
+ logs/rdf-1-p95-t302.log    |  115 +++
+ logs/rdf-1-p95-t308.log    |  115 +++
+ logs/rdf-1-p95-t314.log    |  115 +++
+ logs/rdf-1-p95-t320.log    |  115 +++
+ logs/rdf-1-p95-t326.log    |  115 +++
+ logs/rdf-1-p95-t332.log    |  115 +++
+ logs/rdf-1-p95-t338.log    |  115 +++
+ logs/rdf-1-p95-t344.log    |  115 +++
+ logs/rdf-1-p95-t350.log    |  115 +++
+ logs/rdf-1-p95-t356.log    |  115 +++
+ logs/rdf-1-p95-t362.log    |  115 +++
+ logs/rdf-1-p95-t368.log    |  116 +++
+ logs/rdf-1-p95-t374.log    |  115 +++
+ logs/rdf-1-p95-t380.log    |  114 +++
+ logs/rdf-1-p95-t386.log    |  115 +++
+ logs/rdf-1-p95-t398.log    |  114 +++
+ logs/rdf-1-p95-t404.log    |  117 +++
+ logs/rdf-1-p95-t410.log    |  117 +++
+ logs/rdf-1-p95-t416.log    |  115 +++
+ logs/rdf-1-p95-t422.log    |  115 +++
+ logs/rdf-1-p95-t428.log    |  115 +++
+ logs/rdf-1-p95-t434.log    |  115 +++
+ logs/rdf-1-p95-t440.log    |  115 +++
+ logs/rdf-1-p95-t446.log    |  115 +++
+ logs/rdf-1-p95-t452.log    |  115 +++
+ logs/rdf-1-p95-t458.log    |  115 +++
+ logs/rdf-1-p95-t464.log    |  115 +++
+ logs/rdf-1-p95-t470.log    |  115 +++
+ logs/rdf-1-p95-t476.log    |  115 +++
+ logs/rdf-1-p95-t482.log    |  115 +++
+ logs/rdf-1-p95-t488.log    |  115 +++
+ logs/rdf-1-p95-t494.log    |  115 +++
+ logs/rdf-1-p95-t500.log    |  115 +++
+ logs/rdf-1-p95-t506.log    |  115 +++
+ logs/rdf-1-p95-t512.log    |  115 +++
+ logs/rdf-1-p95-t518.log    |  115 +++
+ logs/rdf-1-p95-t524.log    |  115 +++
+ logs/rdf-1-p95-t530.log    |  115 +++
+ logs/rdf-1-p95-t536.log    |  115 +++
+ logs/rdf-1-p95-t542.log    |  115 +++
+ logs/rdf-1-p95-t548.log    |  115 +++
+ logs/rdf-1-p95-t554.log    |  115 +++
+ logs/rdf-1-p95-t560.log    |  115 +++
+ logs/rdf-1-p95-t566.log    |  115 +++
+ logs/rdf-1-p95-t572.log    |  115 +++
+ logs/rdf-1-p95-t578.log    |  115 +++
+ logs/rdf-1-p95-t584.log    |  115 +++
+ logs/rdf-1-p95-t590.log    |  115 +++
+ logs/rdf-1-p95-t596.log    |  115 +++
+ logs/rdf-1-p95-t602.log    |  115 +++
+ logs/rdf-1-p95-t608.log    |  115 +++
+ logs/rdf-1-p95-t614.log    |  115 +++
+ logs/rdf-1-p95-t620.log    |  115 +++
+ logs/rdf-1-p95-t626.log    |  115 +++
+ logs/rdf-1-p95-t632.log    |  115 +++
+ logs/rdf-1-p95-t638.log    |  115 +++
+ logs/rdf-1-p95-t644.log    |  115 +++
+ logs/rdf-1-p95-t650.log    |  115 +++
+ logs/rdf-1-p95-t656.log    |  115 +++
+ logs/rdf-1-p95-t662.log    |  115 +++
+ logs/rdf-1-p95-t668.log    |  115 +++
+ logs/rdf-1-p95-t674.log    |  115 +++
+ logs/rdf-1-p95-t680.log    |  115 +++
+ logs/rdf-1-p95-t686.log    |  115 +++
+ logs/rdf-1-p95-t692.log    |  115 +++
+ logs/rdf-1-p95-t698.log    |  115 +++
+ logs/rdf-1-p95-t704.log    |  115 +++
+ logs/rdf-1-p95-t710.log    |  115 +++
+ logs/rdf-3-p63-t692.log    |  118 +--
+ logs/rdf-3-p63-t698.log    |   95 +--
+ logs/rdf-3-p63-t704.log    |  131 +--
+ logs/rdf-3-p63-t710.log    |   95 +--
+ logs/rdf-3-p63-t716.log    |   95 +--
+ logs/rdf-3-p63-t722.log    |   95 +--
+ logs/rdf-3-p63-t728.log    |  136 +--
+ logs/rdf-3-p63-t734.log    |   95 +--
+ logs/rdf-3-p63-t740.log    |  136 +--
+ logs/rdf-3-p63-t746.log    |  141 +--
+ logs/rdf-3-p63-t752.log    |   86 +-
+ logs/rdf-3-p63-t758.log    |  129 +--
+ logs/rdf-3-p63-t764.log    |  128 +--
+ logs/rdf-3-p63-t770.log    |   95 +--
+ logs/rdf-3-p63-t776.log    |   93 +-
+ logs/rdf-3-p63-t782.log    |  132 +--
+ logs/rdf-3-p63-t788.log    |  118 +--
+ logs/rdf-3-p63-t794.log    |   95 +--
+ logs/rdf-3-p63-t800.log    |   95 +--
+ logs/rdf-3-p64-t200.log    |  106 +--
+ logs/rdf-3-p64-t206.log    |   93 +-
+ logs/rdf-3-p64-t212.log    |  129 +--
+ logs/rdf-3-p64-t218.log    |   96 +--
+ logs/rdf-3-p64-t224.log    |  158 +---
+ logs/rdf-3-p64-t230.log    |   90 +-
+ logs/rdf-3-p64-t236.log    |  120 +--
+ logs/rdf-3-p64-t242.log    |  112 +--
+ logs/rdf-3-p64-t248.log    |  131 +--
+ logs/rdf-3-p64-t254.log    |   98 ++-
+ logs/rdf-3-p64-t260.log    |  129 +--
+ logs/rdf-3-p64-t266.log    |   95 +--
+ logs/rdf-3-p64-t272.log    |  130 +--
+ logs/rdf-3-p64-t278.log    |  116 +--
+ logs/rdf-3-p64-t284.log    |   88 +-
+ logs/rdf-3-p64-t290.log    |  118 +--
+ logs/rdf-3-p64-t296.log    |   98 +--
+ logs/rdf-3-p64-t302.log    |  122 +--
+ logs/rdf-3-p64-t308.log    |   94 +-
+ logs/rdf-3-p64-t314.log    |  118 +--
+ logs/rdf-3-p64-t320.log    |  132 +--
+ logs/rdf-3-p64-t326.log    |   95 +--
+ logs/rdf-3-p64-t332.log    |  130 +--
+ logs/rdf-3-p64-t338.log    |   88 +-
+ logs/rdf-3-p64-t344.log    |  118 +--
+ logs/rdf-3-p64-t350.log    |  129 +--
+ logs/rdf-3-p64-t356.log    |   95 +--
+ logs/rdf-3-p64-t362.log    |  107 +--
+ logs/rdf-3-p64-t368.log    |  128 +--
+ logs/rdf-3-p64-t374.log    |   86 +-
+ logs/rdf-3-p64-t386.log    |  109 +--
+ logs/rdf-3-p64-t392.log    |  110 +--
+ logs/rdf-3-p64-t398.log    |   87 +-
+ logs/rdf-3-p64-t404.log    |  132 +--
+ logs/rdf-3-p64-t410.log    |  120 +--
+ logs/rdf-3-p64-t416.log    |   95 +--
+ logs/rdf-3-p64-t422.log    |  123 +--
+ logs/rdf-3-p64-t428.log    |  133 +--
+ logs/rdf-3-p64-t434.log    |   87 +-
+ logs/rdf-3-p64-t440.log    |  130 +--
+ logs/rdf-3-p64-t446.log    |  124 +--
+ logs/rdf-3-p64-t452.log    |   95 +--
+ logs/rdf-3-p64-t458.log    |  124 +--
+ logs/rdf-3-p64-t464.log    |  117 +--
+ logs/rdf-3-p64-t470.log    |   83 +-
+ logs/rdf-3-p64-t476.log    |  131 +--
+ logs/rdf-3-p64-t482.log    |  118 +--
+ logs/rdf-3-p64-t488.log    |   86 +-
+ logs/rdf-3-p64-t494.log    |  112 +--
+ logs/rdf-3-p64-t500.log    |   99 +--
+ logs/rdf-3-p64-t506.log    |  130 +--
+ logs/rdf-3-p64-t512.log    |  118 +--
+ logs/rdf-3-p64-t518.log    |   94 +-
+ logs/rdf-3-p64-t524.log    |  127 +--
+ logs/rdf-3-p64-t530.log    |   97 +--
+ logs/rdf-3-p64-t536.log    |  157 +---
+ logs/rdf-3-p64-t542.log    |   95 +--
+ logs/rdf-3-p64-t548.log    |  156 +---
+ logs/rdf-3-p64-t554.log    |  118 +--
+ logs/rdf-3-p64-t560.log    |   88 +-
+ logs/rdf-3-p64-t566.log    |  118 +--
+ logs/rdf-3-p64-t572.log    |   98 +--
+ logs/rdf-3-p64-t578.log    |   95 +--
+ logs/rdf-3-p64-t584.log    |  130 +--
+ logs/rdf-3-p64-t590.log    |   88 +-
+ logs/rdf-3-p64-t596.log    |  133 +--
+ logs/rdf-3-p64-t602.log    |  118 +--
+ logs/rdf-3-p64-t608.log    |   95 +--
+ logs/rdf-3-p64-t614.log    |  123 +--
+ logs/rdf-3-p64-t620.log    |  118 +--
+ logs/rdf-3-p64-t626.log    |   95 +--
+ logs/rdf-3-p64-t632.log    |  130 +--
+ logs/rdf-3-p64-t638.log    |   91 +-
+ logs/rdf-3-p64-t644.log    |  111 +--
+ logs/rdf-3-p64-t650.log    |   95 +--
+ logs/rdf-3-p64-t656.log    |  128 +--
+ logs/rdf-3-p64-t662.log    |  125 +--
+ logs/rdf-3-p64-t668.log    |   95 +--
+ logs/rdf-3-p64-t674.log    |  130 +--
+ logs/rdf-3-p64-t680.log    |   95 +--
+ logs/rdf-3-p64-t686.log    |  112 +--
+ logs/rdf-3-p64-t692.log    |  118 +--
+ logs/rdf-3-p64-t698.log    |   95 +--
+ logs/rdf-3-p64-t704.log    |  131 +--
+ logs/rdf-3-p64-t710.log    |   88 +-
+ logs/rdf-3-p64-t716.log    |  118 +--
+ logs/rdf-3-p64-t722.log    |   91 +-
+ logs/rdf-3-p64-t728.log    |  118 +--
+ logs/rdf-3-p64-t734.log    |  131 +--
+ logs/rdf-3-p64-t740.log    |   87 +-
+ logs/rdf-3-p64-t746.log    |  130 +--
+ logs/rdf-3-p64-t752.log    |  118 +--
+ logs/rdf-3-p64-t758.log    |   95 +--
+ logs/rdf-3-p64-t764.log    |  131 +--
+ logs/rdf-3-p64-t770.log    |   95 +--
+ logs/rdf-3-p64-t776.log    |  134 +--
+ logs/rdf-3-p64-t782.log    |   95 +--
+ logs/rdf-3-p64-t788.log    |  137 +--
+ logs/rdf-3-p64-t794.log    |   95 +--
+ logs/rdf-3-p64-t800.log    |  137 +--
+ logs/sim-1-p94-t782.log    |   35 +
+ logs/sim-1-p94-t788.log    |   35 +
+ logs/sim-1-p94-t794.log    |   35 +
+ logs/sim-1-p94-t800.log    |   35 +
+ logs/sim-1-p95-t200.log    |   35 +
+ logs/sim-1-p95-t206.log    |   35 +
+ logs/sim-1-p95-t212.log    |   35 +
+ logs/sim-1-p95-t218.log    |   35 +
+ logs/sim-1-p95-t224.log    |   35 +
+ logs/sim-1-p95-t230.log    |   35 +
+ logs/sim-1-p95-t236.log    |   35 +
+ logs/sim-1-p95-t242.log    |   35 +
+ logs/sim-1-p95-t248.log    |   35 +
+ logs/sim-1-p95-t254.log    |   35 +
+ logs/sim-1-p95-t260.log    |   35 +
+ logs/sim-1-p95-t266.log    |   35 +
+ logs/sim-1-p95-t272.log    |   35 +
+ logs/sim-1-p95-t278.log    |   35 +
+ logs/sim-1-p95-t284.log    |   35 +
+ logs/sim-1-p95-t290.log    |   35 +
+ logs/sim-1-p95-t296.log    |   35 +
+ logs/sim-1-p95-t302.log    |   35 +
+ logs/sim-1-p95-t308.log    |   35 +
+ logs/sim-1-p95-t314.log    |   35 +
+ logs/sim-1-p95-t320.log    |   35 +
+ logs/sim-1-p95-t326.log    |   35 +
+ logs/sim-1-p95-t332.log    |   35 +
+ logs/sim-1-p95-t338.log    |   35 +
+ logs/sim-1-p95-t344.log    |   35 +
+ logs/sim-1-p95-t350.log    |   35 +
+ logs/sim-1-p95-t356.log    |   35 +
+ logs/sim-1-p95-t362.log    |   35 +
+ logs/sim-1-p95-t368.log    |   35 +
+ logs/sim-1-p95-t374.log    |   35 +
+ logs/sim-1-p95-t380.log    |   35 +
+ logs/sim-1-p95-t386.log    |   35 +
+ logs/sim-1-p95-t398.log    |   35 +
+ logs/sim-1-p95-t404.log    |   35 +
+ logs/sim-1-p95-t410.log    |   35 +
+ logs/sim-1-p95-t416.log    |   35 +
+ logs/sim-1-p95-t422.log    |   35 +
+ logs/sim-1-p95-t428.log    |   35 +
+ logs/sim-1-p95-t434.log    |   35 +
+ logs/sim-1-p95-t440.log    |   35 +
+ logs/sim-1-p95-t446.log    |   35 +
+ logs/sim-1-p95-t452.log    |   35 +
+ logs/sim-1-p95-t458.log    |   35 +
+ logs/sim-1-p95-t464.log    |   35 +
+ logs/sim-1-p95-t470.log    |   35 +
+ logs/sim-1-p95-t476.log    |   35 +
+ logs/sim-1-p95-t482.log    |   35 +
+ logs/sim-1-p95-t488.log    |   35 +
+ logs/sim-1-p95-t494.log    |   35 +
+ logs/sim-1-p95-t500.log    |   35 +
+ logs/sim-1-p95-t506.log    |   35 +
+ logs/sim-1-p95-t512.log    |   35 +
+ logs/sim-1-p95-t518.log    |   35 +
+ logs/sim-1-p95-t524.log    |   35 +
+ logs/sim-1-p95-t530.log    |   35 +
+ logs/sim-1-p95-t536.log    |   35 +
+ logs/sim-1-p95-t542.log    |   35 +
+ logs/sim-1-p95-t548.log    |   35 +
+ logs/sim-1-p95-t554.log    |   35 +
+ logs/sim-1-p95-t560.log    |   35 +
+ logs/sim-1-p95-t566.log    |   35 +
+ logs/sim-1-p95-t572.log    |   35 +
+ logs/sim-1-p95-t578.log    |   35 +
+ logs/sim-1-p95-t584.log    |   35 +
+ logs/sim-1-p95-t590.log    |   35 +
+ logs/sim-1-p95-t596.log    |   35 +
+ logs/sim-1-p95-t602.log    |   35 +
+ logs/sim-1-p95-t608.log    |   35 +
+ logs/sim-1-p95-t614.log    |   35 +
+ logs/sim-1-p95-t620.log    |   35 +
+ logs/sim-1-p95-t626.log    |   35 +
+ logs/sim-1-p95-t632.log    |   35 +
+ logs/sim-1-p95-t638.log    |   35 +
+ logs/sim-1-p95-t644.log    |   35 +
+ logs/sim-1-p95-t650.log    |   35 +
+ logs/sim-1-p95-t656.log    |   35 +
+ logs/sim-1-p95-t662.log    |   35 +
+ logs/sim-1-p95-t668.log    |   35 +
+ logs/sim-1-p95-t674.log    |   35 +
+ logs/sim-1-p95-t680.log    |   35 +
+ logs/sim-1-p95-t686.log    |   35 +
+ logs/sim-1-p95-t692.log    |   35 +
+ logs/sim-1-p95-t698.log    |   35 +
+ logs/sim-1-p95-t704.log    |   35 +
+ logs/sim-1-p95-t710.log    |   35 +
+ logs/sim-3-p63-t692.log    |   31 +
+ logs/sim-3-p63-t698.log    |   31 +
+ logs/sim-3-p63-t704.log    |   31 +
+ logs/sim-3-p63-t710.log    |   31 +
+ logs/sim-3-p63-t716.log    |   31 +
+ logs/sim-3-p63-t722.log    |   31 +
+ logs/sim-3-p63-t728.log    |   31 +
+ logs/sim-3-p63-t734.log    |   31 +
+ logs/sim-3-p63-t740.log    |   31 +
+ logs/sim-3-p63-t746.log    |   31 +
+ logs/sim-3-p63-t752.log    |   31 +
+ logs/sim-3-p63-t758.log    |   31 +
+ logs/sim-3-p63-t764.log    |   31 +
+ logs/sim-3-p63-t770.log    |   31 +
+ logs/sim-3-p63-t776.log    |   31 +
+ logs/sim-3-p63-t782.log    |   31 +
+ logs/sim-3-p63-t788.log    |   31 +
+ logs/sim-3-p63-t794.log    |   31 +
+ logs/sim-3-p63-t800.log    |   31 +
+ logs/sim-3-p64-t200.log    |   31 +
+ logs/sim-3-p64-t206.log    |   31 +
+ logs/sim-3-p64-t212.log    |   31 +
+ logs/sim-3-p64-t218.log    |   31 +
+ logs/sim-3-p64-t224.log    |   31 +
+ logs/sim-3-p64-t230.log    |   31 +
+ logs/sim-3-p64-t236.log    |   31 +
+ logs/sim-3-p64-t242.log    |   31 +
+ logs/sim-3-p64-t248.log    |   31 +
+ logs/sim-3-p64-t254.log    |   31 +
+ logs/sim-3-p64-t260.log    |   31 +
+ logs/sim-3-p64-t266.log    |   31 +
+ logs/sim-3-p64-t272.log    |   31 +
+ logs/sim-3-p64-t278.log    |   31 +
+ logs/sim-3-p64-t284.log    |   31 +
+ logs/sim-3-p64-t290.log    |   31 +
+ logs/sim-3-p64-t296.log    |   31 +
+ logs/sim-3-p64-t302.log    |   31 +
+ logs/sim-3-p64-t308.log    |   31 +
+ logs/sim-3-p64-t314.log    |   31 +
+ logs/sim-3-p64-t320.log    |   31 +
+ logs/sim-3-p64-t326.log    |   31 +
+ logs/sim-3-p64-t332.log    |   31 +
+ logs/sim-3-p64-t338.log    |   31 +
+ logs/sim-3-p64-t344.log    |   31 +
+ logs/sim-3-p64-t350.log    |   31 +
+ logs/sim-3-p64-t356.log    |   31 +
+ logs/sim-3-p64-t362.log    |   31 +
+ logs/sim-3-p64-t368.log    |   31 +
+ logs/sim-3-p64-t374.log    |   31 +
+ logs/sim-3-p64-t386.log    |   31 +
+ logs/sim-3-p64-t392.log    |   31 +
+ logs/sim-3-p64-t398.log    |   31 +
+ logs/sim-3-p64-t404.log    |   31 +
+ logs/sim-3-p64-t410.log    |   31 +
+ logs/sim-3-p64-t416.log    |   31 +
+ logs/sim-3-p64-t422.log    |   31 +
+ logs/sim-3-p64-t428.log    |   31 +
+ logs/sim-3-p64-t434.log    |   31 +
+ logs/sim-3-p64-t440.log    |   31 +
+ logs/sim-3-p64-t446.log    |   31 +
+ logs/sim-3-p64-t452.log    |   31 +
+ logs/sim-3-p64-t458.log    |   31 +
+ logs/sim-3-p64-t464.log    |   31 +
+ logs/sim-3-p64-t470.log    |   31 +
+ logs/sim-3-p64-t476.log    |   31 +
+ logs/sim-3-p64-t482.log    |   31 +
+ logs/sim-3-p64-t488.log    |   31 +
+ logs/sim-3-p64-t494.log    |   31 +
+ logs/sim-3-p64-t500.log    |   31 +
+ logs/sim-3-p64-t506.log    |   31 +
+ logs/sim-3-p64-t512.log    |   31 +
+ logs/sim-3-p64-t518.log    |   31 +
+ logs/sim-3-p64-t524.log    |   31 +
+ logs/sim-3-p64-t530.log    |   31 +
+ logs/sim-3-p64-t536.log    |   31 +
+ logs/sim-3-p64-t542.log    |   31 +
+ logs/sim-3-p64-t548.log    |   31 +
+ logs/sim-3-p64-t554.log    |   31 +
+ logs/sim-3-p64-t560.log    |   31 +
+ logs/sim-3-p64-t566.log    |   31 +
+ logs/sim-3-p64-t572.log    |   31 +
+ logs/sim-3-p64-t578.log    |   31 +
+ logs/sim-3-p64-t584.log    |   31 +
+ logs/sim-3-p64-t590.log    |   31 +
+ logs/sim-3-p64-t596.log    |   31 +
+ logs/sim-3-p64-t602.log    |   31 +
+ logs/sim-3-p64-t608.log    |   31 +
+ logs/sim-3-p64-t614.log    |   31 +
+ logs/sim-3-p64-t620.log    |   31 +
+ logs/sim-3-p64-t626.log    |   31 +
+ logs/sim-3-p64-t632.log    |   31 +
+ logs/sim-3-p64-t638.log    |   31 +
+ logs/sim-3-p64-t644.log    |   31 +
+ logs/sim-3-p64-t650.log    |   31 +
+ logs/sim-3-p64-t656.log    |   31 +
+ logs/sim-3-p64-t662.log    |   31 +
+ logs/sim-3-p64-t668.log    |   31 +
+ logs/sim-3-p64-t674.log    |   31 +
+ logs/sim-3-p64-t680.log    |   31 +
+ logs/sim-3-p64-t686.log    |   31 +
+ logs/sim-3-p64-t692.log    |   31 +
+ logs/sim-3-p64-t698.log    |   31 +
+ logs/sim-3-p64-t704.log    |   31 +
+ logs/sim-3-p64-t710.log    |   31 +
+ logs/sim-3-p64-t716.log    |   31 +
+ logs/sim-3-p64-t722.log    |   31 +
+ logs/sim-3-p64-t728.log    |   31 +
+ logs/sim-3-p64-t734.log    |   31 +
+ logs/sim-3-p64-t740.log    |   31 +
+ logs/sim-3-p64-t746.log    |   31 +
+ logs/sim-3-p64-t752.log    |   31 +
+ logs/sim-3-p64-t758.log    |   31 +
+ logs/sim-3-p64-t764.log    |   31 +
+ logs/sim-3-p64-t770.log    |   31 +
+ logs/sim-3-p64-t776.log    |   31 +
+ logs/sim-3-p64-t782.log    |   31 +
+ logs/sim-3-p64-t788.log    |   31 +
+ logs/sim-3-p64-t794.log    |   31 +
+ logs/sim-3-p64-t800.log    |   31 +
+ results/rdf-1-p94-t782.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p94-t788.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p94-t794.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p94-t800.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t200.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t206.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t212.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t218.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t224.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t230.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t236.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t242.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t248.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t254.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t260.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t266.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t272.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t278.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t284.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t290.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t296.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t302.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t308.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t314.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t320.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t326.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t332.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t338.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t344.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t350.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t356.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t362.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t368.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t374.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t380.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t386.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t398.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t404.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t410.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t416.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t422.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t428.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t434.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t440.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t446.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t452.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t458.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t464.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t470.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t476.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t482.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t488.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t494.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t500.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t506.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t512.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t518.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t524.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t530.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t536.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t542.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t548.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t554.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t560.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t566.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t572.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t578.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t584.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t590.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t596.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t602.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t608.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t614.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t620.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t626.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t632.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t638.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t644.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t650.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t656.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t662.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t668.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t674.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t680.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t686.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t692.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t698.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t704.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-1-p95-t710.xvg | 2025 ++++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t692.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t698.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t704.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t710.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t716.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t722.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t728.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t734.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t740.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t746.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t752.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t758.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t764.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t770.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t776.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t782.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t788.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t794.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p63-t800.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t200.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t206.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t212.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t218.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t224.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t230.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t236.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t242.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t248.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t254.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t260.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t266.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t272.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t278.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t284.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t290.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t296.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t302.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t308.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t314.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t320.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t326.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t332.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t338.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t344.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t350.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t356.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t362.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t368.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t374.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t386.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t398.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t404.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t410.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t416.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t422.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t428.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t434.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t440.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t446.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t452.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t458.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t464.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t470.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t476.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t482.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t488.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t494.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t500.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t506.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t512.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t518.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t524.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t530.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t536.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t542.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t548.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t554.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t560.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t566.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t572.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t578.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t584.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t590.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t596.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t602.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t608.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t614.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t620.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t626.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t632.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t638.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t644.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t650.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t656.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t662.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t668.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t674.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t680.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t686.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t692.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t698.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t704.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t710.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t716.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t722.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t728.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t734.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t740.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t746.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t752.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t758.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t764.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t770.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t776.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t782.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t788.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t794.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ results/rdf-3-p64-t800.xvg | 2024 +++++++++++++++++++++++++++++++++++++++++++
+ 625 files changed, 441679 insertions(+), 7957 deletions(-)
+ create mode 100644 logs/rdf-1-p94-t782.log
+ create mode 100644 logs/rdf-1-p94-t788.log
+ create mode 100644 logs/rdf-1-p94-t794.log
+ create mode 100644 logs/rdf-1-p94-t800.log
+ create mode 100644 logs/rdf-1-p95-t200.log
+ create mode 100644 logs/rdf-1-p95-t206.log
+ create mode 100644 logs/rdf-1-p95-t212.log
+ create mode 100644 logs/rdf-1-p95-t218.log
+ create mode 100644 logs/rdf-1-p95-t224.log
+ create mode 100644 logs/rdf-1-p95-t230.log
+ create mode 100644 logs/rdf-1-p95-t236.log
+ create mode 100644 logs/rdf-1-p95-t242.log
+ create mode 100644 logs/rdf-1-p95-t248.log
+ create mode 100644 logs/rdf-1-p95-t254.log
+ create mode 100644 logs/rdf-1-p95-t260.log
+ create mode 100644 logs/rdf-1-p95-t266.log
+ create mode 100644 logs/rdf-1-p95-t272.log
+ create mode 100644 logs/rdf-1-p95-t278.log
+ create mode 100644 logs/rdf-1-p95-t284.log
+ create mode 100644 logs/rdf-1-p95-t290.log
+ create mode 100644 logs/rdf-1-p95-t296.log
+ create mode 100644 logs/rdf-1-p95-t302.log
+ create mode 100644 logs/rdf-1-p95-t308.log
+ create mode 100644 logs/rdf-1-p95-t314.log
+ create mode 100644 logs/rdf-1-p95-t320.log
+ create mode 100644 logs/rdf-1-p95-t326.log
+ create mode 100644 logs/rdf-1-p95-t332.log
+ create mode 100644 logs/rdf-1-p95-t338.log
+ create mode 100644 logs/rdf-1-p95-t344.log
+ create mode 100644 logs/rdf-1-p95-t350.log
+ create mode 100644 logs/rdf-1-p95-t356.log
+ create mode 100644 logs/rdf-1-p95-t362.log
+ create mode 100644 logs/rdf-1-p95-t368.log
+ create mode 100644 logs/rdf-1-p95-t374.log
+ create mode 100644 logs/rdf-1-p95-t380.log
+ create mode 100644 logs/rdf-1-p95-t386.log
+ create mode 100644 logs/rdf-1-p95-t398.log
+ create mode 100644 logs/rdf-1-p95-t404.log
+ create mode 100644 logs/rdf-1-p95-t410.log
+ create mode 100644 logs/rdf-1-p95-t416.log
+ create mode 100644 logs/rdf-1-p95-t422.log
+ create mode 100644 logs/rdf-1-p95-t428.log
+ create mode 100644 logs/rdf-1-p95-t434.log
+ create mode 100644 logs/rdf-1-p95-t440.log
+ create mode 100644 logs/rdf-1-p95-t446.log
+ create mode 100644 logs/rdf-1-p95-t452.log
+ create mode 100644 logs/rdf-1-p95-t458.log
+ create mode 100644 logs/rdf-1-p95-t464.log
+ create mode 100644 logs/rdf-1-p95-t470.log
+ create mode 100644 logs/rdf-1-p95-t476.log
+ create mode 100644 logs/rdf-1-p95-t482.log
+ create mode 100644 logs/rdf-1-p95-t488.log
+ create mode 100644 logs/rdf-1-p95-t494.log
+ create mode 100644 logs/rdf-1-p95-t500.log
+ create mode 100644 logs/rdf-1-p95-t506.log
+ create mode 100644 logs/rdf-1-p95-t512.log
+ create mode 100644 logs/rdf-1-p95-t518.log
+ create mode 100644 logs/rdf-1-p95-t524.log
+ create mode 100644 logs/rdf-1-p95-t530.log
+ create mode 100644 logs/rdf-1-p95-t536.log
+ create mode 100644 logs/rdf-1-p95-t542.log
+ create mode 100644 logs/rdf-1-p95-t548.log
+ create mode 100644 logs/rdf-1-p95-t554.log
+ create mode 100644 logs/rdf-1-p95-t560.log
+ create mode 100644 logs/rdf-1-p95-t566.log
+ create mode 100644 logs/rdf-1-p95-t572.log
+ create mode 100644 logs/rdf-1-p95-t578.log
+ create mode 100644 logs/rdf-1-p95-t584.log
+ create mode 100644 logs/rdf-1-p95-t590.log
+ create mode 100644 logs/rdf-1-p95-t596.log
+ create mode 100644 logs/rdf-1-p95-t602.log
+ create mode 100644 logs/rdf-1-p95-t608.log
+ create mode 100644 logs/rdf-1-p95-t614.log
+ create mode 100644 logs/rdf-1-p95-t620.log
+ create mode 100644 logs/rdf-1-p95-t626.log
+ create mode 100644 logs/rdf-1-p95-t632.log
+ create mode 100644 logs/rdf-1-p95-t638.log
+ create mode 100644 logs/rdf-1-p95-t644.log
+ create mode 100644 logs/rdf-1-p95-t650.log
+ create mode 100644 logs/rdf-1-p95-t656.log
+ create mode 100644 logs/rdf-1-p95-t662.log
+ create mode 100644 logs/rdf-1-p95-t668.log
+ create mode 100644 logs/rdf-1-p95-t674.log
+ create mode 100644 logs/rdf-1-p95-t680.log
+ create mode 100644 logs/rdf-1-p95-t686.log
+ create mode 100644 logs/rdf-1-p95-t692.log
+ create mode 100644 logs/rdf-1-p95-t698.log
+ create mode 100644 logs/rdf-1-p95-t704.log
+ create mode 100644 logs/rdf-1-p95-t710.log
+ create mode 100644 logs/sim-1-p94-t782.log
+ create mode 100644 logs/sim-1-p94-t788.log
+ create mode 100644 logs/sim-1-p94-t794.log
+ create mode 100644 logs/sim-1-p94-t800.log
+ create mode 100644 logs/sim-1-p95-t200.log
+ create mode 100644 logs/sim-1-p95-t206.log
+ create mode 100644 logs/sim-1-p95-t212.log
+ create mode 100644 logs/sim-1-p95-t218.log
+ create mode 100644 logs/sim-1-p95-t224.log
+ create mode 100644 logs/sim-1-p95-t230.log
+ create mode 100644 logs/sim-1-p95-t236.log
+ create mode 100644 logs/sim-1-p95-t242.log
+ create mode 100644 logs/sim-1-p95-t248.log
+ create mode 100644 logs/sim-1-p95-t254.log
+ create mode 100644 logs/sim-1-p95-t260.log
+ create mode 100644 logs/sim-1-p95-t266.log
+ create mode 100644 logs/sim-1-p95-t272.log
+ create mode 100644 logs/sim-1-p95-t278.log
+ create mode 100644 logs/sim-1-p95-t284.log
+ create mode 100644 logs/sim-1-p95-t290.log
+ create mode 100644 logs/sim-1-p95-t296.log
+ create mode 100644 logs/sim-1-p95-t302.log
+ create mode 100644 logs/sim-1-p95-t308.log
+ create mode 100644 logs/sim-1-p95-t314.log
+ create mode 100644 logs/sim-1-p95-t320.log
+ create mode 100644 logs/sim-1-p95-t326.log
+ create mode 100644 logs/sim-1-p95-t332.log
+ create mode 100644 logs/sim-1-p95-t338.log
+ create mode 100644 logs/sim-1-p95-t344.log
+ create mode 100644 logs/sim-1-p95-t350.log
+ create mode 100644 logs/sim-1-p95-t356.log
+ create mode 100644 logs/sim-1-p95-t362.log
+ create mode 100644 logs/sim-1-p95-t368.log
+ create mode 100644 logs/sim-1-p95-t374.log
+ create mode 100644 logs/sim-1-p95-t380.log
+ create mode 100644 logs/sim-1-p95-t386.log
+ create mode 100644 logs/sim-1-p95-t398.log
+ create mode 100644 logs/sim-1-p95-t404.log
+ create mode 100644 logs/sim-1-p95-t410.log
+ create mode 100644 logs/sim-1-p95-t416.log
+ create mode 100644 logs/sim-1-p95-t422.log
+ create mode 100644 logs/sim-1-p95-t428.log
+ create mode 100644 logs/sim-1-p95-t434.log
+ create mode 100644 logs/sim-1-p95-t440.log
+ create mode 100644 logs/sim-1-p95-t446.log
+ create mode 100644 logs/sim-1-p95-t452.log
+ create mode 100644 logs/sim-1-p95-t458.log
+ create mode 100644 logs/sim-1-p95-t464.log
+ create mode 100644 logs/sim-1-p95-t470.log
+ create mode 100644 logs/sim-1-p95-t476.log
+ create mode 100644 logs/sim-1-p95-t482.log
+ create mode 100644 logs/sim-1-p95-t488.log
+ create mode 100644 logs/sim-1-p95-t494.log
+ create mode 100644 logs/sim-1-p95-t500.log
+ create mode 100644 logs/sim-1-p95-t506.log
+ create mode 100644 logs/sim-1-p95-t512.log
+ create mode 100644 logs/sim-1-p95-t518.log
+ create mode 100644 logs/sim-1-p95-t524.log
+ create mode 100644 logs/sim-1-p95-t530.log
+ create mode 100644 logs/sim-1-p95-t536.log
+ create mode 100644 logs/sim-1-p95-t542.log
+ create mode 100644 logs/sim-1-p95-t548.log
+ create mode 100644 logs/sim-1-p95-t554.log
+ create mode 100644 logs/sim-1-p95-t560.log
+ create mode 100644 logs/sim-1-p95-t566.log
+ create mode 100644 logs/sim-1-p95-t572.log
+ create mode 100644 logs/sim-1-p95-t578.log
+ create mode 100644 logs/sim-1-p95-t584.log
+ create mode 100644 logs/sim-1-p95-t590.log
+ create mode 100644 logs/sim-1-p95-t596.log
+ create mode 100644 logs/sim-1-p95-t602.log
+ create mode 100644 logs/sim-1-p95-t608.log
+ create mode 100644 logs/sim-1-p95-t614.log
+ create mode 100644 logs/sim-1-p95-t620.log
+ create mode 100644 logs/sim-1-p95-t626.log
+ create mode 100644 logs/sim-1-p95-t632.log
+ create mode 100644 logs/sim-1-p95-t638.log
+ create mode 100644 logs/sim-1-p95-t644.log
+ create mode 100644 logs/sim-1-p95-t650.log
+ create mode 100644 logs/sim-1-p95-t656.log
+ create mode 100644 logs/sim-1-p95-t662.log
+ create mode 100644 logs/sim-1-p95-t668.log
+ create mode 100644 logs/sim-1-p95-t674.log
+ create mode 100644 logs/sim-1-p95-t680.log
+ create mode 100644 logs/sim-1-p95-t686.log
+ create mode 100644 logs/sim-1-p95-t692.log
+ create mode 100644 logs/sim-1-p95-t698.log
+ create mode 100644 logs/sim-1-p95-t704.log
+ create mode 100644 logs/sim-1-p95-t710.log
+ create mode 100644 results/rdf-1-p94-t782.xvg
+ create mode 100644 results/rdf-1-p94-t788.xvg
+ create mode 100644 results/rdf-1-p94-t794.xvg
+ create mode 100644 results/rdf-1-p94-t800.xvg
+ create mode 100644 results/rdf-1-p95-t200.xvg
+ create mode 100644 results/rdf-1-p95-t206.xvg
+ create mode 100644 results/rdf-1-p95-t212.xvg
+ create mode 100644 results/rdf-1-p95-t218.xvg
+ create mode 100644 results/rdf-1-p95-t224.xvg
+ create mode 100644 results/rdf-1-p95-t230.xvg
+ create mode 100644 results/rdf-1-p95-t236.xvg
+ create mode 100644 results/rdf-1-p95-t242.xvg
+ create mode 100644 results/rdf-1-p95-t248.xvg
+ create mode 100644 results/rdf-1-p95-t254.xvg
+ create mode 100644 results/rdf-1-p95-t260.xvg
+ create mode 100644 results/rdf-1-p95-t266.xvg
+ create mode 100644 results/rdf-1-p95-t272.xvg
+ create mode 100644 results/rdf-1-p95-t278.xvg
+ create mode 100644 results/rdf-1-p95-t284.xvg
+ create mode 100644 results/rdf-1-p95-t290.xvg
+ create mode 100644 results/rdf-1-p95-t296.xvg
+ create mode 100644 results/rdf-1-p95-t302.xvg
+ create mode 100644 results/rdf-1-p95-t308.xvg
+ create mode 100644 results/rdf-1-p95-t314.xvg
+ create mode 100644 results/rdf-1-p95-t320.xvg
+ create mode 100644 results/rdf-1-p95-t326.xvg
+ create mode 100644 results/rdf-1-p95-t332.xvg
+ create mode 100644 results/rdf-1-p95-t338.xvg
+ create mode 100644 results/rdf-1-p95-t344.xvg
+ create mode 100644 results/rdf-1-p95-t350.xvg
+ create mode 100644 results/rdf-1-p95-t356.xvg
+ create mode 100644 results/rdf-1-p95-t362.xvg
+ create mode 100644 results/rdf-1-p95-t368.xvg
+ create mode 100644 results/rdf-1-p95-t374.xvg
+ create mode 100644 results/rdf-1-p95-t380.xvg
+ create mode 100644 results/rdf-1-p95-t386.xvg
+ create mode 100644 results/rdf-1-p95-t398.xvg
+ create mode 100644 results/rdf-1-p95-t404.xvg
+ create mode 100644 results/rdf-1-p95-t410.xvg
+ create mode 100644 results/rdf-1-p95-t416.xvg
+ create mode 100644 results/rdf-1-p95-t422.xvg
+ create mode 100644 results/rdf-1-p95-t428.xvg
+ create mode 100644 results/rdf-1-p95-t434.xvg
+ create mode 100644 results/rdf-1-p95-t440.xvg
+ create mode 100644 results/rdf-1-p95-t446.xvg
+ create mode 100644 results/rdf-1-p95-t452.xvg
+ create mode 100644 results/rdf-1-p95-t458.xvg
+ create mode 100644 results/rdf-1-p95-t464.xvg
+ create mode 100644 results/rdf-1-p95-t470.xvg
+ create mode 100644 results/rdf-1-p95-t476.xvg
+ create mode 100644 results/rdf-1-p95-t482.xvg
+ create mode 100644 results/rdf-1-p95-t488.xvg
+ create mode 100644 results/rdf-1-p95-t494.xvg
+ create mode 100644 results/rdf-1-p95-t500.xvg
+ create mode 100644 results/rdf-1-p95-t506.xvg
+ create mode 100644 results/rdf-1-p95-t512.xvg
+ create mode 100644 results/rdf-1-p95-t518.xvg
+ create mode 100644 results/rdf-1-p95-t524.xvg
+ create mode 100644 results/rdf-1-p95-t530.xvg
+ create mode 100644 results/rdf-1-p95-t536.xvg
+ create mode 100644 results/rdf-1-p95-t542.xvg
+ create mode 100644 results/rdf-1-p95-t548.xvg
+ create mode 100644 results/rdf-1-p95-t554.xvg
+ create mode 100644 results/rdf-1-p95-t560.xvg
+ create mode 100644 results/rdf-1-p95-t566.xvg
+ create mode 100644 results/rdf-1-p95-t572.xvg
+ create mode 100644 results/rdf-1-p95-t578.xvg
+ create mode 100644 results/rdf-1-p95-t584.xvg
+ create mode 100644 results/rdf-1-p95-t590.xvg
+ create mode 100644 results/rdf-1-p95-t596.xvg
+ create mode 100644 results/rdf-1-p95-t602.xvg
+ create mode 100644 results/rdf-1-p95-t608.xvg
+ create mode 100644 results/rdf-1-p95-t614.xvg
+ create mode 100644 results/rdf-1-p95-t620.xvg
+ create mode 100644 results/rdf-1-p95-t626.xvg
+ create mode 100644 results/rdf-1-p95-t632.xvg
+ create mode 100644 results/rdf-1-p95-t638.xvg
+ create mode 100644 results/rdf-1-p95-t644.xvg
+ create mode 100644 results/rdf-1-p95-t650.xvg
+ create mode 100644 results/rdf-1-p95-t656.xvg
+ create mode 100644 results/rdf-1-p95-t662.xvg
+ create mode 100644 results/rdf-1-p95-t668.xvg
+ create mode 100644 results/rdf-1-p95-t674.xvg
+ create mode 100644 results/rdf-1-p95-t680.xvg
+ create mode 100644 results/rdf-1-p95-t686.xvg
+ create mode 100644 results/rdf-1-p95-t692.xvg
+ create mode 100644 results/rdf-1-p95-t698.xvg
+ create mode 100644 results/rdf-1-p95-t704.xvg
+ create mode 100644 results/rdf-1-p95-t710.xvg
+ create mode 100644 results/rdf-3-p63-t692.xvg
+ create mode 100644 results/rdf-3-p63-t698.xvg
+ create mode 100644 results/rdf-3-p63-t704.xvg
+ create mode 100644 results/rdf-3-p63-t710.xvg
+ create mode 100644 results/rdf-3-p63-t716.xvg
+ create mode 100644 results/rdf-3-p63-t722.xvg
+ create mode 100644 results/rdf-3-p63-t728.xvg
+ create mode 100644 results/rdf-3-p63-t734.xvg
+ create mode 100644 results/rdf-3-p63-t740.xvg
+ create mode 100644 results/rdf-3-p63-t746.xvg
+ create mode 100644 results/rdf-3-p63-t752.xvg
+ create mode 100644 results/rdf-3-p63-t758.xvg
+ create mode 100644 results/rdf-3-p63-t764.xvg
+ create mode 100644 results/rdf-3-p63-t770.xvg
+ create mode 100644 results/rdf-3-p63-t776.xvg
+ create mode 100644 results/rdf-3-p63-t782.xvg
+ create mode 100644 results/rdf-3-p63-t788.xvg
+ create mode 100644 results/rdf-3-p63-t794.xvg
+ create mode 100644 results/rdf-3-p63-t800.xvg
+ create mode 100644 results/rdf-3-p64-t200.xvg
+ create mode 100644 results/rdf-3-p64-t206.xvg
+ create mode 100644 results/rdf-3-p64-t212.xvg
+ create mode 100644 results/rdf-3-p64-t218.xvg
+ create mode 100644 results/rdf-3-p64-t224.xvg
+ create mode 100644 results/rdf-3-p64-t230.xvg
+ create mode 100644 results/rdf-3-p64-t236.xvg
+ create mode 100644 results/rdf-3-p64-t242.xvg
+ create mode 100644 results/rdf-3-p64-t248.xvg
+ create mode 100644 results/rdf-3-p64-t254.xvg
+ create mode 100644 results/rdf-3-p64-t260.xvg
+ create mode 100644 results/rdf-3-p64-t266.xvg
+ create mode 100644 results/rdf-3-p64-t272.xvg
+ create mode 100644 results/rdf-3-p64-t278.xvg
+ create mode 100644 results/rdf-3-p64-t284.xvg
+ create mode 100644 results/rdf-3-p64-t290.xvg
+ create mode 100644 results/rdf-3-p64-t296.xvg
+ create mode 100644 results/rdf-3-p64-t302.xvg
+ create mode 100644 results/rdf-3-p64-t308.xvg
+ create mode 100644 results/rdf-3-p64-t314.xvg
+ create mode 100644 results/rdf-3-p64-t320.xvg
+ create mode 100644 results/rdf-3-p64-t326.xvg
+ create mode 100644 results/rdf-3-p64-t332.xvg
+ create mode 100644 results/rdf-3-p64-t338.xvg
+ create mode 100644 results/rdf-3-p64-t344.xvg
+ create mode 100644 results/rdf-3-p64-t350.xvg
+ create mode 100644 results/rdf-3-p64-t356.xvg
+ create mode 100644 results/rdf-3-p64-t362.xvg
+ create mode 100644 results/rdf-3-p64-t368.xvg
+ create mode 100644 results/rdf-3-p64-t374.xvg
+ create mode 100644 results/rdf-3-p64-t386.xvg
+ create mode 100644 results/rdf-3-p64-t398.xvg
+ create mode 100644 results/rdf-3-p64-t404.xvg
+ create mode 100644 results/rdf-3-p64-t410.xvg
+ create mode 100644 results/rdf-3-p64-t416.xvg
+ create mode 100644 results/rdf-3-p64-t422.xvg
+ create mode 100644 results/rdf-3-p64-t428.xvg
+ create mode 100644 results/rdf-3-p64-t434.xvg
+ create mode 100644 results/rdf-3-p64-t440.xvg
+ create mode 100644 results/rdf-3-p64-t446.xvg
+ create mode 100644 results/rdf-3-p64-t452.xvg
+ create mode 100644 results/rdf-3-p64-t458.xvg
+ create mode 100644 results/rdf-3-p64-t464.xvg
+ create mode 100644 results/rdf-3-p64-t470.xvg
+ create mode 100644 results/rdf-3-p64-t476.xvg
+ create mode 100644 results/rdf-3-p64-t482.xvg
+ create mode 100644 results/rdf-3-p64-t488.xvg
+ create mode 100644 results/rdf-3-p64-t494.xvg
+ create mode 100644 results/rdf-3-p64-t500.xvg
+ create mode 100644 results/rdf-3-p64-t506.xvg
+ create mode 100644 results/rdf-3-p64-t512.xvg
+ create mode 100644 results/rdf-3-p64-t518.xvg
+ create mode 100644 results/rdf-3-p64-t524.xvg
+ create mode 100644 results/rdf-3-p64-t530.xvg
+ create mode 100644 results/rdf-3-p64-t536.xvg
+ create mode 100644 results/rdf-3-p64-t542.xvg
+ create mode 100644 results/rdf-3-p64-t548.xvg
+ create mode 100644 results/rdf-3-p64-t554.xvg
+ create mode 100644 results/rdf-3-p64-t560.xvg
+ create mode 100644 results/rdf-3-p64-t566.xvg
+ create mode 100644 results/rdf-3-p64-t572.xvg
+ create mode 100644 results/rdf-3-p64-t578.xvg
+ create mode 100644 results/rdf-3-p64-t584.xvg
+ create mode 100644 results/rdf-3-p64-t590.xvg
+ create mode 100644 results/rdf-3-p64-t596.xvg
+ create mode 100644 results/rdf-3-p64-t602.xvg
+ create mode 100644 results/rdf-3-p64-t608.xvg
+ create mode 100644 results/rdf-3-p64-t614.xvg
+ create mode 100644 results/rdf-3-p64-t620.xvg
+ create mode 100644 results/rdf-3-p64-t626.xvg
+ create mode 100644 results/rdf-3-p64-t632.xvg
+ create mode 100644 results/rdf-3-p64-t638.xvg
+ create mode 100644 results/rdf-3-p64-t644.xvg
+ create mode 100644 results/rdf-3-p64-t650.xvg
+ create mode 100644 results/rdf-3-p64-t656.xvg
+ create mode 100644 results/rdf-3-p64-t662.xvg
+ create mode 100644 results/rdf-3-p64-t668.xvg
+ create mode 100644 results/rdf-3-p64-t674.xvg
+ create mode 100644 results/rdf-3-p64-t680.xvg
+ create mode 100644 results/rdf-3-p64-t686.xvg
+ create mode 100644 results/rdf-3-p64-t692.xvg
+ create mode 100644 results/rdf-3-p64-t698.xvg
+ create mode 100644 results/rdf-3-p64-t704.xvg
+ create mode 100644 results/rdf-3-p64-t710.xvg
+ create mode 100644 results/rdf-3-p64-t716.xvg
+ create mode 100644 results/rdf-3-p64-t722.xvg
+ create mode 100644 results/rdf-3-p64-t728.xvg
+ create mode 100644 results/rdf-3-p64-t734.xvg
+ create mode 100644 results/rdf-3-p64-t740.xvg
+ create mode 100644 results/rdf-3-p64-t746.xvg
+ create mode 100644 results/rdf-3-p64-t752.xvg
+ create mode 100644 results/rdf-3-p64-t758.xvg
+ create mode 100644 results/rdf-3-p64-t764.xvg
+ create mode 100644 results/rdf-3-p64-t770.xvg
+ create mode 100644 results/rdf-3-p64-t776.xvg
+ create mode 100644 results/rdf-3-p64-t782.xvg
+ create mode 100644 results/rdf-3-p64-t788.xvg
+ create mode 100644 results/rdf-3-p64-t794.xvg
+ create mode 100644 results/rdf-3-p64-t800.xvg
+To https://github.com/socd06/lennard-jones-sims.git
+   cb10039..fad58e0  md -> md
+Branch md set up to track remote branch md from origin.
