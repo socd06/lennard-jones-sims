@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: test (0)
 ;	On host: mdsim
-;	At date: Sat Oct 31 13:06:30 2020
+;	At date: Fri Dec  4 14:17:02 2020
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2020.2 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/test/lennard-jones-sims/3-kr
 ;	Command line:
-;	  gmx grompp -f MDP/0_md.mdp -c OUT/p6-t302/2-npt.gro -p FF/topol.top -o OUT/p6-t302/3-md.tpr -maxwarn 1
+;	  gmx grompp -f MDP/0_md.mdp -c OUT/p100-t800/2-npt.gro -p FF/topol.top -o OUT/p100-t800/3-md.tpr -maxwarn 1
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -137,7 +137,7 @@ print-nose-hoover-chain-variables = no
 tc-grps                  = System
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.1
-ref_t                    = 302
+ref_t                    = 800
 ; pressure coupling     
 pcoupl                   = Parrinello-Rahman
 pcoupltype               = isotropic
@@ -145,7 +145,7 @@ nstpcouple               = -1
 ; Time constant (ps), compressibility (1/bar) and reference P (bar)
 tau_p                    = 2.0
 compressibility          = 4.5e-5
-ref_p                    = 6
+ref_p                    = 100
 ; Scaling of reference coordinates, No, All or COM
 refcoord-scaling         = No
 
