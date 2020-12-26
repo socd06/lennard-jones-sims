@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This file was created Sat Oct 31 15:22:59 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.2 (-:
@@ -6,7 +5,6 @@
 # Executable:   /usr/local/gromacs/bin/gmx
 # Data prefix:  /usr/local/gromacs
 # Working dir:  /home/test/lennard-jones-sims/3-kr
-=======
 # This file was created Sat Oct 31 19:15:52 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.3 (-:
@@ -14,16 +12,12 @@
 # Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
 # Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
 # Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
->>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 # Command line:
 #   gmx rdf -f OUT/p6-t518/3-md.trr -s OUT/p6-t518/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p6-t518.xvg
 # gmx rdf is part of G R O M A C S:
 #
-<<<<<<< HEAD
 # Gromacs Runs One Microsecond At Cannonball Speeds
-=======
 # GROningen Mixture of Alchemy and Childrens' Stories
->>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
 #
 @    title "Radial distribution"
 @    xaxis  label "r (nm)"
@@ -338,7 +332,6 @@
       0.298    0.000
       0.299    0.000
       0.300    0.000
-<<<<<<< HEAD
       0.301    0.003
       0.302    0.003
       0.303    0.000
@@ -2038,7 +2031,6 @@
       1.997    1.000
       1.998    0.992
       1.999    0.994
-=======
       0.301    0.000
       0.302    0.000
       0.303    0.003
@@ -3738,4 +3730,3 @@
       1.997    1.011
       1.998    0.992
       1.999    0.996
->>>>>>> 71c47e709c586af9d03afe2e647b98174890225c
