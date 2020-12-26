@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This file was created Sun Nov  1 05:04:08 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.2 (-:
@@ -6,7 +5,6 @@
 # Executable:   /usr/local/gromacs/bin/gmx
 # Data prefix:  /usr/local/gromacs
 # Working dir:  /home/test/lennard-jones-sims/3-kr
-=======
 # This file was created Sun Nov  1 04:47:00 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.3 (-:
@@ -14,16 +12,12 @@
 # Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
 # Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
 # Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 # Command line:
 #   gmx rdf -f OUT/p9-t434/3-md.trr -s OUT/p9-t434/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p9-t434.xvg
 # gmx rdf is part of G R O M A C S:
 #
-<<<<<<< HEAD
 # Gromacs Runs One Microsecond At Cannonball Speeds
-=======
 # Gyas ROwers Mature At Cryogenic Speed
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 #
 @    title "Radial distribution"
 @    xaxis  label "r (nm)"
@@ -341,7 +335,6 @@
       0.301    0.000
       0.302    0.000
       0.303    0.000
-<<<<<<< HEAD
       0.304    0.002
       0.305    0.000
       0.306    0.002
@@ -2038,7 +2031,6 @@
       1.997    0.992
       1.998    1.009
       1.999    1.006
-=======
       0.304    0.000
       0.305    0.000
       0.306    0.000
@@ -3735,4 +3727,3 @@
       1.997    1.011
       1.998    1.006
       1.999    1.000
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66

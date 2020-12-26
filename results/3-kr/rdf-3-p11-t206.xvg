@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # This file was created Sun Nov  1 12:56:06 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.2 (-:
@@ -6,7 +5,6 @@
 # Executable:   /usr/local/gromacs/bin/gmx
 # Data prefix:  /usr/local/gromacs
 # Working dir:  /home/test/lennard-jones-sims/3-kr
-=======
 # This file was created Sun Nov  1 10:49:05 2020
 # Created by:
 #                       :-) GROMACS - gmx rdf, 2020.3 (-:
@@ -14,16 +12,12 @@
 # Executable:   /opt/gromacs/gromacs-2020.3-GPU/bin/gmx
 # Data prefix:  /opt/gromacs/gromacs-2020.3-GPU
 # Working dir:  /home/adreyesf/lennard-jones-sims/3-kr
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 # Command line:
 #   gmx rdf -f OUT/p11-t206/3-md.trr -s OUT/p11-t206/3-md.tpr -n indexrdf.ndx -bin 0.001 -rmax 2.0 -o ../results/rdf-3-p11-t206.xvg
 # gmx rdf is part of G R O M A C S:
 #
-<<<<<<< HEAD
 # Gravel Rubs Often Many Awfully Cauterized Sores
-=======
 # Gromacs Runs On Most of All Computer Systems
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66
 #
 @    title "Radial distribution"
 @    xaxis  label "r (nm)"
@@ -354,7 +348,6 @@
       0.314    0.000
       0.315    0.000
       0.316    0.000
-<<<<<<< HEAD
       0.317    0.000
       0.318    0.000
       0.319    0.001
@@ -2038,7 +2031,6 @@
       1.997    1.004
       1.998    1.002
       1.999    0.998
-=======
       0.317    0.001
       0.318    0.000
       0.319    0.000
@@ -3722,4 +3714,3 @@
       1.997    0.994
       1.998    1.007
       1.999    0.997
->>>>>>> 315021b360b307f22ed68200c34297090fe44c66
