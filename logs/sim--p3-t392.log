@@ -1,0 +1,8 @@
+Analysing residue names:
+There are:  4000      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+This run will generate roughly 1 Mb of data
+saving to 1-ne/OUT/p3-t392/0-em
+saving to 1-ne/OUT/p3-t392/1-nvt
+saving to 1-ne/OUT/p3-t392/2-npt
+saving to 1-ne/OUT/p3-t392/3-md
