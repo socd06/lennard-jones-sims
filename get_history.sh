@@ -17,7 +17,11 @@ do
       echo "Getting commit history of results/$gas/rdf-$file.xvg"
       #echo results/$gas
       git log --follow -p -- results/$gas/rdf-$file.xvg > history/rdf-$file.txt
+
       echo "DONE!"
     fi
+      git add history
+      git commit -m "add commit history of $file for analysis"
+      git push -u origin cd
 
 done < "${in}"
