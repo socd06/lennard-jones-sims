@@ -1170,3 +1170,4 @@ F-pPresion-tTemperatura
 1-p2-t566
 1-p2-t542
 1-p2-t530
+1-p2-t506
