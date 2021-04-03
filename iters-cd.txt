@@ -1228,3 +1228,4 @@ F-pPresion-tTemperatura
 1-p28-t770
 1-p30-t722
 1-p30-t602
+1-p30-t590
