@@ -1221,3 +1221,4 @@ F-pPresion-tTemperatura
 1-p18-t446
 1-p20-t242
 1-p22-t674
+1-p22-t482
