@@ -1,0 +1,16 @@
+currently at:
+/home/carlos/git/lennard-jones-sims
+./reruns.sh: line 102: Folder/input: No such file or directory
+./reruns.sh: line 103: Folder/input: No such file or directory
+./reruns.sh: line 104: Folder/input: No such file or directory
+Generating index groups
+./reruns.sh: line 106: Folder/input: No such file or directory
+./reruns.sh: line 108: Folder/input: No such file or directory
+./reruns.sh: line 109: Folder/input: No such file or directory
+calculating radial distribution function
+./reruns.sh: line 111: Folder/input: No such file or directory
+rm: cannot remove 'Folder/indexrdf.ndx': No such file or directory
+rm: cannot remove 'Folder/*.ndx.*': No such file or directory
+rm: cannot remove 'Folder/*.mdp.*': No such file or directory
+Working in cd branch
+fatal: pathspec 'results/rdf-F-pPresion-tTemperatura.xvg' did not match any files
