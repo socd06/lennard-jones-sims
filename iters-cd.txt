@@ -1246,3 +1246,4 @@ F-pPresion-tTemperatura
 1-p40-t626
 1-p40-t602
 1-p40-t590
+1-p42-t674
